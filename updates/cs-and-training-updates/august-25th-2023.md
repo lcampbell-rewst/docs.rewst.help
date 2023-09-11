@@ -1,0 +1,56 @@
+# August 25th, 2023
+
+Explore what new changes the Training team has made in the last week.
+
+<details>
+
+<summary><strong>General News</strong></summary>
+
+* Fun Fact for the week: We've discovered a new product idea on the AMA this week in addition to the Jinja Burger. Look forward to the Jinjabread House coming to you this December. Also, Pokemon TCG on the Switch Online service is 🤌
+* [We've updated the times on our Rewst 104 \~ 106 training to give a 15-minute break between](https://calendly.com/cluck-u):&#x20;
+  * Mondays: Rewst 101 @ 12pm EST + Rewst 104 @ 1:15pm EST
+  * Tuesdays: Rewst 102 @ 12pm EST + Rewst 105 @ 1:15pm EST
+  * Wednesdays: Rewst 103 @ 12pm EST + Rewst 106 @ 1:15pm EST
+  * Thursdays: ROC AMA @ 12pm EST
+* Join us in our new [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
+
+</details>
+
+<details>
+
+<summary><strong>Cluck U and Documentation Updates</strong></summary>
+
+**Cluck University**
+
+* Added links to relevant videos on the [Rewst 101 page](../../cluck-university/rewst-foundations-10x/101-laying-the-foundations-of-automations.md).
+
+**Documentation**
+
+* [Open Mic - August 18th Video and Page Added](../roc-open-mics/august-18th-2023-info-nuggets-and-jinja-burgers-1.md)
+* Updates and Fixes
+  * Updated [Connectwise Pods documentation](../../documentation/integrations/psa/connectwise-manage/pod-configuration.md) to include steps for Adding Pods to Tickets
+  * Fixed some broken links on the front page
+  * Fixed the IT Glue Documentation link on the [IT Glue Integration Setup Page](../../documentation/integrations/documentation/itglue/it-glue-integration-setup.md).
+  * Fixed the Workflow and Crate links on the [Rewst Terminology Page](../../cluck-university/getting-started/rewst-terminology.md).
+  * Fixed Broken links on [Actions in Rewst page](../../documentation/workflows/actions-in-rewst/).
+  * Fixed code snippet and formatting errors on the [Dynamic Options and Inputs page](../../documentation/forms/intro-to-forms.md).
+  * Removed broken links on the [Workflow Notes page](../../documentation/workflows/workflow-building-tips-and-tricks/workflow-notes.md).
+  * Fixed Broken Rewst platform links on all integration setup pages.
+  * Various punctuation and formatting fixes on all the integration setup pages.
+
+</details>
+
+<details>
+
+<summary><strong>Tickets</strong></summary>
+
+With the ROC now using Halo for their ticketing system, this is when you should find a ticket created for you!
+
+* [ ] A discussion with a ROC engineer that doesn't result in a fix on first discussion
+* [ ] If you have a call to troubleshoot, create workflows or other ROC work
+* [ ] For all onboarding or expansion work
+* [ ] If a call results in a new workflow idea or request
+
+If you'd like to manually create a ticket yourself, review the "Rewst Support" section at the bottom of this page.
+
+</details>
