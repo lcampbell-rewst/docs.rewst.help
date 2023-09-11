@@ -15,5 +15,5 @@ Otherwise, feel to reach out on the following channels:
 * **Slack** - Reach out to your sales contact to get an invite to our Slack platform
 * **Discord** - The ROC is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
   * Private msp channel
-  * the-kewp
+  * #the-kewp
 * **Create a Ticket** - [E-mail the team](mailto:roc@rewst.io) and someone will be in touch ASAP!
