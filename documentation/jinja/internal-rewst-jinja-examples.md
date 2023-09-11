@@ -110,13 +110,11 @@ Usage: `["{{ UTILS.uuid4 }}"]`
 
 Current Time Formatted
 
-Code: `<div data-gb-custom-block data-tag="now" data-0='utc' data-1='%Y-%m-%dT%H:%M:%SZ'></div>`
+data-tag="now" data-0='utc' data-1='%Y-%m-%dT%H:%M:%SZ'
 
 Two Days Ago
 
-Code: `<div data-gb-custom-block data-tag="now" data-0='utc' data-1='days=2' data-2='2' data-3=', '></div>`
-
-`| format_datetime` from a datetime object to a specified string format
+data-0='utc' data-1='days=2' data-2='2' data-3=', '| format_datetime` from a datetime object to a specified string format
 
 Code: `It was a {{ ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]["2022-07-04T11:38:00" | format_datetime("%w") | int] }}`
 
