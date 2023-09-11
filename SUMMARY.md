@@ -76,6 +76,7 @@
   * [Combining Lists](documentation/jinja/general-info.md)
   * [Jinja Macros](documentation/jinja/jinja-macros.md)
   * [Block Scope](documentation/jinja/block-scope.md)
+  * [Mimicking Switch Statements in Jinja](documentation/jinja/mimicking-switch-statements-in-jinja.md)
 * [Templates / Messages](documentation/templates-messages/README.md)
   * [Intro to Templates](documentation/templates-messages/intro-to-templates.md)
 * [Integrations](documentation/integrations/README.md)
