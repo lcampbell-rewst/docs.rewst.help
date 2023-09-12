@@ -74,6 +74,7 @@
   * [List of Jinja Filters](documentation/jinja/list-of-jinja-filters.md)
   * [Filter Examples](documentation/jinja/filter-examples.md)
   * [Jinja Macros](documentation/jinja/jinja-macros.md)
+  * [Date-Time Comparisons](documentation/jinja/date-time-comparisons.md)
   * [Block Scope](documentation/jinja/block-scope.md)
   * [Mimicking Switch Statements in Jinja](documentation/jinja/mimicking-switch-statements-in-jinja.md)
   * [Use Cases & Best Practices](documentation/jinja/use-cases-and-best-practices/README.md)
