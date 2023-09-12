@@ -13,73 +13,59 @@
 
 {% tabs %}
 {% tab title="CTX" %}
-Context Variables are variables specific to the running workflow. They are referenced in a workflow with `CTX.variable_name`. These include [inputs ](../workflows/data-input-and-output.md#workflow-input)provided by the [workflow's trigger](../triggers/intro-to-triggers.md), any [Data Aliases](../workflows/configuring-your-workflow-tasks/navigating-between-tasks-with-transitions.md#diving-into-data-aliases) defined within the workflow, as well as any published results of tasks upon completion.&#x20;
+Context Variables are specific to the currently executing workflow. They include variables like [inputs ](../workflows/data-input-and-output.md#workflow-input)from the [workflow's trigger](../triggers/intro-to-triggers.md), any defined [Data Aliases](../workflows/configuring-your-workflow-tasks/navigating-between-tasks-with-transitions.md#diving-into-data-aliases), and results from tasks that have been executed.
+
+* **Usage**: `{{ CTX.variable_name }}`
+* **Additional Note**: Task results can be accessed once the task is complete. If attempted earlier, the variable will be `undefined`.
 {% endtab %}
 
 {% tab title="ORG" %}
 Variables prefixed with `ORG` are related to data and functions specific to the Organization the workflow is running for. Below are the options you can call with the ORG prefix&#x20;
 
-**ORG.HAS\_TAG:**
-
-Description: Returns True if the Organization the workflow is running for has the tag Note: spaces must be replaced by underscores (\_)
-
-Usage: `{{ ORG.HAS_TAG.Advanced_Security }}`
-
-**ORG.VARIABLES:**
-
-Description:
-
-Usage:
-
-**ORG.MAPPING:**
-
-Description: Contains values mapping Organizations in Rewst with those in external systems
-
-Usage: `{{ ORG.MAPPING.ms_tenant_id }}`
-
-**ORG.INTEGRATIONS:**
-
-Usage: `{{ ORG.INTEGRATIONS.microsoft_graph }}`
-
-**ORG.ATTRIBUTES:**
-
-Description: Contains attributes of the organization record, such as the id and managing\_org\_id
-
-Usage: `{{ ORG.ATTRIBUTES.id }}`
+* **ORG.HAS\_TAG**
+  * **Description**: Checks if the Organization associated with the running workflow has a specific tag.
+  * **Usage**: `{{ ORG.HAS_TAG.Advanced_Security }}`
+  * **Note**: Replace spaces in tag names with underscores (`_`).
+* **ORG.VARIABLES**
+  * **Description**: Custom variables associated with the Organization.
+  * **Usage**: `{{ ORG.VARIABLES.variable_name }}`
+* **ORG.MAPPING**
+  * **Description**: A mapping table that correlates Organization identifiers in the current system with those in external systems.
+  * **Usage**: `{{ ORG.MAPPING.ms_tenant_id }}`
+* **ORG.INTEGRATIONS**
+  * **Description**: Access integration-specific data and functionality.
+  * **Usage**: `{{ ORG.INTEGRATIONS.microsoft_graph }}`
+* **ORG.ATTRIBUTES**
+  * **Description**: Houses attributes like `id` and `managing_org_id` of the organization.
+  * **Usage**: `{{ ORG.ATTRIBUTES.id }}`
 {% endtab %}
 
 {% tab title="TASKS" %}
-Description: Reference previous tasks by name. Note: spaces must be replaced by underscores (\_), i.e. the "Send Message" task is reference with TASKS.Send\_Message
+`TASKS` variables reference previous tasks by name.&#x20;
 
-Usage: `{{ TASKS.list_tickets.result.result[0].id }}`
-
-**TASKS\_RESULT\_DATA:**
-
-Description: Reference previous tasks by name. Shortcut for \{{ TASKS.task\_name.result.result \}}
-
-Note: spaces must be replaced by underscores (\_), i.e. the "Send Message" task is reference with TASK\_RESULT\_DATA.Send\_Message
-
-**Things to keep in mind:**
-
-As a general rule of thumb you will always need to use `.result.result` when referencing a task - with the exception of if that task is a "with items" and it becomes `.collected_results`
-
-These should, for the most part, all autocomplete when you do the dot.
+* **Usage Example**: `{{ TASKS.list_tickets.result.result[0].id }}`
+  * **Note**: Replace spaces in task names with underscores (`_`).
+* **TASKS\_RESULT\_DATA**
+  * **Description**: Shortcut to reference task result data, equivalent to `{{ TASKS.task_name.result.result }}`.
+  * **Usage**: `{{ TASKS_RESULT_DATA.Send_Message }}`
+  * **Special Cases**: For 'with items' tasks, use `.collected_results` instead of `.result.result`.
 {% endtab %}
 
 {% tab title="UTILS" %}
-**UTILS.NOW:**
-
-Description: now(timezone="UTC", dt\_format="timestamp") Default behavior returns the current UTC timestamp as an integer. The optional dt\_format argument accepts a format string, see [https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes)
-
-Usage: `["{{ UTILS.now() }}", "{{ UTILS.now('EST', '%d-%m-%Y %H:%M:%S') }}"]`
-
-**UTILS.uuid4:**
-
-Description: Default behavior returns a new UUID
-
-Usage: `["{{ UTILS.uuid4 }}"]`
+* **UTILS.NOW**
+  * **Description**: Returns the current time based on specified timezone and format. By default, returns the current UTC time as an integer.
+  * **Usage**: `{{ UTILS.now() }}` or `{{ UTILS.now('EST', '%d-%m-%Y %H:%M:%S') }}`
+  * **Format String**: Consult Python's strftime format codes for custom date-time formatting.
+* **UTILS.uuid4**
+  * **Description**: Generates a new UUID (Universally Unique Identifier).
+  * **Usage**: `{{ UTILS.uuid4 }}`
 {% endtab %}
 {% endtabs %}
+
+#### Things to Keep in Mind
+
+* Variable and function names are case-sensitive.
+* Autocompletion is generally available after typing the dot (`.`) following a variable root like `CTX`, `ORG`, etc.
 
 ***
 
@@ -146,87 +132,84 @@ In this example, the list comprehension filters `CTX.users` to return only the o
 
 Date-Time manipulations in Jinja can be easily achieved using context variables and built-in filters. This section provides examples to perform various date-time operations with JSON objects. Here are various examples demonstrating how to manipulate date-time values using Jinja filters in Rewst.
 
-### Sample Input Data
+***
+
+### Examples
+
+{% tabs %}
+{% tab title="Convert Epoch Time to Datetime" %}
+You can convert epoch time to a datetime object using `convert_from_epoch`, then format it using `format_datetime`.
+
+**Input:**
 
 ```json
 { 
-  "date_variable": "2023-09-11",
-  "epoch_time": 1694473606,
-  "time_variable": "2023-09-11T12:34:56Z"
+  "epoch_time": 1694473606
 }
 ```
-
-***
-
-### Example One: Convert Epoch Time to Datetime
-
-You can convert epoch time to a datetime object using `convert_from_epoch`, then format it using `format_datetime`.
 
 **Jinja:**
 
 ```django
-{{ CTX.epoch_time | convert_from_epoch | format_datetime('%Y-%m-%d %H:%M:%S') }}
+{{ CTX.epoch_time|convert_from_epoch|format_datetime('%Y-%m-%d %H:%M:%S') }}
 ```
 
-**Expected Output:**
+**Output:**
 
 ```
 2023-09-11 12:34:56
 ```
+{% endtab %}
 
-***
-
-### Example Two: Perform Time Delta Operations
-
-The `time delta` filter allows you to add or subtract time from a datetime variable. Here, `days=-30` subtracts 30 days.
-
-```django
-{{ CTX.date_variable | time_delta(days=-30) | format_datetime('%B %d, %Y') }}
-```
-
-**Output:**
-
-`August 12, 2023`
-
-### Example Three: Get Weekday Name
-
+{% tab title="Get Weekday Name" %}
 Convert the date to a weekday number (`%w`), which can then be used to fetch the corresponding day name from an array.
 
-`{{ ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][CTX.date_variable | format_datetime('%w') | int] }}`
+**Input:**
 
-**Output:**
-
-`Monday`
-
-***
-
-### Example Four: Convert Datetime to Friendly Time
-
-```django
-{{ CTX.time_variable | format_datetime('%I:%M %p') }}
+```json
+{ 
+  "date_variable": "2023-09-11"
+}
 ```
-
-**Output:**
-
-```
-12:34 PM
-```
-
-### Example Five: Add Minutes to Time
 
 **Jinja:**
 
 ```django
-{{ CTX.time_variable | time_delta(minutes=15) | format_datetime('%H:%M:%S') }}
+{{ ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+[CTX.date_variable | format_datetime('%w') | int] }}
 ```
 
 **Output:**
 
 ```
-12:49:56
+Monday
+```
+{% endtab %}
+
+{% tab title="Add Minutes to Time" %}
+The `time delta` filter allows you to add or subtract time from a datetime variable. Here, `minutes=15` adds 15 minutes, and format `'%H:%M:%S'` displays only the time as output.
+
+**Input:**
+
+```json
+{ 
+  "time_variable": "2023-09-11T12:34:56Z"
+}
 ```
 
-***
+**Jinja:**
+
+```django
+{{ CTX.time_variable | time_delta(minutes=15) | format_datetime('%H:%M %p') }}
+```
+
+**Output:**
+
+```
+12:49 PM
+```
+{% endtab %}
+{% endtabs %}
 
 ### **Additional Resources**
 
@@ -236,17 +219,14 @@ The `format_datetime` filter leverages format codes to specify the output string
 * `%y`: 2-digit year (e.g., 23)
 * `%m`: Month as a zero-padded decimal (e.g., 09 for September)
 * `%B`: Full month name (e.g., September)
-* `%b`: Abbreviated month name (e.g., Sep)
 * `%d`: Day of the month as a zero-padded decimal (e.g., 11)
 * `%A`: Full weekday name (e.g., Monday)
-* `%a`: Abbreviated weekday name (e.g., Mon)
 * `%w`: Weekday as a decimal number, where Sunday is 0 and Saturday is 6
 * `%H`: Hour (24-hour clock) as a zero-padded decimal (e.g., 14)
 * `%I`: Hour (12-hour clock) as a zero-padded decimal (e.g., 02)
 * `%M`: Minute as a zero-padded decimal (e.g., 34)
 * `%S`: Second as a zero-padded decimal (e.g., 56)
 * `%p`: AM or PM
-* `%Z`: Time zone name (e.g., UTC)
 
 For more context and assistance with date-time formats, consult [this Python strftime cheatsheet](https://strftime.org/).
 
