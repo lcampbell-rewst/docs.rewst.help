@@ -78,7 +78,7 @@
   * [Mimicking Switch Statements in Jinja](documentation/jinja/mimicking-switch-statements-in-jinja.md)
   * [Use Cases & Best Practices](documentation/jinja/use-cases-and-best-practices/README.md)
     * [Combining Lists](documentation/jinja/use-cases-and-best-practices/general-info.md)
-    * [Jinja List Comprehension](documentation/jinja/use-cases-and-best-practices/jinja-lists.md)
+    * [Working with Lists](documentation/jinja/use-cases-and-best-practices/jinja-lists.md)
 * [Templates / Messages](documentation/templates-messages/README.md)
   * [Intro to Templates](documentation/templates-messages/intro-to-templates.md)
 * [Integrations](documentation/integrations/README.md)

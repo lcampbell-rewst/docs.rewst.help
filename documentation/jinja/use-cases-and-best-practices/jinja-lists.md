@@ -1,6 +1,6 @@
-# Jinja List Comprehension
+# Working with Lists
 
-### General Info
+## Introduction
 
 Lists or Arrays are very common when working with sets of data in Rewst.
 
@@ -12,13 +12,13 @@ Any time you see information encapsulated in `[` `]` brackets, you are looking a
 [You can check out our Rewst 103 and 104 Courses](../../../cluck-university/rewst-foundations-10x/).
 {% endhint %}
 
-#### Standard List
+### Standard List
 
 ```json
 [ "apples", "oranges", "potatoes" ]
 ```
 
-#### More Complicated Example
+### More Complicated Example
 
 ```json
 "users": [
@@ -98,7 +98,7 @@ Joining list results for output:
 
 `far, far away`
 
-**Getting the First Name of each user**
+### **Getting the First Name of each user**
 
 Using the above example data, there are multiple ways to work with the members of this list. The method you choose will likely depend on more complex situations where one style more sense to use over another.
 
@@ -120,7 +120,7 @@ Method 3:
  {{- user.first_name -}}
 ```
 
-**Selecting items of a list based on their attributes**
+### **Selecting items of a list based on their attributes**
 
 Method 1:
 
@@ -134,7 +134,7 @@ Method 2:
 {{ [ user for user in CTX.users if user.first_name == "Luke" ] }}
 ```
 
-**Creating new objects with list notation**
+### **Creating new objects with list notation**
 
 Jinja expressions can span multiple lines to improve readability
 
@@ -152,7 +152,7 @@ Jinja expressions can span multiple lines to improve readability
 }}
 ```
 
-**Appending to a list**
+### **Appending to a list**
 
 ```django
 {%- do my_list.append(
