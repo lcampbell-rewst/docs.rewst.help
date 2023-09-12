@@ -12,6 +12,8 @@ As you get started on your Automation Journey, don't forget all the incredible r
 💬 COMMUNITY CHAT (Discord): [https://discord.gg/rewst](https://discord.gg/rewst)
 
 🎙️ WEEKLY OPEN MIC: [Download the Calendar Invite here](https://engine.rewst.io/webhooks/custom/trigger/02eb02e2-1177-43d9-9e13-8547414979fc/c47fdd7f-4075-47a8-ba92-94e790e67c06?request\_type=open\_mic\_link&)!
+
+* 🇦🇺 If you're one of our Australian Partners, join our discord and/or talk to your CSM to join our Upside Down Open Mic.
 {% endhint %}
 
 {% hint style="info" %}
