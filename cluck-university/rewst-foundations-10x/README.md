@@ -4,7 +4,11 @@
 
 * **Learn to Build Automation in Rewst**: Equip you with the necessary skills to navigate the platform, build a basic form, create a workflow, and trigger it with a form
 * **Learn to use Jinja to enhance workflows**: Cover basic syntax, variable expressions and filters, control flow statements, comments, and whitespace, and use context variables in Jinja.
-* **Enhance Workflows with Option Generators and Generic APIs**: learn how to upgrade your forms using workflow-generated options, use workflow actions to query data and apply it to other actions, implement generic API request actions, copy tasks effectively, apply list comprehension in Jinja, and troubleshoot workflow results using Jinja Live Editor.
+* **Enhance Workflows with Option Generators and Generic APIs**: Learn how to upgrade your forms using workflow-generated options, use workflow actions to query data and apply it to other actions, implement generic API request actions, copy tasks effectively, apply list comprehension in Jinja, and troubleshoot workflow results using Jinja Live Editor.
+
+{% hint style="success" %}
+Your customer success manager will discuss Cluck University registration with you on your first Kickoff Call, but if you'd like to get a head start, you can complete [the Welcome Package here](https://app.rewst.io/organizations/40f8b55a-e8a9-42fc-8dc1-179616275f10/form/40c82e64-9976-4253-baf4-55421a2a2c3f)!
+{% endhint %}
 
 Let's get started!
 
