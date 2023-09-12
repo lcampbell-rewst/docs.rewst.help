@@ -288,7 +288,7 @@ For more information on using Options Generators, Generic API Requests, List Com
 
 * [Option Generators](../../documentation/workflows/workflow-generated-options.md)
 * [Generic API Requests](../../documentation/integrations/cloud/microsoft-graph/microsoft-graph-integration-setup.md#graph-api-request)
-* [List Comprehension](../../documentation/jinja/jinja-lists.md)
+* [List Comprehension](../../documentation/jinja/use-cases-and-best-practices/jinja-lists.md)
 * [Diff Lists](../../documentation/workflows/actions-in-rewst/transform-actions/diff-lists.md)
 * [Microsoft Graph API](https://learn.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0)
 {% endhint %}

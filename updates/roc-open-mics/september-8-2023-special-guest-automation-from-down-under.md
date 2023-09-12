@@ -1,14 +1,12 @@
-# ROC Open Mics
+# September 8, 2023 - Special Guest Automation from Down Under
 
 ## Join Live!
 
 Join us live every Friday at 3 pm EST! [Download the Calendar Invite here](https://engine.rewst.io/webhooks/custom/trigger/02eb02e2-1177-43d9-9e13-8547414979fc/c47fdd7f-4075-47a8-ba92-94e790e67c06?request\_type=open\_mic\_link&)!
 
-## Latest Open Mic Video Recording
-
 {% embed url="https://youtu.be/Wja8T76D_00" %}
 
-### Contents of the Recording:
+### Contents of the recording:
 
 * 🔍 Ray shows retrieving Autotask API values using Rewst
 * 📦 Jareth shows a future crate that moves computers from new locations to matching clients in ConnectWise Automate&#x20;
@@ -18,7 +16,9 @@ Join us live every Friday at 3 pm EST! [Download the Calendar Invite here](https
 
 <details>
 
-<summary><strong>How to Get Help</strong></summary>
+<summary><strong>How to get help</strong></summary>
+
+
 
 * 💬 Chat (Discord): [https://discord.gg/rewst​​ ](https://discord.gg/rewst%E2%80%8B%E2%80%8B)
   * Private #\{{ msp \}} channel
@@ -46,3 +46,4 @@ Join us live every Friday at 3 pm EST! [Download the Calendar Invite here](https
 * 📝 Feature Request + Integration Requests: [https://rewst.canny.io/](https://rewst.canny.io/)
 
 </details>
+
