@@ -16,9 +16,9 @@ description: >-
 
 There are a few requirements for the Datto RMM integration to work that need configuring by you as the MSP. To start, you will need to import the Datto RMM CPT file for on-prem scripts to run.
 
-**CPT file can be found here:**
+**The CPT file can be found here:**
 
-{% file src="../../../../.gitbook/assets/Rewst Script Run Powershell.zip" %}
+{% file src="../../../../.gitbook/assets/Rewst Script Run Powershell (1).cpt" %}
 Download and import the Datto RMM CPT file to enable on-prem scripts.
 {% endfile %}
 
