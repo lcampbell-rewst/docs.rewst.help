@@ -183,6 +183,8 @@
     * [Acronis](documentation/integrations/security/acronis/README.md)
       * [Acronis Integration Setup](documentation/integrations/security/acronis/acronis-integration-setup.md)
       * [Get Inspired](documentation/integrations/security/acronis/get-inspired.md)
+    * [Huntress](documentation/integrations/security/huntress/README.md)
+      * [Huntress Integration Setup](documentation/integrations/security/huntress/huntress-integration-setup.md)
   * [VoIP & SMS](documentation/integrations/voip-and-sms/README.md)
     * [Twilio](documentation/integrations/voip-and-sms/twilio.md)
   * [Cloud](documentation/integrations/cloud/README.md)
