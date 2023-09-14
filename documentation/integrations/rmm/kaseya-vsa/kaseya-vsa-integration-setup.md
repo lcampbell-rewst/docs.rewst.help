@@ -11,7 +11,7 @@
 1. **Log in** to Rewst and go to Integrations select Kaseya.
 2. **Copy** the Call back URL to the clipboard.
 3. **Log in** to Kaseya.
-4. **Click** on System → System Management → OAuth Clients.
+4. **Click** on System → Server Management → OAuth Clients.
 5. **Select** Register Client and supply the following:
    * Client Name (RewstAPI)
    * Redirect URL (From Rewst Kaseya integration page)
