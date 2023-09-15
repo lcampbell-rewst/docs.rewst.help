@@ -16,10 +16,6 @@ Explore what new changes the Training team has made in the last week.
 
       * New: [Cluck University AMA / Office Hours](https://calendly.com/cluck-u/roc-ama) @ 1:15 p.m. ET (Special time & day for this week.)
 
-      Thursday:
-
-      * Canceled AMA
-
       Friday:
 
       * New: [Rewst 102: Building Basic Workflows](https://calendly.com/cluck-u/rewst-102) @ 12 p.m. ET
