@@ -7,12 +7,23 @@ Explore what new changes the Training team has made in the last week.
 <summary><strong>General News</strong></summary>
 
 * Game Tip for the Week: If you actually want to play games, don't start a YouTube channel where you talk about playing games.&#x20;
-* Don't forget to sign up for our training and AMA @ [calendly.com/cluck-u](https://calendly.com/cluck-u)&#x20;
-  * Mondays: Rewst 101 @ 12pm EST + Rewst 104 @ 1:15pm EST
-  * Tuesdays: Rewst 102 @ 12pm EST + Rewst 105 @ 1:15pm EST
-  * Wednesdays: Rewst 103 @ 12pm EST + Rewst 106 @ 1:15pm EST
-  * Thursdays: ROC AMA @ 11am EST
-* Join us in our new [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
+* The Cluck U team will be meeting next week for more awesome education planning! But don't worry, we have some awesome updates for self-service. Here is the updated live schedule for next week:
+  *   Monday:
+
+      * No Change: [Rewst 101: Laying the Foundations of Automation](https://calendly.com/cluck-u/rewst-101) @ 12 p.m. ET
+
+      Wednesday:
+
+      * New: [Cluck University AMA / Office Hours](https://calendly.com/cluck-u/roc-ama) @ 1:15 p.m. ET (Special time & day for this week.)
+
+      Thursday:
+
+      * Canceled AMA
+
+      Friday:
+
+      * New: [Rewst 102: Building Basic Workflows](https://calendly.com/cluck-u/rewst-102) @ 12 p.m. ET
+  * Join us in our new [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
 
 </details>
 
