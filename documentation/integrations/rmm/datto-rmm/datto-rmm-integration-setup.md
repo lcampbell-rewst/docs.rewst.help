@@ -37,14 +37,14 @@ If the above file doesn't download, you can download the zip file below. Use the
 1. **Right-click** the zip file.
 2. **Click** _Get Info._
 3. **Go to** Name & Extension.
-4. **Change** the name to `Rewst Script Ruin Powershell.cpt.`
+4. **Change** the name to `Rewst Script Run Powershell.cpt.`
 5. **Click** Use .cpt when prompted.
 
 **Windows Instructions**
 
 1. **Right-click** the zip file.
 2. **Click** Rename.
-3. **Change** the name to `Rewst Script Ruin Powershell.cpt.`
+3. **Change** the name to `Rewst Script Run Powershell.cpt.`
 4. &#x20;**Click** Use .cpt if prompted.
 {% endhint %}
 
