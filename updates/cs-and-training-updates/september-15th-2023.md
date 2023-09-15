@@ -8,17 +8,12 @@ Explore what new changes the Training team has made in the last week.
 
 * Game Tip for the Week: If you actually want to play games, don't start a YouTube channel where you talk about playing games.&#x20;
 * The Cluck U team will be meeting next week for more awesome education planning! But don't worry, we have some awesome updates for self-service. Here is the updated live schedule for next week:
-  *   Monday:
-
-      * No Change: [Rewst 101: Laying the Foundations of Automation](https://calendly.com/cluck-u/rewst-101) @ 12 p.m. ET
-
-      Wednesday:
-
-      * New: [Cluck University AMA / Office Hours](https://calendly.com/cluck-u/roc-ama) @ 1:15 p.m. ET (Special time & day for this week.)
-
-      Friday:
-
-      * New: [Rewst 102: Building Basic Workflows](https://calendly.com/cluck-u/rewst-102) @ 12 p.m. ET
+  * Monday:
+    * [Rewst 101: Laying the Foundations of Automation](https://calendly.com/cluck-u/rewst-101) @ 12 p.m. ET (No change)
+  * Wednesday:
+    * [Cluck University AMA / Office Hours](https://calendly.com/cluck-u/roc-ama) @ 1:15 p.m. ET (Special day/time)
+  * Friday:
+    * [Rewst 102: Building Basic Workflows](https://calendly.com/cluck-u/rewst-102) @ 12 p.m. ET (Special day/time)
   * Join us in our new [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
 
 </details>
@@ -46,7 +41,7 @@ Explore what new changes the Training team has made in the last week.
 * Added note about signing up for the Australian Open Mic on the [Resources page](../../cluck-university/getting-started/take-advantage-of-the-rewst-resources.md)
 * Updates and Fixes
   * Updated steps and added images to the [Auvik Integration Setup](../../documentation/integrations/rmm/auvik/auvik-integration-setup.md) page.
-  * Updated steps and added images to the [Connectwise Automate Integration](../../documentation/integrations/rmm/connectwise-automate/connectwise-automate-integration-setup.md) Setup page.
+  * Updated steps and added images to the [ConnectWise Automate Integration](../../documentation/integrations/rmm/connectwise-automate/connectwise-automate-integration-setup.md) Setup page.
   * Updated [IT Glue Integration Setup](../../documentation/integrations/documentation/itglue/it-glue-integration-setup.md) page.
   * Fixed Typo on [Datto RMM](../../documentation/integrations/rmm/datto-rmm/datto-rmm-integration-setup.md) page.
   * Fixed Typo on [Kaseya VSA](../../documentation/integrations/rmm/kaseya-vsa/kaseya-vsa-integration-setup.md) page
@@ -62,10 +57,10 @@ Explore what new changes the Training team has made in the last week.
 
 With the ROC now using Halo for their ticketing system, this is when you should find a ticket created for you!
 
-* [ ] A discussion with a ROC engineer that doesn't result in a fix on first discussion
-* [ ] If you have a call to troubleshoot, create workflows or other ROC work
-* [ ] For all onboarding or expansion work
-* [ ] If a call results in a new workflow idea or request
+* [x] A discussion with a ROC engineer that doesn't result in a fix on first discussion
+* [x] If you have a call to troubleshoot, create workflows or other ROC work
+* [x] For all onboarding or expansion work
+* [x] If a call results in a new workflow idea or request
 
 If you'd like to manually create a ticket yourself, review the "Rewst Support" section at the bottom of this page.
 
