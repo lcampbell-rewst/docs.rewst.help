@@ -7,6 +7,9 @@ description: >-
 
 # Microsoft CSP Integration Setup
 
+## **Best Practices for Microsoft Integrations**
+For best practice information please refer to: [Best Practices for Microsoft Integrations](https://docs.rewst.help/documentation/integrations/cloud/authorization-best-practices)
+
 ## **Configuring the Integration**
 
 Follow these steps to configure the integration within the Rewst platform:
