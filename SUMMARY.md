@@ -301,6 +301,7 @@
   * [October 28th 2022](updates/cs-and-training-updates/october-28th-2022-1.md)
   * [October 28th 2022](updates/cs-and-training-updates/october-28th-2022.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
+  * [September 15, 2023 - If You Smell What The ROC Is Cooking Pt.2](updates/roc-open-mics/september-15-2023-if-you-smell-what-the-roc-is-cooking-pt.2.md)
   * [September 8, 2023 - Special Guest Automation from Down Under](updates/roc-open-mics/september-8-2023-special-guest-automation-from-down-under.md)
   * [September 1, 2023 - Applying Cube Rules of Food to Automations](updates/roc-open-mics/september-1-2023-applying-cube-rules-of-food-to-automations.md)
   * [August 25th 2023 - Looks like Brandwich's Back On the Menu](updates/roc-open-mics/august-25th-2023-looks-like-brandwichs-back-on-the-menu.md)
