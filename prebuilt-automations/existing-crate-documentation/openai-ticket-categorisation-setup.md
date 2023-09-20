@@ -43,13 +43,13 @@ If you're using a PSA that isn't on this list, please let us know and we'll look
 
 ### What do I need to get started?
 
-We've tried to make this as user-friendly and straightforward as possible to get started, so this crate is installable from the [Crate Marketplace](https://app.rewst.io/marketplace/crates/0faa5757-a92a-4d75-9ddc-3549ea51bca2)
+We've tried to make this as user-friendly and straightforward as possible to get started, so this crate is installable from the [Crate Marketplace](https://app.rewst.io/marketplace/crates/0faa5757-a92a-4d75-9ddc-3549ea51bca2).
 
 There are three steps to getting this crate up and running:
 
 1. Set up the integration with OpenAI in your Rewst account
 2. Unpack the crate in the marketplace
-3. Enjoy! [and tell us how awesome it is!](https://github.com/RewstApp/rocs\_Docs/blob/main/gitbook/external\_docs/documentation/prebuilt-automations/existing-crate-documentation/openai-ticket-categorisation/broken-reference/README.md)
+3. Enjoy! [and tell us how awesome it is!](openai-ticket-categorisation-setup.md#feedback)
 
 #### Step 1 - Set up the integration with OpenAI in your Rewst account
 
@@ -83,4 +83,4 @@ That's it, hit "Unpack" and you're good to go! Go create a ticket in your PSA wi
 
 ### Feedback
 
-Genuinely, if you like this crate and have followed these instructions to get it up and running, we'd love to hear from you! We're always looking for feedback on how we can improve our crates, so please [click me](mailto:roc@rewst.io) and let us know what you think! If you'd like to only say thanks, that's cool too! You can [click me instead](https://engine.rewst.io/webhooks/custom/trigger/db81c9a8-13f7-458a-9306-287054605844/c47fdd7f-4075-47a8-ba92-94e790e67c06?crate=OpenAITicketCategorisation) and we'll send an awesome gif to our internal slack channel! 😁
+Genuinely, if you like this crate and have followed these instructions to get it up and running, we'd love to hear from you! We're always looking for feedback on how we can improve our crates, so please [click me](mailto:roc@rewst.io) and let us know what you think! If you'd like to only say thanks, that's cool too! You can [click me instead](https://engine.rewst.io/webhooks/custom/trigger/db81c9a8-13f7-458a-9306-287054605844/c47fdd7f-4075-47a8-ba92-94e790e67c06?crate=OpenAITicketCategorisation) and we'll send an awesome gif to our internal Slack channel! 😁
