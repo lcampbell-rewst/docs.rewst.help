@@ -382,3 +382,7 @@
   * [Support Priorities](support/roc-support/support-priorities.md)
   * [Create a ticket via Discord](support/roc-support/create-a-ticket-via-discord.md)
 * [Contact Resources](support/contact-resources.md)
+
+## Community Corner
+
+* [How to Contribute](community-corner/how-to-contribute.md)
