@@ -225,6 +225,7 @@
 ## 📢 Updates
 
 * [Development Updates](updates/development-updates/README.md)
+  * [September 22nd 2023](updates/development-updates/september-22nd-2023.md)
   * [September 8th 2023](updates/development-updates/september-8th-2023.md)
   * [September 1st 2023](updates/development-updates/september-1st-2023.md)
   * [August 25th 2023](updates/development-updates/august-25th-2023.md)
