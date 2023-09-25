@@ -66,8 +66,7 @@ Follow these steps to build your first Hello World automation!
 3. **Replace** the default _core\_sendmail_ name with _to\_email_.
 4. **Type** "This action sends the email" for the _Description_.
 5. **Type** the following for the next several fields:
-   * Sender: Choose a Sender
-     * This demo uses noreply@rewst.io, but you will need to choose a Sender from the list shown for you.
+   * Sender: noreply@rewst.io
    * Recipient: Your own email
    * Subject: Hello World
    * title: This is a Test
