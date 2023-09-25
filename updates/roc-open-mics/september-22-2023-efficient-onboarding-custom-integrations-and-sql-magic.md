@@ -1,18 +1,18 @@
-# September 15, 2023 - If You Smell What The ROC Is Cooking Pt.2
+# September 22, 2023 -  Efficient Onboarding, Custom Integrations, and SQL Magic
+
+{% embed url="https://youtu.be/p2S0dHo9cvQ" %}
 
 ## Join Live!
 
 Join us live every Friday at 3 pm EST! [Download the Calendar Invite here](https://engine.rewst.io/webhooks/custom/trigger/02eb02e2-1177-43d9-9e13-8547414979fc/c47fdd7f-4075-47a8-ba92-94e790e67c06?request\_type=open\_mic\_link&)!
 
-{% embed url="https://youtu.be/kvTJM8jYfrg" %}
-
 ### Contents of the recording:
 
-* 📋 Greg (aka Grog) shows troubleshooting form field hiding issue using basic Jinja conditional parameters&#x20;
-* 🔒 Dan shows how to identify and resolve GDAP permission issues for groups&#x20;
-* 📑 Sam from Peake shows updates with his Meraki change log Workflow&#x20;
-* 🏆 Daniel from Afinel shows how to win Fantasy (American) Football with Automation&#x20;
-* 🤖 Brandon from eTop shows updates with his Bot framework
+* 🚀 Dev Team provides Updates&#x20;
+* 🏫 The Education Team Gives Updates&#x20;
+* 🎫 Greg (not Grog) from the ROC Shows a Custom Integration with ZenDesk&#x20;
+* 👤 Jared @ Snaptech Show Streamlining New User Onboarding&#x20;
+* 🛢️ Sam @ Peake Shows a MySQL Completion Listener Workflow
 
 <details>
 

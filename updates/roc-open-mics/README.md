@@ -6,15 +6,15 @@ Join us live every Friday at 3 pm EST! [Download the Calendar Invite here](https
 
 ## Latest Open Mic Video Recording
 
-{% embed url="https://youtu.be/kvTJM8jYfrg" %}
+{% embed url="https://youtu.be/p2S0dHo9cvQ" %}
 
 ### Contents of the Recording:
 
-* 📋 Greg (aka Grog) shows troubleshooting form field hiding issue using basic Jinja conditional parameters&#x20;
-* 🔒 Dan shows how to identify and resolve GDAP permission issues for groups&#x20;
-* 📑 Sam from Peake shows updates with his Meraki change log Workflow&#x20;
-* 🏆 Daniel from Afinel shows how to win Fantasy (American) Football with Automation&#x20;
-* 🤖 Brandon from eTop shows updates with his Bot framework
+* 🚀 Dev Team provides Updates
+* &#x20;🏫 The Education Team Gives Updates
+* &#x20;🎫 Greg (not Grog) from the ROC Shows a Custom Integration with ZenDesk&#x20;
+* 👤 Jared @ Snaptech Show Streamlining New User Onboarding&#x20;
+* 🛢️ Sam @ Peake Shows a MySQL Completion Listener Workflow
 
 <details>
 

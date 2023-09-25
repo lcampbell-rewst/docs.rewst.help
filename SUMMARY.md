@@ -303,6 +303,7 @@
   * [October 28th 2022](updates/cs-and-training-updates/october-28th-2022-1.md)
   * [October 28th 2022](updates/cs-and-training-updates/october-28th-2022.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
+  * [September 22, 2023 -  Efficient Onboarding, Custom Integrations, and SQL Magic](updates/roc-open-mics/september-22-2023-efficient-onboarding-custom-integrations-and-sql-magic.md)
   * [September 15, 2023 - If You Smell What The ROC Is Cooking Pt.2](updates/roc-open-mics/september-15-2023-if-you-smell-what-the-roc-is-cooking-pt.2.md)
   * [September 8, 2023 - Special Guest Automation from Down Under](updates/roc-open-mics/september-8-2023-special-guest-automation-from-down-under.md)
   * [September 1, 2023 - Applying Cube Rules of Food to Automations](updates/roc-open-mics/september-1-2023-applying-cube-rules-of-food-to-automations.md)
