@@ -52,14 +52,14 @@ Follow these steps to build your first Hello World automation!
 3. **Type** _Hello World Workflow_ for the name.
 4. **Click** Submit.
 
-**Add the Starting \_Noop**\_\*\* Action to the Canvas\*\*
+**Add the Starting **_**Noop**_** Action to the Canvas**
 
 1. **Open** the _Core_ section in the left Actions menu.
 2. **Drag and Drop** the _noop_ action to the Workflow Canvas.
 3. **Replace** the default _core\_noop_ name with _send\_message_.
 4. **Type** "This action starts the workflow" for the _Description_.
 
-**Add a \_sendmail**\_\*\* Action to Send the Message\*\*
+**Add a **_**sendmail**_ **Action to Send the Message**
 
 1. **Open** the _Core_ section in the left Actions menu if it's not already open.
 2. **Drag and Drop** the _sendmail_ action to the Workflow Canvas.
