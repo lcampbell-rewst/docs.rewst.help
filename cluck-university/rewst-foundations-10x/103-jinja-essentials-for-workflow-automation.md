@@ -289,6 +289,7 @@ Here are some important keyboard shortcuts you can use throughout
 
 1.  **Uncomment** and **Render** the following:
 
+    {% code overflow="wrap" %}
     ```django
     {%- set milky_days = [
             weekday
@@ -300,6 +301,7 @@ Here are some important keyboard shortcuts you can use throughout
     On {{ weekday.day }} you should bring a frosty RewstyCola for lunch at {{ weekday.lunch.time }} because they are serving {{ weekday.lunch.drink | lower }}.
 
     ```
+    {% endcode %}
 2. **Review** the output.
 3. **Re-add** the comments.
 

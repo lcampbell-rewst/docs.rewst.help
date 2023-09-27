@@ -32,7 +32,7 @@ Sign up for our **LIVE** training sessions below!
 4. **Click** the _On Success_ transition.
 5. **Create** a Data Alias:
    * _Key_: `target_user`
-   * _Value_: `({{ RESULT.result.data.value }}`
+   * _Value_: `{{ RESULT.result.data.value }}`
 
 </details>
 
@@ -46,7 +46,7 @@ Sign up for our **LIVE** training sessions below!
    1. . This is the workflow built in Rewst 105.
 2. **Connect** _On Success_ transition of _get\_user_ to _workflow\_add\_or\_remove\_group\_membership_.
 3. **Rename** the subworkflow to "modify\_group\_member".
-4. **Set** _With Items_ in the Advanced tab to `({{ CTX.group_ids }})`.
+4. **Set** _With Items_ in the Advanced tab to `{{ CTX.group_ids }}`.
 5. **Configure** the _Parameters_ of the sub-workflow.
    * _action_: `{{ CTX.action }}`
    * _user\_id_: `{{ CTX.user_id }}`
@@ -61,7 +61,7 @@ Sign up for our **LIVE** training sessions below!
 **Configuring \_Add or Remove User from AzureAD Group Form**\_
 
 1. **Navigate** to _Add or Remove from AzureAD Group_ form.
-   1. (Optional): Clone the form, to keep a copy of the form.
+   * (Optional): Clone the form, to keep a copy of the form.
 2. **Add** a Multi-Select Field to the form.
 3. **Configure** the Multi-Select field:
    * _Field Name_: `group_ids`
@@ -121,11 +121,13 @@ Sign up for our **LIVE** training sessions below!
    * Title: User `{{ CTX.target_user.displayName | d }}` Group Modification
    * Message:
 
+{% code overflow="wrap" %}
 ```django
 The group memberships for {{ CTX.target_user.displayName|d }} have been modified:
 
 * {{ CTX.modification_results | join('\n* ') }}
 ```
+{% endcode %}
 
 </details>
 
