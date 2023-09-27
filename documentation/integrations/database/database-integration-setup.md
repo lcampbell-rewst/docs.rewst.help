@@ -23,8 +23,8 @@ To ensure the BYOD integration works seamlessly, there are a few requirements th
 
 {% code overflow="wrap" %}
 ```powershell
-
 ### Script created by Adam Willford of the Rewst ROC ###
+### Updated Sep-2023 to add DTU license option by Lucretia Richmond and James Rood of the Rewst ROC ###
 
 ### For any assistance, please contact the ROC team on roc@rewst.io, or via the-kewp in Slack or Discord ###
 
@@ -38,7 +38,6 @@ if (!(Get-Module -ListAvailable Az.SQL)) {
     Install-Module Az.SQL -Confirm:$false -Force
 }
 
-
 if (!(Get-Module -ListAvailable Az.Resources)) {
     Install-Module Az.Resources -Confirm:$false -Force
 }
@@ -46,17 +45,15 @@ if (!(Get-Module -ListAvailable Az.Resources)) {
 Import-Module Az.Sql
 Import-Module Az.Resources
 
-
-
 ### Create a cool logo, of course ###
 
 $Logo = @'
-██████  ███████ ██        ██ ███████ ████████ 
-██  ██  ██    ██       ██ ██        ██    
-██████  █████   ██   █  ██  ███████    ██    
-██  ██ ██     ██ ███ ██     ██    ██    
-██   ██ ███████  ███  ███  ███████     ██    
-                                           
+██████  ███████ ██        ██ ███████ ████████ 
+██  ██  ██    ██       ██ ██        ██    
+██████  █████   ██   █  ██  ███████    ██    
+██  ██ ██     ██ ███ ██     ██    ██    
+██   ██ ███████  ███  ███  ███████     ██    
+                                           
 '@
 
 Write-Output $Logo
@@ -68,11 +65,14 @@ Write-Host 'Requesting Information from end user' -ForegroundColor Cyan
 $userEnteredSubscriptionId = $(Write-Host "Please enter your subscription ID:" -ForegroundColor Green -NoNewLine; Read-Host)
 $userEnteredCompanyName = $(Write-Host "Please enter your Company Name:" -ForegroundColor Green -NoNewLine; Read-Host)
 $userEnteredResourceGroupName = $(Write-Host "Enter a unique new Resource Group name:" -ForegroundColor Green -NoNewLine; Read-Host)
+$userEnteredResourceGroupName = $userEnteredResourceGroupName -replace '[^a-zA-Z0-9-]',''
 $userEnteredLocation = $(Write-Host "Enter the datacenter location to store the database.  Note for 'US East' you would enter 'eastus'. Locations can be seen here: https://learn.microsoft.com/en-us/azure/availability-zones/az-overview:" -ForegroundColor Green -NoNewLine; Read-Host)
+$userLicenseChoice = $(Write-Host "Which licensing option would you like? Enter 1 for vCore or 2 for DTU (default is vCore):" -ForegroundColor Green -NoNewLine; Read-Host)
 # $userEnteredServerName = $(Write-Host "Please enter the SQL Server Name required (a-z, 0-9 and '-' only):" -ForegroundColor Green -NoNewLine; Read-Host)
 $userEnteredAdminUsername = $(Write-Host "Please enter the SQL Administrator Username:" -ForegroundColor Green -NoNewLine; Read-Host)
 $userEnteredAdminPassword = $(Write-Host "Please enter the SQL Administrator password. (This is the last one, promise):" -ForegroundColor Green -NoNewLine; Read-Host -AsSecureString)
 [pscredential]$credObject = New-Object System.Management.Automation.PSCredential ($userEnteredAdminUsername, $userEnteredAdminPassword)
+
 ### Connect to the Azure instance based on the provided information ###
 
 Connect-AzAccount -Subscription $userEnteredSubscriptionId | Out-Null
@@ -85,8 +85,8 @@ try {
     Start-Sleep 15
     Write-Host "Successfully created resource group $userEnteredResourceGroupName" -ForegroundColor Blue
 } catch {
-        Write-Error "There was an error creating the resource group.  The error, if supplied, was:  $($_.Exception.Message)"
-        exit
+    Write-Error "There was an error creating the resource group.  The error, if supplied, was:  $($_.Exception.Message)"
+    exit
 }
 
 ### If the resource group exists, crack on ###
@@ -106,8 +106,8 @@ if (Get-AzResourceGroup -Name $userEnteredResourceGroupName) {
         Write-Error "There was an error creating the SQL Server $(($SQLServerCreationInformation.ServerName))  The error, if supplied, was:  $($_.Exception.Message)"
         exit
     }
-        
-    ### Create a firewall rule to only allow connectons in from Rewst ###
+
+    ### Create a firewall rule to only allow connections in from Rewst ###
 
     try {
         $SQLServerFirewallRule = @{
@@ -126,20 +126,33 @@ if (Get-AzResourceGroup -Name $userEnteredResourceGroupName) {
     }
 
     ### Create the actual database on the newly created server ###
-
+    
     try {
-        $SQLServerDatabaseInformation = @{
-            ResourceGroupName  = $userEnteredResourceGroupName
-            ServerName         = $SQLServerCreationInformation.ServerName
-            DatabaseName       = 'Rewst-Database'
-            Edition            = 'GeneralPurpose'
-            ComputeModel      = 'Serverless'
-            ComputeGeneration = 'Gen5'
-            vCore              = 2
-            MinimumCapacity    = 2
-            AutoPauseDelayInMinutes = 60
+        switch ($userLicenseChoice) {
+            2 {
+                $SQLServerDatabaseInformation = @{
+                    ResourceGroupName  = $userEnteredResourceGroupName
+                    ServerName         = $SQLServerCreationInformation.ServerName
+                    DatabaseName       = 'Rewst-Database'
+                    Edition            = 'Standard'
+                    RequestedServiceObjectiveName = 'S3'
+                }
+            }
+            Default {
+                $SQLServerDatabaseInformation = @{
+                    ResourceGroupName  = $userEnteredResourceGroupName
+                    ServerName         = $SQLServerCreationInformation.ServerName
+                    DatabaseName       = 'Rewst-Database'
+                    Edition            = 'GeneralPurpose'
+                    ComputeModel      = 'Serverless'
+                    ComputeGeneration = 'Gen5'
+                    vCore              = 2
+                    MinimumCapacity    = 2
+                    AutoPauseDelayInMinutes = 60
+                }
+            }
         }
-        Write-host "Creating a gen5 2 vCore serverless database..." -ForegroundColor Cyan
+        Write-host "Creating a Standard DTU database..." -ForegroundColor Cyan
         New-AzSqlDatabase @SQLServerDatabaseInformation | Out-Null
         Write-Host "Successfully created Database - $($SQLServerDatabaseInformation.ServerName)" -ForegroundColor Blue
     } catch {
@@ -164,7 +177,6 @@ Write-Host "Username: $userEnteredAdminUsername" -ForegroundColor Green
 Write-Host "Password: [Entered During Prompt Phase, we don't want to show it here for obvious reasons]" -ForegroundColor Green
 Write-Host "Database Name: $($SQLServerDatabaseInformation.DatabaseName)" -ForegroundColor Green
 Write-Host '--------------------------------------------------------' -ForegroundColor White
-
 ```
 {% endcode %}
 
