@@ -23,6 +23,12 @@ In order to configure the connection between your pods and Rewst, follow the bel
    4. **URL** - [https://app.rewst.io/organizations/\<org\_id>/integrations/embed/ticket/\[cw\_id\]](https://app.rewst.io/organizations/%3Corg\_id%3E/integrations/embed/ticket/\[cw\_id)
 6. **Select** Pod.
 
+{% hint style="info" %}
+**URL**
+
+Note that you will need to add your own`org_id`to the URL above. This can be obtained by going to Rewst and looking at the URL. Also, note that`[cw_id]`should be left as is.
+{% endhint %}
+
 ### Adding Pods to Tickets
 
 1. **Click** the Settings icon in the top right.
@@ -42,12 +48,6 @@ An issue arises with Firefox's Dynamic State Partitioning where the default `net
 Firefox users must set `network.cookie.cookieBehavior` to 4 for successful pod authentication.
 
 Consult the official Firefox documentation for more information: [https://developer.mozilla.org/en-US/docs/Web/Privacy/State\_Partitioning#disable\_dynamic\_state\_partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State\_Partitioning#disable\_dynamic\_state\_partitioning).\\
-{% endhint %}
-
-{% hint style="info" %}
-**URL**
-
-Note that you will need to add your own `org_id` to the URL below. This can be obtained by going to Rewst and looking at the URL. Note that `[cw_id]` should be left as is.
 {% endhint %}
 
 You will have a workflow called `[Rewst Master v3] Pods: Technician Toolbox` within your organization.
