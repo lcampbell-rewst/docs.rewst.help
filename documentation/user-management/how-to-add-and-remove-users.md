@@ -2,13 +2,14 @@
 
 ### How to Add and Remove Users
 
-Adding users into Rewst allows them access to build workflows, view forms or update configuration items like integrations or organization variables. When adding a user there are 3 different permission options:
+Adding users into Rewst allows them access to build workflows, view forms, or update configuration items like integrations or organization variables. When adding a user there are 3 different permission options:
 
 1. [Admins](roles.md#admin)
 2. [Members](roles.md#member)
 3. [Forms](roles.md#forms)
+4. [Read Only](roles.md#read-only)
 
-Adding a user to Rewst won’t send out an invite to the user but act as “whitelisting” and giving the user a specified level of access. Once added, they can access Rewst via the main link or via form links that you provide, depending on their permissions.
+Adding a user to Rewst won’t send out an invite to the user but acts as “whitelisting” and gives the user a specified level of access. Once added, they can access Rewst via the main link or via form links that you provide, depending on their permissions.
 
 Currently, each user can only be associated with one Rewst organization. This means that when you’re adding a user to your organization, they will have access to all of your top-level and customer organizations. Adding a customer will only give them access to their company information.
 
