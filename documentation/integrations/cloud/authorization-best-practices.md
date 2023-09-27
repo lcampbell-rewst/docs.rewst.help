@@ -45,6 +45,11 @@ DAP and GDAP are influenced by your clients' conditional access policies. To ens
 **Note**: Excluding the MSP from the Conditional Access Policy is recommended as per [Microsoft's GDAP Documentation](https://learn.microsoft.com/en-us/partner-center/gdap-faq#what-is-the-recommended-next-step-if-the-conditional-access-policy-set-by-the-customer-blocks-all-external-access-including-csps-access-aobo-to-the-customers-tenant).
 {% endhint %}
 
+### Post-Modification Behavior
+
+* **Propagation Time**: Changes may take up to an hour to become active in the Rewst environment.
+* **Quick Refresh**: Click the blue shield icon next to the client's name on the Graph/CSP/Exchange Integration page in Rewst to expedite propagation.
+
 ## Recommended Roles for GDAP
 
 Consent to client permissions involves recognizing different group structures like GDAP (Granular Delegated Admin Privileges) and DAP. GDAP allows more controlled tenant access by creating groups and assigning permissions, aligning with Rewst's requirements.
