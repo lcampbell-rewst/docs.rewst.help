@@ -16,9 +16,9 @@ Integrating Rewst with NinjaRMM provides users with a powerful combination of do
 
 First, go to Ninja and complete the following:
 
-1. **Go to** Configuration → Scripting → in the top right.
-2. **Click** Create New.
-3. **Add** the following script:
+1. **Go to** Administration -> Library -> Automation.
+3. **Click** + Add -> New Script on the right.
+4. **Add** the following script:
 
 ```powershell
 Name: Rewst (Windows) 
