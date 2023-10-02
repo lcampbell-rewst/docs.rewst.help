@@ -391,3 +391,4 @@
 ## Community Corner
 
 * [How to Contribute](community-corner/how-to-contribute.md)
+* [From Scales to Feathers](community-corner/from-scales-to-feathers.md)
