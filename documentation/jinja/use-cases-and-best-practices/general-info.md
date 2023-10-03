@@ -149,7 +149,7 @@ The end result?
 
 We can see the lists have combined and we now have access to all that information in a single list.
 
-## The Altnerative Method
+## The Alternative Method
 
 Using the **ZIP** function is probably the most effective way to do this, however, the alternative is the **enumerate** function
 
