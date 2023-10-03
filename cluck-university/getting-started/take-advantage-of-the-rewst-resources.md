@@ -7,7 +7,7 @@ As you get started on your Automation Journey, don't forget all the incredible r
 
 💻 ON-DEMAND VIDEOS: [https://docs.rewst.help/cluck-university/rewst-foundations-10x](../rewst-foundations-10x/)
 
-🙋 ASK THE ROC: ROC AMA Calls: [https://calendly.com/cluck-u/roc-ama](https://calendly.com/cluck-u/roc-ama)
+🙋 ASK THE EXPERTS: CLUCK U OFFICE HOURS: [https://calendly.com/cluck-u/roc-ama](https://calendly.com/cluck-u/roc-ama)
 
 💬 COMMUNITY CHAT (Discord): [https://discord.gg/rewst](https://discord.gg/rewst)
 

@@ -6,7 +6,7 @@
 Sign up for our **LIVE** training sessions below!
 {% endhint %}
 
-<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 104</strong></mark></td><td align="center">Options Generators &#x26; Generic API Requests</td><td><a href="https://calendly.com/cluck-u/rewst-104">https://calendly.com/cluck-u/rewst-104</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>ROC AMA</strong></mark></td><td align="center">Come and well, ask me anything!</td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 104</strong></mark></td><td align="center">Options Generators &#x26; Generic API Requests</td><td><a href="https://calendly.com/cluck-u/rewst-104">https://calendly.com/cluck-u/rewst-104</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>
 
 ## Options Generators and Generic API Requests Hands-on Exercises
 
