@@ -49,6 +49,6 @@ For users familiar with Python and its default values in functions, Jinja macros
 
 In this case, if `current_date` is not explicitly provided when calling `check_last_day()`, it defaults to the current date. However, if you do provide an alternate date, it will override the default value and modify the behavior of the macro.
 
-## Conclusion
+### Conclusion
 
-Understanding macros in Jinja is essential for creating reusable code components within your templates. Keep in mind that macros are not global by default, and you must reinstantiate them within the appropriate Jinja context. Additionally, macros support default values, allowing for flexible and customizable behavior.
+Understanding macros in Jinja is essential for creating reusable code components within your templates. Keep in mind that macros are not global by default, and you must re-instantiate them within the appropriate Jinja context. Additionally, macros support default values, allowing for flexible and customizable behavior.

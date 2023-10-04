@@ -35,9 +35,9 @@ Explore what new changes the Training team has made in the last week.
 * [Added Huntress Integration Setup Page](../../documentation/integrations/security/huntress/huntress-integration-setup.md)
 * [Added an Actions & Endpoints page for IT Glue](../../documentation/integrations/documentation/itglue/action-and-endpoints.md)
 * Added alternative download instructions for [Datto RMM](../../documentation/integrations/rmm/datto-rmm/datto-rmm-integration-setup.md) PowerShell cpt file
-* Added [Date-Time Comparisons Jinja Page](../../documentation/jinja/date-time-comparisons.md)
-* Added [Block Scope Jinja page](../../documentation/jinja/block-scope.md)
-* Added [Jinja Macros Jinja page](../../documentation/jinja/jinja-macros.md)
+* Added [Date-Time Comparisons Jinja Page](../../documentation/jinja/common-jinja-examples/date-time-comparisons.md)
+* Added [Block Scope Jinja page](../../documentation/jinja/common-jinja-examples/block-scope.md)
+* Added [Jinja Macros Jinja page](../../documentation/jinja/common-jinja-examples/jinja-macros.md)
 * Added note about signing up for the Australian Open Mic on the [Resources page](../../cluck-university/getting-started/take-advantage-of-the-rewst-resources.md)
 * Updates and Fixes
   * Updated steps and added images to the [Auvik Integration Setup](../../documentation/integrations/rmm/auvik/auvik-integration-setup.md) page.

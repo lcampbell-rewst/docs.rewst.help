@@ -105,9 +105,11 @@ In our example above, this is the first entry in each list. You can see the IDs 
 
 We now want to combine these lists. So we create a new alias, let's call it `CTX.final_user_information`
 
+{% code overflow="wrap" %}
 ```django
 {{ [dict(user_info, **groups_res) for user_info, groups_res in CTX.m365_users|zip(CTX.all_groups_info)] }}
 ```
+{% endcode %}
 
 Using the **ZIP** method, along with our own custom comprehension, we take each entry in the list and combine them together in the same index that they exist. This means that index \[0] in CTX.m365\_users, combines with index \[0] in CTX.all\_groups\_info
 
