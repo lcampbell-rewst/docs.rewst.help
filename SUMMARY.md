@@ -88,6 +88,7 @@
   * [Use Cases & Best Practices](documentation/jinja/use-cases-and-best-practices/README.md)
     * [Working with Lists](documentation/jinja/use-cases-and-best-practices/jinja-lists.md)
     * [Combining Lists](documentation/jinja/use-cases-and-best-practices/general-info.md)
+    * [Jinja Reserved Keywords](documentation/jinja/use-cases-and-best-practices/jinja-reserved-keywords.md)
 * [Templates / Messages](documentation/templates-messages/README.md)
   * [Intro to Templates](documentation/templates-messages/intro-to-templates.md)
 * [Integrations](documentation/integrations/README.md)
