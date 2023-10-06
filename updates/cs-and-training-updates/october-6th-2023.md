@@ -26,16 +26,15 @@ Explore what new changes the Training team has made in the last week.
 
 **Documentation**
 
-* [Open Mic - September 29th Video and Page Added](../roc-open-mics/september-29-2023-no-microtransactions-with-these-new-crates.md).
-* Added [Collecting Diagnostics with Browser Developer Tools](../../support/roc-support/collecting-diagnostics-with-browser-developer-tools.md) Page.
-* Added a [Data Types Page](../../documentation/jinja/data-types.md) in the Jinja section.
-* Added a [Conditional Statement and Logical Operators Page](../../documentation/jinja/common-jinja-examples/conditional-statements-and-logical-operators.md) in the Common Jinja Examples section.
-* Added an [Understanding Try/Catch Blocks Page](../../documentation/jinja/common-jinja-examples/understanding-try-catch-blocks.md) in the Common Jinja Examples section.
-* Added a [Creating CSVs Page](../../documentation/jinja/common-jinja-examples/creating-csvs.md) in the Common Jinja Examples section.
-* Added a [Splitting Strings, Replacing Characters, and Combining Strings Page](../../documentation/jinja/common-jinja-examples/splitting-strings-replacing-characters-and-combining-strings.md) in the Common Jinja Examples section.
-* Added a [Dictionary Unpacking Page](../../documentation/jinja/common-jinja-examples/dictionary-unpacking.md) in the Common Jinja Examples section.
-* Added a [Loops in Jinja Page](../../documentation/jinja/common-jinja-examples/loops-in-jinja.md) in the Common Jinja Examples section.
-* Updates and Fixes:
-  * Moved Jinja docs into the Common Jinja Examples section.
+* [september-29-2023-no-microtransactions-with-these-new-crates.md](../roc-open-mics/september-29-2023-no-microtransactions-with-these-new-crates.md "mention")
+* [collecting-diagnostics-with-browser-developer-tools.md](../../support/roc-support/collecting-diagnostics-with-browser-developer-tools.md "mention") page added.
+* [jinja-reserved-keywords.md](../../documentation/jinja/use-cases-and-best-practices/jinja-reserved-keywords.md "mention") added to Jinja Use Cases & Best Practices.
+* [data-types.md](../../documentation/jinja/data-types.md "mention") page added to the Jinja section.
+* **Updates and Fixes:** Moved existing use case specific Jinja docs into the Common Jinja Examples section, and added the following pages:
+  * [conditional-statements-and-logical-operators.md](../../documentation/jinja/common-jinja-examples/conditional-statements-and-logical-operators.md "mention")
+  * [understanding-try-catch-blocks.md](../../documentation/jinja/common-jinja-examples/understanding-try-catch-blocks.md "mention")
+  * [splitting-strings-replacing-characters-and-combining-strings.md](../../documentation/jinja/common-jinja-examples/splitting-strings-replacing-characters-and-combining-strings.md "mention")&#x20;
+  * [dictionary-unpacking.md](../../documentation/jinja/common-jinja-examples/dictionary-unpacking.md "mention")
+  * [loops-in-jinja.md](../../documentation/jinja/common-jinja-examples/loops-in-jinja.md "mention")
 
 </details>
