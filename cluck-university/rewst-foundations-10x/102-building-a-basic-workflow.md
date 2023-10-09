@@ -22,9 +22,15 @@ Sign up for our **LIVE** training sessions below!
 
 <table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 102</strong></mark></td><td align="center">Building A Basic Workflow</td><td><a href="https://calendly.com/cluck-u/rewst-102">https://calendly.com/cluck-u/rewst-102</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>
 
-## Rewst 102 Hands-on Exercises
+## Introduction
 
-Follow these steps to build the Add or Remove Users from AD workflow!
+Hello and welcome! In this tutorial, we'll guide you through the process of creating automated workflows using Rewst. Our focus will be on creating a form, building an MVP workflow, and connecting the two with a trigger. Follow these steps to build the Add or Remove Users from AD workflow! When you've completed this training, [don't forget to get credit](102-building-a-basic-workflow.md#get-credit)!
+
+***
+
+## Creating a Form
+
+We'll start by creating a form to collect the necessary information to pass to the workflow. First, we'll go to the Forms section in Rewst. Next, we'll design the form with fields, and configure the fields to dynamically show us a list of users and groups. And finally, we'll define which variables can be accessed from the workflow for each field. Follow these steps:
 
 <details>
 
@@ -80,6 +86,12 @@ Follow these steps to build the Add or Remove Users from AD workflow!
 2. **Click** _Submit_ on the pop-up to confirm.
 
 </details>
+
+***
+
+## Creating a Workflow
+
+Next, let's design a workflow that responds to the form submissions. We'll start by going to the Workflow section in Rewst and adding a new workflow. Then, we'll add the actions, including MS Graph actions, to the workflow. Finally, we'll implement transitions based on whether a user is added or removed from a group.
 
 <details>
 
@@ -205,6 +217,12 @@ Follow these steps to build the Add or Remove Users from AD workflow!
 
 </details>
 
+***
+
+## Triggering the Workflow with the Form
+
+Next, we'll add a Form trigger to the workflow to ensure that the information that comes through the form can kick off the workflow process.&#x20;
+
 <details>
 
 <summary>Step 3: Triggering the Workflow with the Form</summary>
@@ -236,6 +254,12 @@ Follow these steps to build the Add or Remove Users from AD workflow!
 
 </details>
 
+***
+
+## Testing the Workflow
+
+Finally, let's test out the workflow by filling out the form and checking the workflow results!
+
 <details>
 
 <summary>Step 4: Check the Results</summary>
@@ -249,6 +273,14 @@ Follow these steps to build the Add or Remove Users from AD workflow!
 <mark style="color:blue;">📝Troubleshooting If the user or group aren't valid, you may see failure. To troubleshoot, you can open the</mark> _<mark style="color:blue;">Context</mark>_<mark style="color:blue;">,</mark> _<mark style="color:blue;">Logs</mark>_<mark style="color:blue;">, or</mark> _<mark style="color:blue;">Input</mark>_ <mark style="color:blue;">sections to dig into more detail and see what happened.</mark>
 
 </details>
+
+***
+
+## Conclusion
+
+Congratulations! You have successfully created a form, designed a workflow, and connected the two with a trigger to automate Azure AD group management. In Rewst 103, we'll take a step back and look at using Jinja in our workflows. If you have any questions, don't hesitate to reach out. Happy automating!
+
+***
 
 ## Get Credit
 
