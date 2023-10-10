@@ -197,6 +197,7 @@
   * [VoIP & SMS](documentation/integrations/voip-and-sms/README.md)
     * [Twilio](documentation/integrations/voip-and-sms/twilio.md)
   * [Cloud](documentation/integrations/cloud/README.md)
+    * [Best Practices for Microsoft Integrations](documentation/integrations/cloud/authorization-best-practices.md)
     * [Microsoft Azure](documentation/integrations/cloud/microsoft-azure/README.md)
       * [Microsoft Azure Integration Setup](documentation/integrations/cloud/microsoft-azure/microsoft-azure-integration-setup.md)
       * [Azure Actions](documentation/integrations/cloud/microsoft-azure/azure-actions.md)
@@ -206,7 +207,6 @@
       * [Microsoft Graph Integration Setup](documentation/integrations/cloud/microsoft-graph/microsoft-graph-integration-setup.md)
       * [Graph Actions](documentation/integrations/cloud/microsoft-graph/graph-actions.md)
       * [Graph Subscriptions](documentation/integrations/cloud/microsoft-graph/microsoft-graph-subscriptions.md)
-    * [Best Practices for Microsoft Integrations](documentation/integrations/cloud/authorization-best-practices.md)
     * [Common Issues with Microsoft Integrations](documentation/integrations/cloud/common-issues-with-microsoft-csp/README.md)
       * [Navigating The Microsoft-Led Transition to GDAP](documentation/integrations/cloud/common-issues-with-microsoft-csp/navigating-the-microsoft-led-transition-to-gdap.md)
 
@@ -398,7 +398,7 @@
 * [ROC Support](support/roc-support/README.md)
   * [Support Priorities](support/roc-support/support-priorities.md)
   * [Create a ticket via Discord](support/roc-support/create-a-ticket-via-discord.md)
-  * [Collecting Diagnostics with Browser  Developer Tools](support/roc-support/collecting-diagnostics-with-browser-developer-tools.md)
+  * [Collecting Diagnostics with Browser Developer Tools](support/roc-support/collecting-diagnostics-with-browser-developer-tools.md)
 * [Contact Resources](support/contact-resources.md)
 
 ## Community Corner
