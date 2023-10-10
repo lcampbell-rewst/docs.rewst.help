@@ -122,3 +122,13 @@ A Conditional Access Policy may have set the maximum session time, causing this 
 ### **The token has expired**
 
 If the refresh token couldn't be retrieved or stored, reauthorization must occur.
+
+### **Updating the password profile of a user fails with a forbidden error**
+
+As per Microsoft documentation the following needs to be true for resetting a user's password/modifying their password profile.
+
+See [Microsoft Documentation](https://learn.microsoft.com/en-us/graph/api/user-update?view=graph-rest-1.0&tabs=http#permissions)
+
+In a delegated scenario the Rewst enterprise applications need to have the 'Directory.AccessAsUser.All' permission (and corresponding GDAP roles)
+
+In a application call scenario(MSP Level/Integration installed at the customer level standalone from CSP) the application must be assigned a priviledged role such as Authentication Administrator or Priviledged Authentication Administrator.
