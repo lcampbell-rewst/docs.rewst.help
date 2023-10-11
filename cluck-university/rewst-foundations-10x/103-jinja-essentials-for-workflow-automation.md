@@ -213,7 +213,7 @@ Here are some important keyboard shortcuts you can use throughout
 
 <details>
 
-<summary>Step 5: Use More Advanced List Comprehension ans Filtering</summary>
+<summary>Step 5: Use More Advanced List Comprehension and Filtering</summary>
 
 **Check for a Specific Attribute**
 
