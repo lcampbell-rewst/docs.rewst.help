@@ -24,7 +24,9 @@ Sign up for our **LIVE** training sessions below!
 
 ## Introduction
 
-Hello and welcome! In this tutorial, we'll guide you through the process of creating automated workflows using Rewst. Our focus will be on creating a form, building an MVP workflow, and connecting the two with a trigger. Follow these steps to build the Add or Remove Users from AD workflow! When you've completed this training, [don't forget to get credit](102-building-a-basic-workflow.md#get-credit)!
+Hello and welcome! In this tutorial, we'll guide you through the process of creating automated workflows using Rewst. Our focus will be on creating a form, building an MVP workflow, and connecting the two with a trigger. Follow these steps to build the Add or Remove Users from AD workflow!&#x20;
+
+When you've completed this training, [don't forget to get credit](102-building-a-basic-workflow.md#get-credit)!
 
 ***
 
@@ -106,12 +108,33 @@ Next, let's design a workflow that responds to the form submissions. We'll start
 
 **Add the Initial Workflow Actions**
 
-1. **Open** the _Microsoft Graph_ section in the left Actions menu.
-2. **Drag and Drop** the _Add Group Member_ action to the Workflow Canvas.
-3. **Open** the _Core_ section in the left Actions menu.
-4. **Drag and Drop** the _noop_ action to the Workflow Canvas.
+1. **Open** the _Core_ section in the left Actions menu.
+2. **Drag and Drop** the _noop_ action to the Workflow Canvas.
+3. **Open** the _Microsoft Graph_ section in the left Actions menu.
+4. **Drag and Drop** the _Add Group Member_ action to the Workflow Canvas.
 5. **Click and Drag** the transition from the _noop_ action to the _Add Group Member_ action.
    * To do this, you will need to hover over the gray circle under the _On Success_ section of the _noop_ action.
+
+**Configure the Noop**
+
+1. **Click** on the _noop_ Action to open the properties.
+2. **Click** the edit icon next to the _noop_ name.
+3. **Type** "add\_or\_remove" for the name.
+4. **Type** "Checks the action variable to determine if we are adding or removing a user from a group" for the _Description_.
+
+**Configure the Transition**
+
+1. **Click** on the transition on the _noop_ Action.
+2. **Type** "Add" in the _Custom Label_ field.
+3. **Click** on the _Custom Condition_ option under _Condition_.
+4. **Click** on the Jinja editor button next to the _Custom Condition_ field.
+5. **Type** the following to add a custom condition where the action is performed on "add".
+
+```django
+{{ CTX.action == "add" }}
+```
+
+6. **Close** the editor.
 
 **Configure the Workflow Variable Inputs with the Form Variables**
 
@@ -128,92 +151,6 @@ Next, let's design a workflow that responds to the form submissions. We'll start
 10. **Type** "action" in the _name_ field.
 11. **Click** the _Required_ checkbox.
 12. **Click** _Submit_.
-
-**Add Basic Configuration the Add Group Member Action**
-
-1. **Click** the _Add Group Member_ Action.
-2. **Type** "Adding user to Group" in the _Description_ field.
-3. **Click** on the Jinja editor button next to the _Group_ field.
-4. **Type** the following to to reference the `group_id` input variable with Jinja:
-
-```django
-{{ CTX.group_id }}
-```
-
-5. **Click** on the Jinja editor button next to the _User ID_ field.
-6. **Type** the following to to reference the `user_id` input variable with Jinja:
-
-```django
-{{ CTX.user_id }}
-```
-
-**Add and Configure the Remove Group Member Action**
-
-1. **Open** the _Microsoft Graph_ section in the left Actions menu.
-2. **Drag and Drop** the _Remove Group Member_ action to the Workflow Canvas.
-3. **Click** the _Remove Group Member_ Action.
-4. **Type** "Removing user from Group" in the _Description_ field.
-5. **Click** on the Jinja editor button next to the _Group_ field.
-6. **Type** the following to to reference the `group_id` input variable with Jinja:
-
-```django
-{{ CTX.group_id }}
-```
-
-7. **Close** the editor.
-8. **Click** on the Jinja editor button next to the _User ID_ field.
-9. **Type** the following to to reference the `user_id` input variable with Jinja:
-
-```django
-{{ CTX.user_id }}
-```
-
-10. **Close** the editor.
-
-**Configure the Noop action and add a second Transition**
-
-1. **Click** the _Add_ (+) button on the _noop_ action to add a new transition.
-2. **Click and Drag** the transition from the _noop_ action to the _Remove Group Member_ action.
-   * To do this, you will need to hover over the gray circle under the new _On Success_ section you added.
-3. **Click** on the _noop_ Action to open the properties.
-4. **Click** the edit icon next to the _noop_ name.
-5. **Type** "add\_or\_remove" for the name.
-6. **Type** "Checks the action variable to determine if we are adding or removing a user from a group" for the _Description_.
-
-**Configure the Add Transition**
-
-1. **Click** on the left transition on the _noop_ Action.
-2. **Type** "Add" in the _Custom Label_ field.
-3. **Click** on the _Custom Condition_ option under _Condition_.
-4. **Click** on the Jinja editor button next to the _Custom Condition_ field.
-5. **Type** the following to add a custom condition where the action is performed on "add".
-
-```django
-{{ CTX.action == "add" }}
-```
-
-6. **Close** the editor.
-
-**Configure the Remove Transition**
-
-1. **Click** on the right transition on the _noop_ Action.
-2. **Type** "Remove" in the _Custom Label_ field.
-3. **Click** on the _Custom Condition_ option under _Condition_.
-4. **Click** on the Jinja editor button next to the _Custom Condition_ field.
-5. **Type** the following to add a custom condition where the action is performed on "add".
-
-```django
-{{ CTX.action == "remove" }}
-```
-
-6. **Close** the editor.
-
-**Set the Transitions to Follow First**
-
-1. **Click** the _noop_ Action, now named "add\_or\_remove".
-2. **Click** on the _Advanced_ section at the bottom.
-3. **Click** _Follow First_ under _Transition Mode_.
-4. **Click** _Publish_ to save the Workflow.
 
 </details>
 
@@ -238,6 +175,98 @@ Next, we'll add a Form trigger to the workflow to ensure that the information th
 7. **Click** Submit.
 8. **Click** _Publish_ to save the Workflow with the new Trigger.
 
+</details>
+
+***
+
+## Finishing the Workflow
+
+We jumped ahead to show how to trigger a workflow with a form. We now are going back to set the parameters needed for the actions to add or remove a user from a group.
+
+<details>
+
+<summary>Step 4: Configuring the Add and Remove Graph Actions</summary>
+
+**Add a Second Transition**
+
+1. **Click** the _Add_ (+) button on the _noop_ action to add a new transition.
+2. **Click and Drag** the transition from the _noop_ action to the _Remove Group Member_ action.
+   * To do this, you will need to hover over the gray circle under the new _On Success_ section you added.
+
+**Configure the Remove Transition**
+
+1. **Click** on the right transition on the _noop_ Action.
+2. **Type** "Remove" in the _Custom Label_ field.
+3. **Click** on the _Custom Condition_ option under _Condition_.
+4. **Click** on the Jinja editor button next to the _Custom Condition_ field.
+5. **Type** the following to add a custom condition.
+
+```django
+{{ CTX.action == "remove" }}
+```
+
+6. **Close** the editor.
+
+**Set the Transitions to Follow First**
+
+1. **Click** the _noop_ Action, now named "add\_or\_remove".
+2. **Click** on the _Advanced_ section at the bottom.
+3. **Click** _Follow First_ under _Transition Mode_.
+4. **Click** _Publish_ to save the Workflow.
+
+**Add and Configure the Remove Group Member Action**
+
+1. **Open** the _Microsoft Graph_ section in the left Actions menu.
+2. **Drag and Drop** the _Remove Group Member_ action to the Workflow Canvas.
+3. **Click** the _Remove Group Member_ Action.
+4. **Type** "Removing user from Group" in the _Description_ field.
+5. **Click** on the Jinja editor button next to the _Group_ field.
+6. **Type** the following to to reference the `group_id` input variable with Jinja:
+
+```django
+{{ CTX.group_id }}
+```
+
+7. **Close** the editor.
+8. **Click** on the Jinja editor button next to the _User ID_ field.
+9. **Type** the following to to reference the `user_id` input variable with Jinja:
+
+```django
+{{ CTX.user_id }}
+```
+
+10. **Close** the editor.
+
+**Configure Add Group Member Action**
+
+1. **Click** the _Add Group Member_ Action.
+2. **Type** "Adding user to Group" in the _Description_ field.
+3. **Click** on the Jinja editor button next to the _Group_ field.
+4. **Type** the following to to reference the `group_id` input variable with Jinja:
+
+```django
+{{ CTX.group_id }}
+```
+
+5. **Click** on the Jinja editor button next to the _User ID_ field.
+6. **Type** the following to to reference the `user_id` input variable with Jinja:
+
+```django
+{{ CTX.user_id }}
+```
+
+</details>
+
+## Testing the Workflow
+
+Finally, let's test out the workflow by filling out the form and checking the workflow results!
+
+<details>
+
+<summary>Step 5: Check the Results</summary>
+
+<mark style="color:red;">⚠️ This will only work with live data If you are using Microsoft Graph, make sure you keep in mind that this will work with live data so you can add or remove users appropriately. It's best to have pretend data to work with.</mark>
+
 **View the Form URL**
 
 1. **Click** _Edit Trigger_ at the top menu next to our Form Trigger
@@ -250,27 +279,13 @@ Next, we'll add a Form trigger to the workflow to ensure that the information th
 2. **Choose** a Group.
 3. **Click** Add or Remove.
 
-<mark style="color:red;">⚠️ This will only work with live data If you are using Microsoft Graph, make sure you keep in mind that this will work with live data so you can add or remove users appropriately. It's best to have pretend data to work with.</mark>
-
-</details>
-
-***
-
-## Testing the Workflow
-
-Finally, let's test out the workflow by filling out the form and checking the workflow results!
-
-<details>
-
-<summary>Step 4: Check the Results</summary>
-
 **View the Results of the Workflow**
 
 1. **Go to** _view results for workflow_.
    * This can be found next to the name of the workflow in the top menu.
 2. **Click** on _Succeeded_ under Status to see the full results.
 
-<mark style="color:blue;">📝Troubleshooting If the user or group aren't valid, you may see failure. To troubleshoot, you can open the</mark> _<mark style="color:blue;">Context</mark>_<mark style="color:blue;">,</mark> _<mark style="color:blue;">Logs</mark>_<mark style="color:blue;">, or</mark> _<mark style="color:blue;">Input</mark>_ <mark style="color:blue;">sections to dig into more detail and see what happened.</mark>
+<mark style="color:blue;">📝 If the user or group aren't valid, you may see failure. To troubleshoot, you can open the</mark> _<mark style="color:blue;">Context</mark>_<mark style="color:blue;">,</mark> _<mark style="color:blue;">Logs</mark>_<mark style="color:blue;">, or</mark> _<mark style="color:blue;">Input</mark>_ <mark style="color:blue;">sections to dig into more detail and see what happened.</mark>
 
 </details>
 
