@@ -316,6 +316,7 @@
   * [October 28th 2022](updates/cs-and-training-updates/october-28th-2022-1.md)
   * [October 28th 2022](updates/cs-and-training-updates/october-28th-2022.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
+  * [October 9th, 2023 - MFA Buffet](updates/roc-open-mics/october-9th-2023-mfa-buffet.md)
   * [September 29, 2023 - No Microtransactions with These New Crates](updates/roc-open-mics/september-29-2023-no-microtransactions-with-these-new-crates.md)
   * [September 22, 2023 - Efficient Onboarding, Custom Integrations, and SQL Magic](updates/roc-open-mics/september-22-2023-efficient-onboarding-custom-integrations-and-sql-magic.md)
   * [September 15, 2023 - If You Smell What The ROC Is Cooking Pt.2](updates/roc-open-mics/september-15-2023-if-you-smell-what-the-roc-is-cooking-pt.2.md)
