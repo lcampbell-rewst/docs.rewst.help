@@ -8,9 +8,11 @@ Sign up for our **LIVE** training sessions below!
 
 <table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 103</strong></mark></td><td align="center">Jinja Essentials for Workflow Automation</td><td><a href="https://calendly.com/cluck-u/rewst-103">https://calendly.com/cluck-u/rewst-103</a></td><td><a href="https://calendly.com/cluck-u/rewst-103">https://calendly.com/cluck-u/rewst-103</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/rewst-ama">https://calendly.com/cluck-u/rewst-ama</a></td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>
 
-## Essentials for Jinja Automation Hands-on Exercises
+## Introduction
 
-Follow these steps to learn how to use Jinja techniques!
+Welcome to Rewst 103! In this course, we'll be talking about Jinja, the templating language that has become an essential tool for web developers and data engineers alike. In this article, we will explore the basics of Jinja, its syntax, and various use cases, with a focus on understanding the different use cases.&#x20;
+
+When you've completed this training, [don't forget to get credit](103-jinja-essentials-for-workflow-automation.md#get-credit)!
 
 <details>
 
@@ -30,6 +32,100 @@ Here are some important keyboard shortcuts you can use throughout
    * OSX: _cmd + enter_
 
 </details>
+
+***
+
+## **What is Jinja?**
+
+Jinja is a powerful templating language used for creating dynamic content in various formats, such as JSON. Similar to other programming languages, Jinja supports loops, conditional statements, and variable manipulation.
+
+### **Braces in Jinja**
+
+In Jinja, curly braces serve different purposes:
+
+* **Double Curly Braces `{{ }}`:** Output specific values. For instance, in Rewst 102, these braces are used to display user IDs, group IDs, and action variables.
+* **Curly Braces with Percent Sign `{{% %}}`:** Denote code blocks. These are used for structures like if-else statements and for loops.
+* **Curly Braces with Pound Sign `{{# #}}`:** Indicate comments, providing clarity within the code.
+
+### **JSON Files and Key-Value Pairs**
+
+JSON (JavaScript Object Notation) files represent data through key-value pairs. For example:
+
+```json
+jsonCopy code{
+    "name": "Han Solo",
+    "age": 4,
+    "favorites": ["spaceships", "adventures"]
+}
+```
+
+### **Creating Variables in Rewst**
+
+In the Rewst world, variables, also known as context variables or data aliases, are created using Jinja. These variables are essential for storing and processing information within workflows.
+
+### **If/Else/ElseIf Statements**
+
+Jinja supports conditional statements like if-else and elseif. These statements allow trainers to create dynamic workflows based on specific conditions, ensuring the workflow adapts to varying scenarios. For example:&#x20;
+
+```django
+{% raw %}
+{% if user_is_looged_in %}
+    <p>Welcome, {{ user_name }}!</p>
+{% else %} 
+    <p>Please log in to continue.</p>
+{% endif %}
+{% endraw %} 
+```
+
+### **For Loops**
+
+For loops in Jinja enable trainers to iterate through lists, executing actions for each item. The pointer, such as `thing`, points to items within the list, facilitating dynamic data processing. For example:&#x20;
+
+```django
+{% raw %}
+{% for thing in list_of_things %}
+    <li>{{ thing }}</li>
+{% endfor %}
+{% endraw %}
+```
+
+### **Jinja Filters**
+
+Filters in Jinja are pre-configured algorithms or functionalities used without explicit implementation. Common filters include `capitalize`, `upper`, `lower`, and `truncate`. Filters streamline common tasks, enhancing efficiency in data processing.
+
+```django
+{{ text|truncate(20) }}
+{{ user_name|capitalize }}
+{{ user_email|lower|replace('@', ` at `) }}  
+```
+
+### **Rewst Filters and List Comprehension**
+
+In the Rewst world, specific filters are implemented to facilitate various operations. List comprehension, a powerful feature, allows trainers to create lists based on existing lists and specific conditions. For example:
+
+```django
+{{ 
+    [
+        user.id
+        for user in CTX.my_user_list
+        if user.enabled == true
+    ]
+}}
+```
+
+### **List Comprehension in Action**
+
+List comprehension combines filters and conditions to create concise and targeted lists. The three-step structure—output, construction, and conditions—allows trainers to filter specific data efficiently.
+
+### **List Comprehension with Conditions**
+
+List comprehension with conditions enables trainers to filter data based on specific criteria. Trainers can employ filters like `lower` to standardize data, ensuring accurate comparisons.
+
+***
+
+## **Creating Variables in Jinja**
+
+Jinja supports variable creation within workflows. Trainers can define variables, enhancing the organization and manageability of workflows.
 
 <details>
 
@@ -59,6 +155,10 @@ Here are some important keyboard shortcuts you can use throughout
 3. **Re-add** the comments to revert the code back to `{# {{ CTX.days | length }} #}`.
 
 </details>
+
+***
+
+## Practice Loops, Lists, and List Comprehension
 
 <details>
 
@@ -307,6 +407,10 @@ Here are some important keyboard shortcuts you can use throughout
 
 </details>
 
+***
+
+## **Eggstra-Credit!**
+
 <details>
 
 <summary>Eggstra-Credit!</summary>
@@ -382,6 +486,14 @@ Here are some important keyboard shortcuts you can use throughout
 5. **Drop** the file into a browser to see the results!
 
 </details>
+
+***
+
+## **Conclusion**
+
+Understanding Jinja and its diverse functionalities empowers trainers to create dynamic and responsive workflows within the Rewst environment. By mastering Jinja’s syntax, you can efficiently manipulate data, enabling the seamless execution of complex tasks.
+
+***
 
 ## Get Credit
 

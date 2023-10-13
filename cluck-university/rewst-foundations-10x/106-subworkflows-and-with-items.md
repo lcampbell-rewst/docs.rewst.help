@@ -8,7 +8,15 @@ Sign up for our **LIVE** training sessions below!
 
 <table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 106</strong></mark></td><td align="center">Subworkflows and With Items</td><td><a href="https://calendly.com/cluck-u/rewst-106">https://calendly.com/cluck-u/rewst-106</a></td><td><a href="https://calendly.com/cluck-u/rewst-106">https://calendly.com/cluck-u/rewst-106</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>
 
-## Subworkflows and With Items: Hands-on Exercises
+## Introduction
+
+Hello and welcome! In Rewst 106, we'll complete our workflow and explore how to use sub-workflows and With items in Rewst. Sub-workflows enable us to utilize workflows within other workflows, creating a parent-child relationship. With items is a feature in Rewst that allows actions or workflows to run on all items in a list simultaneously. We'll demonstrate how to leverage these functionalities to manage group memberships efficiently. Let's dive in and get started!
+
+When you've completed this training, [don't forget to get credit](106-subworkflows-and-with-items.md#get-credit)!
+
+## Creating a Parent Workflow in Rewst
+
+First, we're going to build a new parent workflow that starts by getting the User from the form.&#x20;
 
 <details>
 
@@ -24,7 +32,7 @@ Sign up for our **LIVE** training sessions below!
 3. **Set** type to _List_ for group\_ids.
 4. **Click** Submit.
 
-**Adding \_Get User**\_\*\* Action\*\*
+**Adding **_**Get User**_** Action**&#x20;
 
 1. **Add** a _Get User_ action from the Microsoft Graph category.
 2. **Rename** the action _get\_user_.
@@ -36,16 +44,22 @@ Sign up for our **LIVE** training sessions below!
 
 </details>
 
+***
+
+## Adding a Sub Workflow and Utilizing With Items
+
+Next, we're going to add our original workflow as the sub-workflow and modify the form and Form Trigger to take advantage of With items.
+
 <details>
 
 <summary>Step 2: Adding a Subworkflow into the Parent Workflow</summary>
 
-**Add the \_Add or Remove Group Membership**\_\*\* workflow\*\*
+**Add the **_**Add or Remove Group Membership**_** workflow**
 
 1. **Add** the _Add or Remove Group Membership_ workflow from the _Workflows_ category.
    1. . This is the workflow built in Rewst 105.
 2. **Connect** _On Success_ transition of _get\_user_ to _workflow\_add\_or\_remove\_group\_membership_.
-3. **Rename** the subworkflow to "modify\_group\_member".
+3. **Rename** the sub-workflow to "modify\_group\_member".
 4. **Set** _With Items_ in the Advanced tab to `{{ CTX.group_ids }}`.
 5. **Configure** the _Parameters_ of the sub-workflow.
    * _action_: `{{ CTX.action }}`
@@ -58,7 +72,7 @@ Sign up for our **LIVE** training sessions below!
 
 <summary>Step 3: Modifying the Form Trigger</summary>
 
-**Configuring \_Add or Remove User from AzureAD Group Form**\_
+**Configuring **_**Add or Remove User from AzureAD Group Form**_
 
 1. **Navigate** to _Add or Remove from AzureAD Group_ form.
    * (Optional): Clone the form, to keep a copy of the form.
@@ -86,6 +100,12 @@ Sign up for our **LIVE** training sessions below!
 3. **Click** Submit.
 
 </details>
+
+***
+
+## Collect the Modification Results and Send Email Notifications
+
+Next, we're going to capture the results and store them in a list in order to send the information via email.
 
 <details>
 
@@ -125,11 +145,18 @@ Sign up for our **LIVE** training sessions below!
 ```django
 The group memberships for {{ CTX.target_user.displayName|d }} have been modified:
 
+
 * {{ CTX.modification_results | join('\n* ') }}
 ```
 {% endcode %}
 
 </details>
+
+***
+
+## Testing the Workflow
+
+Finally, we'll test it all out to see how it works!
 
 <details>
 
@@ -144,6 +171,10 @@ The group memberships for {{ CTX.target_user.displayName|d }} have been modified
 5. **Confirm** that an email is received with the feedback messages.
 
 </details>
+
+## Conclusion
+
+Thank you for watching! We hope this course helps you effectively utilize sub-workflows and With items in Rewst for efficient workflow management. If you have any questions or need further assistance, please don't hesitate to reach out. Happy automating!
 
 ## Get Credit
 

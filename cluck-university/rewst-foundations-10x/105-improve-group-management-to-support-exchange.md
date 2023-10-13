@@ -8,11 +8,36 @@ Sign up for our **LIVE** training sessions below!
 
 <table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 105</strong></mark></td><td align="center">Improve Group Management to Support Exchange</td><td><a href="https://calendly.com/cluck-u/rewst-105">https://calendly.com/cluck-u/rewst-105</a></td><td><a href="https://calendly.com/cluck-u/rewst-105">https://calendly.com/cluck-u/rewst-105</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>
 
-## Improve Group Management to Support Exchange: Hands-on Exercises
+## Introduction
+
+Hello and welcome to Rewst 105, where we focus on managing groups using Microsoft's APIs. We'll learn how to differentiate between different types of groups, whether they are managed using Microsoft Graph or Microsoft Exchange Online. Additionally, we'll explore how to implement feedback messages and handle errors effectively within our workflow.
+
+When you've completed this training, [don't forget to get credit](105-improve-group-management-to-support-exchange.md#get-credit)!
 
 {% hint style="danger" %}
-These steps below require [Rewst 102](102-building-a-basic-workflow.md) and [Rewst 104](104-options-generators-and-generic-api-requests.md) be completed prior to starting the exercise.
+These steps below require [Rewst 102](102-building-a-basic-workflow.md) and [Rewst 104](104-options-generators-and-generic-api-requests.md) to be completed prior to starting the exercise.
 {% endhint %}
+
+***
+
+## Managing Groups: Microsoft Graph vs. Exchange Online
+
+Let's talk about how to manage groups efficiently using Microsoft Graph and Microsoft Exchange Online. Understanding the type of group is crucial, as it dictates the API we should use. Here's a breakdown of the group types and their corresponding management methods:
+
+1. #### Dynamic Membership Groups:
+   * Dynamic membership groups are identified by the presence of "Dynamic membership" in the group type property. These groups cannot be directly modified through APIs.
+2. #### Unified Groups:
+   * Unified groups are managed using Microsoft Graph API. They are groups where "unified" is present in the group types property or when mail-enabled is set to false.
+3. #### Security Groups:
+   * Security groups can be managed using Exchange Online if mail-enabled is set to true. If mail-enabled is false, they are managed by Microsoft Graph API.
+4. #### Distribution Groups:
+   * Distribution groups are also managed using Exchange Online.
+
+***
+
+### Get Group Object
+
+We'll start by retrieving the group object using the group ID. This action is performed using the Microsoft Graph API.
 
 <details>
 
@@ -33,6 +58,12 @@ These steps below require [Rewst 102](102-building-a-basic-workflow.md) and [Rew
    * _Value_: `{{RESULT.result.data.value}}`
 
 </details>
+
+***
+
+### Determine Group Type
+
+Next, we'll use conditional logic to determine the group type based on the group object properties. Depending on the type, the workflow branches out to the corresponding actions.
 
 <details>
 
@@ -68,6 +99,12 @@ These steps below require [Rewst 102](102-building-a-basic-workflow.md) and [Rew
 5. **Connect** the _Exchange Online_ transition from _check\_group\_type_ to _adding\_or\_removing\_exo_.
 
 </details>
+
+***
+
+### Add or Remove Users
+
+For Unified and Security Groups managed by Microsoft Graph or Distribution Groups managed by Exchange Online, we'll implement actions to add or remove users based on the group type.
 
 <details>
 
@@ -106,6 +143,12 @@ These steps below require [Rewst 102](102-building-a-basic-workflow.md) and [Rew
    * _BypassSecurityGroupManagerCheck_: `{{ true }}`
 
 </details>
+
+***
+
+### Handle Errors and Provide Feedback
+
+Next, we'll incorporate error-handling mechanisms by providing feedback messages for successful or failed actions. This ensures a seamless user experience and clear communication in case of issues.
 
 <details>
 
@@ -180,6 +223,12 @@ These steps below require [Rewst 102](102-building-a-basic-workflow.md) and [Rew
 
 </details>
 
+***
+
+### Workflow Completion and Success
+
+Finally, we'll set up the workflow completion criteria, ensuring that the workflow is considered successful if at least one parent task succeeds.
+
 <details>
 
 <summary>Step 7: Finishing Touches</summary>
@@ -222,6 +271,14 @@ These steps below require [Rewst 102](102-building-a-basic-workflow.md) and [Rew
 4. **Check** the results of the workflow to see which action is executed.
 
 </details>
+
+***
+
+### Conclusion
+
+Rewst 105 equips you with the knowledge and skills to manage groups effectively in Rewst. By understanding the nuances of different group types and employing the appropriate APIs, you can efficiently handle group operations within your applications.&#x20;
+
+***
 
 ## Get Credit
 

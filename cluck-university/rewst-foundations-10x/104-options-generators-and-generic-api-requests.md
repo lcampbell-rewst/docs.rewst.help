@@ -8,11 +8,27 @@ Sign up for our **LIVE** training sessions below!
 
 <table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 104</strong></mark></td><td align="center">Options Generators &#x26; Generic API Requests</td><td><a href="https://calendly.com/cluck-u/rewst-104">https://calendly.com/cluck-u/rewst-104</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>
 
-## Options Generators and Generic API Requests Hands-on Exercises
+## Introduction
+
+Hello and welcome! In this guide, we will explore Option Generators and Generic API requests within the Rewst platform. Thank you for joining us on this learning journey.
+
+In Rewst 104, we will delve into the intricacies of option generators and generic API requests. Specifically, we will learn how option generators enhance forms, building upon the knowledge acquired in our Rewst 102 course. Additionally, we will explore generic API requests by integrating Microsoft Graph API, demonstrating its functionality within the Rewst platform. We will also implement list comprehension techniques, building upon the concepts introduced in Rewst 103.
+
+When you've completed this training, [don't forget to get credit](104-options-generators-and-generic-api-requests.md#get-credit)!
 
 {% hint style="danger" %}
 These steps assume you have completed the full steps from Rewst 102 You can find the instructions to make this form on the [<mark style="color:blue;">Rewst 102 Page</mark>](102-building-a-basic-workflow.md)<mark style="color:blue;">.</mark>
 {% endhint %}
+
+***
+
+## Understanding Option Generators
+
+In this course, we will filter groups based on user membership status. When adding a user to a group, only groups the user is a member of will be displayed. Conversely, when removing a user from a group, only groups the user is a member of will be shown. To achieve this, we will utilize option generators, specialized workflows that curate form field options dynamically.
+
+### Modifying the Form
+
+We'll start by modifying our existing form from Rewst 102. The group field and add/remove field positions will be switched. When users select a user and the add/remove radio button, these values will be passed to our option generator workflow.
 
 <details>
 
@@ -31,6 +47,12 @@ These steps assume you have completed the full steps from Rewst 102 You can find
 3. **Click** _Submit_ on the pop-up to confirm.
 
 </details>
+
+***
+
+## Creating the Option Generator
+
+In our next steps, we'll go to the Workflow section. Here, we'll craft a new workflow called "Demo Option Generator for Groups Based on User Membership." This workflow will be configured as an option generator, with specified inputs including user ID and action (add or remove). Moreover, we'll set the output configuration variable as "options" for our subsequent tasks.
 
 <details>
 
@@ -197,6 +219,12 @@ These steps assume you have completed the full steps from Rewst 102 You can find
 
 </details>
 
+***
+
+## Trigger and Integration
+
+Next, we'll first add a trigger, configured to always pass, guaranteeing the workflow's execution when necessary inputs are supplied. Following that, we'll integrate the option generator into the group field within the form. To ensure clarity, we'll specify the display name attribute for the label field, ensuring that the options appear as group names for user selection.
+
 <details>
 
 <summary>Step 4: Update the options Config and add the Trigger</summary>
@@ -274,6 +302,14 @@ These steps assume you have completed the full steps from Rewst 102 You can find
 3. **Check** to see if the groups show correctly!
 
 </details>
+
+***
+
+## Conclusion
+
+Congratulations! You've successfully configured an option generator and implemented logic using generic API requests and list comprehension techniques. With this knowledge, you can enhance your forms and streamline group management.
+
+***
 
 ## Get Credit
 
