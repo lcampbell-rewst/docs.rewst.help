@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* Game Tip for the Week: Aharon is always telling us to take the risk on automation! Isn't it more risky NOT to automate? Well, gaming can be risky too. But isn't it more risky to miss out on the awesomeness that is Detective Pikachu than not? Think about it. And buy Detective Pikachu 2.&#x20;
+* Game Tip for the Week: Aharon is always telling us to take the risk on automation! Isn't it more risky NOT to automate? Well, gaming can be risky too. But isn't it more risky to miss out on the awesomeness that is Detective Pikachu than not? Think about it. And buy Detective Pikachu 2. 💪 ☕️&#x20;
 * Join us for our regularly scheduled Training:
   * Mondays: Rewst 101 @ 12pm EST + Rewst 104 @ 1:15pm EST
   * Tuesdays: Rewst 102 @ 12pm EST + Rewst 105 @ 1:15pm EST
