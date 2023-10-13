@@ -26,7 +26,7 @@ Below are the manual steps for completing this task
 
 ## Azure Active Directory (In Partner Tenant)
 
-1. **Login** to Microsoft Entra ID: [https://portal.azure.com/#view/Microsoft\_AAD\_IAM/ActiveDirectoryMenuBlade/\~/Overview](https://portal.azure.com/#view/Microsoft\_AAD\_IAM/ActiveDirectoryMenuBlade/\~/Overview)
+1. **Login** to [Microsoft Entra ID](https://portal.azure.com/#view/Microsoft\_AAD\_IAM/ActiveDirectoryMenuBlade/\~/Overview).
 2. &#x20;**Navigate** to _Users_.
 
 <figure><img src="../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
@@ -90,7 +90,7 @@ It is also necessary to add the user to the ‘AdminAgents’ group on the group
 
 ## Partner Center
 
-1. **Navigate** to the Microsoft Partner Center: [https://partner.microsoft.com](https://partner.microsoft.com)
+1. **Navigate** to the [Microsoft Partner Center](https://partner.microsoft.com).
 2. **Click** on _Customers_ once on the Partner Center home page.
 
 <figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
@@ -116,7 +116,7 @@ Note: This value must be unique per relationship/customer.
 
 <figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-9. **Select** the roles listed in: [https://docs.rewst.help/documentation/integrations/cloud/authorization-best-practices#recommended-roles-for-gdap](https://docs.rewst.help/documentation/integrations/cloud/authorization-best-practices#recommended-roles-for-gdap)
+9. **Select** the roles listed in [#recommended-roles-for-gdap](../authorization-best-practices.md#recommended-roles-for-gdap "mention").
 
 {% hint style="info" %}
 Note: The list is not in alphabetical order and it is recommended that you use CTRL + F to search the page to make finding the roles easier.
@@ -155,7 +155,7 @@ This will bring you to the page that shows all the available roles in the relati
 <figure><img src="../../../../.gitbook/assets/Picture15.png" alt="" width="258"><figcaption></figcaption></figure>
 
 17. Click _Next._
-18. **Select** the roles required for Rewst in the relationship as per documentation: [https://docs.rewst.help/documentation/integrations/cloud/authorization-best-practices#recommended-roles-for-gdap](https://docs.rewst.help/documentation/integrations/cloud/authorization-best-practices#recommended-roles-for-gdap)\
+18. **Select** the roles required for Rewst in the relationship as per [#recommended-roles-for-gdap](../authorization-best-practices.md#recommended-roles-for-gdap "mention").\
 
 
 <figure><img src="../../../../.gitbook/assets/Picture16.png" alt="" width="230"><figcaption></figcaption></figure>
