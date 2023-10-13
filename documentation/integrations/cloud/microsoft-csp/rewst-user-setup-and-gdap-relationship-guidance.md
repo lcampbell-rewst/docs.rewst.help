@@ -20,6 +20,8 @@ Other applications/your technicians might need additional roles added to the rel
 * Adding the Rewst group to the admin relationship.
 * Adding the roles for the Rewst group in the admin relationship.
 
+{% embed url="https://www.youtube.com/embed/EtnO8VAHnGo?si=lsQ1a7fwVwMxxF2W" %}
+
 Below are the manual steps for completing this task
 
 ## Azure Active Directory (In Partner Tenant)
