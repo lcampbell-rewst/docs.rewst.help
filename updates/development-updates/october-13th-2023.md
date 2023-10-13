@@ -11,8 +11,9 @@ This can be anything from new features, bug fixes, or QoL changes!
 * Added action description tooltip on hover
 * Added a generic api action for Datto RMM
 * Added a copy to clipboard icon to data aliases list on the workflow builder
-* Added categories to synnex and godaddy
+* Added category tags to synnex and godaddy
 * Added a jinja filters for HMAC
+* New Liongard integration
 
 </details>
 
