@@ -54,17 +54,14 @@ You will have a workflow called `[Rewst Master v3] Pods: Technician Toolbox` wit
 
 ### Re-running a pod from a ticket
 
-Let's imagine you have a ticket that has had it's associated pod workflow execution expire (or fail for one reason or another).
+Let's imagine you have a ticket that has had its associated pod workflow execution expire (or fail for one reason or another). If you attempt to view the pod in the ticket you will see something along the lines of:&#x20;
 
-If you attempt to view the pod in the ticket you will see something along the lines of:
-<img width="883" alt="image" src="https://github.com/RewstApp/docs.rewst.help/assets/121902974/7ce5ce24-e338-41a2-99d2-9db4effd218a">
+<figure><img src="https://github.com/RewstApp/docs.rewst.help/assets/121902974/7ce5ce24-e338-41a2-99d2-9db4effd218a" alt=""><figcaption></figcaption></figure>
 
 To execute a new instance of the pod click on the 'Links' dropdown in the ticket and choose 'Rewst - Start Pod on this Ticket'
-<img width="325" alt="image" src="https://github.com/RewstApp/docs.rewst.help/assets/121902974/058d6794-48ba-4f7d-b5ba-d15b2f295b87">
 
-After you have used this buttton a web page will open and then close, this will send a reqeuest to the Live Link trigger and start a new execution for that ticket. Allow some time to pass for the ticket to update, you should see the pod populate once the execution has gone through.
+<figure><img src="https://github.com/RewstApp/docs.rewst.help/assets/121902974/058d6794-48ba-4f7d-b5ba-d15b2f295b87" alt="" width="375"><figcaption></figcaption></figure>
 
-<img width="822" alt="image" src="https://github.com/RewstApp/docs.rewst.help/assets/121902974/a1e209d6-c432-44aa-9785-14d24f47410f">
+After you have used this button a web page will open and then close, this will send a request to the Live Link trigger and start a new execution for that ticket. Allow some time to pass for the ticket to update, you should see the pod populate once the execution has gone through.
 
-
-
+<figure><img src="https://github.com/RewstApp/docs.rewst.help/assets/121902974/a1e209d6-c432-44aa-9785-14d24f47410f" alt=""><figcaption></figcaption></figure>
