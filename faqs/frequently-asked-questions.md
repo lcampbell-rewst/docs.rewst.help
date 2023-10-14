@@ -22,12 +22,16 @@ layout:
 
 <img src="../.gitbook/assets/2023-08-07_16-06-46 (4).png" alt="" data-size="original">
 
-Aharon's Automation Maturity Model is a framework, developed by our beloved Aharon, that outlines the different stages of automation adoption within an organization. It provides a clear roadmap to assess the organization's current level of automation and defines four distinct stages of maturity:
+The Automation Maturity Model, devised by our beloved Aharon, illustrates four stages of automation adoption within an organization. These stages include:
 
-1. No automation​
-2. Task automation​
-3. Human-assisted process automation​
-4. Autonomous process automation​
+* **No Automation:** Initial stage with manual processes, requiring human intervention for tasks.
+* **Task Automation:** Automation of repetitive tasks to enhance efficiency and accuracy.
+* **Human-assisted Process Automation:** Integration of human decision-making within automated processes for more complex workflows.
+* **Autonomous Process Automation:** Advanced stage where processes are automated end-to-end with minimal to no human intervention, achieving significant operational efficiency and cost-effectiveness.
+
+This model serves as a roadmap for organizations to assess and elevate their automation capabilities, aligning with the broader operational goals to drive growth and innovation.
+
+For more information, check out our [dymistifying-process-automation.md](../cluck-university/getting-started/dymistifying-process-automation.md "mention") page in the Getting Started section.
 
 </details>
 
