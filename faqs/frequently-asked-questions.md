@@ -39,7 +39,9 @@ For more information, check out our [dymistifying-process-automation.md](../cluc
 
 <summary>What is Rewst?</summary>
 
-Rewst is an RPA (Robotic Process Automation) platform built for MSPS to allow for... well, process automation! It helps you automate your tickets, security, operations and other business processes using a low-code / no-code UI.
+Rewst is an Automation Platform tailored for MSPs, serving as a linchpin for orchestrating disparate processes across various tools within your stack. It empowers you to automate tickets, security protocols, operations, and other critical business processes through a centralized, user-friendly interface. By acting as a simplified middleware of sorts, Rewst facilitates seamless interaction between diverse tools, promoting enhanced operational efficiency and data-driven decision-making.
+
+With core components like [workflows](../documentation/workflows/ "mention"), [forms](../documentation/forms/ "mention"), and [triggers](../documentation/triggers/ "mention"), alongside comprehensive [Broken link](broken-reference "mention") courses, [from-scales-to-feathers.md](../community-corner/from-scales-to-feathers.md "mention") and [roc-support](../support/roc-support/ "mention"), Rewst's goal is to significantly expedite your automation journey, turning complex tasks into manageable, automated processes.
 
 </details>
 
