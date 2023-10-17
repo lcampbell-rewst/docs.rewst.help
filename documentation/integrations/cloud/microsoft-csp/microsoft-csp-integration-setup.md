@@ -8,7 +8,12 @@ description: >-
 # Microsoft CSP Integration Setup
 
 ## **Best Practices for Microsoft Integrations**
-For best practice information please refer to: [Best Practices for Microsoft Integrations](https://docs.rewst.help/documentation/integrations/cloud/authorization-best-practices)
+
+For best practice information please refer to: [Best Practices for Microsoft Integrations](https://docs.rewst.help/documentation/integrations/cloud/authorization-best-practices).
+
+{% hint style="success" %}
+For more information on setting the GDAP user in Rewst check out the [rewst-user-setup-and-gdap-relationship-guidance.md](rewst-user-setup-and-gdap-relationship-guidance.md "mention")article.&#x20;
+{% endhint %}
 
 ## **Configuring the Integration**
 
