@@ -14,7 +14,7 @@ description: This document outlines the requirements and setup for the Halo inte
 
 Before configuring the Rewst integration you must generate an API user. Here is the instruction for the generation of the integration user:
 
-1. **Log in** to Halo PSA as an Adminstration.
+1. **Log in** to Halo PSA as an Administration.
 2. **Go to** _Configuration_ → _Agents_ → _New_.
 3. **Create** an Agent for Rewst to use. We suggest naming this user Rewst API or similar.
 4. **Grant** the user permissions according to what you would like Rewst to do for you.
@@ -25,6 +25,9 @@ Before configuring the Rewst integration you must generate an API user. Here is 
 9. **Use** the authentication method for Client ID and Secret (Services).
 10. **Navigate** to the permissions tab.
 11. **Select** the all option.
+12. **Navigate** to the following location: `Teams & Agents` > `Agents` > `"API's Selected Agent"` > `Departments & Teams`
+13. **Click** Edit on the top left and within Teams select Add
+14. **Select** all of the Teams and click Save
 
 ### Configuring the Integration
 
