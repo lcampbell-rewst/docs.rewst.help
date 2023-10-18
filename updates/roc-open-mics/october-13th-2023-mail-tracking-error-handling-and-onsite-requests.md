@@ -1,18 +1,16 @@
-# ROC Open Mics
+# October 13th, 2023 - Mail Tracking, Error Handling, and Onsite Requests
 
 ## Join Live!
 
 Join us live every Friday at 3 pm EST! [Download the Calendar Invite here](https://engine.rewst.io/webhooks/custom/trigger/02eb02e2-1177-43d9-9e13-8547414979fc/c47fdd7f-4075-47a8-ba92-94e790e67c06?request\_type=open\_mic\_link&)!
-
-## Latest Open Mic Video Recording
 
 {% embed url="https://youtu.be/Ovqx8oFud5o" %}
 
 ### Contents of the Recording:
 
 * 🚀 Nick provides Dev Updates&#x20;
-* 🏫 Eddie provides Cluck University Updates
-* &#x20;📦 Matt shows a Crate that Modifies Mailbox Aliases in M365&#x20;
+* 🏫 Eddie provides Cluck University Updates&#x20;
+* 📦 Matt shows a Crate that Modifies Mailbox Aliases in M365&#x20;
 * 🤖 Brandon from eTop shows additional enhancements with onsite requests using his Bot Framework&#x20;
 * 😎 Mendy shows a workflow that tracks emails sent from Mailgun&#x20;
 * ⚠️ Brandon from eTop shows a workflow that handles errors as Proxy Addresses are set on PDC
