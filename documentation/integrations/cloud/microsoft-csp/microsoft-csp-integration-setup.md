@@ -27,16 +27,16 @@ Follow these steps to configure the integration within the Rewst platform:
 
 ## **Mapping Clients**
 
-After installation and authentication:
+After completing the installation and authentication processes:
 
-* **Find** the client you want to map and select their domain from the drop-down menu.
-* **Click** on the green button next to the mapping to **consent** to delegated access.
+1. **Locate the Desired Client**: Search for the client you intend to map. Once located, choose their name from the provided drop-down menu.
+2. **Consent to Delegated Access**: Next to the mapping, there is a green button. Clicking on this will consent to delegated access for the selected client.
 
 {% hint style="warning" %}
-When setting up Rewst's CSP integration, you may encounter two enterprise applications within your Azure AD tenant: **Rewst Prod** and **Rewst CSP Connector**.
+When you're in the process of setting up Rewst's CSP integration, it's possible to come across two distinct enterprise applications within your Azure AD tenant: **`Rewst Prod`** and **`Rewst CSP Connector.`** Removing this integration and readding it results in the deletion of the old service principal, and a creation of a new one upon reconsent.
 
-* **Rewst Prod**: This application is located in your MSP's tenant and in any tenant with direct integration enabled. It may be found in the customer environment if the integration is installed at the customer level.
-* **Rewst CSP Connector:** Also known as the CPV API application, this is responsible for making CPV/CSP API for delegated calls. It gets approved CPV permissions by clicking on the shield icon.
+* **Rewst Prod**: This application is present in your MSP's tenant. Moreover, in scenarios where there is direct integration, it might also appear in other tenants. If the integration is configured directly at the customer level, expect to see this application.
+* **Rewst CSP Connector**: At times, this is known as the CPV API application. It is the application tasked with carrying out delegated calls using the CPV/CSP API. _When you press the shield icon, you are effectively giving consent_, which leads to the creation of the enterprise application in the client's tenant. Once established, the required permissions are assigned to this application.
 
-**Note:** Different permissions between these applications are normal, and the presence of one or both depends on the integration setup. Refreshing API permissions or clicking re-consent may affect the permissions. For more information on this topic, see Microsoft's documentation on [using the secure application model framework.](https://learn.microsoft.com/en-us/partner-center/developer/secure-app-model-framework)
+**Note**: It's expected to see different permissions levels between these applications. Their presence, whether singularly or together, depends on the specific integration setup. Altering API permissions or deciding to re-consent can potentially change these permissions. For an in-depth understanding, refer to Microsoft's detailed guide on [using the secure application model framework.](https://learn.microsoft.com/en-us/partner-center/developer/secure-app-model-framework)
 {% endhint %}
