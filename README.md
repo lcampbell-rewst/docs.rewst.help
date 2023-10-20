@@ -20,4 +20,52 @@ layout:
 
 # Welcome to Rewst
 
-<table data-view="cards" data-full-width="true"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td align="center"><strong>Dive into Documentation</strong></td><td align="center">Check out documentation on integrations, prebuilt automations, building forms, workflows, and more!</td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/documentation-gry.png">documentation-gry.png</a></td></tr><tr><td align="center"><strong>Spread your Wings with Training</strong></td><td align="center">Check out our Cluck University training videos or sign-up for live training!</td><td><a href="cluck-university/getting-started/">getting-started</a></td><td><a href=".gitbook/assets/school-gry (1).png">school-gry (1).png</a></td></tr><tr><td align="center"><strong>Flock Together with the ROC Open Mic Recordings</strong></td><td align="center">You can join the Open Mic every Friday.</td><td><a href="updates/roc-open-mics/">roc-open-mics</a></td><td><a href=".gitbook/assets/rocket-gry (1).png">rocket-gry (1).png</a></td></tr><tr><td align="center"><strong>Join the Kewp Community and Get Support</strong></td><td align="center">Check out Discord to get live support and engage with the kewp!</td><td><a href="https://discord.gg/Rewst">https://discord.gg/Rewst</a></td><td><a href=".gitbook/assets/discord-gry.png">discord-gry.png</a></td></tr><tr><td align="center"><strong>Keep Up-to-Date on Releases</strong></td><td align="center">Updates are posted every week!</td><td><a href="updates/development-updates/">development-updates</a></td><td><a href=".gitbook/assets/new-releases-gry.png">new-releases-gry.png</a></td></tr><tr><td align="center"><strong>Check out our FAQs</strong></td><td align="center">If you need any help or have questions, you can review the FAQs.</td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/quiz-gry (1).png">quiz-gry (1).png</a></td></tr></tbody></table>
+<table data-view="cards" data-full-width="true">
+    <thead>
+        <tr>
+            <th align="center"></th>
+            <th align="center"></th>
+            <th data-hidden data-card-target data-type="content-ref"></th>
+            <th data-hidden data-card-cover data-type="files"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>Dive into Documentation</strong></td>
+            <td align="center">Check out documentation on integrations, prebuilt automations, building forms, 
+workflows, and more!</td>
+            <td><a href="broken-reference">Broken link</a></td>
+            <td><a href=".gitbook/assets/documentation-gry.png">documentation-gry.png</a></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Spread your Wings with Training</strong></td>
+            <td align="center">Check out our Cluck University training videos or sign-up for live training!</td>
+            <td><a href="cluck-university/getting-started/">getting-started</a></td>
+            <td><a href=".gitbook/assets/school-gry (1).png">school-gry (1).png</a></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Flock Together with the ROC Open Mic Recordings</strong></td>
+            <td align="center">You can join the Open Mic every Friday.</td>
+            <td><a href="updates/roc-open-mics/">roc-open-mics</a></td>
+            <td><a href=".gitbook/assets/rocket-gry (1).png">rocket-gry (1).png</a></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Join the Kewp Community and Get Support</strong></td>
+            <td align="center">Check out Discord to get live support and engage with the kewp!</td>
+            <td><a href="https://discord.gg/Rewst">https://discord.gg/Rewst</a></td>
+            <td><a href=".gitbook/assets/discord-gry.png">discord-gry.png</a></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Keep Up-to-Date on Releases</strong></td>
+            <td align="center">Updates are posted every week!</td>
+            <td><a href="updates/development-updates/">development-updates</a></td>
+            <td><a href=".gitbook/assets/new-releases-gry.png">new-releases-gry.png</a></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Check out our FAQs</strong></td>
+            <td align="center">If you need any help or have questions, you can review the FAQs.</td>
+            <td><a href="broken-reference">Broken link</a></td>
+            <td><a href=".gitbook/assets/quiz-gry (1).png">quiz-gry (1).png</a></td>
+        </tr>
+    </tbody>
+</table>
