@@ -6,6 +6,9 @@ description: >-
 
 # ROC Support
 
+## ROC Support Operating Hours:
+ROC Support - Operating Hours Monday thru Friday 7AM to 8PM Eastern
+
 ## New Support Process at Rewst
 
 Hello, Rewst community! We're making some changes to ensure we can offer you the best possible support, in the quickest time possible. As we scale, we want to always ensure the best possible support. To do that, we're introducing a new process for more urgent support queries.
