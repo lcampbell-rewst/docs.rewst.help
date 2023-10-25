@@ -418,6 +418,7 @@
   * [Support Priorities](support/roc-support/support-priorities.md)
   * [Create a ticket via Discord](support/roc-support/create-a-ticket-via-discord.md)
   * [Collecting Diagnostics with Browser Developer Tools](support/roc-support/collecting-diagnostics-with-browser-developer-tools.md)
+  * [ROC-n-Roll Training](support/roc-support/roc-n-roll-training.md)
 * [Contact Resources](support/contact-resources.md)
 
 ## Community Corner
