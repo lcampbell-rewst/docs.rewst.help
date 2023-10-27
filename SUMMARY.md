@@ -12,6 +12,7 @@
   * [How to Scope an Automation](cluck-university/getting-started/how-to-scope-an-automation.md)
   * [Relationships within the Platform](cluck-university/getting-started/relationships-within-the-platform.md)
   * [Hello World](cluck-university/getting-started/hello-world.md)
+  * [Fast Track Your Onboarding](cluck-university/getting-started/fast-track-your-onboarding.md)
   * [Workflow Building Tips & Tricks](cluck-university/getting-started/workflow-building-tips-and-tricks.md)
   * [Take Advantage of the Rewst Resources](cluck-university/getting-started/take-advantage-of-the-rewst-resources.md)
 * [Rewst Foundations (10X)](cluck-university/rewst-foundations-10x/README.md)
