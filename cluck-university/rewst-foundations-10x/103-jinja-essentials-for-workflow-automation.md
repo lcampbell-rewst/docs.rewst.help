@@ -313,7 +313,7 @@ Jinja supports variable creation within workflows. Trainers can define variables
 
 <details>
 
-<summary>Step 5: Use More Advanced List Comprehension ans Filtering</summary>
+<summary>Step 5: Use More Advanced List Comprehension and Filtering</summary>
 
 **Check for a Specific Attribute**
 
