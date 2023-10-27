@@ -333,6 +333,7 @@
   * [November 4th 2022](updates/cs-and-training-updates/november-4th-2022.md)
   * [October 28th 2022](updates/cs-and-training-updates/october-28th-2022-1.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
+  * [October 20th, 2023 - Sophos Firmware Updates, CSP Connectors, and GDAP Documentation Workflows](updates/roc-open-mics/october-20th-2023-sophos-firmware-updates-csp-connectors-and-gdap-documentation-workflows.md)
   * [October 13th, 2023 - Mail Tracking, Error Handling, and Onsite Requests](updates/roc-open-mics/october-13th-2023-mail-tracking-error-handling-and-onsite-requests.md)
   * [October 6th, 2023 - MFA Buffet](updates/roc-open-mics/october-6th-2023-mfa-buffet.md)
   * [September 29, 2023 - No Microtransactions with These New Crates](updates/roc-open-mics/september-29-2023-no-microtransactions-with-these-new-crates.md)
