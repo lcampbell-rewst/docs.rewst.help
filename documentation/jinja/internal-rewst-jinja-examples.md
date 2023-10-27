@@ -55,7 +55,7 @@ Variables prefixed with `ORG` are related to data and functions specific to the 
 * **UTILS.NOW**
   * **Description**: Returns the current time based on specified timezone and format. By default, returns the current UTC time as an integer.
   * **Usage**: `{{ UTILS.now() }}` or `{{ UTILS.now('EST', '%d-%m-%Y %H:%M:%S') }}`
-  * **Format String**: Consult [Python's strftime format codes](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes) for custom date-time formatting.
+  * **Format String**: Consult [Python's strftime format codes](https://strftime.org/) for custom date-time formatting.
 * **UTILS.uuid4**
   * **Description**: Generates a new UUID (Universally Unique Identifier).
   * **Usage**: `{{ UTILS.uuid4 }}`
