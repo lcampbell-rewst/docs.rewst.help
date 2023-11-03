@@ -55,7 +55,19 @@ See more about this on the [Adding Time Saved to a Workflow](adding-time-saved-t
 
 #### Security
 
-The Security tab allows you to define which input and output parameters should be redacted for privacy and security reasons.
+The Security tab in Rewst allows for meticulous redaction of sensitive information within workflow tasks. This is especially vital when using generic HTTP actions for services without official integrations, where API tokens or other sensitive data in headers could be exposed in results.
+
+**Quick Guide:**
+
+* **Redact on Hover**: Use the new eyeball icon next to parameter labels to quickly redact values.
+* **JSONPath Queries**: Customize redaction with [JSONPath queries](https://jsonpath.com/) for both input and output parameters.
+* **Layered Security**: Securely store secrets and ensure they are redacted from all task logs and results to maintain data confidentiality.
+
+For a hands-on demonstration, see how to securely handle sensitive information in workflows from the April 21st Open Mic. The relevant portion of the video is shared below:
+
+{% embed url="https://youtu.be/oJA16EXizzY?t=694" %}
+See the timestamped walkthrough of our redact functionality here
+{% endembed %}
 
 ***
 
