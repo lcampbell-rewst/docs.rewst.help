@@ -1,4 +1,4 @@
-# October 13th 2023
+# November 3rd 2023
 
 Explore what new changes the Dev team has deployed in the last week!
 
