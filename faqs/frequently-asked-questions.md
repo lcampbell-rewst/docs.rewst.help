@@ -128,6 +128,24 @@ This is one of the great things about how we have implemented the product - ther
 
 </details>
 
+### Integrations
+
+<details>
+
+<summary>How can I request a Microsoft Graph Permissions Scope be added in Rewst?</summary>
+
+If you need additional Graph Permissions Scopes while using the Rewst platform, follow these steps to request them. Our team will review your request and may reach out for further clarification.&#x20;
+
+* Determine the permissions needed to perform your tasks on Rewst.
+* Gather relevant Microsoft documentation regarding the permissions you need.
+* Fill out [our request form](https://app.rewst.io/form/57bcadab-ed07-4c95-8127-0b8a5b157d14) with the details:
+  * **Required Permission:** Specify the permission or scope you're requesting.
+  * **Permission Purpose:** Explain why you need this permission.
+  * **Microsoft Documentation Link:** Provide the link to the relevant MS docs
+  * Acknowledge Terms & Conditions
+
+</details>
+
 ### Forms
 
 <details>
