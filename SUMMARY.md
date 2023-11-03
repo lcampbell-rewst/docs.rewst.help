@@ -412,6 +412,8 @@
 ## ❓ FAQs
 
 * [Frequently Asked Questions](faqs/frequently-asked-questions.md)
+* [Glossary of Terms](faqs/glossary-of-terms/README.md)
+  * [API Specific Terminology](faqs/glossary-of-terms/api-specific-terminology.md)
 
 ## 🔐 Security
 
