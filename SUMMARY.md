@@ -248,6 +248,7 @@
 ## 📢 Updates
 
 * [Development Updates](updates/development-updates/README.md)
+  * [November 3rd 2023](updates/development-updates/november-3rd-2023.md)
   * [October 27th 2023](updates/development-updates/october-27th-2023.md)
   * [October 20th 2023](updates/development-updates/october-20th-2023.md)
   * [October 13th 2023](updates/development-updates/october-13th-2023.md)
