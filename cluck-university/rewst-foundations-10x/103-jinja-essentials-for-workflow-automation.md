@@ -10,7 +10,7 @@ Sign up for our **LIVE** training sessions below!
 
 ## Introduction
 
-Welcome to Rewst 103! In this course, we'll be talking about Jinja, the templating language that has become an essential tool for web developers and data engineers alike. In this article, we will explore the basics of Jinja, its syntax, and various use cases, with a focus on understanding the different use cases.&#x20;
+Welcome to Rewst 103! In this course, we'll be talking about Jinja, the templating language that has become an essential tool for web developers and data engineers alike. In this article, we will explore the basics of Jinja, its syntax, and various use cases, with a focus on understanding the different use cases.
 
 When you've completed this training, [don't forget to get credit](103-jinja-essentials-for-workflow-automation.md#get-credit)!
 
@@ -65,7 +65,7 @@ In the Rewst world, variables, also known as context variables or data aliases, 
 
 ### **If/Else/ElseIf Statements**
 
-Jinja supports conditional statements like if-else and elseif. These statements allow trainers to create dynamic workflows based on specific conditions, ensuring the workflow adapts to varying scenarios. For example:&#x20;
+Jinja supports conditional statements like if-else and elseif. These statements allow trainers to create dynamic workflows based on specific conditions, ensuring the workflow adapts to varying scenarios. For example:
 
 ```django
 {% raw %}
@@ -74,12 +74,13 @@ Jinja supports conditional statements like if-else and elseif. These statements 
 {% else %} 
     <p>Please log in to continue.</p>
 {% endif %}
-{% endraw %} 
+{% endraw %}
+ 
 ```
 
 ### **For Loops**
 
-For loops in Jinja enable trainers to iterate through lists, executing actions for each item. The pointer, such as `thing`, points to items within the list, facilitating dynamic data processing. For example:&#x20;
+For loops in Jinja enable trainers to iterate through lists, executing actions for each item. The pointer, such as `thing`, points to items within the list, facilitating dynamic data processing. For example:
 
 ```django
 {% raw %}
@@ -87,6 +88,7 @@ For loops in Jinja enable trainers to iterate through lists, executing actions f
     <li>{{ thing }}</li>
 {% endfor %}
 {% endraw %}
+
 ```
 
 ### **Jinja Filters**
@@ -169,6 +171,7 @@ Jinja supports variable creation within workflows. Trainers can define variables
 1.  **Uncomment** and **Render** the following:
 
     ```django
+
 
     {% raw %}
     {% for weekday in CTX.days %}
@@ -387,21 +390,24 @@ Jinja supports variable creation within workflows. Trainers can define variables
 
 **Build a List and Loop Through it**
 
-1.  **Uncomment** and **Render** the following:
+1. **Uncomment** and **Render** the following:
 
-    {% code overflow="wrap" %}
-    ```django
-    {%- set milky_days = [
-            weekday
-            for weekday in CTX.days
-            if "milk" in weekday.lunch.drink | lower
-        ]
-    -%}
+{% code overflow="wrap" %}
+````
+```django
+{%- set milky_days = [
+        weekday
+        for weekday in CTX.days
+        if "milk" in weekday.lunch.drink | lower
+    ]
+-%}
 
-    On {{ weekday.day }} you should bring a frosty RewstyCola for lunch at {{ weekday.lunch.time }} because they are serving {{ weekday.lunch.drink | lower }}.
+On {{ weekday.day }} you should bring a frosty RewstyCola for lunch at {{ weekday.lunch.time }} because they are serving {{ weekday.lunch.drink | lower }}.
 
-    ```
-    {% endcode %}
+```
+````
+{% endcode %}
+
 2. **Review** the output.
 3. **Re-add** the comments.
 

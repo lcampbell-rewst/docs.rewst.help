@@ -28,7 +28,7 @@ Explore what new changes the Training team has made in the last week.
 **Documentation**
 
 * [Open Mic - September 22nd Video and Page Added](../roc-open-mics/september-22-2023-efficient-onboarding-custom-integrations-and-sql-magic.md)
-* Shoutouts to Kevin Grube and Kelvin for contributing to the docs this week! For those who missed it, we're building out the ability to contribute to our docs, [starting with updates and fixes](../../community-corner/how-to-contribute.md).&#x20;
+* Shoutouts to Kevin Grube and Kelvin for contributing to the docs this week! For those who missed it, we're building out the ability to contribute to our docs, [starting with updates and fixes](../../community-corner/how-to-contribute/).&#x20;
 * Updates and Fixes
   * Updated the URL note on the [Connectwise Pod Configuration](../../documentation/integrations/psa/connectwise-manage/pod-configuration.md) page.
   * Added note about post-modification behavior note on [Best Practices for Microsoft Integrations](../../documentation/integrations/cloud/authorization-best-practices.md)
