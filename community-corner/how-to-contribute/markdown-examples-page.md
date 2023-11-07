@@ -1,5 +1,5 @@
 ---
-description: This is the page description for the Markdown Examples page.
+description: This is the page description for the Markdown Examples page..
 ---
 
 # Markdown Examples Page

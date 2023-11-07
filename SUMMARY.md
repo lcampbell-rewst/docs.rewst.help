@@ -432,6 +432,6 @@
 
 ## Community Corner
 
-* [How to Contribute](community-corner/how-to-contribute/README.md)
+* [How to Contribute](community-corner/how-to-contribute.md)
   * [Markdown Examples Page](community-corner/how-to-contribute/markdown-examples-page.md)
 * [Community-Driven Content](community-corner/from-scales-to-feathers.md)
