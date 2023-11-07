@@ -109,16 +109,6 @@ For organizing content as well
 {% endtab %}
 {% endtabs %}
 
-
-
-<img src="../.gitbook/assets/file.excalidraw.svg" alt="Drawings can be added like this" class="gitbook-drawing">
-
-Math is fun:
-
-$$
-f(x) = x * e^{2 pi i \xi x}
-$$
-
 <details>
 
 <summary>Expandable components</summary>
@@ -142,9 +132,6 @@ Linking to another page:
 {% content-ref url="../" %}
 [..](../)
 {% endcontent-ref %}
-
-```mermaid
-```
 
 ## **More to Come**
 
