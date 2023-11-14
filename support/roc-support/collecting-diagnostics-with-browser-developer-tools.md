@@ -2,6 +2,15 @@
 
 At times, the ROC Support team needs further information to better solve your issue. When asked to provide a HAR file, follow the steps below.
 
+### Sanitizing your HAR file prior to sending to support:
+If you would like to sanitizing your HAR file prior to sending it to our support team you can utilize tools such as:
+
+[Cloudflare - HAR Sanitizer](https://har-sanitizer.pages.dev/)
+
+For more information on why you would want to sanitize your HAR file please refer to:
+
+[Introducing HAR Sanitizer: secure HAR sharing (from Cloudflare)](https://blog.cloudflare.com/introducing-har-sanitizer-secure-har-sharing/) 
+
 ### Creating and Exporting HAR Files
 
 1. **Open** Chrome&#x20;
