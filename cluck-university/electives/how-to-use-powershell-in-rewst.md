@@ -20,13 +20,13 @@ Remember, posting results back to Rewst is crucial for script execution, but it 
 
 To store your scripts, navigate to Automations and Scripts, create a new script, add details, paste your Powershell code, and submit. Your script is now securely stored in Rewst, accessible via a unique URL.
 
-## Parameter Handling with Ginger
+## Parameter Handling with Jinja
 
-One of the advantages of using Powershell in Rewst is the seamless two-way data flow between workflows and scripts. Parameter handling using Ginger allows dynamic adaptation to various scenarios. The example illustrates referencing CTX variables within a Powershell script, enhancing flexibility without hardcoding.
+One of the advantages of using Powershell in Rewst is the seamless two-way data flow between workflows and scripts. Parameter handling using Jinja allows dynamic adaptation to various scenarios. The example illustrates referencing CTX variables within a Powershell script, enhancing flexibility without hardcoding.
 
 ## Accessing Scripts and Integration with Workflows
 
-Saved Powershell scripts can be accessed via unique URLs ending with a GUID acting as a unique ID. This ID is essential for future workflow integrations. The use of the unique script ID in a Ginger template call within workflows instructs Rewst to execute specific scripts as part of the workflow.
+Saved Powershell scripts can be accessed via unique URLs ending with a GUID acting as a unique ID. This ID is essential for future workflow integrations. The use of the unique script ID in a Jinja template call within workflows instructs Rewst to execute specific scripts as part of the workflow.
 
 ## Subworkflows for Enhanced Automation
 
