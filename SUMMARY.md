@@ -24,7 +24,10 @@
   * [106 - Subworkflows and With Items](cluck-university/rewst-foundations-10x/106-subworkflows-and-with-items.md)
   * [Foundations Certification](cluck-university/rewst-foundations-10x/foundations-certification.md)
 * [Electives](cluck-university/electives/README.md)
-  * [Extending the Power Of Rewst Workflows](cluck-university/electives/extending-the-power-of-rewst-workflows.md)
+  * [Extending the Power Of Rewst Workflows](cluck-university/electives/extending-the-power-of-rewst-workflows/README.md)
+    * [Part 1: Introduction to Completion Handlers](cluck-university/electives/extending-the-power-of-rewst-workflows/part-1-introduction-to-completion-handlers.md)
+    * [Part 2: How to Take Action on Workflow Results](cluck-university/electives/extending-the-power-of-rewst-workflows/part-2-how-to-take-action-on-workflow-results.md)
+  * [How to Use Powershell in Rewst](cluck-university/electives/how-to-use-powershell-in-rewst.md)
 
 ## 📚 Documentation
 

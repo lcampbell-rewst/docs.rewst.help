@@ -23,7 +23,7 @@ Explore what new changes the Training team has made in the last week.
 **Cluck University**
 
 * Added new [Electives](../../cluck-university/electives/) section under Cluck University - New content to come!
-* Added an [Extending the Power Of Rewst Workflows Page](../../cluck-university/electives/extending-the-power-of-rewst-workflows.md) with content talking about Completion Handlers
+* Added an [Extending the Power Of Rewst Workflows Page](../../cluck-university/electives/extending-the-power-of-rewst-workflows/) with content talking about Completion Handlers
 * Chow Time: Added Updated [Rewst 104 video](../../cluck-university/rewst-foundations-10x/104-options-generators-and-generic-api-requests.md) made by our very own Legend - Eddie Chow
 
 **Documentation**
