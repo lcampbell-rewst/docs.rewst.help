@@ -37,35 +37,43 @@ Here are some important keyboard shortcuts you can use throughout
 
 ## **What is Jinja?**
 
-Jinja is a powerful templating language used for creating dynamic content in various formats, such as JSON. Similar to other programming languages, Jinja supports loops, conditional statements, and variable manipulation.
+Jinja is a versatile templating language for creating dynamic content. It supports loops, conditional statements, and variable manipulation, making it ideal for complex data processing in workflows.
 
-### **Braces in Jinja**
+### Key Features:
 
-In Jinja, curly braces serve different purposes:
+* **Variable Manipulation:** Create and modify context variables.
+* **Dynamic Content Creation:** Use loops and conditionals to tailor content.
+* **Filter Utilization:** Apply built-in filters for efficient data processing.
 
-* **Double Curly Braces `{{ }}`:** Output specific values. For instance, in Rewst 102, these braces are used to display user IDs, group IDs, and action variables.
-* **Curly Braces with Percent Sign `{{% %}}`:** Denote code blocks. These are used for structures like if-else statements and for loops.
-* **Curly Braces with Pound Sign `{{# #}}`:** Indicate comments, providing clarity within the code.
+## Understanding Jinja Syntax in Rewst
 
-### **JSON Files and Key-Value Pairs**
+### Braces and Their Functions:
 
-JSON (JavaScript Object Notation) files represent data through key-value pairs. For example:
+* **Output Values (`{{ }}`):** Display variables or expressions. For instance, `{{ CTX.user_id }}` in Rewst 102 shows user-specific data.
+* **Code Blocks (`{% %}`):** Used for control structures like `if`, `else`, `for` loops.
+* **Comments (`{# #}`):** Enable non-executable notes for clarity.
+
+### Working with JSON:
+
+**Format:** JSON (JavaScript Object Notation) structures data in key-value pairs.
+
+**Example:**
 
 ```json
-jsonCopy code{
+{
     "name": "Han Solo",
-    "age": 4,
+    "age": 34,
     "favorites": ["spaceships", "adventures"]
 }
 ```
 
-### **Creating Variables in Rewst**
+## Core Concepts in Jinja
 
-In the Rewst world, variables, also known as context variables or data aliases, are created using Jinja. These variables are essential for storing and processing information within workflows.
+### Conditional Statements:
 
-### **If/Else/ElseIf Statements**
+Jinja supports conditional statements like `if,` `else` and `elseif`. These statements allow you to create dynamic workflows based on specific conditions, ensuring the workflow adapts to varying scenarios.&#x20;
 
-Jinja supports conditional statements like if-else and elseif. These statements allow trainers to create dynamic workflows based on specific conditions, ensuring the workflow adapts to varying scenarios. For example:
+**Example:**
 
 ```django
 {% raw %}
@@ -78,32 +86,44 @@ Jinja supports conditional statements like if-else and elseif. These statements 
  
 ```
 
-### **For Loops**
+### For Loops:
 
-For loops in Jinja enable trainers to iterate through lists, executing actions for each item. The pointer, such as `thing`, points to items within the list, facilitating dynamic data processing. For example:
+For loops in Jinja enable you to iterate through JSON lists, executing actions for each item. The pointer, such as `thing`, points to items within the list, facilitating dynamic data processing.&#x20;
+
+**Example:**
 
 ```django
 {% raw %}
-{% for thing in list_of_things %}
+{% for thing in CTX.list_of_things %}
     <li>{{ thing }}</li>
 {% endfor %}
 {% endraw %}
-
 ```
 
-### **Jinja Filters**
+### Jinja Filters:
 
-Filters in Jinja are pre-configured algorithms or functionalities used without explicit implementation. Common filters include `capitalize`, `upper`, `lower`, and `truncate`. Filters streamline common tasks, enhancing efficiency in data processing.
+* **Basics:** Transform data with pre-defined functions to streamline common tasks, enhancing efficiency in data processing.
+* **Examples:**
+  * Truncate text: `{{ text|truncate(20) }}`
+  * Capitalize names: `{{ user_name|capitalize }}`
+  * Lowercase & Replace text: `{{ user_email|lower|replace("@", "at") }}`
 
-```django
-{{ text|truncate(20) }}
-{{ user_name|capitalize }}
-{{ user_email|lower|replace('@', ` at `) }}  
-```
+## Advanced Jinja in Rewst
 
-### **Rewst Filters and List Comprehension**
+### List Comprehension in Action
 
-In the Rewst world, specific filters are implemented to facilitate various operations. List comprehension, a powerful feature, allows trainers to create lists based on existing lists and specific conditions. For example:
+* **Functionality:** Efficiently creates new lists from existing ones, based on specific criteria. You can combine filters and conditions to produce concise, targeted lists.
+* **Application:** Tailors data selection in workflows, enhancing efficiency and precision.
+
+**Three-Step Structure**
+
+List comprehension combines filters and conditions to create concise and targeted lists. This structure (`[item for item in list if condition]`) allows you to filter data efficiently.
+
+1. **Output:** Define what you want to extract or manipulate (e.g., `user.id`).
+2. **Construction:** Specify the list to iterate over (e.g., `CTX.my_user_list`).
+3. **Conditions:** Apply conditions to filter data (e.g., `if user.enabled == true`).
+
+**Example:**
 
 ```django
 {{ 
@@ -115,46 +135,54 @@ In the Rewst world, specific filters are implemented to facilitate various opera
 }}
 ```
 
-### **List Comprehension in Action**
+This example demonstrates filtering active users from `CTX.my_user_list`.
 
-List comprehension combines filters and conditions to create concise and targeted lists. The three-step structure—output, construction, and conditions—allows trainers to filter specific data efficiently.
+#### List Comprehension with Conditions
 
-### **List Comprehension with Conditions**
-
-List comprehension with conditions enables trainers to filter data based on specific criteria. Trainers can employ filters like `lower` to standardize data, ensuring accurate comparisons.
+* **Purpose:** Allows you to filter data based on specific criteria.
+  * For example, using filters like `lower` to standardize data before comparison.
+* **Benefit:** Ensures more accurate and relevant data processing, critical for complex workflows.
 
 ***
 
 ## **Creating Variables in Jinja**
 
-Jinja supports variable creation within workflows. Trainers can define variables, enhancing the organization and manageability of workflows.
+### **In-Workflow Variable Creation**
+
+* **Purpose:** Vital for organizing and managing data within workflows.
+* **Usage:** Variables store task results, facilitate dynamic content generation, and enhance the readability and maintainability of Jinja templates.
+
+### **Variable Management with Jinja:**
+
+* **Creation and Modification:** Use context (`CTX`) variables in Data Aliases on your Task's Transitions to capture specific elements from the JSON data produced by your workflow's tasks. This is pivotal for storing and manipulating workflow data.
+* **Scope and Accessibility:** These types of variables can be created and modified by workflow tasks but are not global; their scope is confined to the workflow.
 
 <details>
 
 <summary>Step 2: Start by viewing the basic CTX Attributes</summary>
 
-**Express all the CTX Attributes**
+#### **Expressing all the CTX Attributes**
 
-1. **Open** the Context editor to view the JSON context.
-2. **Uncomment** `{# {{ CTX }} #}`.
-   * See the shortcuts in Step 1 to remove comments.
-3. **Render** `{{ CTX }}`.
-   * See the shortcuts in Step 1 to remove comments.
-4. **Re-add** the comments to revert the code back to `{# {{ CTX }} #}`.
+1. **View JSON Context:**
+   * Open the Context editor to view the JSON context.
+2. **Uncomment CTX:**
+   * **Initially**: `{# {{ CTX }} #}`
+   * **To view**: Remove comments as shown in Step 1. Render `{{ CTX }}`.
+   * **Revert**: Re-add the comments to return to `{# {{ CTX }} #}`.
 
-**Show the Value of the Week**
+#### Show the Value of the Week
 
-1. **Uncomment** `{# {{- CTX.week -}} #}`.
-2. **Render** `{{- CTX.week -}}`.
-   * See the shortcuts in step one to remove comments.
-3. **Re-add** the comments to revert the code back to `{# {{- CTX.week -}} #}`.
+1. **Display Week Value:**
+   * **Initially**: `{# {{- CTX.week -}} #}`
+   * **To view:** Uncomment, render `{{- CTX.week -}}`, and follow Step 1 for removing comments.
+   * **Revert:** Re-add comments to return to `{# {{- CTX.week -}} #}`.
 
-**Show How many Days are in the Schedule**
+#### Show Days in the Schedule
 
-1. **Uncomment** `{# {{ CTX.days | length }} #}`.
-2. **Render** `{{ CTX.days | length }}`
-   * See the shortcuts in step one to remove comments.
-3. **Re-add** the comments to revert the code back to `{# {{ CTX.days | length }} #}`.
+1. **Display Schedule Days:**
+   * **Initially**: `{# {{ CTX.days | length }} #}`
+   * **To view**: Uncomment, render `{{ CTX.days | length }}`, and follow Step 1 for removing comments.
+   * **Revert**: Re-add comments to return to `{# {{ CTX.days | length }} #}`.
 
 </details>
 
