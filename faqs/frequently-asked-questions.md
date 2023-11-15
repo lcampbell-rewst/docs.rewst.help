@@ -41,7 +41,7 @@ For more information, check out our [dymistifying-process-automation.md](../cluc
 
 
 
-With core components like [workflows](../documentation/workflows/ "mention"), [forms](../documentation/forms/ "mention"), and [triggers](../documentation/triggers/ "mention"), alongside comprehensive [Broken link](broken-reference "mention") courses, [community-driven-content](../community-corner/community-driven-content/ "mention") and [roc-support](../support/roc-support/ "mention"), Rewst's goal is to significantly expedite your automation journey, turning complex tasks into manageable, automated processes.
+With core components like [workflows](../documentation/workflows/ "mention"), [forms](../documentation/forms/ "mention"), and [triggers](../documentation/triggers/ "mention"), alongside comprehensive [Broken link](broken-reference "mention") courses, [from-scales-to-feathers](../community-corner/from-scales-to-feathers/ "mention") and [roc-support](../support/roc-support/ "mention"), Rewst's goal is to significantly expedite your automation journey, turning complex tasks into manageable, automated processes.
 
 </details>
 

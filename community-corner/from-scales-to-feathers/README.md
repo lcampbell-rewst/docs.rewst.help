@@ -1,6 +1,6 @@
 # Community-Driven Content
 
-## Hello!
+## Hello! It's nice to see you here. 😊
 
 Welcome to Rewst's Community Corner, a hub for knowledge sharing and innovation in automation. This space is dedicated to bringing together the expertise of our community members, offering diverse perspectives and insights. Discover guides, articles, and discussions led by Rewst's community of experts, designed to enrich your understanding and skills in the evolving world of automation. Join us in this collaborative journey.
 
