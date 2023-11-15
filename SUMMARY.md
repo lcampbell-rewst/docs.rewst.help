@@ -437,4 +437,5 @@
 ## Community Corner
 
 * [How to Contribute](community-corner/how-to-contribute.md)
-* [Community-Driven Content](community-corner/from-scales-to-feathers.md)
+* [Community-Driven Content](community-corner/from-scales-to-feathers/README.md)
+  * [From Scales to Feathers](community-corner/from-scales-to-feathers/from-scales-to-feathers.md)
