@@ -35,6 +35,8 @@ Some of the things that should be considered with any updates include:
 
 ## **Markdown Examples**
 
+Click `Edit on GitHub` on this page to see the below examples in their Markdown context for using in your own updates. Use the visuals below to see how each of these elements looks when being used.
+
 ***
 
 ## This is an H1 Heading
