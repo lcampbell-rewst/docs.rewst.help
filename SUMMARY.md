@@ -431,11 +431,10 @@
   * [Support Priorities](support/roc-support/support-priorities.md)
   * [Create a ticket via Discord](support/roc-support/create-a-ticket-via-discord.md)
   * [Collecting Diagnostics with Browser Developer Tools](support/roc-support/collecting-diagnostics-with-browser-developer-tools.md)
-  * [DRAFT: ROC & Roll Support](support/roc-support/draft-roc-and-roll-support.md)
 * [Contact Resources](support/contact-resources.md)
 
 ## Community Corner
 
 * [How to Contribute](community-corner/how-to-contribute.md)
-* [Community-Driven Content](community-corner/from-scales-to-feathers/README.md)
-  * [From Scales to Feathers](community-corner/from-scales-to-feathers/from-scales-to-feathers.md)
+* [Community-Driven Content](community-corner/community-driven-content/README.md)
+  * [From Scales to Feathers](community-corner/community-driven-content/from-scales-to-feathers.md)
