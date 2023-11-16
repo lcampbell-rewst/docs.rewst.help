@@ -438,5 +438,6 @@
 
 * [How to Contribute](community-corner/how-to-contribute/README.md)
   * [Markdown Examples](community-corner/how-to-contribute/markdown-examples.md)
+  * [Rewst's Technical Documentation Guidelines](community-corner/how-to-contribute/rewsts-technical-documentation-guidelines.md)
 * [Community-Driven Content](community-corner/community-driven-content/README.md)
   * [From Scales to Feathers](community-corner/community-driven-content/from-scales-to-feathers.md)
