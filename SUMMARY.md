@@ -95,6 +95,7 @@
     * [Combining Lists](documentation/jinja/use-cases-and-best-practices/general-info.md)
     * [Jinja Reserved Keywords](documentation/jinja/use-cases-and-best-practices/jinja-reserved-keywords.md)
     * [Collecting CTX Variables Dynamically Using Jinja](documentation/jinja/use-cases-and-best-practices/collecting-ctx-variables-dynamically-using-jinja.md)
+    * [Efficiently Extracting Nested Data](documentation/jinja/use-cases-and-best-practices/efficiently-extracting-nested-data.md)
 * [Templates / Messages](documentation/templates-messages/README.md)
   * [Intro to Templates](documentation/templates-messages/intro-to-templates.md)
 * [Integrations](documentation/integrations/README.md)
