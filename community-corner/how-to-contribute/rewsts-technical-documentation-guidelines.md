@@ -4,7 +4,11 @@
 
 Welcome to Rewst's Technical Documentation Guidelines. Here, we delve into the specifics and technical expectations required to create best-in-class documentation, all while maintaining the distinctive Rewst voice and tone.
 
+***
+
 ## Core Principles
+
+***
 
 ### Clarity and Precision
 
@@ -26,35 +30,45 @@ Welcome to Rewst's Technical Documentation Guidelines. Here, we delve into the s
 * **Visual Aids:** Incorporate diagrams, screenshots, and videos where appropriate to aid understanding.
 * **Interactive Elements:** Include step-by-step tutorials, interactive examples, or simulations to enhance engagement.
 
-### Documentation Structure
+***
 
-#### Introduction
+## Documentation Structure
+
+***
+
+### Introduction
 
 * **Objective:** Clearly state the purpose of the document. What will the user learn or accomplish by the end?
 * **Scope:** Define the scope of the content. What aspects of the product or feature will it cover?
 
-#### Body
+### Body
 
 * **Sequential Flow:** Information should flow logically, building upon each concept or step.
 * **Actionable Steps:** Present instructions or information in actionable steps, ensuring they are easy to follow and implement, including examples and visuals where relevant.
 
-#### Conclusion
+### Conclusion
 
 * **Recap:** Briefly summarize key points or steps.
 * **Further Resources:** Link to related documents or external resources for additional learning.
 
-### Dos and Don'ts
+***
 
-#### Do:
+## Dos and Don'ts
+
+***
+
+### Do:
 
 * Use a friendly, conversational tone, as if explaining concepts to a colleague over coffee.
 * Include real-life examples or use cases to demonstrate application.
 
-#### Don't:
+### Don't:
 
 * Overwhelm the reader with technical information without practical context.
 * Stray from the Rewst tone of being direct and succinct.
 
-### Conclusion
+***
+
+## Conclusion
 
 Our technical documentation is a reflection of our commitment to empowering users with knowledge. By adhering to these guidelines, we create resources that are not just informative but also engaging, accessible, and reflective of the Rewst brand.
