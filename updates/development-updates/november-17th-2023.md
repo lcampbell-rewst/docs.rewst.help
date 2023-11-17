@@ -11,7 +11,7 @@ This can be anything from new features, bug fixes, or QoL changes!
 * Added new OpenAI models to the Create Chat Completion action
 * Added a Create Phone action for Duo
 * Added a link to the form builder from the trigger drawer in the workflow builder when a form is selected as the trigger
-* Robo Rewsty workflow notes
+* RoboRewsty workflow notes
 
 </details>
 
