@@ -1,14 +1,12 @@
 # Foundations Certification
 
-## Congratulations!
+## Congratulations on Completing the Rewst Foundations Series!
 
-Congratulations on completing all the sessions in the Rewst Foundations course! Now it's time to test your knowledge and skills with our certification test. This test will assess your understanding of the course material and certify your proficiency in using Rewst for automation.
+Congratulations on your dedication and hard work in completing all sessions of the Rewst Foundations course. You're now poised to demonstrate your expertise and proficiency in Rewst automation through our certification.
 
-The Rewst Foundations Certification for the 100 Series is designed to test your understanding and practical skills in automating workflow processes, specifically those from the Rewst Foundations 101 \~ 106 Training. This certification is an essential step for individuals aiming to prove their expertise in using Rewst for automation.
+### Rewst Foundations Certification Overview
 
-### Exam Preparation
-
-To be best prepared to pass the certification exam, it is strongly recommended that you complete Rewst 101 \~ 106 training as well as the [resources outlined on our Resources page](../getting-started/take-advantage-of-the-rewst-resources.md).
+The Rewst Foundations Certification for the 100 Series is an essential step in validating your skills in automating workflow processes, encompassing the knowledge from Rewst Foundations 101 \~ 106 Training. The questions will test your understanding of workflow mechanics, Jinja templating, API integration, task transitions, and workflow design. Below, we'll expand on each category, providing detailed focus areas to enhance your preparation.
 
 ### Certification Format
 
@@ -16,6 +14,40 @@ The certification consists of a timed, online exam, which includes a combination
 
 ### Certification Test Steps:
 
-1. **Fill out the Certification Form**: Start by filling out the [Certification Form](https://app.rewst.io/form/77bbdcb2-5039-42a6-9442-06b1d1eb8bdf).
+1. **Open Certification Form**: Start by navigating to the [Certification Form](https://app.rewst.io/form/77bbdcb2-5039-42a6-9442-06b1d1eb8bdf).
 2. **Provide Exam Details**: Fill out the form with the necessary details to book your exam timing.
 3. **Take the Test**: Follow the link provided in your email to access the certification test.
+
+***
+
+## Exam Preparation Guide
+
+To be best prepared to pass the certification exam, it is strongly recommended that you complete Rewst 101 through 106 training courses as well as review the [resources outlined on our Resources page](../getting-started/take-advantage-of-the-rewst-resources.md).
+
+### Content Focus
+
+The Rewst Foundations Certification Exam consists of **30 questions**, out of which you will be **randomly given 25 to answer**. This approach ensures a comprehensive assessment while offering a varied selection of questions for each candidate.
+
+* **Workflow Mechanics:** Key topics include the creation and manipulation of context variables, initiation methods for workflows, understanding of workflow execution logic based on task dependencies, and the role and sourcing of input variables.
+* **Jinja Templating and Syntax:** Focus on mastering Jinja for template rendering, variable manipulation, employing control structures, handling lists, and effective commenting. Key areas include rendering templates using Jinja, outputting and filtering variables, writing loops, accessing list items, and commenting in Jinja templates.
+* **API Integration and Troubleshooting:** Understand integrating and handling APIs within workflows, addressing unsupported actions, and solving API-related problems. Key topics include making generic API calls in workflows and troubleshooting steps for API issues.
+* **Task Transitions and Workflow Execution:** Learn the dynamics of task transitions, setting up custom conditions, and resolving execution-related issues. Focus on Transition Criteria Sensitivity and defining custom conditions for transitions.
+* **Workflow Design and Process Automation:** Emphasize crafting effective workflows, utilizing dynamic form fields, choosing appropriate triggers, recognizing automation limits, and the importance of team feedback.
+
+{% hint style="info" %}
+#### Important Note on Exam Functionality
+
+Please be aware that occasionally due to a caching issue within the exam workflow, you might encounter duplicate questions or see more than the intended 25 questions. This issue may also result in duplicate results or require manual selection of categories at times. We are actively working to resolve this, but in the meantime, we appreciate your understanding and patience. Rest assured, this will not impact your overall exam performance or results.
+{% endhint %}
+
+### Preparation Tips
+
+* **Review Training Material:** Revisit the Rewst 101 \~ 106 training modules, focusing on practical applications.
+* **Resource Utilization:** Make full use of the materials and resources on our Resources page.
+* **Community Engagement:** Engage with the Cluck U channel in our Discord community for peer discussions and insights.
+
+## Best of luck with your Rewst Foundations Certification Exam!
+
+Your journey through the Rewst Foundations course has equipped you with the knowledge and skills needed for the certification exam. Stay focused, practice regularly, and methodically approach each topic for assured success.
+
+We believe in your abilities and look forward to your success!
