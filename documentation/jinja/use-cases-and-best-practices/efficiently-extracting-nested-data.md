@@ -1,45 +1,33 @@
 ---
-description: >-
-  Streamlining Data Retrieval with jsonpath_query and List Comprehension in
-  Jinja2
+description: Streamlining Data Retrieval with Jinja Filters vs. List Comprehension
 ---
 
 # Efficiently Extracting Nested Data
 
 ## Introduction
 
-This page explores and compares two methods of extracting specific data from JSON structures in Rewst: `jsonpath_query` and `list comprehension`. While both approaches achieve similar outcomes, understanding their differences and effectiveness can enhance your data handling in Rewst.
+Explore how to use `jsonpath_query`, list comprehension, and the `map` filter in Rewst for extracting data from JSON structures. This guide highlights when and why to use each method, with a focus on scenarios best suited for `jsonpath_query` and `map`.
 
 ***
 
 ## Example Scenario
 
-Imagine you have a JSON structure with a list of events, each containing various details, and you need to extract the names of these events.
+Extract event names from a JSON list containing detailed event information.
 
-#### Example JSON Structure:
+#### JSON Structure:
 
 ```json
 {
   "events": [
-    {
-      "details": {
-        "name": "Event One",
-        "location": "City A"
-      }
-    },
-    {
-      "details": {
-        "name": "Event Two",
-        "location": "City B"
-      }
-    }
+    {"details": {"name": "Event One", "location": "City A"}},
+    {"details": {"name": "Event Two", "location": "City B"}}
   ]
 }
 ```
 
 ***
 
-### Method 1: Using `List Comprehension`
+### Method 1: Using List Comprehension
 
 List comprehension is a straightforward Pythonic way to create lists by iterating over sequences.
 
@@ -78,19 +66,33 @@ This expression directly navigates to and extracts the `name` field from each ev
 
 ***
 
+### Method 3: Using `map` with an Attribute
+
+**Example:**
+
+```django
+{{ CTX.events | map(attribute='details.name') }}
+```
+
+**Explanation**:
+
+This example demonstrates using the `map` filter in Jinja to extract a specific attribute from each element in a sequence.
+
+* **Applying the `map` Filter**: The `map` filter is applied to the `CTX.events` variable. This Jinja2 filter iterates over each element in the given sequence.
+* **Specifying the Attribute to Extract**: The part `attribute='details.name'` tells the `map` filter to extract the `name` attribute from the `details` object within each element of `CTX.events`.
+
+***
+
 ### Comparison and Effectiveness
 
-While `list comprehension` is a familiar method for those comfortable with Python, the `jsonpath_query` filter offers several advantages:
-
-* **Simplicity**: `jsonpath_query` reduces the need for explicit looping and conditionals, making the template more readable and concise.
-* **Performance**: In large and deeply nested JSON structures, `jsonpath_query` can be more efficient, as it is designed specifically for navigating JSON data.
-* **Maintainability**: `jsonpath_query` expressions are easier to maintain and modify, especially in complex data extraction scenarios.
+* **List Comprehension**: Offers control and flexibility, best for simpler structures or specific manipulations.
+* **Filters (`jsonpath_query`, `map`)**: Streamline the process with specialized functionality. Choose `jsonpath_query` for deep JSON navigation and `map` for straightforward, uniform transformations.
 
 ***
 
 ### Expected Output
 
-Both methods will output a list of event names:
+All methods output a list of event names:
 
 ```json
 ["Event One", "Event Two"]
@@ -98,8 +100,12 @@ Both methods will output a list of event names:
 
 ***
 
-## Conclusion
+### Conclusion
 
-While both `list comprehension` and `jsonpath_query` are valid in Rewst for data extraction with Jinja, `jsonpath_query` stands out for its simplicity, performance, and maintainability in handling JSON data. Understanding these methods empowers you to choose the most effective approach for your specific needs in Rewst.
+Select the method that best suits your task's complexity and your familiarity with programming concepts. Filters like `jsonpath_query` and `map` simplify the extraction process, making them efficient choices for various scenarios in Rewst. For more insights and community discussions, visit the [Rewst Discord](https://discord.gg/rewst) `#jinja` channel.
 
-For additional resources and advanced techniques, including more about `jsonpath_query` don't forget to check out[103-jinja-essentials-for-workflow-automation.md](../../../cluck-university/rewst-foundations-10x/103-jinja-essentials-for-workflow-automation.md "mention") as well as the `#jinja` channel in the [Rewst Discord community](https://discord.gg/rewst).
+***
+
+{% hint style="info" %}
+**Don't forget to check out** [103-jinja-essentials-for-workflow-automation.md](../../../cluck-university/rewst-foundations-10x/103-jinja-essentials-for-workflow-automation.md "mention")&#x20;
+{% endhint %}
