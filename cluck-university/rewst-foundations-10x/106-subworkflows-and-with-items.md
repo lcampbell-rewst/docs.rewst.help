@@ -1,18 +1,16 @@
 # 106 - Subworkflows and With Items
 
-{% embed url="https://youtu.be/r2LMDkzp3ac" %}
-
-{% hint style="success" %}
-Sign up for our **LIVE** training sessions below!
-{% endhint %}
-
-<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 106</strong></mark></td><td align="center">Subworkflows and With Items</td><td><a href="https://calendly.com/cluck-u/rewst-106">https://calendly.com/cluck-u/rewst-106</a></td><td><a href="https://calendly.com/cluck-u/rewst-106">https://calendly.com/cluck-u/rewst-106</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>
-
 ## Introduction
 
 Hello and welcome! In Rewst 106, we'll complete our workflow and explore how to use sub-workflows and With items in Rewst. Sub-workflows enable us to utilize workflows within other workflows, creating a parent-child relationship. With items is a feature in Rewst that allows actions or workflows to run on all items in a list simultaneously. We'll demonstrate how to leverage these functionalities to manage group memberships efficiently. Let's dive in and get started!
 
 When you've completed this training, [don't forget to get credit](106-subworkflows-and-with-items.md#get-credit)!
+
+***
+
+## Watch the video or follow along with the steps below
+
+{% embed url="https://youtu.be/r2LMDkzp3ac" %}
 
 ## Creating a Parent Workflow in Rewst
 
@@ -190,3 +188,11 @@ For more information about With Items and Sub-Workflows, check out our documenta
 * [With Items](../../documentation/workflows/configuring-your-workflow-tasks/advanced-workflow-operations.md#with-items)
 * [Sub-workflows](../../documentation/workflows/different-types-of-workflows.md#subworkflow)
 {% endhint %}
+
+## Need more guidance?&#x20;
+
+{% hint style="success" %}
+Sign up for our **LIVE** training sessions below!
+{% endhint %}
+
+<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 106</strong></mark></td><td align="center">Subworkflows and With Items</td><td><a href="https://calendly.com/cluck-u/rewst-106">https://calendly.com/cluck-u/rewst-106</a></td><td><a href="https://calendly.com/cluck-u/rewst-106">https://calendly.com/cluck-u/rewst-106</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>

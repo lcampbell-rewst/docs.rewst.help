@@ -14,14 +14,6 @@ layout:
 
 # 102 - Building a Basic Workflow
 
-{% embed url="https://youtu.be/MuOTYGS56l4" %}
-
-{% hint style="success" %}
-Sign up for our **LIVE** training sessions below!
-{% endhint %}
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 102</strong></mark></td><td align="center">Building A Basic Workflow</td><td><a href="https://calendly.com/cluck-u/rewst-102">https://calendly.com/cluck-u/rewst-102</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>
-
 ## Introduction
 
 Hello and welcome! In this tutorial, we'll guide you through the process of creating automated workflows using Rewst. Our focus will be on creating a form, building an MVP workflow, and connecting the two with a trigger. Follow these steps to build the Add or Remove Users from AD workflow!&#x20;
@@ -30,13 +22,17 @@ When you've completed this training, [don't forget to get credit](102-building-a
 
 ***
 
-## Creating a Form
+## Watch the video or follow along with the steps below
+
+{% embed url="https://youtu.be/MuOTYGS56l4" %}
+
+## Part 1: Build a Form to Add or Remove Users in AD
 
 We'll start by creating a form to collect the necessary information to pass to the workflow. First, we'll go to the Forms section in Rewst. Next, we'll design the form with fields, and configure the fields to dynamically show us a list of users and groups. And finally, we'll define which variables can be accessed from the workflow for each field. Follow these steps:
 
 <details>
 
-<summary>Step 1: Build a Form to Add or Remove Users in AD</summary>
+<summary>Steps: Building a Form</summary>
 
 **Add a Form**
 
@@ -91,13 +87,13 @@ We'll start by creating a form to collect the necessary information to pass to t
 
 ***
 
-## Creating a Workflow
+## Part 2: Build a Workflow to Add or Remove Users in AD
 
 Next, let's design a workflow that responds to the form submissions. We'll start by going to the Workflow section in Rewst and adding a new workflow. Then, we'll add the actions, including MS Graph actions, to the workflow. Finally, we'll implement transitions based on whether a user is added or removed from a group.
 
 <details>
 
-<summary>Step 2: Build a Workflow to Add or Remove Users in AD</summary>
+<summary>Steps: Creating a Workflow</summary>
 
 **Create a New Workflow**
 
@@ -156,13 +152,13 @@ Next, let's design a workflow that responds to the form submissions. We'll start
 
 ***
 
-## Triggering the Workflow with the Form
+## Part 3: Triggering the Workflow with the Form
 
 Next, we'll add a Form trigger to the workflow to ensure that the information that comes through the form can kick off the workflow process.&#x20;
 
 <details>
 
-<summary>Step 3: Triggering the Workflow with the Form</summary>
+<summary>Steps: Triggering the Workflow with the Form</summary>
 
 **Add a Form Trigger**
 
@@ -179,13 +175,13 @@ Next, we'll add a Form trigger to the workflow to ensure that the information th
 
 ***
 
-## Finishing the Workflow
+## Part 4: Configuring the Add and Remove Graph Actions
 
 We jumped ahead to show how to trigger a workflow with a form. We now are going back to set the parameters needed for the actions to add or remove a user from a group.
 
 <details>
 
-<summary>Step 4: Configuring the Add and Remove Graph Actions</summary>
+<summary>Steps: Finishing the Workflow</summary>
 
 **Add a Second Transition**
 
@@ -257,13 +253,13 @@ We jumped ahead to show how to trigger a workflow with a form. We now are going 
 
 </details>
 
-## Testing the Workflow
+## Part 5: Check the Results
 
 Finally, let's test out the workflow by filling out the form and checking the workflow results!
 
 <details>
 
-<summary>Step 5: Check the Results</summary>
+<summary>Steps: Testing the Workflow</summary>
 
 <mark style="color:red;">⚠️ This will only work with live data If you are using Microsoft Graph, make sure you keep in mind that this will work with live data so you can add or remove users appropriately. It's best to have pretend data to work with.</mark>
 
@@ -303,6 +299,8 @@ Congratulations! You have successfully created a form, designed a workflow, and 
 To get credit for completing this session offline, please [submit this form](https://app.rewst.io/form/38c7d9ca-1606-4a61-872e-884466850287).
 {% endhint %}
 
+***
+
 ## Additional Resources
 
 {% hint style="info" %}
@@ -312,3 +310,11 @@ For more information on using Forms, Workflows, and Triggers, check out our docu
 * [Using Forms](../../documentation/forms/)
 * [Introduction to Triggers](../../documentation/triggers/intro-to-triggers.md)
 {% endhint %}
+
+## Need more guidance?&#x20;
+
+{% hint style="success" %}
+Sign up for our **LIVE** training sessions below!
+{% endhint %}
+
+<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 102</strong></mark></td><td align="center">Building A Basic Workflow</td><td><a href="https://calendly.com/cluck-u/rewst-102">https://calendly.com/cluck-u/rewst-102</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>

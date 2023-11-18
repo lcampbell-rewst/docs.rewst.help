@@ -1,26 +1,20 @@
 # 104 - Options Generators & Generic API Requests
 
-{% embed url="https://youtu.be/pkKRidcAHWA" %}
-
-{% hint style="success" %}
-Sign up for our **LIVE** training sessions below!
-{% endhint %}
-
-<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 104</strong></mark></td><td align="center">Options Generators &#x26; Generic API Requests</td><td><a href="https://calendly.com/cluck-u/rewst-104">https://calendly.com/cluck-u/rewst-104</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>
-
 ## Introduction
-
-Hello and welcome! In this guide, we will explore Option Generators and Generic API requests within the Rewst platform. Thank you for joining us on this learning journey.
 
 In Rewst 104, we will delve into the intricacies of option generators and generic API requests. Specifically, we will learn how option generators enhance forms, building upon the knowledge acquired in our Rewst 102 course. Additionally, we will explore generic API requests by integrating Microsoft Graph API, demonstrating its functionality within the Rewst platform. We will also implement list comprehension techniques, building upon the concepts introduced in Rewst 103.
 
 When you've completed this training, [don't forget to get credit](104-options-generators-and-generic-api-requests.md#get-credit)!
 
+***
+
+## Watch the video or follow along with the steps below
+
+{% embed url="https://youtu.be/pkKRidcAHWA" %}
+
 {% hint style="danger" %}
 These steps assume you have completed the full steps from Rewst 102 You can find the instructions to make this form on the [<mark style="color:blue;">Rewst 102 Page</mark>](102-building-a-basic-workflow.md)<mark style="color:blue;">.</mark>
 {% endhint %}
-
-***
 
 ## Understanding Option Generators
 
@@ -328,3 +322,11 @@ For more information on using Options Generators, Generic API Requests, List Com
 * [Diff Lists](../../documentation/workflows/actions-in-rewst/transform-actions/diff-lists.md)
 * [Microsoft Graph API](https://learn.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0)
 {% endhint %}
+
+## Need more guidance?&#x20;
+
+{% hint style="success" %}
+Sign up for our **LIVE** training sessions below!
+{% endhint %}
+
+<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 104</strong></mark></td><td align="center">Options Generators &#x26; Generic API Requests</td><td><a href="https://calendly.com/cluck-u/rewst-104">https://calendly.com/cluck-u/rewst-104</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>

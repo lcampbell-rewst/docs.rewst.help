@@ -1,39 +1,16 @@
 # 103 - Jinja Essentials for Workflow Automation
 
-{% embed url="https://youtu.be/jU8OZ0exa_0" %}
-
-{% hint style="success" %}
-Sign up for our **LIVE** training sessions below!
-{% endhint %}
-
-<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 103</strong></mark></td><td align="center">Jinja Essentials for Workflow Automation</td><td><a href="https://calendly.com/cluck-u/rewst-103">https://calendly.com/cluck-u/rewst-103</a></td><td><a href="https://calendly.com/cluck-u/rewst-103">https://calendly.com/cluck-u/rewst-103</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/rewst-ama">https://calendly.com/cluck-u/rewst-ama</a></td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>
-
 ## Introduction
 
 Welcome to Rewst 103! In this course, we'll be talking about Jinja, the templating language that has become an essential tool for web developers and data engineers alike. In this article, we will explore the basics of Jinja, its syntax, and various use cases, with a focus on understanding the different use cases.
 
 When you've completed this training, [don't forget to get credit](103-jinja-essentials-for-workflow-automation.md#get-credit)!
 
-<details>
-
-<summary>Step 1: Open the Live Editor with Sample Context Data and Jinja</summary>
-
-**Open the Live Editor**
-
-1. **Open** the [Live Editor with some sample data.](https://app.rewst.io/jinja-live-editor?id=4ee84407-d0c1-4a9a-94b3-84c643b8dd3f)
-
-Here are some important keyboard shortcuts you can use throughout
-
-1. Remove comments
-   * Windows: _ctrl + /_
-   * OSX: _cmd + /_
-2. Render code
-   * Windows: _ctrl + enter_
-   * OSX: _cmd + enter_
-
-</details>
-
 ***
+
+## Watch the video and follow along with the documentation and walkthrough steps below
+
+{% embed url="https://youtu.be/jU8OZ0exa_0" %}
 
 ## **What is Jinja?**
 
@@ -157,6 +134,29 @@ This example demonstrates filtering active users from `CTX.my_user_list`.
 * **Creation and Modification:** Use context (`CTX`) variables in Data Aliases on your Task's Transitions to capture specific elements from the JSON data produced by your workflow's tasks. This is pivotal for storing and manipulating workflow data.
 * **Scope and Accessibility:** These types of variables can be created and modified by workflow tasks but are not global; their scope is confined to the workflow.
 
+***
+
+## Let's Practice
+
+<details>
+
+<summary>Step 1: Open the Live Editor with Sample Context Data and Jinja</summary>
+
+**Open the Live Editor**
+
+1. **Open** the [Live Editor with some sample data.](https://app.rewst.io/jinja-live-editor?id=4ee84407-d0c1-4a9a-94b3-84c643b8dd3f)
+
+Here are some important keyboard shortcuts you can use throughout
+
+1. Remove comments
+   * Windows: _ctrl + /_
+   * OSX: _cmd + /_
+2. Render code
+   * Windows: _ctrl + enter_
+   * OSX: _cmd + enter_
+
+</details>
+
 <details>
 
 <summary>Step 2: Start by viewing the basic CTX Attributes</summary>
@@ -188,7 +188,7 @@ This example demonstrates filtering active users from `CTX.my_user_list`.
 
 ***
 
-## Practice Loops, Lists, and List Comprehension
+## Loops, Lists, and List Comprehension
 
 <details>
 
@@ -542,3 +542,12 @@ For more information on using Jinja, check out our documentation:
 
 * [Introduction to Jinja](../../documentation/jinja/intro-to-jinja.md)
 {% endhint %}
+
+## Need more guidance?&#x20;
+
+{% hint style="success" %}
+Sign up for our **LIVE** training sessions below!
+{% endhint %}
+
+<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 103</strong></mark></td><td align="center">Jinja Essentials for Workflow Automation</td><td><a href="https://calendly.com/cluck-u/rewst-103">https://calendly.com/cluck-u/rewst-103</a></td><td><a href="https://calendly.com/cluck-u/rewst-103">https://calendly.com/cluck-u/rewst-103</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/rewst-ama">https://calendly.com/cluck-u/rewst-ama</a></td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>
+

@@ -1,24 +1,20 @@
 # 105 - Improve Group Management to Support Exchange
 
-{% embed url="https://youtu.be/yG6h679xnfk" %}
-
-{% hint style="success" %}
-Sign up for our **LIVE** training sessions below!
-{% endhint %}
-
-<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 105</strong></mark></td><td align="center">Improve Group Management to Support Exchange</td><td><a href="https://calendly.com/cluck-u/rewst-105">https://calendly.com/cluck-u/rewst-105</a></td><td><a href="https://calendly.com/cluck-u/rewst-105">https://calendly.com/cluck-u/rewst-105</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>
-
 ## Introduction
 
 Hello and welcome to Rewst 105, where we focus on managing groups using Microsoft's APIs. We'll learn how to differentiate between different types of groups, whether they are managed using Microsoft Graph or Microsoft Exchange Online. Additionally, we'll explore how to implement feedback messages and handle errors effectively within our workflow.
 
 When you've completed this training, [don't forget to get credit](105-improve-group-management-to-support-exchange.md#get-credit)!
 
+***
+
+## Watch the video or follow along with the steps below
+
+{% embed url="https://youtu.be/yG6h679xnfk" %}
+
 {% hint style="danger" %}
 These steps below require [Rewst 102](102-building-a-basic-workflow.md) and [Rewst 104](104-options-generators-and-generic-api-requests.md) to be completed prior to starting the exercise.
 {% endhint %}
-
-***
 
 ## Managing Groups: Microsoft Graph vs. Exchange Online
 
@@ -293,3 +289,11 @@ For more information on Microsoft Exchange PowerShell Commandlets, check out the
 
 * [Exchange PowerShell Commandlets](https://learn.microsoft.com/en-us/powershell/module/exchange/?view=exchange-ps)
 {% endhint %}
+
+## Need more guidance?&#x20;
+
+{% hint style="success" %}
+Sign up for our **LIVE** training sessions below!
+{% endhint %}
+
+<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 105</strong></mark></td><td align="center">Improve Group Management to Support Exchange</td><td><a href="https://calendly.com/cluck-u/rewst-105">https://calendly.com/cluck-u/rewst-105</a></td><td><a href="https://calendly.com/cluck-u/rewst-105">https://calendly.com/cluck-u/rewst-105</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>
