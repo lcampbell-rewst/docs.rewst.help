@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-Organization Variables streamline configuration across an organization and its branches, serving as keystones for setting values within Rewst's hierarchical structure.
+Organization Variables serve as the foundational elements for setting and managing configurations across different organizational levels within Rewst. They ensure consistency and control within workflows and facilitate efficient management across the organizational hierarchy.
 
 ***
 
