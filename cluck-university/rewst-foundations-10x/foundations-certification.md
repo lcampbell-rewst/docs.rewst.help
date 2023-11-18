@@ -22,11 +22,9 @@ The certification consists of a timed, online exam, which includes a combination
 
 ## Exam Preparation Guide
 
-To be best prepared to pass the certification exam, it is strongly recommended that you complete Rewst 101 through 106 training courses as well as review the [resources outlined on our Resources page](../getting-started/take-advantage-of-the-rewst-resources.md).
-
-### Content Focus
-
 The Rewst Foundations Certification Exam consists of **30 questions**, out of which you will be **randomly given 25 to answer**. This approach ensures a comprehensive assessment while offering a varied selection of questions for each candidate.
+
+### Question Topics:
 
 * **Workflow Mechanics:** Key topics include the creation and manipulation of context variables, initiation methods for workflows, understanding of workflow execution logic based on task dependencies, and the role and sourcing of input variables.
 * **Jinja Templating and Syntax:** Focus on mastering Jinja for template rendering, variable manipulation, employing control structures, handling lists, and effective commenting. Key areas include rendering templates using Jinja, outputting and filtering variables, writing loops, accessing list items, and commenting in Jinja templates.
@@ -43,7 +41,7 @@ Please be aware that occasionally due to a caching issue within the exam workflo
 ### Preparation Tips
 
 * **Review Training Material:** Revisit the Rewst 101 \~ 106 training modules, focusing on practical applications.
-* **Resource Utilization:** Make full use of the materials and resources on our Resources page.
+* **Resource Utilization:** Make full use of the [resources outlined on our Resources page](../getting-started/take-advantage-of-the-rewst-resources.md).
 * **Community Engagement:** Engage with the Cluck U channel in our Discord community for peer discussions and insights.
 
 ## Best of luck with your Rewst Foundations Certification Exam!
