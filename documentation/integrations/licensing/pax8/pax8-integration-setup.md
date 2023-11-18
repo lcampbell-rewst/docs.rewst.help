@@ -22,13 +22,13 @@ description: This document outlines the requirements and setup for the Pax8 inte
 
 3. **Click** on Users in the left-hand menu.
 
-<figure><img src="../../../../.gitbook/assets/pax8-user-settings (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/pax-users.png" alt=""><figcaption></figcaption></figure>
 
-4. **Go to** the _Developer Apps_ section.
+4. **Go to** the _Integrations_ section.
 
-<figure><img src="../../../../.gitbook/assets/pax8-developer-apps.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/pax-integrations.png" alt=""><figcaption></figcaption></figure>
 
-5. **Click** _Create_ at the top right of the _Developer Apps_ section.
+5. **Click** _Create_ at the top right of the _Integrations_ section.
    * It may ask you to accept the Pax8 API terms of service. Accept these to move forward.
 6. **Type** _Rewst_ for the Developer App Name.
 
@@ -40,7 +40,9 @@ description: This document outlines the requirements and setup for the Pax8 inte
 
 8. **Copy** the Client ID and Client Secret.
 
-### Configuring the Integration in Rewst
+***
+
+## Configuring the Integration in Rewst
 
 1. **Log in** to the [Rewst platform](https://app.rewst.io/).
 2. **Click** on the _Integrations_ menu on the left sidebar.
