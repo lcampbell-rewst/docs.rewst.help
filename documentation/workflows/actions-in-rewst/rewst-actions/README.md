@@ -8,7 +8,7 @@ description: Interact and Innovate with Rewst Actions
 
 Rewst Actions provide you the tools to effectively manage and customize your environment. From setting up organizations and users to associating with multi-tenanted objects, these actions form the foundation of your interaction with the platform. This guide explores each of the available actions in detail, providing you a clear path to maximize the potential of your Rewst functionality.
 
-### [organization-actions.md](organization-actions.md "mention")
+{% content-ref url="organization-actions.md" %} organization-actions.md {% endcontent-ref %}
 
 The actions in this section include the ability to list all organizations, fetch information about a specific organization, update an existing organizations details, and create an organization or bulk or organizations. These actions provide necessary capabilities to ensure seamless functioning and interoperability of your organizations within Rewst.
 
