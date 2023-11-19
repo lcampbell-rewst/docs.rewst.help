@@ -35,6 +35,14 @@ This crate is designed to streamline the process of mapping and managing organiz
 1. **\[ROC] Rewst: Get All Integration Ids**
 2. **get\_org\_ids**
 
+
+
+[rewst-actions](../../documentation/workflows/actions-in-rewst/rewst-actions/ "mention")
+
+[#organization-actions](../../documentation/workflows/actions-in-rewst/rewst-actions/#organization-actions "mention")
+
+
+
 ### High-Level Data Flow
 
 * The parent workflow, `[ROC] Rewst: Get All Integration Ids`, begins by listing all organizations within Rewst, gathering their respective integrations.
@@ -57,7 +65,11 @@ This crate is designed to streamline the process of mapping and managing organiz
 
 ## Workflow Breakdown: **`Get All Integration Ids`**
 
-### **Action**: List Organizations
+### **Action**: List Organization&#x20;
+
+{% content-ref url="../../documentation/workflows/actions-in-rewst/" %}
+[actions-in-rewst](../../documentation/workflows/actions-in-rewst/)
+{% endcontent-ref %}
 
 * **Input Parameters**: None specified; lists all organizations in Rewst.
   * **Data Alias:** `all_org_ids` stores the list of returned results.
