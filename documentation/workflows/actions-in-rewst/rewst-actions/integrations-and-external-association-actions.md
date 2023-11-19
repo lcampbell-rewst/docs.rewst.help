@@ -1,14 +1,18 @@
 # Integrations & External Association Actions
 
-## **List Integrations For Organization**
+## Get External Reference
 
-**Description:** Retrieve a list of the integrations currently installed for an organization.
+**Description**: Facilitates the retrieval of details about these external references. You can use it to fetch all external references associated with a specific organization in Rewst or to find the organization associated with a specific external reference ID.
 
-**Parameters:**
+#### **Parameters**:
 
-* **Organization ID:** Identifier of the organization to fetch the integrations for. This ID is unique for each organization within Rewst.
+* **Org ID**: (Optional) The ID of the organization in Rewst. If provided, the action returns all external references linked to this organization.
+* **Identifier**: (Optional) A specific identifier type for the external resource.
+* **Reference ID**: (Optional) The unique identifier of the external resource. If provided, the action returns the organization in Rewst associated with this reference.
 
-**Output:** Outputs a list of integrations, each integration includes its ID, Name, Reference, Pack Configurations, applied triggers, and foreign object references.
+#### **Output**:
+
+* Returns detailed information about the external reference(s), such as the `org_id` in Rewst linked to it, the type of `identifier`, and the external `reference_id`. This information is helpful for cross-system data synchronization and management.
 
 {% hint style="info" %}
 Check out the documentation for the[view-rewst-integration-org-variables.md](../../../../prebuilt-automations/existing-crate-documentation/view-rewst-integration-org-variables.md "mention") crate, to see a practical example of how to leverage this action within your Rewst workflows.
@@ -30,19 +34,15 @@ Check out the documentation for the[view-rewst-integration-org-variables.md](../
 
 ***
 
-### Get External Reference
+## **List Integrations For Organization**
 
-**Description**: Facilitates the retrieval of details about these external references. You can use it to fetch all external references associated with a specific organization in Rewst or to find the organization associated with a specific external reference ID.
+**Description:** Retrieve a list of the integrations currently installed for an organization.
 
-#### **Parameters**:
+**Parameters:**
 
-* **Org ID**: (Optional) The ID of the organization in Rewst. If provided, the action returns all external references linked to this organization.
-* **Identifier**: (Optional) A specific identifier type for the external resource.
-* **Reference ID**: (Optional) The unique identifier of the external resource. If provided, the action returns the organization in Rewst associated with this reference.
+* **Organization ID:** Identifier of the organization to fetch the integrations for. This ID is unique for each organization within Rewst.
 
-#### **Output**:
-
-* Returns detailed information about the external reference(s), such as the `org_id` in Rewst linked to it, the type of `identifier`, and the external `reference_id`. This information is helpful for cross-system data synchronization and management.
+**Output:** Outputs a list of integrations, each integration includes its ID, Name, Reference, Pack Configurations, applied triggers, and foreign object references.
 
 {% hint style="info" %}
 Check out the documentation for the[view-rewst-integration-org-variables.md](../../../../prebuilt-automations/existing-crate-documentation/view-rewst-integration-org-variables.md "mention") crate, to see a practical example of how to leverage this action within your Rewst workflows.
