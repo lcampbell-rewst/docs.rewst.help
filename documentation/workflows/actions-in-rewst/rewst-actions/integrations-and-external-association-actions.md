@@ -25,12 +25,12 @@ Check out the documentation for the[view-rewst-integration-org-variables.md](../
 
 ## Get External Reference
 
-**Description**: Facilitates the retrieval of details about these external references. You can use it to fetch all external references associated with a specific organization in Rewst or to find the organization associated with a specific external reference ID.
+**Description**: Facilitates the retrieval of details about the above external integration references. You can use it to fetch all external integration references associated with a specific organization in Rewst or to find the organization associated with a specific external reference ID.
 
 #### **Parameters**:
 
 * **Org ID**: (Optional) The ID of the organization in Rewst. If provided, the action returns all external references linked to this organization.
-* **Identifier**: (Optional) A specific identifier type for the external resource.
+* **Identifier**: (Optional) A specific variable name for the external resource. (eg: `ms_tenant_id`)
 * **Reference ID**: (Optional) The unique identifier of the external resource. If provided, the action returns the organization in Rewst associated with this reference.
 
 #### **Output**:
