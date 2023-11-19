@@ -36,11 +36,7 @@ This crate is designed to streamline the process of mapping and managing organiz
 2. **get\_org\_ids**
 
 
-
-[rewst-actions](../../documentation/workflows/actions-in-rewst/rewst-actions/ "mention")
-
-[#organization-actions](../../documentation/workflows/actions-in-rewst/rewst-actions/#organization-actions "mention")
-
+[#organization-actions](../../documentation/workflows/actions-in-rewst/rewst-actions/organization-actions/#list-organizations "mention")
 
 
 ### High-Level Data Flow
