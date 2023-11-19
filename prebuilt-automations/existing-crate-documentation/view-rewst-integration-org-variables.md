@@ -35,9 +35,9 @@ This crate is designed to streamline the process of mapping and managing organiz
 1. **\[ROC] Rewst: Get All Integration Ids**
 2. **get\_org\_ids**
 
-
-[#list-organizations](../../documentation/workflows/actions-in-rewst/rewst-actions/organization-actions/#list-organizations "mention")
-
+{% content-ref url="../../documentation/workflows/actions-in-rewst/transform-actions/restructure-lists.md" %}
+[restructure-lists.md](../../documentation/workflows/actions-in-rewst/transform-actions/restructure-lists.md)
+{% endcontent-ref %}
 
 ### High-Level Data Flow
 
@@ -61,7 +61,7 @@ This crate is designed to streamline the process of mapping and managing organiz
 
 ## Workflow Breakdown: **`Get All Integration Ids`**
 
-### **Action**: List Organization&#x20;
+### **Action**: List Organization
 
 {% content-ref url="../../documentation/workflows/actions-in-rewst/" %}
 [actions-in-rewst](../../documentation/workflows/actions-in-rewst/)
