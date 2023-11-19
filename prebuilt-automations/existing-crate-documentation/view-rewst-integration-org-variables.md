@@ -35,10 +35,6 @@ This crate is designed to streamline the process of mapping and managing organiz
 1. **\[ROC] Rewst: Get All Integration Ids**
 2. **get\_org\_ids**
 
-{% content-ref url="../../documentation/workflows/actions-in-rewst/rewst-actions/organization_actions.md" %}
-[organization_actions.md](../../documentation/workflows/actions-in-rewst/rewst-actions/organization_actions.md)
-{% endcontent-ref %}
-
 ### High-Level Data Flow
 
 * The parent workflow, `[ROC] Rewst: Get All Integration Ids`, begins by listing all organizations within Rewst, gathering their respective integrations.
@@ -61,16 +57,12 @@ This crate is designed to streamline the process of mapping and managing organiz
 
 ## Workflow Breakdown: **`Get All Integration Ids`**
 
-### **Action**: List Organization
-
-{% content-ref url="../../documentation/workflows/actions-in-rewst/" %}
-[actions-in-rewst](../../documentation/workflows/actions-in-rewst/)
-{% endcontent-ref %}
+### **Action**: [List Organization](https://docs.rewst.help/documentation/workflows/actions-in-rewst/rewst-actions/organization-actions#list-organizations)
 
 * **Input Parameters**: None specified; lists all organizations in Rewst.
   * **Data Alias:** `all_org_ids` stores the list of returned results.
 
-### **Action**: List Integrations for Organization
+### **Action**: [List Integrations for Organization](https://docs.rewst.help/documentation/workflows/actions-in-rewst/rewst-actions/integrations-and-external-association-actions)
 
 * **Input Parameters**:
   * `org_id`: Uses `{{ ORG.ATTRIBUTES.id }}` to fetch integrations for the current organization.
@@ -96,7 +88,7 @@ This crate is designed to streamline the process of mapping and managing organiz
 * **Purpose**: Starts the subworkflow.
 * **Data Alias:** `org_variables`: Mapping dictionary for integration names to Rewst variable names.
 
-### **Action**: `get_foreign_object_reference`
+### **Rewst Action**: [**Get External Reference**](https://docs.rewst.help/documentation/workflows/actions-in-rewst/rewst-actions/integrations-and-external-association-actions)
 
 * **Input Parameters**:
   * `identifier`: `ms_tenant_id`
