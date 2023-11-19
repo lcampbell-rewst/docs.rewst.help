@@ -32,7 +32,7 @@ Success in automation doesn't require building complex processes from the start.
 
 To achieve your automation goals, tap into the resources at your disposal:
 
-1. **Rewst Actions**: [Rewst provides a host of actions](../../documentation/workflows/actions-in-rewst/rewst-actions.md) that serve as building blocks for your MSP automation. Leverage these to construct your workflows.
+1. **Rewst Actions**: [Rewst provides a host of actions](../../documentation/workflows/actions-in-rewst/rewst-actions/) that serve as building blocks for your MSP automation. Leverage these to construct your workflows.
 2. **Community Support**: Join the vibrant [Rewst community on Discord](https://discord.gg/Rewst), where customers share insights, solutions, and ideas. Participate in events like [Ask Me Anything (AMA)](https://calendly.com/cluck-u/roc-ama) sessions and [Open Mic Fridays](../../updates/roc-open-mics/) to learn from fellow users.
 3. **Educational Opportunities**: Explore [Cluck University](../rewst-foundations-10x/) courses tailored to enhance your skills for automation. These courses equip you with the knowledge needed to excel in your automation journey.
 

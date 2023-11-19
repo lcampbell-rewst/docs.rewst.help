@@ -35,12 +35,18 @@
 * [Workflows](documentation/workflows/README.md)
   * [Actions in Rewst](documentation/workflows/actions-in-rewst/README.md)
     * [Core Actions](documentation/workflows/actions-in-rewst/core-actions.md)
-    * [Rewst Actions](documentation/workflows/actions-in-rewst/rewst-actions.md)
+    * [Rewst Actions](documentation/workflows/actions-in-rewst/rewst-actions/README.md)
+      * [Organization Actions](documentation/workflows/actions-in-rewst/rewst-actions/organization-actions.md)
+      * [Organization Variable Actions](documentation/workflows/actions-in-rewst/rewst-actions/organization-variable-actions.md)
+      * [Users & Invitation Actions](documentation/workflows/actions-in-rewst/rewst-actions/users-and-invitation-actions.md)
+      * [Integrations & External Association Actions](documentation/workflows/actions-in-rewst/rewst-actions/integrations-and-external-association-actions.md)
+      * [Template Actions](documentation/workflows/actions-in-rewst/rewst-actions/template-actions.md)
+      * [Form & Trigger Actions](documentation/workflows/actions-in-rewst/rewst-actions/form-and-trigger-actions.md)
     * [Transform Actions](documentation/workflows/actions-in-rewst/transform-actions/README.md)
       * [Restructure Lists](documentation/workflows/actions-in-rewst/transform-actions/restructure-lists.md)
       * [Set Field Value](documentation/workflows/actions-in-rewst/transform-actions/set-field-value.md)
       * [Convert to Object](documentation/workflows/actions-in-rewst/transform-actions/convert-to-object.md)
-      * [Process With Items Results](documentation/workflows/actions-in-rewst/transform-actions/process-with-items-results.md)
+      * [Append With Items Results](documentation/workflows/actions-in-rewst/transform-actions/process-with-items-results.md)
       * [Merge Lists](documentation/workflows/actions-in-rewst/transform-actions/merge-lists.md)
       * [Diff Lists](documentation/workflows/actions-in-rewst/transform-actions/diff-lists.md)
   * [Configuring Your Workflow Tasks](documentation/workflows/configuring-your-workflow-tasks/README.md)
@@ -251,6 +257,7 @@
   * [Document M365 Shared Mailboxes Setup](prebuilt-automations/existing-crate-documentation/document-m365-shared-mailboxes-setup.md)
   * [Document M365 Environment Setup](prebuilt-automations/existing-crate-documentation/document-m365-environment-setup.md)
   * [CSP/CPV Permission Checker](prebuilt-automations/existing-crate-documentation/csp-cpv-permission-checker.md)
+  * [View Rewst Integration Org Variables](prebuilt-automations/existing-crate-documentation/view-rewst-integration-org-variables.md)
 
 ## 📢 Updates
 

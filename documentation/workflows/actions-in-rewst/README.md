@@ -12,7 +12,7 @@ Each Action serves a unique purpose and comes with a brief description to aid in
 
 * **Integrations**: When you set up an integration in Rewst, it comes with a predefined set of Actions. These Actions allow you to work with various parts of the integrated product as per its API. Check the [individual integration setup pages](../../integrations/) for more information on available Actions.
 * **Core**: These are the essential platform components like webhooks, email dispatching, and no-ops (no operations). For more information, visit the [Core Actions](core-actions.md) page.
-* **Rewst**: These Actions are for interacting with your Rewst environment. You can perform tasks such as creating organizations and users, associating with multi-tenanted objects, and setting organization variables. For more details on these Actions, visit the [Rewst Actions](rewst-actions.md) page.
+* **Rewst**: These Actions are for interacting with your Rewst environment. You can perform tasks such as creating organizations and users, associating with multi-tenanted objects, and setting organization variables. For more details on these Actions, visit the [Rewst Actions](rewst-actions/) page.
 * **Transform**: These Actions help you shape and modify your data for efficient workflow execution, replacing the need for complex Jinja statements. In-depth details for how and when to use various transforms are provided on the [Transform Actions](transform-actions/) page.
 * **Workflow**: These Actions allow you to call other workflows within your environment. They enable you to feed information from the parent workflow as inputs and return the results upon completion.
 
