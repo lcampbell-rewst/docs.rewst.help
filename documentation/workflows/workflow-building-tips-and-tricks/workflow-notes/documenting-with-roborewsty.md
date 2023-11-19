@@ -23,7 +23,7 @@ RoboRewsty streamlines the documentation process by simplifying user interaction
 
 When using RoboRewsty, you can expect each documentation output to adhere to a specific format. This format ensures clarity and consistency in your documentation:
 
-* **Task Overview**: Each documentation response begins with a clear and concise task overview. This provides users with a high-level understanding of the task's purpose and context.
-* **Task's Expected Result**: Next, you'll find information about the expected outcome or result of the task. This section helps users understand the desired outcome when executing the task.
-* **Any Crucial Factors**: If there are any special considerations or crucial factors to be aware of for the task, they will be included. This ensures that users have all the necessary information to perform the task successfully.
+* **Task Overview**: Each documentation response begins with a clear and concise overview. This provides users with a high-level understanding of the sections purpose and context.
+* **Task's Expected Result**: Next, you'll find information about the expected outcome or result of the task or group of tasks. This section helps users understand the desired outcome when the workflow is executing the associated tasks.
+* **Any Crucial Factors**: If there are any special considerations or crucial factors to be aware of for the task(s), they will be included. This ensures that users have all the necessary information to understand the path of the workflow successfully.
 
