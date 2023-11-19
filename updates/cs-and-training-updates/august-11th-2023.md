@@ -31,7 +31,7 @@ Explore what new changes the Training team has made in the last week.
   * Missing Integration Actions
   * Missing Pages
 * Add[ Tips and Tricks](../../documentation/workflows/workflow-building-tips-and-tricks/) Page for Building Workflows
-  * [Workflow Notes](../../documentation/workflows/workflow-building-tips-and-tricks/workflow-notes.md)
+  * [Workflow Notes](../../documentation/workflows/workflow-building-tips-and-tricks/workflow-notes/)
   * [Multiselect](../../documentation/workflows/workflow-building-tips-and-tricks/multiselect.md)
   * [Favorite Actions](../../documentation/workflows/workflow-building-tips-and-tricks/favorite-actions.md)
 
