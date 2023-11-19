@@ -1,6 +1,6 @@
 # Integrations & External Association Actions
 
-**List Integrations For Organization**
+## **List Integrations For Organization**
 
 **Description:** Retrieve a list of the integrations currently installed for an organization.
 
@@ -12,7 +12,7 @@
 
 ***
 
-**Associate External Object**
+## **Associate External Object**
 
 **Description:** Lets you associate a resource in some other system, i.e., a PSA ticket, with a particular workflow execution.
 
@@ -26,7 +26,7 @@
 
 ***
 
-**Get External Reference**
+## **Get External Reference**
 
 **Description:** Retrieves details about an external reference in the system.
 

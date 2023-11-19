@@ -1,6 +1,6 @@
 # Template Actions
 
-**Create Template**
+## **Create Template**
 
 **Description:** Lets you create a new template.
 
@@ -16,7 +16,7 @@
 
 ***
 
-**Get Template**
+## **Get Template**
 
 **Description:** Lets you retrieve the details of an existing template.
 
@@ -28,7 +28,7 @@
 
 ***
 
-**List Templates**
+## **List Templates**
 
 **Description:** Lets you retrieve a list of all existing templates.
 
@@ -38,7 +38,7 @@
 
 ***
 
-**Update Template**
+## **Update Template**
 
 **Description:** Lets you update the details of an existing template.
 
@@ -54,7 +54,7 @@
 
 ***
 
-**Delete Template**
+## **Delete Template**
 
 **Description:** Lets you delete an existing template.
 

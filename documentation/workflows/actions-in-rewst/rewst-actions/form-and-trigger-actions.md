@@ -1,6 +1,6 @@
 # Form & Trigger Actions
 
-**List Forms**
+## **List Forms**
 
 **Description:** Retrieves a list of all forms in the system.
 
@@ -10,7 +10,7 @@
 
 ***
 
-**Get Form**
+## **Get Form**
 
 **Description:** Retrieves details about a specific form in the system.
 
@@ -23,7 +23,7 @@
 
 ***
 
-**List Triggers**
+## **List Triggers**
 
 **Description:** Retrieves a list of all triggers in the system.
 
@@ -33,7 +33,7 @@
 
 ***
 
-**Get Trigger**
+## **Get Trigger**
 
 **Description:** Retrieves details about a specific trigger in the system.
 
