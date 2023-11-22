@@ -2,7 +2,7 @@
 
 ## Shortcuts & General Help
 
-* Access the Jinja Editor on any fields where you see the code editor icon <img src="../../.gitbook/assets/jinja-burger.png" alt="" data-size="line">(fondly called the Jinja Burger amongst other Kewp Members)&#x20;
+* Access the Jinja Editor on any fields where you see the code editor icon <img src="../../.gitbook/assets/jinja-burger.png" alt="" data-size="line">(fondly called the Jinja Burger amongst other Kewp Members)
 * Press `F1` within the editor to see menu and shortcut options
 * Press `Ctrl + Space` to get the initial root options
 * Add `|` to the end of your variables to access [Jinja filters](list-of-jinja-filters.md). e.g.: `{{ ORG.ATTRIBUTES.id|default('test default string') }}`
@@ -20,7 +20,7 @@ Context Variables are specific to the currently executing workflow. They include
 {% endtab %}
 
 {% tab title="ORG" %}
-Variables prefixed with `ORG` are related to data and functions specific to the Organization the workflow is running for. Below are the options you can call with the ORG prefix&#x20;
+Variables prefixed with `ORG` are related to data and functions specific to the Organization the workflow is running for. Below are the options you can call with the ORG prefix
 
 * **ORG.HAS\_TAG**
   * **Description**: Checks if the Organization associated with the running workflow has a specific tag.
@@ -41,7 +41,7 @@ Variables prefixed with `ORG` are related to data and functions specific to the 
 {% endtab %}
 
 {% tab title="TASKS" %}
-`TASKS` variables reference previous tasks by name.&#x20;
+`TASKS` variables reference previous tasks by name.
 
 * **Usage Example**: `{{ TASKS.list_tickets.result.result[0].id }}`
   * **Note**: Replace spaces in task names with underscores (`_`).
@@ -66,65 +66,6 @@ Variables prefixed with `ORG` are related to data and functions specific to the 
 
 * Variable and function names are case-sensitive.
 * Autocompletion is generally available after typing the dot (`.`) following a variable root like `CTX`, `ORG`, etc.
-
-***
-
-## Rewst's List Comprehension Functionality in Jinja
-
-List comprehensions in Rewst's implementation of Jinja provide a compact way to transform lists, filter them, or generate new lists.&#x20;
-
-{% hint style="info" %}
-To read more in depth about this topic, please review the [Jinja List ](use-cases-and-best-practices/jinja-lists.md)[Comprehension](use-cases-and-best-practices/jinja-lists.md) page.
-{% endhint %}
-
-***
-
-### **Examples**
-
-This section breaks down two practical examples of how to leverage list comprehensions in your Jinja templates: returning a new list of only a specified attribute, and filtering a list by the existence of a specific value within the specified attribute. Check out the details below.
-
-{% tabs %}
-{% tab title="Return a List of Strings from a Particular Attribute" %}
-This example demonstrates how to extract the `first_name` attribute from each `user` object within the `CTX.users` list. The list comprehension iterates over `CTX.users` and retrieves the `first_name` for each entry.
-
-**Jinja:**
-
-```django
-{{
-  [
-    user.first_name 
-    for user in CTX.users
-  ]
-}}
-```
-
-**Explanation:**
-
-1. `for user in CTX.users`: Iterates over each `user` object in the list `CTX.users`.
-2. `user. First_name`: Retrieves the `first_name` attribute of the current `user` object.
-{% endtab %}
-
-{% tab title="Filter a List by the Value of a Specific Attribute" %}
-In this example, the list comprehension filters `CTX.users` to return only the objects where the `first_name` attribute is "Luke."
-
-**Jinja:**
-
-```django
-{{
-  [
-    user 
-    for user in CTX.users
-    if user.first_name == "Luke"
-  ]
-}}
-```
-
-**Explanation:**
-
-1. `for user in CTX.users`: Iterates over each `user` object in the list `CTX.users`.
-2. `if user.first_name == "Luke"`: Applies a filter to only include users with the first name "Luke."
-{% endtab %}
-{% endtabs %}
 
 ***
 
@@ -231,3 +172,114 @@ The `format_datetime` filter leverages format codes to specify the output string
 For more context and assistance with date-time formats, consult [this Python strftime cheatsheet](https://strftime.org/).
 
 ***
+
+## Rewst's Custom Jinja2 Extensions
+
+In your Rewst environment, you have access to several custom Jinja2 extensions that enhance the functionality of Jinja templates in Rewst. These extensions provide additional features and capabilities for your templating needs.
+
+### Date and Time Handling
+
+* **Purpose:** This extension allows you to work with date and time values directly within your Jinja2 templates.
+* **Usage:**
+  * `{% now %}`: Inserts the current date and time.
+  * `{% now, "%Y-%m-%d" %}`: Inserts the current date and time formatted according to the specified format (e.g., `2023-11-22`).
+  * `{% now, False %}`: Inserts the current timestamp.
+*   **Example:**
+
+    ```jinja2
+    Current Time: {% raw %}
+    {% now %}
+    Formatted Time: {% now, "%Y-%m-%d" %}
+    Timestamp: {% now, False %}
+    {% endraw %}
+    ```
+
+### &#x20;Try and Catch Blocks
+
+* **Purpose:** The Try Catch extension introduces try and catch blocks in your Jinja2 templates, allowing you to handle exceptions gracefully.
+* **Usage:**
+  * `{% try %}`: Defines a try block where you can place code that may raise exceptions.
+  * `{% catch %}`: Optionally defines a catch block to handle exceptions. If no catch block is specified, an empty string is returned in case of an exception.
+*   **Example:**
+
+    ```jinja2
+    {% raw %}
+    {% try %}
+        The thing: {{ i_do_not_exist_and_throw_an_error }}
+    {% catch %}
+        Error: {{ exception }}
+    {% endtry %}
+    {% endraw %}
+    ```
+
+### UUID Generation
+
+* **Purpose:** The UUID extension simplifies the generation of Universally Unique Identifiers (`UUIDs`) within your Jinja2 templates.
+* **Usage:**
+  * `{% uuid4 %}`: Inserts a randomly generated UUID version 4.
+*   **Example:**
+
+    ```jinja2
+    Generated UUID: {% raw %}
+    {% uuid4 %}
+    {% endraw %}
+    ```
+
+### List Comprehension
+
+List comprehensions in Rewst's implementation of Jinja provide a compact way to transform lists, filter them, or generate new lists.
+
+{% hint style="info" %}
+To read more in depth about this topic, please review the [Jinja List ](use-cases-and-best-practices/jinja-lists.md)[Comprehension](use-cases-and-best-practices/jinja-lists.md) page.
+{% endhint %}
+
+***
+
+#### **Examples**
+
+This section breaks down two practical examples of how to leverage list comprehensions in your Jinja templates: returning a new list of only a specified attribute, and filtering a list by the existence of a specific value within the specified attribute. Check out the details below.
+
+{% tabs %}
+{% tab title="Return a List of Strings from a Particular Attribute" %}
+This example demonstrates how to extract the `first_name` attribute from each `user` object within the `CTX.users` list. The list comprehension iterates over `CTX.users` and retrieves the `first_name` for each entry.
+
+**Jinja:**
+
+```django
+{{
+  [
+    user.first_name 
+    for user in CTX.users
+  ]
+}}
+```
+
+**Explanation:**
+
+1. `for user in CTX.users`: Iterates over each `user` object in the list `CTX.users`.
+2. `user. First_name`: Retrieves the `first_name` attribute of the current `user` object.
+{% endtab %}
+
+{% tab title="Filter a List by the Value of a Specific Attribute" %}
+In this example, the list comprehension filters `CTX.users` to return only the objects where the `first_name` attribute is "Luke."
+
+**Jinja:**
+
+```django
+{{
+  [
+    user 
+    for user in CTX.users
+    if user.first_name == "Luke"
+  ]
+}}
+```
+
+**Explanation:**
+
+1. `for user in CTX.users`: Iterates over each `user` object in the list `CTX.users`.
+2. `if user.first_name == "Luke"`: Applies a filter to only include users with the first name "Luke."
+{% endtab %}
+{% endtabs %}
+
+These custom Jinja2 extensions enhance your templating capabilities, enabling you to work with dates, handle exceptions, generate UUIDs and perform List Comprehension seamlessly within your Rewst environment. Whether you need to format dates, gracefully handle exceptions, or generate unique identifiers, or perform comprehensions, these extensions provide the tools you need to streamline your templating tasks.
