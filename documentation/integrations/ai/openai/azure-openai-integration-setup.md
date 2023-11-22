@@ -48,7 +48,8 @@ Note that activation of the service can take up to 48 hours, based on Microsoft'
 
 13. **Return** to the OpenAI Resource in the Azure Portal.
 14. **Navigate** to _Keys and Endpoint_.
-15. **Copy** a Key to your clipboard.
+15. **Copy** a Key to your clipboard
+16. **Collect** the region & endpoint. You'll need it to craft for your Base URL in Rewst.
 
 <figure><img src="../../../../.gitbook/assets/azure-ai-09.png" alt=""><figcaption></figcaption></figure>
 
@@ -65,8 +66,21 @@ If you already have an OpenAI integration configured, you can add an instance fo
 <figure><img src="../../../../.gitbook/assets/azure-ai-10.png" alt=""><figcaption></figcaption></figure>
 
 2. **Name** the configuration (example: "Azure" ).
-3. **Copy** the Base URL from the "_Keys and Endpoint_" page in Azure and the Deployment Name, as shown below.
+3. **Confirm** your Base URL reflects the accurate resource and region collected from Azure. Incorrect URLs will prevent Rewst from accessing the OpenAI service.
 4. **Add** the _Azure API Version_.
+
+{% hint style="warning" %}
+## Crafting the Base URL
+
+The Base URL is what directs Rewst to communicate with the correct Azure OpenAI instance. Here’s how to construct it:
+
+**Anatomy of the Base URL**: The standard structure of the Base URL provided by Azure typically looks like this: `https://<resource-name>.api.<region>.openai.azure.com`
+
+**Customize Your Base URL**: Depending on your service instance or specific requirements, you may need to alter the base URL. For example:
+
+* If you have a custom deployment named `custom-model`, you might append it to the URL like so: `https://<resource-name>.api.<region>.openai.azure.com/deployments/custom-model`
+* Ensure you replace `<resource-name>` and `<region>` with the actual resource name and region of your Azure OpenAI service.
+{% endhint %}
 
 <figure><img src="../../../../.gitbook/assets/azure-ai-11.png" alt=""><figcaption></figcaption></figure>
 
