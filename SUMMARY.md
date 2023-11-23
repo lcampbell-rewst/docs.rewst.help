@@ -172,6 +172,7 @@
       * [Graph Subscriptions](documentation/integrations/cloud/microsoft-graph/microsoft-graph-subscriptions.md)
     * [Common Issues with Microsoft Integrations](documentation/integrations/cloud/common-issues-with-microsoft-csp/README.md)
       * [Navigating The Microsoft-Led Transition to GDAP](documentation/integrations/cloud/common-issues-with-microsoft-csp/navigating-the-microsoft-led-transition-to-gdap.md)
+      * [Embracing The Microsoft Minute](documentation/integrations/cloud/common-issues-with-microsoft-csp/embracing-the-microsoft-minute.md)
   * [CRM](documentation/integrations/crm/README.md)
     * [Hubspot](documentation/integrations/crm/hubspot/README.md)
       * [HubSpot Integration Setup](documentation/integrations/crm/hubspot/hubspot-integration-setup.md)
