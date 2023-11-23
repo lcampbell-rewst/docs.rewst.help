@@ -80,6 +80,8 @@
 * [Triggers](documentation/triggers/README.md)
   * [Intro to Triggers](documentation/triggers/intro-to-triggers.md)
   * [Trigger Criteria](documentation/triggers/trigger-criteria.md)
+  * [Use Cases & Examples](documentation/triggers/use-cases-and-examples/README.md)
+    * [Customizing PSA Ticket Triggers](documentation/triggers/use-cases-and-examples/customizing-psa-ticket-triggers.md)
 * [Jinja](documentation/jinja/README.md)
   * [Intro to Jinja](documentation/jinja/intro-to-jinja.md)
   * [Data Types](documentation/jinja/data-types.md)

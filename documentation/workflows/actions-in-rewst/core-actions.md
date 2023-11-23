@@ -14,7 +14,234 @@ Here are some details of the available core actions:
 
 <details>
 
-<summary>Parse HTML Action <mark style="color:blue;">(NEW!)</mark></summary>
+<summary><strong>No-Operation (Noop)</strong></summary>
+
+* **Description:** Does nothing. Often used for logic or as a placeholder in the workflow.
+* **Parameters:** None.
+* **Output:** None
+
+</details>
+
+<details>
+
+<summary>Ad-hoc HTTP Requests</summary>
+
+Performs an HTTP request to a specified URL, supporting a variety of methods, body content types, and configurations. This is useful for interacting with APIs or other web services within a workflow, or for performing any other tasks that involve HTTP requests.
+
+**Parameters**
+
+* **URL**: The URL to which the HTTP request is sent.
+* **Request Method**: The HTTP method to use for the request. You can select from the dropdown options (`HEAD`, `GET`, `POST`, `PUT`, `DELETE`, `OPTIONS`, `TRACE`, `PATCH`, `PURGE`).
+* **Auth Username**: The username for basic HTTP Authentication, if needed.
+* **Auth Password**: The password for basic HTTP Authentication, if needed. _(This parameter is secret to ensure security.)_
+* **Allow Redirects**: Specifies whether the HTTP request will follow redirects. By default, it's set to `true`.
+* **Body**: The body to send with the request. This parameter is not required if `JSON` or `Files` is provided.
+* **JSON**: The JSON body to send with the request. This field is not required if `Body` or `Files` is provided.
+* **Files**: Here, you can add files to be uploaded with the HTTP request using `multipart/form-data`. Each file requires the following information:
+  * **Field Name**: The name of the form field (not the filename).
+  * **File Name**: The name of the file.
+  * **File Contents**: Contents of the file to upload.
+  * **File URL**: A publicly-accessible URL to the file contents to upload.
+  * **Content Type**: The MIME type of the file to include in the multipart field.
+* **Cookies**: Input the cookies to send with the request. You can add more than one cookie by clicking on the `+` icon.
+* **Headers**: Specify the custom HTTP headers to be sent with the request. You can add more than one header by clicking on the `+` icon.
+* **Params**: Enter the query parameters to be used with the HTTP request. You can add more than one parameter by clicking on the `+` icon.
+* **Timeout**: Enter the timeout for the HTTP request in seconds. The default value is `5`.
+* **Require Success Status**: If you check this box, the task will fail if a non-2xx HTTP status code is returned. This is useful for identifying and handling HTTP errors during the task's execution.
+
+**Output**: The action returns the content returned by the server in response to the HTTP request. This could be a success message, a failure message, a data object, or any other content that the server sends as a response.
+
+_<mark style="color:blue;">**Note**</mark><mark style="color:blue;">:</mark>_ _If you need more advanced security around calling particular endpoints, you can also use a_ [_Custom Integration_](../../integrations/other/custom-integrations/) _in addition to this HTTP Request action. This allows for enhanced security and customization when interacting with your external APIs._
+
+</details>
+
+<details>
+
+<summary>Create &#x26; Await Webhook Actions</summary>
+
+***
+
+**Create Webhook:** Allows for the creation of a one-off webhook for which can then be used by the `Await Webhook` action.
+
+* **Parameters**: This action requires the methods allowed to access the webhook, the response status, response headers, response body, and an expiration timeout.
+* **Output**: The output of this action is the webhook ID and the full URL of the webhook.
+
+***
+
+**Await Webhook:** Waits for a request to a created one-off webhook. Once a request is received, the workflow continues.
+
+* **Parameters**: This action only requires the ID of the webhook created from the `Create Webhook` action.
+* **Output**: The output includes the HTTP method, query params, headers, JSON or form/multipart data in the body of the request, and the timestamp when the request was received.
+
+</details>
+
+<details>
+
+<summary>Email, SMS &#x26; Confirmation Actions</summary>
+
+**Send Mail:** Allows for the sending of an email.
+
+* **Parameters:** This action requires a sender prefix (`sender`), with multiple options available, the recipient's email address (`to`), the subject of the email (`subject`), the title of the email (`title`), and the message body (`message`). It also has the option to render markdown as HTML (`render_markdown`).
+* **Output:** The task doesn't yield an output upon success. It will fail if there are any errors during the process of sending the email.
+
+***
+
+**Send SMS:** Allows you to send a text message to a specified phone number.
+
+* **Parameters**: This action requires the recipient's phone number (`phone_number`) and the text message (`message`) to be sent.
+* **Output**: The output of this action will depend on the implementation details, usually it might return a confirmation message or an error message.
+
+***
+
+**Confirmation Email:** Sends a confirmation email with reply options to a specified recipient.
+
+* **Parameters:** This action requires the recipient's email address (`to`), the subject of the email (`subject`), the title of the email (`title`), and the message body (`message`). It also offers user interaction buttons (`buttons`) and has the option to render markdown as HTML (`render_markdown`).
+* **Output:** The successful dispatch of the confirmation email signifies the successful execution of this action.
+
+***
+
+**Create Pending Task:** Creates a pending task that awaits user input. It is part of a flow where a user's response is necessary for further steps.
+
+* **Parameters:** This action requires `message` that will be shown to the user, and user interaction `buttons` that provide potential responses to the task.
+* **Output:** The task returns the status `AWAITING_USER_INPUT` upon successful execution, indicating that it is waiting for the user's response to the prompted message.
+
+</details>
+
+<details>
+
+<summary>Delay Workflow Actions</summary>
+
+**Delay Workflow For Period:** Pauses the workflow for a specified duration.
+
+* **Parameters:** The number of days, hours, minutes or seconds to delay the workflow.
+* **Output:** No specific output, the workflow resumes after the specified delay.
+
+***
+
+**Delay Workflow Until Date/Time:** Pauses the workflow until a specified date and time.
+
+* **Parameters:** The date and time when the workflow should resume.
+* **Output:** No specific output, the workflow resumes at the specified date and time.
+
+</details>
+
+<details>
+
+<summary>Mock Task</summary>
+
+**Overview**
+
+The `Mock` action is designed to provide you with the capability to simulate the result of a not yet implemented action. This is particularly useful during workflow development and testing phases as it allows you to simulate responses from services that are not yet available or are impractical to call during the development process.
+
+**When to Use**
+
+The `Mock` action comes in handy in scenarios such as:
+
+* When designing new workflows where certain steps are not fully implemented.
+* In testing stages, to simulate conditions without making actual calls to the services.
+* To create controlled conditions in your workflow for troubleshooting issues.
+
+**Input Parameters**
+
+The `Mock` action accepts the following parameter:
+
+* **Mock Result:** This parameter should contain the key / value pairs that you want to be returned by this action. You can press the `+` to add as many objects as necessary.
+
+**Example Usage**
+
+You are developing a workflow that is expected to interact with a service which is not yet implemented. You know the expected format of the response, and you want to build and test your workflow logic based on that response.
+
+Let's say you know the response will look something like this:
+
+```json
+{
+  "name": "Rewsty",
+  "valid": true,
+  "message": "Successfully completed the task."
+}
+```
+
+You can simulate this response using the `Mock` action as follows:
+
+```yaml
+mock_result:
+  name: {{ CTX.name }}
+  valid: true
+  message: Successfully completed the task.
+```
+
+While using the `Mock` action, the values can be literal Jinja expressions like `{{ CTX.name }}`above. The action will return this exact input structure wrapped inside a `data` object, and the Jinja expressions will not be evaluated but returned as is. The result of the action on the workflow results page would look like:
+
+**Result:**
+
+```json
+{
+  "data": {
+    "name": "{{ CTX.name }}",
+    "valid": true,
+    "message": "Successfully completed the task."
+  }
+}
+```
+
+This can be useful for catching issues early in the development phase such as incorrect Jinja expression usage, understanding how the workflow will handle dynamic data, or verifying that your workflow is properly constructed to handle the expected responses from services. It's a way to ensure that your workflow behaves as expected when it starts receiving actual dynamic data.
+
+</details>
+
+<details>
+
+<summary>Debugging with Templates</summary>
+
+**Overview**
+
+The `Debug` action is a utility feature in our workflow system, specifically designed to assist with debugging and logging purposes. This action can help in understanding the flow of data within your workflows, troubleshoot problems, and generally help you understand what's happening at a certain point in the workflow execution. It logs the input parameters it receives and returns the same as its output.
+
+**When to Use**
+
+You might want to use the `Debug` action in the following scenarios:
+
+* When developing workflows, to see how data is flowing between tasks and actions.
+* If you're troubleshooting an issue, to inspect the data that's being passed around.
+* When you want to log specific information for auditing or reporting purposes.
+
+**Input Parameters**
+
+The `Debug` action accepts the following parameters:
+
+* **text:** This is a general-purpose text field that will be logged and returned by the `Debug` action.
+* **template:** This field takes a reference to a template in your environment that will be rendered and used as part of the action's input. The system will replace any variables in the template with its actual value at the time of template rendering.
+
+**Example Usage**
+
+Let's say we have a template named "Greeting Message" with content `# Hey there {{ CTX.name }}`.
+
+We can use this template in the `Debug` action with the following parameters:
+
+```yaml
+text: Testing Debug Action
+template: Greeting Message
+```
+
+Assuming `CTX.name` is set to `Rewsty`, the rendered template would be `# Hey there Rewsty`.
+
+The `Debug` action will log these parameters and also return them as its output. The results of the action on the workflow results page would look like this:
+
+**Result:**
+
+```json
+{
+  "template": "# Hey there Rewsty",
+  "text": "Testing Debug Action"
+}
+```
+
+This tells us that `CTX.name` was set to`Rewsty`, and the text provided with this action was `Testing Debug Action`. Using this, you can better understand the state of your workflow at the point this `Debug` action was executed.
+
+</details>
+
+<details>
+
+<summary>Parse HTML Action</summary>
 
 #### Overview
 
@@ -131,7 +358,7 @@ _**Tip**: Parse HTML's functionalities include finding elements by tags (`<h1>`)
 
 <details>
 
-<summary>Parse XML Action <mark style="color:blue;">(NEW!)</mark></summary>
+<summary>Parse XML Action</summary>
 
 #### Overview
 
@@ -238,223 +465,6 @@ For additional understanding on XPath expressions, refer to this [w3schools arti
 
 <details>
 
-<summary>Debugging with Templates</summary>
-
-**Overview**
-
-The `Debug` action is a utility feature in our workflow system, specifically designed to assist with debugging and logging purposes. This action can help in understanding the flow of data within your workflows, troubleshoot problems, and generally help you understand what's happening at a certain point in the workflow execution. It logs the input parameters it receives and returns the same as its output.
-
-**When to Use**
-
-You might want to use the `Debug` action in the following scenarios:
-
-* When developing workflows, to see how data is flowing between tasks and actions.
-* If you're troubleshooting an issue, to inspect the data that's being passed around.
-* When you want to log specific information for auditing or reporting purposes.
-
-**Input Parameters**
-
-The `Debug` action accepts the following parameters:
-
-* **text:** This is a general-purpose text field that will be logged and returned by the `Debug` action.
-* **template:** This field takes a reference to a template in your environment that will be rendered and used as part of the action's input. The system will replace any variables in the template with its actual value at the time of template rendering.
-
-**Example Usage**
-
-Let's say we have a template named "Greeting Message" with content `# Hey there {{ CTX.name }}`.
-
-We can use this template in the `Debug` action with the following parameters:
-
-```yaml
-text: Testing Debug Action
-template: Greeting Message
-```
-
-Assuming `CTX.name` is set to `Rewsty`, the rendered template would be `# Hey there Rewsty`.
-
-The `Debug` action will log these parameters and also return them as its output. The results of the action on the workflow results page would look like this:
-
-**Result:**
-
-```json
-{
-  "template": "# Hey there Rewsty",
-  "text": "Testing Debug Action"
-}
-```
-
-This tells us that `CTX.name` was set to`Rewsty`, and the text provided with this action was `Testing Debug Action`. Using this, you can better understand the state of your workflow at the point this `Debug` action was executed.
-
-</details>
-
-<details>
-
-<summary>Mock Task</summary>
-
-**Overview**
-
-The `Mock` action is designed to provide you with the capability to simulate the result of a not yet implemented action. This is particularly useful during workflow development and testing phases as it allows you to simulate responses from services that are not yet available or are impractical to call during the development process.
-
-**When to Use**
-
-The `Mock` action comes in handy in scenarios such as:
-
-* When designing new workflows where certain steps are not fully implemented.
-* In testing stages, to simulate conditions without making actual calls to the services.
-* To create controlled conditions in your workflow for troubleshooting issues.
-
-**Input Parameters**
-
-The `Mock` action accepts the following parameter:
-
-* **Mock Result:** This parameter should contain the key / value pairs that you want to be returned by this action. You can press the `+` to add as many objects as necessary.
-
-**Example Usage**
-
-You are developing a workflow that is expected to interact with a service which is not yet implemented. You know the expected format of the response, and you want to build and test your workflow logic based on that response.
-
-Let's say you know the response will look something like this:
-
-```json
-{
-  "name": "Rewsty",
-  "valid": true,
-  "message": "Successfully completed the task."
-}
-```
-
-You can simulate this response using the `Mock` action as follows:
-
-```yaml
-mock_result:
-  name: {{ CTX.name }}
-  valid: true
-  message: Successfully completed the task.
-```
-
-While using the `Mock` action, the values can be literal Jinja expressions like `{{ CTX.name }}`above. The action will return this exact input structure wrapped inside a `data` object, and the Jinja expressions will not be evaluated but returned as is. The result of the action on the workflow results page would look like:
-
-**Result:**
-
-```json
-{
-  "data": {
-    "name": "{{ CTX.name }}",
-    "valid": true,
-    "message": "Successfully completed the task."
-  }
-}
-```
-
-This can be useful for catching issues early in the development phase such as incorrect Jinja expression usage, understanding how the workflow will handle dynamic data, or verifying that your workflow is properly constructed to handle the expected responses from services. It's a way to ensure that your workflow behaves as expected when it starts receiving actual dynamic data.
-
-</details>
-
-<details>
-
-<summary>Ad-hoc HTTP Requests</summary>
-
-Performs an HTTP request to a specified URL, supporting a variety of methods, body content types, and configurations. This is useful for interacting with APIs or other web services within a workflow, or for performing any other tasks that involve HTTP requests.
-
-**Parameters**
-
-* **URL**: The URL to which the HTTP request is sent.
-* **Request Method**: The HTTP method to use for the request. You can select from the dropdown options (`HEAD`, `GET`, `POST`, `PUT`, `DELETE`, `OPTIONS`, `TRACE`, `PATCH`, `PURGE`).
-* **Auth Username**: The username for basic HTTP Authentication, if needed.
-* **Auth Password**: The password for basic HTTP Authentication, if needed. _(This parameter is secret to ensure security.)_
-* **Allow Redirects**: Specifies whether the HTTP request will follow redirects. By default, it's set to `true`.
-* **Body**: The body to send with the request. This parameter is not required if `JSON` or `Files` is provided.
-* **JSON**: The JSON body to send with the request. This field is not required if `Body` or `Files` is provided.
-* **Files**: Here, you can add files to be uploaded with the HTTP request using `multipart/form-data`. Each file requires the following information:
-  * **Field Name**: The name of the form field (not the filename).
-  * **File Name**: The name of the file.
-  * **File Contents**: Contents of the file to upload.
-  * **File URL**: A publicly-accessible URL to the file contents to upload.
-  * **Content Type**: The MIME type of the file to include in the multipart field.
-* **Cookies**: Input the cookies to send with the request. You can add more than one cookie by clicking on the `+` icon.
-* **Headers**: Specify the custom HTTP headers to be sent with the request. You can add more than one header by clicking on the `+` icon.
-* **Params**: Enter the query parameters to be used with the HTTP request. You can add more than one parameter by clicking on the `+` icon.
-* **Timeout**: Enter the timeout for the HTTP request in seconds. The default value is `5`.
-* **Require Success Status**: If you check this box, the task will fail if a non-2xx HTTP status code is returned. This is useful for identifying and handling HTTP errors during the task's execution.
-
-**Output**: The action returns the content returned by the server in response to the HTTP request. This could be a success message, a failure message, a data object, or any other content that the server sends as a response.
-
-_<mark style="color:blue;">**Note**</mark><mark style="color:blue;">:</mark>_ _If you need more advanced security around calling particular endpoints, you can also use a_ [_Custom Integration_](../../integrations/other/custom-integrations/) _in addition to this HTTP Request action. This allows for enhanced security and customization when interacting with your external APIs._
-
-</details>
-
-<details>
-
-<summary>Create &#x26; Await Webhook Actions</summary>
-
-***
-
-**Create Webhook:** Allows for the creation of a one-off webhook for which can then be used by the `Await Webhook` action.
-
-* **Parameters**: This action requires the methods allowed to access the webhook, the response status, response headers, response body, and an expiration timeout.
-* **Output**: The output of this action is the webhook ID and the full URL of the webhook.
-
-***
-
-**Await Webhook:** Waits for a request to a created one-off webhook. Once a request is received, the workflow continues.
-
-* **Parameters**: This action only requires the ID of the webhook created from the `Create Webhook` action.
-* **Output**: The output includes the HTTP method, query params, headers, JSON or form/multipart data in the body of the request, and the timestamp when the request was received.
-
-</details>
-
-<details>
-
-<summary>Email, SMS &#x26; Confirmation Actions</summary>
-
-**Send Mail:** Allows for the sending of an email.
-
-* **Parameters:** This action requires a sender prefix (`sender`), with multiple options available, the recipient's email address (`to`), the subject of the email (`subject`), the title of the email (`title`), and the message body (`message`). It also has the option to render markdown as HTML (`render_markdown`).
-* **Output:** The task doesn't yield an output upon success. It will fail if there are any errors during the process of sending the email.
-
-***
-
-**Send SMS:** Allows you to send a text message to a specified phone number.
-
-* **Parameters**: This action requires the recipient's phone number (`phone_number`) and the text message (`message`) to be sent.
-* **Output**: The output of this action will depend on the implementation details, usually it might return a confirmation message or an error message.
-
-***
-
-**Confirmation Email:** Sends a confirmation email with reply options to a specified recipient.
-
-* **Parameters:** This action requires the recipient's email address (`to`), the subject of the email (`subject`), the title of the email (`title`), and the message body (`message`). It also offers user interaction buttons (`buttons`) and has the option to render markdown as HTML (`render_markdown`).
-* **Output:** The successful dispatch of the confirmation email signifies the successful execution of this action.
-
-***
-
-**Create Pending Task:** Creates a pending task that awaits user input. It is part of a flow where a user's response is necessary for further steps.
-
-* **Parameters:** This action requires `message` that will be shown to the user, and user interaction `buttons` that provide potential responses to the task.
-* **Output:** The task returns the status `AWAITING_USER_INPUT` upon successful execution, indicating that it is waiting for the user's response to the prompted message.
-
-</details>
-
-<details>
-
-<summary>Delay Workflow Actions</summary>
-
-**Delay Workflow For Period:** Pauses the workflow for a specified duration.
-
-* **Parameters:** The number of days, hours, minutes or seconds to delay the workflow.
-* **Output:** No specific output, the workflow resumes after the specified delay.
-
-***
-
-**Delay Workflow Until Date/Time:** Pauses the workflow until a specified date and time.
-
-* **Parameters:** The date and time when the workflow should resume.
-* **Output:** No specific output, the workflow resumes at the specified date and time.
-
-</details>
-
-<details>
-
 <summary>Other Core Actions</summary>
 
 ***
@@ -472,14 +482,6 @@ _<mark style="color:blue;">**Note**</mark><mark style="color:blue;">:</mark>_ _I
 * **Description:** An upgrade from the deprecated password generation action. It crafts a cryptographically secure password with user-specified values. (_This is recommended for use over the deprecated Password Action due to its upgraded structure.)_
 * **Parameters:** length, minimum counts of numeric and capital letter characters, and optional punctuation characters.
 * **Output:** the generated password is presented under the "password" key in the output.
-
-***
-
-**No-Operation (Noop)**
-
-* **Description:** Does nothing. Often used for logic or as a placeholder in the workflow.
-* **Parameters:** None.
-* **Output:** None
 
 ***
 
