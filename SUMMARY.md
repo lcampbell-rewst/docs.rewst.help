@@ -249,6 +249,8 @@
       * [SonicWall Integration Setup](documentation/integrations/security/sonicwall-nsm/sonicwall-integration-setup.md)
   * [VoIP & SMS](documentation/integrations/voip-and-sms/README.md)
     * [Twilio](documentation/integrations/voip-and-sms/twilio.md)
+* [App Platform (Coming Soon!)](documentation/app-platform-coming-soon/README.md)
+  * [Alpha Interest Submissions](documentation/app-platform-coming-soon/alpha-interest-submissions.md)
 
 ## 📦 Prebuilt Automations
 
@@ -324,7 +326,8 @@
   * [November 4th 2022](updates/development-updates/november-4th-2022.md)
   * [October 28th 2022](updates/development-updates/october-28th-2022.md)
 * [Training Updates](updates/cs-and-training-updates/README.md)
-  * [November 17th, 2023](updates/cs-and-training-updates/november-17th-2023.md)
+  * [November 24th, 2023](updates/cs-and-training-updates/november-17th-2023.md)
+  * [November 17th, 2023](updates/cs-and-training-updates/november-17th-2023-1.md)
   * [November 3rd, 2023](updates/cs-and-training-updates/november-3rd-2023.md)
   * [October 27, 2023](updates/cs-and-training-updates/october-27-2023.md)
   * [October 20th, 2023](updates/cs-and-training-updates/october-20th-2023.md)
