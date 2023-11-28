@@ -129,6 +129,7 @@
       * [Pod Configuration](documentation/integrations/psa/connectwise-manage/pod-configuration.md)
       * [Least Privilege Access Requirements for ConnectWise Manage Integration](documentation/integrations/psa/connectwise-manage/least-privilege-access-requirements-for-connectwise-manage-integration.md)
       * [Querying and Filtering in ConnectWise PSA Actions](documentation/integrations/psa/connectwise-manage/querying-and-filtering-in-connectwise-psa-actions.md)
+      * [Troubleshoot API Issues from ConnectWise Logs](documentation/integrations/psa/connectwise-manage/troubleshoot-api-issues-from-connectwise-logs.md)
   * [RMM](documentation/integrations/rmm/README.md)
     * [RPort](documentation/integrations/rmm/rport/README.md)
       * [RPort Integration Setup](documentation/integrations/rmm/rport/rport-integration-setup.md)
