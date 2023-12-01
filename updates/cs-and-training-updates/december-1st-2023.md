@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **Game Tip for the Week:**&#x20;
+* **Game Tip for the Week:** If you have a Switch, don't miss Super Mario RPG! This game is CLASSIC and plays beautifully for original fans and newcomers alike. &#x20;
 * **SHOUT OUT** to all those who've successfully taken our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord. (Hint to others: It's more than just pretty flare. There's exclusive access it grants, too!)
 * Express your interest in the App Platform Alpha Program by filling out the form on the [alpha-interest-submissions.md](../../documentation/app-platform-coming-soon/alpha-interest-submissions.md "mention") page.
 * **Reminder about Cluck U Holiday Hours:**
