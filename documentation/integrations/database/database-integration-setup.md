@@ -10,6 +10,8 @@
 
 This document outlines the requirements and setup for the **Bring Your Own Database (BYOD)** integration setup.
 
+{% hint style="success" %} If you are integrating with an existing database, you can skip to the section titled "Integration". {% endhint %}
+
 ### Requirements (pre-Rewst)
 
 To ensure the BYOD integration works seamlessly, there are a few requirements that need configuring on your end:
