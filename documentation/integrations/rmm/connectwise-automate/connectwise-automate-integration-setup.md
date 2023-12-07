@@ -4,7 +4,7 @@ description: >-
   integration.
 ---
 
-# Connectwise Automate Integration Setup
+# ConnectWise Automate Integration Setup
 
 {% hint style="success" %}
 **This Integration supports multiple instances**
@@ -59,3 +59,7 @@ Follow the below steps to configure a new integration:
 5. **Enter** the password you created for your user.
 6. **Enter** the username for your user.
 7. **Click** Save Configuration.
+
+{% hint style="info" %}
+Note that if you have IP address restrictions in place you will need to add the Rewst IP to your allowed list. The IP for Rewst is 3.139.170.31.
+{% endhint %}
