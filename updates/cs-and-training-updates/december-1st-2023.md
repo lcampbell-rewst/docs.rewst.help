@@ -1,4 +1,4 @@
-# December 1st, 2023
+# December 8th, 2023
 
 Explore what new changes the Training team has made in the last week.
 
@@ -6,9 +6,11 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **Game Tip for the Week:** If you have a Switch, don't miss Super Mario RPG! This game is CLASSIC and plays beautifully for original fans and newcomers alike. &#x20;
-* **SHOUT OUT** to all those who've successfully taken our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord. (Hint to others: It's more than just pretty flare. There's exclusive access it grants, too!)
-* Express your interest in the App Platform Alpha Program by filling out the form on the [alpha-interest-submissions.md](../../documentation/app-platform-coming-soon/alpha-interest-submissions.md "mention") page.
+* **Game Tip for the Week:** Brandon TBD
+* **SHOUT OUT** to all those who've successfully taken our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord.&#x20;
+  * Stay tuned for more information on how to get your official certification issued for sharing on LinkedIn, and hanging on your wall with pride.
+* Reminder to express your interest in the App Platform Alpha Program by filling out the form on the [alpha-interest-submissions.md](../../documentation/app-platform-coming-soon/alpha-interest-submissions.md "mention") page.&#x20;
+  * More info to come on the early January launch details next week.
 * **Reminder about Cluck U Holiday Hours:**
   * Live Training will be unavailable from December 18th \~ January 8th for the Holidays and New Year
   * Feel free to sit by the fire, with a glass of bourbon, or tasty eggnog, and watch our videos while you wait with anticipation for our return
@@ -20,9 +22,20 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>Cluck U and Documentation Updates</strong></summary>
 
-**New Pages**
+**What's New in Cluck University?**
 
-* Added an Open Mic Page for [nov-24th-2023-thanksgiving-edition-canadian-takeover.md](../roc-open-mics/nov-24th-2023-thanksgiving-edition-canadian-takeover.md "mention")&#x20;
-* Added a page for [troubleshoot-api-issues-from-connectwise-logs.md](../../documentation/integrations/psa/connectwise-manage/troubleshoot-api-issues-from-connectwise-logs.md "mention")&#x20;
+* &#x20;[clean-automation-200-series](../../cluck-university/clean-automation-200-series/ "mention") landing page, and course descriptions has been added!
+  * Available now:[201-advanced-automation-concepts.md](../../cluck-university/clean-automation-200-series/201-advanced-automation-concepts.md "mention")
+  * **Coming soon:**
+    * [202-data-types-and-jinja.md](../../cluck-university/clean-automation-200-series/202-data-types-and-jinja.md "mention")
+    * [203-better-automation-through-abstraction.md](../../cluck-university/clean-automation-200-series/203-better-automation-through-abstraction.md "mention")
+    * [204-avoiding-automation-anti-patterns.md](../../cluck-university/clean-automation-200-series/204-avoiding-automation-anti-patterns.md "mention")
+    * [205-defensible-automation-in-practice.md](../../cluck-university/clean-automation-200-series/205-defensible-automation-in-practice.md "mention")
+
+**New & Updated Pages:**
+
+* Last week's Open Mic page and recording is available here: [nov-17th-2023-domo-arigato-rewsty-roboto.md](../roc-open-mics/nov-17th-2023-domo-arigato-rewsty-roboto.md "mention")
+* [connectwise-automate-integration-setup.md](../../documentation/integrations/rmm/connectwise-automate/connectwise-automate-integration-setup.md "mention")**:** Important note added regarding IP address restrictions. If applicable, add Rewst IP (3.139.170.31) to your allowed list.
+* [support-priorities.md](../../support/roc-support/support-priorities.md "mention"): Added details on response objectives, operating hours, and holiday availability to our support section for your visibility.
 
 </details>
