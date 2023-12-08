@@ -24,7 +24,7 @@ Explore what new changes the Training team has made in the last week.
 
 **What's New in Cluck University?**
 
-* &#x20;[clean-automation-200-series](../../cluck-university/clean-automation-200-series/ "mention") landing page, and course descriptions has been added!
+* &#x20;[clean-automation-200-series](../../cluck-university/clean-automation-200-series/ "mention") landing page and course descriptions have been added!
   * Available now:[201-advanced-automation-concepts.md](../../cluck-university/clean-automation-200-series/201-advanced-automation-concepts.md "mention")
   * **Coming soon:**
     * [202-data-types-and-jinja.md](../../cluck-university/clean-automation-200-series/202-data-types-and-jinja.md "mention")
@@ -35,6 +35,7 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * Last week's Open Mic page and recording is available here: [nov-17th-2023-domo-arigato-rewsty-roboto.md](../roc-open-mics/nov-17th-2023-domo-arigato-rewsty-roboto.md "mention")
+* [automate-documentation-with-robo-rewsty.md](../../cluck-university/electives/automate-documentation-with-robo-rewsty.md "mention")elective page added
 * [connectwise-automate-integration-setup.md](../../documentation/integrations/rmm/connectwise-automate/connectwise-automate-integration-setup.md "mention")**:** Important note added regarding IP address restrictions. If applicable, add Rewst IP (3.139.170.31) to your allowed list.
 * [support-priorities.md](../../support/roc-support/support-priorities.md "mention"): Added details on response objectives, operating hours, and holiday availability to our support section for your visibility.
 
