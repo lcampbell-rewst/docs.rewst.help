@@ -7,7 +7,7 @@ description: >-
 # 201: Advanced Automation Concepts
 
 {% hint style="success" %}
-Sign up for our **LIVE** sessions **Monday's @ 3p.m.** **Eastern** on [Calendly](https://calendly.com/cluck-u/rewst-201-advanced-automation-concepts).
+Sign up for our **LIVE** sessions **Monday's @ 3p.m.** **Eastern** on [Calendly](https://calendly.com/cluck-u/rewst-201).
 {% endhint %}
 
 ## **Course Overview**
