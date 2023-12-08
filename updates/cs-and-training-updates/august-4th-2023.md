@@ -32,7 +32,7 @@ Explore what new changes the Training team has made in the last week.
   * Updated Relationships on the Platform Page
   * Updated Hello World Video
   * New Video on how to scope automation coming soon!
-* [Added Actions in Rewst Documentation](http://127.0.0.1:5000/o/mdGoyUomPKsvu1TSazxc/s/AQQ1EHVcEsGKBPVHmiav/)
+* [Added Actions in Rewst Documentation](https://app.gitbook.com/o/mdGoyUomPKsvu1TSazxc/s/AQQ1EHVcEsGKBPVHmiav/)
 * [Added Core Actions Documentation](../../documentation/workflows/actions-in-rewst/core-actions.md)
 * [Added Existing Crates Page](../../prebuilt-automations/existing-crate-documentation/) (with more updates to come!)
 * Updates:

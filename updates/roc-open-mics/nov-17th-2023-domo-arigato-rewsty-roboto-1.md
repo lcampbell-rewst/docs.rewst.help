@@ -1,20 +1,16 @@
-# ROC Open Mics
+# Nov 17rd, 2023 - Domo Arigato, Rewsty Roboto
 
-## **Join Live!**
+## Join Live!
 
-Join us live every Friday at 3 pm EST!
+Join us live every Friday at 3 pm EST! [Download the Calendar Invite here](https://engine.rewst.io/webhooks/custom/trigger/02eb02e2-1177-43d9-9e13-8547414979fc/c47fdd7f-4075-47a8-ba92-94e790e67c06?request\_type=open\_mic\_link&)!
 
-&#x20;[Download the Calendar Invite here](https://engine.rewst.io/webhooks/custom/trigger/02eb02e2-1177-43d9-9e13-8547414979fc/c47fdd7f-4075-47a8-ba92-94e790e67c06?request\_type=open\_mic\_link&)!
-
-## Latest Open Mic Video Recording
-
-{% embed url="https://youtu.be/QDKa6D165ys" %}
+{% embed url="https://youtu.be/mELV_oFaqXc" %}
 
 ### Contents of the Recording:
 
-* 🌐 The Rewst team demo new enhancements and features in App Platform
-* 🗒️ Dan automates ticket generation and scheduling in ConnectWise using workflow rules, allowing for recurring tickets based on specific triggers.
-* 🔌  Jared Brantley demonstrate custom integrations for generating reports from systems lacking native Rewst integrations.
+* 🤖 Sneak peak at a new feature in Rewst
+* 👤 Justin demos a workflow to copy licenses for new users during onboarding
+* 🧾 Jen shows a reconciliation app that could be created in App Platform
 
 <details>
 
