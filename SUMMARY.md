@@ -35,6 +35,7 @@
     * [Part 2: How to Take Action on Workflow Results](cluck-university/electives/extending-the-power-of-rewst-workflows/part-2-how-to-take-action-on-workflow-results.md)
   * [How to Use Powershell in Rewst](cluck-university/electives/how-to-use-powershell-in-rewst.md)
   * [How to Reference Data with Variables](cluck-university/electives/how-to-reference-data-with-variables.md)
+  * [Automate Documentation with Robo Rewsty](cluck-university/electives/automate-documentation-with-robo-rewsty.md)
 
 ## 📚 Documentation
 
