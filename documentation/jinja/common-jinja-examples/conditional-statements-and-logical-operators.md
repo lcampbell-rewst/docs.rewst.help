@@ -16,18 +16,18 @@ In Jinja templating, `if`, `elif`, and `else` statements function similarly to t
 
 ```django
 {% raw %}
-{% set dogs = 1 %}
-{% set cats = 0 %}
+{%- set dogs = 1 -%}
+{%- set cats = 0 -%}
 {%- if dogs -%}
     {{- "we have dogs!\n" -}}
-{% else %}
+{%- else -%}
     {{- "sorry no dogs today\n" -}}
 {%- endif -%}
 
 {%- if not cats -%}
     {{- "sorry, no cats today.\n" -}}
 {%- else -%}
-    {{ "we have cats!\n" -}}
+    {{- "we have cats!\n" -}}
 {%- endif -%}
 {% endraw %}
 ```
