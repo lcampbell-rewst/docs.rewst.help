@@ -4,6 +4,10 @@
 
 The Microsoft Azure integration with Rewst offers extensive cloud services that:
 
+{% hint style="info" %}
+Note that a key vault is required in your Azure subscription. If you receive an "Invalid Client" error message when authorizing it is likely due to a missing key vault. Creating an empty key vault should resolve the issue.&#x20;
+{% endhint %}
+
 * Enable scalable infrastructure.
 * Provide robust data storage.
 * Support advanced analytics and AI services.
