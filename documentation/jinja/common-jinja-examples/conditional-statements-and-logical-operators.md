@@ -30,6 +30,7 @@ In Jinja templating, `if`, `elif`, and `else` statements function similarly to t
     {{- "we have cats!\n" -}}
 {%- endif -%}
 {% endraw %}
+
 ```
 
 ### **Example 2: Using `if`, `elif`, and `else` Ladders in Jinja**
@@ -49,6 +50,8 @@ In Jinja templating, `if`, `elif`, and `else` statements function similarly to t
     {{- "value is "+value | string -}}
 {% endif %}
 {% endraw %}
+
+
 ```
 
 {% hint style="danger" %}
