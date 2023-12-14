@@ -36,6 +36,7 @@
   * [How to Use Powershell in Rewst](cluck-university/electives/how-to-use-powershell-in-rewst.md)
   * [How to Reference Data with Variables](cluck-university/electives/how-to-reference-data-with-variables.md)
   * [Automate Documentation with Robo Rewsty](cluck-university/electives/automate-documentation-with-robo-rewsty.md)
+  * [Support and Troubleshooting Dynamic Form Fields](cluck-university/electives/support-and-troubleshooting-dynamic-form-fields.md)
 
 ## 📚 Documentation
 
