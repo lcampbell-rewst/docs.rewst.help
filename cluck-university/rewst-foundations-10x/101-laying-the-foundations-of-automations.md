@@ -4,6 +4,8 @@ description: No fluff, just the good stuff. Your path to automation prowess begi
 
 # 101 - Laying the Foundations of Automations
 
+
+
 {% hint style="success" %}
 Sign up for our **LIVE** sessions below!
 {% endhint %}
@@ -11,6 +13,8 @@ Sign up for our **LIVE** sessions below!
 ## **Dive into Automation Mastery**
 
 This isn't just our foundational course. It's your shortcut to becoming the Stewart of your organization – handling the redundant yet crucial, with a knack for success. This journey into automation is more than learning—it's a transformation.
+
+{% embed url="https://youtu.be/6uyTSRGb8d0" %}
 
 ## **Here's What's in Store:**
 
