@@ -418,6 +418,7 @@
   * [November 4th 2022](updates/cs-and-training-updates/november-4th-2022.md)
   * [October 28th 2022](updates/cs-and-training-updates/october-28th-2022-1.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
+  * [Dec 15th, 2023 - Compromised Users, Automated Documentation, and Troubleshooting Errors](updates/roc-open-mics/dec-15th-2023-compromised-users-automated-documentation-and-troubleshooting-errors.md)
   * [Dec 8th, 2023 - Never Send a Human to Do a Machine's Job](updates/roc-open-mics/dec-8th-2023-never-send-a-human-to-do-a-machines-job.md)
   * [Dec 1st, 2023 - App Platform, Ticket Generation, and Custom Integrations](updates/roc-open-mics/dec-1st-2023-app-platform-ticket-generation-and-custom-integrations.md)
   * [Nov 24th, 2023 - Thanksgiving Edition, Canadian Takeover](updates/roc-open-mics/nov-24th-2023-thanksgiving-edition-canadian-takeover.md)
