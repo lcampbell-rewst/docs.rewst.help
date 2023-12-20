@@ -159,6 +159,7 @@
       * [Least Privilege Access Guide for ConnectWise Automate Integration](documentation/integrations/rmm/connectwise-automate/least-privilege-access-guide-for-connectwise-automate-integration.md)
     * [NAble](documentation/integrations/rmm/nable/README.md)
       * [NAble Integration Setup](documentation/integrations/rmm/nable/nable-integration-setup.md)
+      * [Actions & Endpoints](documentation/integrations/rmm/nable/actions-and-endpoints.md)
   * [AI](documentation/integrations/ai/README.md)
     * [OpenAI](documentation/integrations/ai/openai/README.md)
       * [OpenAI Integration Setup](documentation/integrations/ai/openai/openai-integration-setup.md)
