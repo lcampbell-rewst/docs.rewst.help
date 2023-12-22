@@ -17,7 +17,7 @@ When you first create your app, Rewst provides an option for a custom subdomain.
 * `<org-slug>`: This is your organization's unique identifier. You can update it in the Rewst Settings page for your organizations.
 * `<custom-subdomain>`: You can choose a custom subdomain for your app during the creation process.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Updating Organization Slug
 
@@ -37,7 +37,7 @@ To modify the custom subdomain of your app:
 3. Enter your desired custom subdomain.
 4. Confirm the changes.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Example:
 

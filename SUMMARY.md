@@ -200,7 +200,7 @@
     * [ITGlue](documentation/integrations/documentation/itglue/README.md)
       * [IT Glue Integration Setup](documentation/integrations/documentation/itglue/it-glue-integration-setup.md)
       * [Action & Endpoints](documentation/integrations/documentation/itglue/action-and-endpoints.md)
-      * [Password Access](documentation/integrations/documentation/itglue/password-access.md)
+      * [Troubleshooting IT Glue Issues](documentation/integrations/documentation/itglue/troubleshooting-itglue-issues.md)
     * [JumpCloud](documentation/integrations/documentation/jumpcloud/README.md)
       * [JumpCloud Integration Setup](documentation/integrations/documentation/jumpcloud/jumpcloud-integration-setup.md)
     * [Jira](documentation/integrations/documentation/jira/README.md)
