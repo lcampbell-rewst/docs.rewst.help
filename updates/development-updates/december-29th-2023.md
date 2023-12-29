@@ -16,7 +16,7 @@ This can be anything from new features, bug fixes, or QoL changes!
 
 <summary><strong>Bug fixes and chores</strong></summary>
 
-* Auto genearte org slugs on org creation
+* Auto generate org slugs on org creation
 * Fix Get Ticket action for Kaseya BMS
 
 </details>
@@ -26,6 +26,7 @@ This can be anything from new features, bug fixes, or QoL changes!
 <summary><strong>In review, testing and development</strong></summary>
 
 * SentinelOne integration refactor
+* Refactor Microsoft integration configuration setup to improve UX and offer a better permission system
 * Improved Time Saved functionality with Task level Time Saved and persistence beyond workflow execution retention
 * Bug fixes for App Platform
 
