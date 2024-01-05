@@ -6,7 +6,7 @@ Join us live every Friday at 3 pm EST!
 
 &#x20;[Download the Calendar Invite here](https://engine.rewst.io/webhooks/custom/trigger/02eb02e2-1177-43d9-9e13-8547414979fc/c47fdd7f-4075-47a8-ba92-94e790e67c06?request\_type=open\_mic\_link&)!
 
-{% embed url="https://youtu.be/nch8T_DIXyk" %}
+{% embed url="https://youtu.be/Bjz8QKDW1XY" %}
 
 ### Contents of the Recording:
 

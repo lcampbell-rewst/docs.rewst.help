@@ -161,7 +161,7 @@ Jinja expressions can span multiple lines to improve readability
       "last_name": None,
       "occupation": "Copilot"
     }
-  ) -%}
+  )
 {{- my_list -}}
 ```
 

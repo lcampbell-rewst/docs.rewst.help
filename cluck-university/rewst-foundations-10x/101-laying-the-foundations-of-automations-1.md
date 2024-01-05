@@ -2,7 +2,7 @@
 description: No fluff, just the good stuff. Your path to automation prowess begins here.
 ---
 
-# 101 - Laying the Foundations of Automations
+# Copy of 101 - Laying the Foundations of Automations
 
 ## **Dive into Automation Mastery**
 

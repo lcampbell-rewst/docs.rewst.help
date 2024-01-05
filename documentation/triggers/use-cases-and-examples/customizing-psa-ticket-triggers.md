@@ -20,7 +20,7 @@ In Rewst, setting specific trigger criteria for PSA Ticket triggers can be cruci
 
 Click the lightning bolt icon at the top to `Add Trigger`.
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 ### **Setting up the Trigger**
 
@@ -33,13 +33,13 @@ Click the lightning bolt icon at the top to `Add Trigger`.
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt="" width="404"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18).png" alt="" width="404"><figcaption></figcaption></figure>
 
 </div>
 
 The trigger is now active and will capture data when a new ticket is submitted. This screen is listening for your ticket records to be saved, and will show you live results as they come in.
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -53,7 +53,7 @@ To see the trigger in action follow the below steps&#x20;
 * Submit the ticket.
 * You should see the ticket record appear in Rewst.
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Once the ticket is visible in Rewst, click the pause button to stop more tickets from coming in while you're building your trigger criteria.
@@ -63,7 +63,7 @@ Once the ticket is visible in Rewst, click the pause button to stop more tickets
 
 Find and click the values in the ticket you want as trigger criteria. They will have their corresponding path entered into the Trigger Criteria on the right.
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -79,7 +79,7 @@ Find and click the values in the ticket you want as trigger criteria. They will 
 * Copy these criteria values.
 * Paste them into other workflows you are configuring.
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

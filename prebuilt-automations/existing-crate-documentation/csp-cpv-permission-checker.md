@@ -42,7 +42,7 @@ Your Rewst service account that is used to manage your Microsoft tenants require
 * Refer to the instructions in the [Unpack a Crate](../crates/#unpacking-a-crate) section of the documentation.
 * Before unpacking, make sure to enable the necessary organizations in the trigger configuration section. This can be done by toggling `Activate for all current and future managed organizations` or by selecting from the available organization list.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ### **Execute the Workflow**
 

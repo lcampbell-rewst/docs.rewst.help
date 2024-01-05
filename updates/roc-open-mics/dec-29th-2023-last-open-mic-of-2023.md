@@ -1,12 +1,10 @@
-# ROC Open Mics
+# Dec 29th, 2023 - Last Open Mic of 2023!
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
 &#x20;[Download the Calendar Invite here](https://engine.rewst.io/webhooks/custom/trigger/02eb02e2-1177-43d9-9e13-8547414979fc/c47fdd7f-4075-47a8-ba92-94e790e67c06?request\_type=open\_mic\_link&)!
-
-## Latest Open Mic Video Recording
 
 {% embed url="https://youtu.be/W4ric0miOqI" %}
 

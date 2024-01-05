@@ -1,22 +1,20 @@
-# ROC Open Mics
+# Dec 22nd, 2023 - Simply Having a Wonderful Rewsty Time
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
 &#x20;[Download the Calendar Invite here](https://engine.rewst.io/webhooks/custom/trigger/02eb02e2-1177-43d9-9e13-8547414979fc/c47fdd7f-4075-47a8-ba92-94e790e67c06?request\_type=open\_mic\_link&)!
 
-## Latest Open Mic Video Recording
-
-{% embed url="https://youtu.be/W4ric0miOqI" %}
+{% embed url="https://youtu.be/d2yVjfihrsM" %}
 
 ### Contents of the Recording:
 
-* 💬 Q\&A Session&#x20;
-* 👨‍💻 CJ shows a workflow that tags technicians when tickets go stale after five minutes&#x20;
-* 🤖Brandon shows his Bot Framework&#x20;
-* 🔗 Brian shows how he connected Red Store and Backup Radar using Rewst&#x20;
-* 🚀 Drew shows how he uses Rewst to categorize users during Onboarding using IT Glue and O365
+* 👤 Jen shows a workflow that disables compromised users
+* 📄 Brandon shows a workflow that documents permissions on mailboxes and calendars on labeled clients
+* 🪝 Ben shows troubleshooting steps taken to address when Rewst webhook task APIs return a 500 error during a new user onboarding process
+* 📧 Brandon shows a workflow that creates tickets in Connectwise for emails that may have been improperly quarantined by Windows Defender.
+* 📣 Aarin from Rewst updates on Microsoft API issues
 
 <details>
 
