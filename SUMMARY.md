@@ -17,7 +17,6 @@
   * [Take Advantage of the Rewst Resources](cluck-university/getting-started/take-advantage-of-the-rewst-resources.md)
 * [Rewst Foundations (100 Series)](cluck-university/rewst-foundations-10x/README.md)
   * [101 - Laying the Foundations of Automations](cluck-university/rewst-foundations-10x/101-laying-the-foundations-of-automations.md)
-  * [Copy of 101 - Laying the Foundations of Automations](cluck-university/rewst-foundations-10x/101-laying-the-foundations-of-automations-1.md)
   * [102 - Building a Basic Workflow](cluck-university/rewst-foundations-10x/102-building-a-basic-workflow.md)
   * [103 - Jinja Essentials for Workflow Automation](cluck-university/rewst-foundations-10x/103-jinja-essentials-for-workflow-automation.md)
   * [104 - Options Generators & Generic API Requests](cluck-university/rewst-foundations-10x/104-options-generators-and-generic-api-requests.md)
