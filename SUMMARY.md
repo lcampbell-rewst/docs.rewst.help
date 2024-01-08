@@ -322,7 +322,6 @@
 ## 📢 Updates
 
 * [Development Updates](updates/development-updates/README.md)
-  * [January 5th 2024](updates/development-updates/january-5th-2024.md)
   * [December 29th 2023](updates/development-updates/december-29th-2023.md)
   * [December 22nd 2023](updates/development-updates/december-22nd-2023.md)
   * [December 15th 2023](updates/development-updates/december-15th-2023.md)
@@ -377,6 +376,7 @@
   * [November 4th 2022](updates/development-updates/november-4th-2022.md)
   * [October 28th 2022](updates/development-updates/october-28th-2022.md)
 * [Training Updates](updates/cs-and-training-updates/README.md)
+  * [January 5th, 2024](updates/cs-and-training-updates/january-5th-2024.md)
   * [December 15th, 2023](updates/cs-and-training-updates/december-15th-2023.md)
   * [December 8th, 2023](updates/cs-and-training-updates/december-1st-2023.md)
   * [December 1st, 2023](updates/cs-and-training-updates/december-1st-2023-1.md)

@@ -102,6 +102,33 @@ You can convert epoch time to a datetime object using `convert_from_epoch`, then
 ```
 {% endtab %}
 
+{% tab title="Convert Datetime to Epoch Time" %}
+You can convert datetime time to an epoch object. First, you set it to datetime to work with, then you can format using `format_datetime.`
+
+**Input:**
+
+```json
+{ 
+  2023-09-11 12:34:56
+}
+```
+
+**Jinja:**
+
+```django
+{% raw %}
+{% set current = now('utc', '%Y-%m-%dT%H:%M:%SZ') %}
+{% endraw %}
+{{ current | format_datetime("%s") | int}}
+```
+
+**Output:**
+
+```
+1694473606
+```
+{% endtab %}
+
 {% tab title="Get Weekday Name" %}
 Convert the date to a weekday number (`%w`), which can then be used to fetch the corresponding day name from an array.
 
