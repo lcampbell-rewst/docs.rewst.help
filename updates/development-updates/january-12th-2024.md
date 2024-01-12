@@ -28,6 +28,8 @@ This can be anything from new features, bug fixes, or QoL changes!
 * Fixed a documentation link for Immybot
 * Fixed a bug with the Exports action in IT Glue
 * Added Remove-DistributionGroup cmdlet to Microsoft Exchange integration
+* Fixed a bug with Datto PSA Contact actions where isActive was listed as a boolean and needed to be an integer
+* Added company filters to Hubspot integration to reduce the number of companies returned for org mapping and also improved pagination
 
 </details>
 
