@@ -422,6 +422,7 @@
   * [November 4th 2022](updates/cs-and-training-updates/november-4th-2022.md)
   * [October 28th 2022](updates/cs-and-training-updates/october-28th-2022-1.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
+  * [Jan 5th, 2024 - Happy New Year! Azure Tables and GDAP Troubleshooting](updates/roc-open-mics/jan-5th-2024-happy-new-year-azure-tables-and-gdap-troubleshooting.md)
   * [Dec 29th, 2023 - Last Open Mic of 2023!](updates/roc-open-mics/dec-29th-2023-last-open-mic-of-2023.md)
   * [Dec 22nd, 2023 - Simply Having a Wonderful Rewsty Time](updates/roc-open-mics/dec-22nd-2023-simply-having-a-wonderful-rewsty-time.md)
   * [Dec 15th, 2023 - Compromised Users, Automated Documentation, and Troubleshooting Errors](updates/roc-open-mics/dec-15th-2023-compromised-users-automated-documentation-and-troubleshooting-errors.md)
