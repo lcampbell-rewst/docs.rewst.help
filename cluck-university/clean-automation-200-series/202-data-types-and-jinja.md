@@ -7,7 +7,7 @@ description: >-
 # 202: Data Types and Jinja
 
 {% hint style="info" %}
-This course is **coming soon**. Check back here for registration details in the next year.
+Sign up for our **LIVE** sessions **Tuesday's @ 3p.m.** **Eastern** on [Calendly](https://calendly.com/cluck-u/rewst-202-data-types-and-jinja).
 {% endhint %}
 
 ## **Course Overview**
