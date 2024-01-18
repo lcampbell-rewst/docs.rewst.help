@@ -263,6 +263,7 @@
     * [Twilio](documentation/integrations/voip-and-sms/twilio.md)
 * [App Platform (Coming Soon!)](documentation/app-platform-coming-soon/README.md)
   * [Alpha Interest Submissions](documentation/app-platform-coming-soon/alpha-interest-submissions.md)
+  * [Known Issues](documentation/app-platform-coming-soon/known-issues.md)
   * [Getting Started](documentation/app-platform-coming-soon/getting-started/README.md)
     * [Glossary](documentation/app-platform-coming-soon/getting-started/glossary.md)
     * [Manage your apps](documentation/app-platform-coming-soon/getting-started/manage-your-apps.md)
