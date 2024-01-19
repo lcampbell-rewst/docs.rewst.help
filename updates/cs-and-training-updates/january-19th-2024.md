@@ -24,11 +24,12 @@ Explore what new changes the Training team has made in the last week.
 
 **What's New at Cluck University?**
 
-* The [Rewst 202 sign up page](https://calendly.com/cluck-u/rewst-202-data-types-and-jinja) is live 🎉
+* The [Rewst 202 sign-up page](https://calendly.com/cluck-u/rewst-202-data-types-and-jinja) is live 🎉
 * We now have an official Cluck U certificate that you can access and post to Linkedin! 🎉
 
 **New & Updated Pages:**
 
+* The [jan-5th-2024-happy-new-year-azure-tables-and-gdap-troubleshooting.md](../roc-open-mics/jan-5th-2024-happy-new-year-azure-tables-and-gdap-troubleshooting.md "mention")page is available
 * Added a [known-issues.md](../../documentation/app-platform-coming-soon/known-issues.md "mention")page to the App Platform Section
 
 </details>
