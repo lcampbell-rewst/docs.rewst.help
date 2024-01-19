@@ -322,6 +322,7 @@
 ## 📢 Updates
 
 * [Development Updates](updates/development-updates/README.md)
+  * [January 19th 2024](updates/development-updates/january-19th-2024.md)
   * [January 12th 2024](updates/development-updates/january-12th-2024.md)
   * [January 5th 2024](updates/development-updates/january-5th-2024.md)
   * [December 29th 2023](updates/development-updates/december-29th-2023.md)
