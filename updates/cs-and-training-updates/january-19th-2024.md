@@ -29,7 +29,7 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* The [jan-5th-2024-happy-new-year-azure-tables-and-gdap-troubleshooting.md](../roc-open-mics/jan-5th-2024-happy-new-year-azure-tables-and-gdap-troubleshooting.md "mention")page is available
+* The [jan-12th-2024-alpha-app-platform-demos.md](../roc-open-mics/jan-12th-2024-alpha-app-platform-demos.md "mention")page is available
 * Added a [known-issues.md](../../documentation/app-platform-coming-soon/known-issues.md "mention")page to the App Platform Section
 
 </details>

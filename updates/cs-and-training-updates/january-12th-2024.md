@@ -28,6 +28,6 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* The [jan-5th-2024-happy-new-year-azure-tables-and-gdap-troubleshooting-1.md](../roc-open-mics/jan-5th-2024-happy-new-year-azure-tables-and-gdap-troubleshooting-1.md "mention")page is available
+* The [jan-5th-2024-happy-new-year-azure-tables-and-gdap-troubleshooting.md](../roc-open-mics/jan-5th-2024-happy-new-year-azure-tables-and-gdap-troubleshooting.md "mention")page is available
 
 </details>
