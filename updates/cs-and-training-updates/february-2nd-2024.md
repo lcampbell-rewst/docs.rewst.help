@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **Game Suggestion for the Week:** Yakuza Infinite Wealth, Granblue Fantasy Relink, or Persona 3 Reload! Take your pick! And Enjoy Persona 3 Reload because that is the correct pick.&#x20;
+* **Game Tip for the Week:** Yakuza Infinite Wealth, Granblue Fantasy Relink, and Persona 3 Reload are all out! Take your pick! And Enjoy Persona 3 Reload because that is the correct pick.&#x20;
 * **SHOUT OUT** to Jonathan, Holden, Daniel, Jacolby, and our very own Jareth for successfully taking our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention")Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 * Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
 
