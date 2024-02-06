@@ -6,7 +6,7 @@ To kick off your automation journey, we have an entire [getting-started](getting
 
 ## Live Training Enrollment
 
-Next, Let’s get straight to the point. Extensive research shows that the average human brain best absorbs Cluck University’s 100-level training utilizing a four-week plan: 6 hours of training with the eggsperts over two weeks, shifting to hands-on practice at your own pace. If you stick to it, you’ll have your [certification](rewst-foundations-10x/foundations-certification.md) in only a month!
+Extensive research shows that the average human brain best absorbs Cluck University’s 100-level training utilizing a four-week plan: 6 hours of training with the eggsperts over two weeks, shifting to hands-on practice at your own pace. If you stick to it, you’ll have your [certification](rewst-foundations-10x/foundations-certification.md) in only a month!
 
 Take the six courses in order if you can: you’ll start with building a simple workflow, and then improve it through iteration as you move forward.  &#x20;
 
