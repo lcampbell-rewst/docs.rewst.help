@@ -27,7 +27,7 @@ Explore what new changes the Training team has made in the last week.
 * Chow Time: Added Updated [Rewst 102](../../cluck-university/rewst-foundations-10x/102-building-a-basic-workflow.md) and [Rewst 103](../../cluck-university/rewst-foundations-10x/103-jinja-essentials-for-workflow-automation.md) videos made by our very own Legend - Eddie Chow
 * Added [How to Scope an Automation](../../cluck-university/getting-started/how-to-scope-an-automation.md) video in the Getting Started Section
 * Added a Workflow [Tips & Tricks video to Getting Started](../../cluck-university/getting-started/workflow-building-tips-and-tricks.md), focusing on documenting your workflows, using multi-select, and favoriting actions
-* Added [page to highlight Resources](../../cluck-university/getting-started/take-advantage-of-the-rewst-resources.md) to Getting Started
+* Added [page to highlight Resources](broken-reference) to Getting Started
 * Updates and Fixes
   * Updated wording and formatting on the [Rewst Terminology page](../../cluck-university/getting-started/rewst-terminology.md) in Getting Started
 

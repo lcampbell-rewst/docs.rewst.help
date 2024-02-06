@@ -4,6 +4,7 @@
 
 ## 🏫 Cluck University
 
+* [Welcome And Enrollment](cluck-university/welcome-and-enrollment.md)
 * [Getting Started](cluck-university/getting-started/README.md)
   * [Rewst Platform Overview](cluck-university/getting-started/rewst-platform-overview.md)
   * [Rewst Terminology](cluck-university/getting-started/rewst-terminology.md)
@@ -14,7 +15,6 @@
   * [Hello World](cluck-university/getting-started/hello-world.md)
   * [Fast Track Your Onboarding](cluck-university/getting-started/fast-track-your-onboarding.md)
   * [Workflow Building Tips & Tricks](cluck-university/getting-started/workflow-building-tips-and-tricks.md)
-  * [Take Advantage of the Rewst Resources](cluck-university/getting-started/take-advantage-of-the-rewst-resources.md)
 * [Rewst Foundations (100 Series)](cluck-university/rewst-foundations-10x/README.md)
   * [101 - Laying the Foundations of Automations](cluck-university/rewst-foundations-10x/101-laying-the-foundations-of-automations.md)
   * [102 - Building a Basic Workflow](cluck-university/rewst-foundations-10x/102-building-a-basic-workflow.md)

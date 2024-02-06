@@ -41,7 +41,7 @@ Please be aware that occasionally due to a caching issue within the exam workflo
 ### Preparation Tips
 
 * **Review Training Material:** Revisit the Rewst 101 \~ 106 training modules, focusing on practical applications.
-* **Resource Utilization:** Make full use of the [resources outlined on our Resources page](../getting-started/take-advantage-of-the-rewst-resources.md).
+* **Resource Utilization:** Make full use of the [resources outlined on our Resources page](broken-reference).
 * **Community Engagement:** Engage with the Cluck U channel in our Discord community for peer discussions and insights.
 
 ## Best of luck with your Rewst Foundations Certification Exam!
