@@ -433,6 +433,7 @@
   * [November 4th 2022](updates/cs-and-training-updates/november-4th-2022.md)
   * [October 28th 2022](updates/cs-and-training-updates/october-28th-2022-1.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
+  * [Feb 2nd, 2024 - Inside the Eye of the Brainstrom](updates/roc-open-mics/feb-2nd-2024-inside-the-eye-of-the-brainstrom.md)
   * [Jan 26th, 2024 - New Feature On the Horizon + App Platform Demos](updates/roc-open-mics/jan-26th-2024-new-feature-on-the-horizon-+-app-platform-demos.md)
   * [Jan 19th, 2024 - Beta Features, Webhooks, and a Journey through Workflow Creation](updates/roc-open-mics/jan-19th-2024-beta-features-webhooks-and-a-journey-through-workflow-creation.md)
   * [Jan 12th, 2024 - Alpha App Platform Demos](updates/roc-open-mics/jan-12th-2024-alpha-app-platform-demos.md)

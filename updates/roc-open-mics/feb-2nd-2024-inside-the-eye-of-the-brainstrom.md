@@ -1,18 +1,16 @@
-# ROC Open Mics
+# Feb 2nd, 2024 - Inside the Eye of the Brainstrom
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
 &#x20;[Download the Calendar Invite here](https://engine.rewst.io/webhooks/custom/trigger/02eb02e2-1177-43d9-9e13-8547414979fc/c47fdd7f-4075-47a8-ba92-94e790e67c06?request\_type=open\_mic\_link&)!
 
-## Latest Open Mic Video Recording
-
 {% embed url="https://youtu.be/8JrV4OVA0d0" %}
 
 ### Contents of the Recording:
 
-* 🔍Brian at Relentless Solutions shows an automation helps maintain a product catalog without clear usage tracking in CW PSA.
+* 🔍Brian at Relentless Solutions shows an automation helps maintain a product catalog without clear usage tracking in CW PSA.&#x20;
 * 📄 Brian at Karpel Solutions shows an automation that helps extract and document for Ubiquity and UISP.&#x20;
 * 🕵️‍♂️ Logan at Bezalu discusses making agent Smith deployable though Immybot&#x20;
 * 👁️‍🗨️ CJ at GeekBox IT shows an automation that acts as a virtual assistant for their database
