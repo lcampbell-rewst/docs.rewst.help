@@ -6,9 +6,9 @@ To kick off your automation journey, we have an entire [getting-started](getting
 
 ## Live Training Enrollment
 
-Extensive research shows that the average human brain best absorbs Cluck University’s 100-level training utilizing a four-week plan: 6 hours of training with the eggsperts over two weeks, shifting to hands-on practice at your own pace. If you stick to it, you’ll have your [certification](rewst-foundations-10x/foundations-certification.md) in only a month!
+Next, let’s dive right in. We’ve created a six-part training plan, ideally taken over two weeks. You’ll start with building a simple form and workflow, then improve it through iteration as you move forward. The last two weeks shift to hands-on practice at your own pace. If you stick to it, you’ll have your [certification](rewst-foundations-10x/foundations-certification.md) in only a month!&#x20;
 
-Take the six courses in order if you can: you’ll start with building a simple workflow, and then improve it through iteration as you move forward.  &#x20;
+To maximize your learning experience, it's recommended to complete the six courses in order. On-demand recordings of the sessions are available for our global audience, or rewatching at your own pace.
 
 {% hint style="success" %}
 [Enroll here to get the schedule with all the links you need!](https://app.rewst.io/form/40c82e64-9976-4253-baf4-55421a2a2c3f)
