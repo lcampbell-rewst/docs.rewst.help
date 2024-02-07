@@ -527,7 +527,7 @@
 
 ## 🔐 Security
 
-* [Security Policy](security/security-policy.md)
+* [Outgoing IP Address](security/security-policy.md)
 
 ## 🆘 Support
 
