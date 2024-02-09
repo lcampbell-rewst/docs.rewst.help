@@ -8,7 +8,7 @@ Explore what new changes the Training team has made in the last week.
 
 * **Game Tip for the Week:** Since you're obviously done with the games I recommended last week (And Palworld since I forgot that), download that demo of Final Fantasy VII Rebirth and be so overwhelmed with epic nostalgia that you weep. Not that I did that...
 * **SHOUT OUT** to Muhsin, Sarah, and Kal for successfully taking our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention")Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
-* For those joining us at Right of Boom who couldn't get into the pre-day, we've opened up more seats! You can modify your registration to add out pre-day now!
+* For those joining us at **Right of Boom** who couldn't get into the pre-day, we've opened up more seats! You can modify your registration to add our pre-day now!
 * Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
 
 </details>
