@@ -74,12 +74,14 @@ If you already have an OpenAI integration configured, you can add an instance fo
 
 The Base URL is what directs Rewst to communicate with the correct Azure OpenAI instance. Here’s how to construct it:
 
-**Anatomy of the Base URL**: The standard structure of the Base URL provided by Azure typically looks like this: `https://<resource-name>.api.<region>.openai.azure.com`
+**Anatomy of the Base URL**: The standard structure of the Base URL provided by Azure typically looks like this: `https://<resource-name>.openai.azure.com/openai/deployments/<deployment-name>`
+
+* If you are using GPT 3.5 Turbo, for example, you will append it to the URL like so: `https://<resource-name>.openai.azure.com/openai/deployments/gpt-35-turbo`
 
 **Customize Your Base URL**: Depending on your service instance or specific requirements, you may need to alter the base URL. For example:
 
-* If you have a custom deployment named `custom-model`, you might append it to the URL like so: `https://<resource-name>.api.<region>.openai.azure.com/deployments/custom-model`
-* Ensure you replace `<resource-name>` and `<region>` with the actual resource name and region of your Azure OpenAI service.
+* If you have a custom deployment named `custom-model`, you might append it to the URL like so: `https://<resource-name>.openai.azure.com/openai/deployments/<custom-model>`
+* Ensure you replace `<resource-name>, <deployment-name>, and/or` `<custom-model>` with the actual information from your Azure OpenAI service.
 {% endhint %}
 
 <figure><img src="../../../../.gitbook/assets/azure-ai-11.png" alt=""><figcaption></figcaption></figure>
