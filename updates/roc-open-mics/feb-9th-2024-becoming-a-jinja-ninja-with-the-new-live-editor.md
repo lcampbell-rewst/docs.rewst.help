@@ -1,6 +1,6 @@
-# ROC Open Mics
+# Feb 9th, 2024 - Becoming a Jinja Ninja with the New Live Editor
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
