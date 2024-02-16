@@ -123,6 +123,7 @@
   * [PSA](documentation/integrations/psa/README.md)
     * [Kaseya BMS](documentation/integrations/psa/kaseya-bms/README.md)
       * [Kaseya BMS Integration Setup](documentation/integrations/psa/kaseya-bms/kaseya-bms-integration-setup.md)
+      * [Actions & Endpoints](documentation/integrations/psa/kaseya-bms/actions-and-endpoints.md)
     * [HaloPSA](documentation/integrations/psa/halopsa/README.md)
       * [Halo Integration Setup](documentation/integrations/psa/halopsa/halo-integration-setup.md)
       * [Actions & Endpoints](documentation/integrations/psa/halopsa/actions-and-endpoints.md)
