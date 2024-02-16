@@ -18,7 +18,7 @@ Each API user has a tracking identifier that must be used when setting up the Au
 
 ### **Step 2: Configure API User Permissions**
 
-The following table outlines the categorized permissions required for each category of endpoints in Autotask that Rewst will access. For further details on each endpoint we interact with, review the [Actions & Endpoints ](actions-and-endpoints.md)page for an exhaustive list.
+The following table outlines the categorized permissions required for each category of endpoints in Autotask that Rewst will access. For further details on each endpoint we interact with, review the [Actions & Endpoints ](broken-reference)page for an exhaustive list.
 
 <table><thead><tr><th width="215">Category</th><th width="116">Endpoints</th><th width="272">Autotask Permissions</th><th>Required Permissions</th></tr></thead><tbody><tr><td>Companies &#x26; Contacts</td><td>10</td><td>CRM permissions</td><td>View, Add, Edit</td></tr><tr><td>Contracts</td><td>7</td><td>Contract permissions</td><td>Manage Contracts, Manage Adjustments</td></tr><tr><td>Documents &#x26; Attachments</td><td>10</td><td>Documents &#x26; Knowledgebase</td><td>View, Add Documents</td></tr><tr><td>Projects</td><td>9</td><td>Projects permissions</td><td>Add, View Projects</td></tr><tr><td>Resources</td><td>3</td><td>Admin permissions</td><td>Manage Resources</td></tr><tr><td>Surveys</td><td>3</td><td>Other</td><td>Manage Surveys</td></tr><tr><td>Ticket &#x26;<br>Ticket Notes</td><td>16</td><td>Service Desk permissions</td><td>View, Add, Edit Tickets</td></tr><tr><td>Time Entries</td><td>6</td><td>Timesheet permissions</td><td>Create, Edit, Delete</td></tr></tbody></table>
 
