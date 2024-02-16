@@ -325,7 +325,7 @@
   * [From Scales to Feathers](community-corner/community-driven-content/from-scales-to-feathers.md)
 * [Agent Smith](community-corner/agent-smith/README.md)
   * [Agent Smith Configuration Overview](community-corner/agent-smith/agent-smith-configuration-overview.md)
-  * [Deploy Agent With Immy](community-corner/agent-smith/deploy-agent-with-immy.md)
+  * [Deploying Agent Smith with ImmyBot](community-corner/agent-smith/deploying-agent-smith-with-immybot.md)
 
 ## 📢 Updates
 
