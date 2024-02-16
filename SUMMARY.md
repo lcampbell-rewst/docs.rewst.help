@@ -323,9 +323,9 @@
   * [Rewst's Technical Documentation Guidelines](community-corner/how-to-contribute/rewsts-technical-documentation-guidelines.md)
 * [Community-Driven Content](community-corner/community-driven-content/README.md)
   * [From Scales to Feathers](community-corner/community-driven-content/from-scales-to-feathers.md)
+  * [Deploying Agent Smith with ImmyBot](community-corner/community-driven-content/deploying-agent-smith-with-immybot.md)
 * [Agent Smith](community-corner/agent-smith/README.md)
   * [Agent Smith Configuration Overview](community-corner/agent-smith/agent-smith-configuration-overview.md)
-  * [Deploying Agent Smith with ImmyBot](community-corner/agent-smith/deploying-agent-smith-with-immybot.md)
 
 ## 📢 Updates
 
