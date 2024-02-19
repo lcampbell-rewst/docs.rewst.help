@@ -442,6 +442,7 @@
   * [November 4th 2022](updates/cs-and-training-updates/november-4th-2022.md)
   * [October 28th 2022](updates/cs-and-training-updates/october-28th-2022-1.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
+  * [Feb 16th, 2024 - Pizza's Cooking in the Oven](updates/roc-open-mics/feb-16th-2024-pizzas-cooking-in-the-oven.md)
   * [Feb 9th, 2024 - Becoming a Jinja Ninja with the New Live Editor](updates/roc-open-mics/feb-9th-2024-becoming-a-jinja-ninja-with-the-new-live-editor.md)
   * [Feb 2nd, 2024 - Inside the Eye of the Brainstrom](updates/roc-open-mics/feb-2nd-2024-inside-the-eye-of-the-brainstrom.md)
   * [Jan 26th, 2024 - New Feature On the Horizon + App Platform Demos](updates/roc-open-mics/jan-26th-2024-new-feature-on-the-horizon-+-app-platform-demos.md)
