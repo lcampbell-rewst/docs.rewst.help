@@ -14,7 +14,7 @@ description: This document outlines the requirements and setup for the Datto int
 
 Before configuring the Rewst integration you must generate an API user.
 
-Please refer to [Datto's documentation](https://psa.datto.com/help/DeveloperHelp/Content/APIs/General/Define\_API\_User.htm) for generating API credentials for your organization if you have not already. Part of this process will include the generation/assignment of a tracking identifier. Information about tracking identifiers can be found [here](https://www.autotask.net/help/Content/4\_Admin/1CompanySettings\_Users/ResourcesUsersHR/Resources/API\_Tracking\_Identifier.htm).
+Please refer to [Datto's documentation](https://helpdesk.kaseya.com/hc/en-gb/articles/4407245633169-Create-an-API-User-in-Datto-PSA-Autotask) for generating API credentials for your organization if you have not already. Part of this process will include the generation/assignment of a tracking identifier. Information about tracking identifiers can be found [here](https://www.autotask.net/help/Content/4\_Admin/1CompanySettings\_Users/ResourcesUsersHR/Resources/API\_Tracking\_Identifier.htm).
 
 ### Configuring the Integration
 
