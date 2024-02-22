@@ -1,8 +1,12 @@
-# Adding a new Client to Rewst
+# Adding a new Client Via Microsoft CSP
+
+{% hint style="success" %}
+For a more streamlined process for adding new clients, check our [add-client-to-rewst-setup.md](../../prebuilt-automations/existing-crate-documentation/add-client-to-rewst-setup.md "mention")Crate installation page.
+{% endhint %}
 
 ## Step One
 
-The first part of adding a client is to actually create them within Rewst itself. The easiest way to do this is to add them via the Microsoft CSP Integration. Navigate on the left navigation menu to _Configuration → Integrations → Microsoft CSP._
+The first part of adding a client is to create them within Rewst itself. The easiest way to do this is to add them via the Microsoft CSP Integration. Navigate on the left navigation menu to _Configuration → Integrations → Microsoft CSP._
 
 <figure><img src="../../.gitbook/assets/csp-add-client.png" alt=""><figcaption></figcaption></figure>
 
@@ -25,54 +29,11 @@ On the right-hand side, you will see an empty dropdown for the org you made. You
 
 Once you have done this for each integration, you are arguably "done" and can start building workflows for those clients. There is however some additional work to do if you are adding clients to existing workflows or forms, such as the New User Onboarding workflow.
 
-## Step Three (Optional)
-
-This is an optional step as it is only relevant if you have existing workflows, forms, or triggers that are already configured.
-
-This is the bit where most people slip up because it's usually the ROC team that does this initially during the onboarding phase.
-
-When working with forms that pull data from various integrations (such as departments within the New User workflow), you have to add the new client onto the trigger on the workflow, for it to work successfully.
-
-Within your workflow list, by going to _Automations → Workflows_ you can filter all workflows by "[Option Generators](../workflows/workflow-generated-options.md)". You'll have roughly 10 of these showup, similar to the below image.
-
-<figure><img src="../../.gitbook/assets/option-generators.png" alt=""><figcaption></figcaption></figure>
-
-The easiest way to then work through these is by holding Ctrl + Left and Clicking the names of each, which will open a new tab for each.
-
-On each of these workflows, you can then click the cog on the top for the trigger and click the dropdown for "Organization" - tick the new org you have created and press Submit.
-
-{% hint style="success" %}
-Go [here to learn more about Triggers](../triggers/)
-{% endhint %}
-
-<figure><img src="../../.gitbook/assets/add-client-trigger.png" alt=""><figcaption></figcaption></figure>
-
-## Step Four (Optional)
-
-This is an optional step as it is only relevant if you have existing workflows, forms, or triggers that are already configured. If you have had to do Step 3, then the chances are you will also need to do this step too.
-
-You will likely be used to going to a workflow and clicking the "View Form URLs" button on the trigger. You will notice that your new org does not have a URL here yet.
-
-Note that if you aren't sure and have finished onboarding, it's likely these two workflows:
-
-1. \[Rewst Master v2] Client: New Employee
-2. \[Rewst Master v2] Get and Set ORG Variables
-
-This is similar to the above step where on that trigger, you must add that org by ticking them in the dropdown and pressing submit.
-
-When you go back into that trigger, you will see the URLs for that new org.
-
-## Step Five (Recommended)
+## Step Three (Recommended)
 
 This is a recommended step for any new client and includes setting up ORG Variables for the client. You should be familiar with this process from your ROC member discussing it with you.
 
-Navigate to _Automations → Workflows → \[Rewst Master v2] Get and Set ORG Variables_
-
-Click the Trigger _→_ View Form URLs and click the one for the new client you have filled in.
-
-{% hint style="info" %}
-Remember that ORG Variables inherit from the top level, so the only things you have to fill in here and things that are DIFFERENT from your MSP. See recommended fields below
-{% endhint %}
+Navigate to Forms → \[ROC] Rewst: Simple Organizational Variable Form for Child Accounts → Options Menu → Usages → View Direct URLs → Select the URL for the org you added.
 
 Our recommended fields to fill in are:
 
