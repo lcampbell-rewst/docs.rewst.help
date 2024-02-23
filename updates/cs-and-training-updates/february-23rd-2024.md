@@ -22,7 +22,7 @@ Explore what new changes the Training team has made in the last week.
 * We'd love to get your feedback on our Training and Documentation! [Please fill out this form to let us know how we can improve](https://app.sli.do/event/m8C3AjPUnuDgpkVDmPsQL3)!
 * We'd also love to get your [feedback on the Open Mic here](https://app.sli.do/event/9DL7k68NvYk8u1ZWUnWrjY)!
 * We've been getting a lot of great feedback on the [201-advanced-automation-concepts.md](../../cluck-university/clean-automation-200-series/201-advanced-automation-concepts.md "mention") and [202-data-types-and-jinja.md](../../cluck-university/clean-automation-200-series/202-data-types-and-jinja.md "mention") courses! So don't forget to sign up once you finish the 100 series!
-* [203-better-automation-through-abstraction.md](../../cluck-university/clean-automation-200-series/203-better-automation-through-abstraction.md "mention") is almost complete and will be scheduled soon! After this, the Legendary Eddie Chow will talk about some concepts in this training!
+* The newly identified Rewst 203: Boolean Logics and Comparisons is almost complete and will be scheduled soon! After this, the Legendary Eddie Chow will talk about some concepts in this training!
 
 **New & Updated Pages:**
 
