@@ -330,6 +330,7 @@
 ## 📢 Updates
 
 * [Development Updates](updates/development-updates/README.md)
+  * [February 23rd 2024](updates/development-updates/february-23rd-2024.md)
   * [February 16th 2024](updates/development-updates/february-16th-2024.md)
   * [February 9th 2024](updates/development-updates/february-9th-2024.md)
   * [February 2nd 2024](updates/development-updates/february-2nd-2024.md)
