@@ -1,6 +1,6 @@
-# ROC Open Mics
+# Feb 23rd, 2024 - Pardon My Jinja
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
