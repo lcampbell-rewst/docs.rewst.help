@@ -4,16 +4,20 @@
 
 In Rewst 104, we will delve into the intricacies of option generators and generic API requests. Specifically, we will learn how option generators enhance forms, building upon the knowledge acquired in our Rewst 102 course. Additionally, we will explore generic API requests by integrating Microsoft Graph API, demonstrating its functionality within the Rewst platform. We will also implement list comprehension techniques, building upon the concepts introduced in Rewst 103.
 
-When you've completed this training, [don't forget to get credit](104-options-generators-and-generic-api-requests.md#get-credit)!
+When you've completed this training, [don't forget to get credit](104-options-generators-and-generic-api-requests.md#get-credit)[!](https://app.rewst.io/form/cdeabeb5-7fcb-4695-8534-94af2bcb10f0)
 
-***
+{% hint style="danger" %}
+These steps assume you have completed the full steps from Rewst 102 You can find the instructions to make this form on the [<mark style="color:blue;">Rewst 102 Page</mark>](102-building-a-basic-workflow.md)<mark style="color:blue;">.</mark>
+{% endhint %}
 
 ## Watch the video or follow along with the steps below
 
 {% embed url="https://youtu.be/pkKRidcAHWA" %}
 
-{% hint style="danger" %}
-These steps assume you have completed the full steps from Rewst 102 You can find the instructions to make this form on the [<mark style="color:blue;">Rewst 102 Page</mark>](102-building-a-basic-workflow.md)<mark style="color:blue;">.</mark>
+## Get Credit
+
+{% hint style="warning" %}
+To get credit for completing this session offline, please [submit this form](https://app.rewst.io/form/cdeabeb5-7fcb-4695-8534-94af2bcb10f0).
 {% endhint %}
 
 ## Understanding Option Generators
@@ -304,12 +308,6 @@ Next, we'll first add a trigger, configured to always pass, guaranteeing the wor
 Congratulations! You've successfully configured an option generator and implemented logic using generic API requests and list comprehension techniques. With this knowledge, you can enhance your forms and streamline group management.
 
 ***
-
-## Get Credit
-
-{% hint style="warning" %}
-To get credit for completing this session offline, please [submit this form](https://app.rewst.io/form/cdeabeb5-7fcb-4695-8534-94af2bcb10f0).
-{% endhint %}
 
 ## Additional Resources
 

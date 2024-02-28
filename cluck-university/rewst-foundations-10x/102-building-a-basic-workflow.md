@@ -18,13 +18,19 @@ layout:
 
 Hello and welcome! In this tutorial, we'll guide you through the process of creating automated workflows using Rewst. Our focus will be on creating a form, building an MVP workflow, and connecting the two with a trigger. Follow these steps to build the Add or Remove Users from AD workflow!&#x20;
 
-When you've completed this training, [don't forget to get credit](102-building-a-basic-workflow.md#get-credit)!
+When you've completed this training, [don't forget to get credit!](https://app.rewst.io/form/38c7d9ca-1606-4a61-872e-884466850287)
 
 ***
 
 ## Watch the video or follow along with the steps below
 
 {% embed url="https://youtu.be/MuOTYGS56l4" %}
+
+## Get Credit
+
+{% hint style="warning" %}
+To get credit for completing this session offline, please [submit this form](https://app.rewst.io/form/38c7d9ca-1606-4a61-872e-884466850287).
+{% endhint %}
 
 ## Part 1: Build a Form to Add or Remove Users in AD
 
@@ -291,15 +297,7 @@ Finally, let's test out the workflow by filling out the form and checking the wo
 
 Congratulations! You have successfully created a form, designed a workflow, and connected the two with a trigger to automate Azure AD group management. In Rewst 103, we'll take a step back and look at using Jinja in our workflows. If you have any questions, don't hesitate to reach out. Happy automating!
 
-***
 
-## Get Credit
-
-{% hint style="warning" %}
-To get credit for completing this session offline, please [submit this form](https://app.rewst.io/form/38c7d9ca-1606-4a61-872e-884466850287).
-{% endhint %}
-
-***
 
 ## Additional Resources
 

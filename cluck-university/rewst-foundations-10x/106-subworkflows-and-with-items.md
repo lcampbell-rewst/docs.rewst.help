@@ -4,13 +4,19 @@
 
 Hello and welcome! In Rewst 106, we'll complete our workflow and explore how to use sub-workflows and With items in Rewst. Sub-workflows enable us to utilize workflows within other workflows, creating a parent-child relationship. With items is a feature in Rewst that allows actions or workflows to run on all items in a list simultaneously. We'll demonstrate how to leverage these functionalities to manage group memberships efficiently. Let's dive in and get started!
 
-When you've completed this training, [don't forget to get credit](106-subworkflows-and-with-items.md#get-credit)!
+When you've completed this training,[ don't forget to get credit!](https://app.rewst.io/form/1339a9d0-a298-4e2e-8d40-2fa1626509a8)
 
 ***
 
 ## Watch the video or follow along with the steps below
 
 {% embed url="https://youtu.be/r2LMDkzp3ac" %}
+
+## Get Credit
+
+{% hint style="warning" %}
+To get credit for completing this session offline, please [submit this form](https://app.rewst.io/form/1339a9d0-a298-4e2e-8d40-2fa1626509a8).
+{% endhint %}
 
 ## Creating a Parent Workflow in Rewst
 
@@ -173,12 +179,6 @@ Finally, we'll test it all out to see how it works!
 ## Conclusion
 
 Thank you for watching! We hope this course helps you effectively utilize sub-workflows and With items in Rewst for efficient workflow management. If you have any questions or need further assistance, please don't hesitate to reach out. Happy automating!
-
-## Get Credit
-
-{% hint style="warning" %}
-To get credit for completing this session offline, please [submit this form](https://app.rewst.io/form/1339a9d0-a298-4e2e-8d40-2fa1626509a8).
-{% endhint %}
 
 ## Additional Resources
 

@@ -8,9 +8,13 @@ description: No fluff, just the good stuff. Your path to automation prowess begi
 
 This isn't just our foundational course. It's your shortcut to becoming the Stewart of your organization – handling the redundant yet crucial, with a knack for success. This journey into automation is more than learning—it's a transformation.
 
+
+
+When you've completed this training, [don't forget to get credit!](https://app.rewst.io/form/8ac04607-a1c4-45ea-b203-448b2f1b64e0)
+
 {% embed url="https://youtu.be/6uyTSRGb8d0" %}
 
-## Get Offline Credit
+## Get Credit
 
 {% hint style="warning" %}
 To get credit for completing this session offline, please [submit this form](https://app.rewst.io/form/8ac04607-a1c4-45ea-b203-448b2f1b64e0).

@@ -4,7 +4,11 @@
 
 Hello and welcome to Rewst 105, where we focus on managing groups using Microsoft's APIs. We'll learn how to differentiate between different types of groups, whether they are managed using Microsoft Graph or Microsoft Exchange Online. Additionally, we'll explore how to implement feedback messages and handle errors effectively within our workflow.
 
-When you've completed this training, [don't forget to get credit](105-improve-group-management-to-support-exchange.md#get-credit)!
+When you've completed this training, [don't forget to get credit!](https://app.rewst.io/form/4f233131-a105-496f-8904-3153af0a95ba)
+
+{% hint style="danger" %}
+These steps below require [Rewst 102](102-building-a-basic-workflow.md) and [Rewst 104](104-options-generators-and-generic-api-requests.md) to be completed prior to starting the exercise.
+{% endhint %}
 
 ***
 
@@ -12,8 +16,10 @@ When you've completed this training, [don't forget to get credit](105-improve-gr
 
 {% embed url="https://youtu.be/yG6h679xnfk" %}
 
-{% hint style="danger" %}
-These steps below require [Rewst 102](102-building-a-basic-workflow.md) and [Rewst 104](104-options-generators-and-generic-api-requests.md) to be completed prior to starting the exercise.
+## Get Credit
+
+{% hint style="warning" %}
+To get credit for completing this session offline, please [submit this form](https://app.rewst.io/form/4f233131-a105-496f-8904-3153af0a95ba).
 {% endhint %}
 
 ## Managing Groups: Microsoft Graph vs. Exchange Online
@@ -275,12 +281,6 @@ Finally, we'll set up the workflow completion criteria, ensuring that the workfl
 Rewst 105 equips you with the knowledge and skills to manage groups effectively in Rewst. By understanding the nuances of different group types and employing the appropriate APIs, you can efficiently handle group operations within your applications.&#x20;
 
 ***
-
-## Get Credit
-
-{% hint style="warning" %}
-To get credit for completing this session offline, please [submit this form](https://app.rewst.io/form/4f233131-a105-496f-8904-3153af0a95ba).
-{% endhint %}
 
 ## Additional Resources
 

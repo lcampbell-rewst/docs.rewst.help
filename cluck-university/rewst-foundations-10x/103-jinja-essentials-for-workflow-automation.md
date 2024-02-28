@@ -4,13 +4,19 @@
 
 Welcome to Rewst 103! In this course, we'll be talking about Jinja, the templating language that has become an essential tool for web developers and data engineers alike. In this article, we will explore the basics of Jinja, its syntax, and various use cases, with a focus on understanding the different use cases.
 
-When you've completed this training, [don't forget to get credit](103-jinja-essentials-for-workflow-automation.md#get-credit)!
+When you've completed this training, [don't forget to get credit](103-jinja-essentials-for-workflow-automation.md#get-credit)[!](https://app.rewst.io/form/ef9d5d9a-f4d0-4aaf-a7a0-c11a9b3b80a1)
 
 ***
 
 ## Watch the video and follow along with the documentation and walkthrough steps below
 
 {% embed url="https://youtu.be/jU8OZ0exa_0" %}
+
+## Get Credit
+
+{% hint style="warning" %}
+To get credit for completing this session offline, please [submit this form](https://app.rewst.io/form/ef9d5d9a-f4d0-4aaf-a7a0-c11a9b3b80a1).
+{% endhint %}
 
 ## **What is Jinja?**
 
@@ -528,12 +534,6 @@ On {{ weekday.day }} you should bring a frosty RewstyCola for lunch at {{ weekda
 Understanding Jinja and its diverse functionalities empowers trainers to create dynamic and responsive workflows within the Rewst environment. By mastering Jinja’s syntax, you can efficiently manipulate data, enabling the seamless execution of complex tasks.
 
 ***
-
-## Get Credit
-
-{% hint style="warning" %}
-To get credit for completing this session offline, please [submit this form](https://app.rewst.io/form/ef9d5d9a-f4d0-4aaf-a7a0-c11a9b3b80a1).
-{% endhint %}
 
 ## Additional Resources
 
