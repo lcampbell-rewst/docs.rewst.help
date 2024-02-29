@@ -4,7 +4,7 @@ description: >-
   integration.
 ---
 
-# Connectwise Integration Setup
+# ConnectWise Integration Setup
 
 {% hint style="success" %}
 **This Integration supports multiple instances**
@@ -15,6 +15,18 @@ description: >-
 ## Requirements (pre-Rewst)
 
 There are a few requirements for the ConnectWise Manage integration to work that need configuring by you as the MSP.
+
+Rewst has a number of tasks that can be performed using the ConnectWise Manage API, all of which require different permissions. You can review the [ConnectWise Manage Security Roles Matrix](https://developer.connectwise.com/@api/deki/files/422/Security\_Roles\_Matrix\_11132017.xlsx?revision=1) for more information.
+
+{% hint style="info" %}
+You will need an active CW Developer account to access the above URL.
+{% endhint %}
+
+### Creating a Security Role
+
+1. **Go to** System -> Security Roles -> Click the + in the top Left.
+2. **Name** the Security Role "Rewst API" -> Click the save icon.
+3. **Set** your permission as per [this document](least-privilege-access-requirements-for-connectwise-manage-integration.md).
 
 ### API Account
 
@@ -42,17 +54,7 @@ In order to create a new ConnectWise Manage integration, you will need to create
 
 <figure><img src="../../../../.gitbook/assets/public-api-key.jpg" alt=""><figcaption><p>Public and Private Key</p></figcaption></figure>
 
-Rewst has a number of tasks that can be performed using the ConnectWise Manage API, all of which require different permissions. You can review the [ConnectWise Manage Security Roles Matrix](https://developer.connectwise.com/@api/deki/files/422/Security\_Roles\_Matrix\_11132017.xlsx?revision=1) for more information.
 
-#### Creating a Security Role
-
-1. **Go to** System -> Security Roles -> Click the + in the top Left.
-2. **Name** the Security Role "Rewst API" -> Click the save icon.
-3. **Set** your permission as per [this document](least-privilege-access-requirements-for-connectwise-manage-integration.md).
-
-{% hint style="info" %}
-You will need an active CW Developer account to access the above URL.
-{% endhint %}
 
 ### Integration
 
