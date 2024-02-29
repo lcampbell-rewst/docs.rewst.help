@@ -301,6 +301,7 @@
   * [Submit your Crate Idea](prebuilt-automations/crates/submit-your-crate-idea.md)
   * [Production Crate List](prebuilt-automations/crates/production-crate-list.md)
 * [Crate Documentation](prebuilt-automations/existing-crate-documentation/README.md)
+  * [Configure Organization Variables](prebuilt-automations/existing-crate-documentation/configure-organization-variables.md)
   * [Add Client to Rewst](prebuilt-automations/existing-crate-documentation/add-client-to-rewst-setup.md)
   * [New User Onboarding](prebuilt-automations/existing-crate-documentation/new-user-onboarding/README.md)
     * [Identity Provider Setup - New User Add](prebuilt-automations/existing-crate-documentation/new-user-onboarding/identity-provider-setup-new-user-add.md)
