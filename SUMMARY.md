@@ -445,8 +445,6 @@
   * [October 28th 2022](updates/cs-and-training-updates/october-28th-2022-2.md)
   * [November 4th 2022](updates/cs-and-training-updates/november-4th-2022.md)
   * [October 28th 2022](updates/cs-and-training-updates/october-28th-2022-1.md)
-* [Crate Updates](updates/crate-updates/README.md)
-  * [March 1st, 2024](updates/crate-updates/march-1st-2024.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
   * [Feb 23rd, 2024 - Pardon My Jinja](updates/roc-open-mics/feb-23rd-2024-pardon-my-jinja.md)
   * [Feb 16th, 2024 - Pizza's Cooking in the Oven](updates/roc-open-mics/feb-16th-2024-pizzas-cooking-in-the-oven.md)
