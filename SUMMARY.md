@@ -547,7 +547,7 @@
 
 ## 🔐 Security
 
-* [Outgoing IP Address](security/security-policy.md)
+* [Incoming & Outgoing Domains & IPs](security/security-policy.md)
 
 ## 🆘 Support
 
