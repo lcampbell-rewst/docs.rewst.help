@@ -1,6 +1,6 @@
-# ROC Open Mics
+# March 1, 2024 - Early Bird Specials for Flow in the Kewp
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 

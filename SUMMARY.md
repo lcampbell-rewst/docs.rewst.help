@@ -447,6 +447,7 @@
   * [November 4th 2022](updates/cs-and-training-updates/november-4th-2022.md)
   * [October 28th 2022](updates/cs-and-training-updates/october-28th-2022-1.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
+  * [March 1, 2024 - Early Bird Specials for Flow in the Kewp](updates/roc-open-mics/march-1-2024-early-bird-specials-for-flow-in-the-kewp.md)
   * [Feb 23rd, 2024 - Pardon My Jinja](updates/roc-open-mics/feb-23rd-2024-pardon-my-jinja.md)
   * [Feb 16th, 2024 - Pizza's Cooking in the Oven](updates/roc-open-mics/feb-16th-2024-pizzas-cooking-in-the-oven.md)
   * [Feb 9th, 2024 - Becoming a Jinja Ninja with the New Live Editor](updates/roc-open-mics/feb-9th-2024-becoming-a-jinja-ninja-with-the-new-live-editor.md)
