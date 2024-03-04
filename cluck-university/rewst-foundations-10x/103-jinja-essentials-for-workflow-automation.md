@@ -126,19 +126,20 @@ This example demonstrates filtering active users from `CTX.my_user_list`.
   * For example, using filters like `lower` to standardize data before comparison.
 * **Benefit:** Ensures more accurate and relevant data processing, critical for complex workflows.
 
-**List Comprehension with Math**
+#### List Comprehension with Math
 
-* **Purpose:** Allows you to modify the output of the data with specific math functions.
-  * For example, to create a new list containing the squares of all numbers in an existing list:
+* **Purpose:** This method allows you to apply specific mathematical functions to each element in a list, thereby modifying the output based on your needs.
+* **Benefit:** Offers a succinct method to apply mathematical transformations across a list, yielding a new list with modified values.
 
-```django
-{{
-    [
-        num * num
-        for num in CTX.list_of_numbers
-    ]
-}}
+**Example:**
+
+```python
+squared_numbers = [num * num for num in list_of_numbers]
 ```
+
+If `list_of_numbers = [1, 2, 3, 4]`, then the `squared_numbers` list after applying the above list comprehension will be `[1, 4, 9, 16]`.
+
+This concise approach efficiently applies the squaring function to each item in the original list and collects the results in a new list.
 
 ***
 
