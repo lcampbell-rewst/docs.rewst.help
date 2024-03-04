@@ -54,4 +54,4 @@ The final step involves configuring the workflow as a completion handler. We dem
 
 In conclusion, we highlight the simplicity of the process and encourage users to apply this example to other Rewst crates. Completion handlers, combined with synced workflows, offer immediate value and flexibility for MSPs. Users can customize their workflows without sacrificing updates and enhancements provided by Rewst.
 
-Feel free to reach out in the Cluck You channel on Discord or consult your Customer Success Manager if you have any questions. Happy optimizing, and we'll see you in the next video!
+Feel free to reach out in the Cluck U channel on Discord or consult your Customer Success Manager if you have any questions. Happy optimizing, and we'll see you in the next video!
