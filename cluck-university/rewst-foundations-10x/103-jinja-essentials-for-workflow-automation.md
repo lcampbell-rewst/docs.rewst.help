@@ -126,6 +126,20 @@ This example demonstrates filtering active users from `CTX.my_user_list`.
   * For example, using filters like `lower` to standardize data before comparison.
 * **Benefit:** Ensures more accurate and relevant data processing, critical for complex workflows.
 
+**List Comprehension with Math**
+
+* **Purpose:** Allows you to modify the output of the data with specific math functions.
+  * For example, to create a new list containing the squares of all numbers in an existing list:
+
+```django
+{{
+    [
+        num * num
+        for num in CTX.list_of_numbers
+    ]
+}}
+```
+
 ***
 
 ## **Creating Variables in Jinja**
@@ -415,6 +429,21 @@ Here are some important keyboard shortcuts you can use throughout
     ```
 3. **Review** the output.
 4. **Re-add** the comments.
+
+**Multiply numbers within a list by themselves, and output a new list with modified data**
+
+1.  **Uncomment & Render** the following:
+
+    ```django
+    {% raw %}
+    {% set old_list = [1,2,3] %}
+    {% endraw %}
+    {{
+        [
+            num * num for num in old_list
+        ]
+    }}
+    ```
 
 </details>
 
