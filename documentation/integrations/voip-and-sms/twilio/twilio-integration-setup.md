@@ -1,13 +1,9 @@
----
-description: Twilio Integration Setup
----
-
-# Twilio
+# Twilio Integration Setup
 
 {% hint style="success" %}
 **This Integration supports multiple instances**
 
-[Check out the instructions to set up multiple instances here](../general/multi-instance-integration/multi-instance-integration-setup.md).
+[Check out the instructions to set up multiple instances here](../../general/multi-instance-integration/multi-instance-integration-setup.md).
 {% endhint %}
 
 ## Overview
