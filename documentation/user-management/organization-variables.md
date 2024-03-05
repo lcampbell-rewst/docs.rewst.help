@@ -28,6 +28,10 @@ Access variables seamlessly in any workflow with the following syntax:
 * Employ descriptive and straightforward wording using `snake_case` for clarity.
 * Prefix integration-specific variables appropriately, like `psa_` for PSA-related variables.
 
+{% hint style="info" %}
+**Defining Boolean Values:** always use lowercase `true` or `false` to align with Rewst's standardized practices. This uniform approach applies to all future workflow designs. Existing legacy workflows may display variations.
+{% endhint %}
+
 ***
 
 ## **Use as Default Feature**
@@ -44,10 +48,6 @@ The "Use as Default" feature allows managing organizations to set a universal de
   * Implementing triggers in the workflow ensures that the execution context is recognized. This facilitates the use of MSP-level defaults in sub-organization workflows.
 
 ***
-
-{% hint style="info" %}
-**Defining Boolean Values:** always use lowercase `true` or `false` to align with Rewst's standardized practices. This uniform approach applies to all future workflow designs. Existing legacy workflows may display variations.
-{% endhint %}
 
 ## Onboarding Requirements
 
