@@ -108,7 +108,7 @@
     * [Loops in Jinja](documentation/jinja/common-jinja-examples/loops-in-jinja.md)
     * [Mimicking Switch Statements in Jinja](documentation/jinja/common-jinja-examples/mimicking-switch-statements-in-jinja.md)
   * [Use Cases & Best Practices](documentation/jinja/use-cases-and-best-practices/README.md)
-    * [Working with Lists](documentation/jinja/use-cases-and-best-practices/jinja-lists.md)
+    * [Working with Jinja Lists](documentation/jinja/use-cases-and-best-practices/jinja-lists.md)
     * [Combining Lists](documentation/jinja/use-cases-and-best-practices/general-info.md)
     * [Jinja Reserved Keywords](documentation/jinja/use-cases-and-best-practices/jinja-reserved-keywords.md)
     * [Collecting CTX Variables Dynamically Using Jinja](documentation/jinja/use-cases-and-best-practices/collecting-ctx-variables-dynamically-using-jinja.md)
