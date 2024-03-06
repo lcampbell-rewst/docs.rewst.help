@@ -1,33 +1,33 @@
-# NAble Integration Setup
+# N-able N-central Integration Setup
 
-This guide provides an overview of the NAble N-Central RMM Integration. &#x20;
+This guide provides an overview of the N-able N-central RMM Integration. &#x20;
 
 There are a couple of special caveats to note, listed below.
 
 {% hint style="warning" %}
-**N-Central Required Version**
+**N-central Required Version**
 
-The new REST API endpoints are only available on N-Central with a version of 2023.9 or above.  Contact your N-Able Representative to be upgraded where applicable.
+The new REST API endpoints are only available on N-central with a version of 2023.9 or above.  Contact your N-able Representative to be upgraded where applicable.
 {% endhint %}
 
 {% hint style="danger" %}
 **SOAP vs REST Integration**
 
-**We currently have the "N-Able (SOAP)" integration and "NAble (REST)" integration listed in our integration list.  The SOAP integration is now deprecated and where possible, you should utilise only the REST Integration.**
+**We currently have the "N-able (SOAP)" integration and "N-central (REST)" integration listed in our integration list.  The SOAP integration is now deprecated and where possible, you should utilize only the REST Integration.**
 {% endhint %}
 
 ### Integration Setup
 
-1. **Navigate** to the User Management page in N-Able (Administration > User Management > Users)
+1. **Navigate** to the User Management page in N-able (Administration > User Management > Users)
 2. **Create** a new user specifically for API Access
 3. On the **Access Groups and Roles tabs**, ensure that you give relevant access to the API user as required by your automations.
 4. In the User Details tab, ensure the box **"MFA Not Required" is checked**
-5. In the API Access tab, ensure the box **"API Only User" is checked**, which stops the user from logging into the N-Able UI
+5. In the API Access tab, ensure the box **"API Only User" is checked**, which stops the user from logging into the N-able UI
 6. **Click** the "Generate JSON Web Token" button and copy the API Key field in the integration
 
 ### Running Powershell via RMM - Script Setup
 
-In order to run Powershell on devices via the RMM, you must create the Script in your N-Able repository and enable it's access for use over the API, as per N-Able Security Policies.
+In order to run Powershell on devices via the RMM, you must create the Script in your N-able repository and enable it's access for use over the API, as per N-able Security Policies.
 
 1. &#x20;**Navigate** to Configuration > Scheduled Tasks > Script/Software Repository
 2. **Click** Add > Scripting on the top menu button
@@ -50,7 +50,7 @@ The ORG Var is only currently required as there is no way to search for a script
 
 <mark style="color:red;">**Required:**</mark>** Preferred DC Organization Variable**
 
-There is currently no way to identify a Domain Controller via the NAble REST API, which means you must manually set the hostname of the preferred DC.  You can do this using the Organization Variable form that was discussed during your onboarding.  The end result will be an Org Var called <mark style="color:orange;">preferred\_domain\_controller</mark> and a value of the hostname of that client's DC.
+There is currently no way to identify a Domain Controller via the N-able REST API, which means you must manually set the hostname of the preferred DC.  You can do this using the Organization Variable form that was discussed during your onboarding.  The end result will be an Org Var called <mark style="color:orange;">preferred\_domain\_controller</mark> and a value of the hostname of that client's DC.
 
 
 

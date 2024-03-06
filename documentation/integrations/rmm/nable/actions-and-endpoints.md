@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The N-Able Integration with Rewst delivers a robust set of actions and endpoints for interacting with N-Able. Below is a summary of each section, highlighting the diverse capabilities and opportunities provided through the Nable Integration:
+The N-able N-central Integration with Rewst delivers a robust set of actions and endpoints for interacting with N-able N-central. Below is a summary of each section, highlighting the diverse capabilities and opportunities provided through the Nable Integration:
 
 * [**Customers**](broken-reference)
 * [**Devices**](broken-reference)
@@ -35,7 +35,7 @@ Get Computer
 
 ### Generic Request
 
-{% swagger baseUrl="<environment>.n-able.com" path="/<url_path>" method="get" summary="NAble API Request" %}
+{% swagger baseUrl="<environment>.n-able.com" path="/<url_path>" method="get" summary="N-central API Request" %}
 {% swagger-description %}
 Generic action for making authenticated requests against the N-Able API
 {% endswagger-description %}
