@@ -18,11 +18,11 @@ The new REST API endpoints are only available on N-central with a version of 202
 
 ### Integration Setup
 
-1. **Navigate** to the User Management page in N-able (Administration > User Management > Users)
+1. **Navigate** to the User Management page in N-able N-central (Administration > User Management > Users)
 2. **Create** a new user specifically for API Access
 3. On the **Access Groups and Roles tabs**, ensure that you give relevant access to the API user as required by your automations.
 4. In the User Details tab, ensure the box **"MFA Not Required" is checked**
-5. In the API Access tab, ensure the box **"API Only User" is checked**, which stops the user from logging into the N-able UI
+5. In the API Access tab, ensure the box **"API Only User" is checked**, which stops the user from logging into the N-able N-central UI
 6. **Click** the "Generate JSON Web Token" button and copy the API Key field in the integration
 
 ### Running Powershell via RMM - Script Setup
