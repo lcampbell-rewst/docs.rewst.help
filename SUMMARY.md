@@ -184,6 +184,7 @@
       * [Azure Actions](documentation/integrations/cloud/microsoft-azure/azure-actions.md)
     * [Microsoft CSP](documentation/integrations/cloud/microsoft-csp/README.md)
       * [Microsoft CSP Integration Setup](documentation/integrations/cloud/microsoft-csp/microsoft-csp-integration-setup.md)
+      * [Microsoft Cloud Permissions](documentation/integrations/cloud/microsoft-csp/microsoft-cloud-permissions.md)
       * [Rewst User Setup and GDAP Relationship Guidance](documentation/integrations/cloud/microsoft-csp/rewst-user-setup-and-gdap-relationship-guidance.md)
     * [Microsoft Graph](documentation/integrations/cloud/microsoft-graph/README.md)
       * [Microsoft Graph Integration Setup](documentation/integrations/cloud/microsoft-graph/microsoft-graph-integration-setup.md)
