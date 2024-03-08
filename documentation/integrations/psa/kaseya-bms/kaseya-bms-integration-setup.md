@@ -12,15 +12,27 @@ description: >-
 [Check out the instructions to set up multiple instances here](../../general/multi-instance-integration/multi-instance-integration-setup.md).
 {% endhint %}
 
-### Setting up the API account
+### Setting up the Kaseya  account
 
-Before configuring the Rewst integration you must generate an API user.
+Before configuring the Rewst integration, you must create a new user account in Kaseya BMS.
 
-Please refer to [Kaseya's documentation](https://helpdesk.kaseya.com/hc/en-gb/articles/360016897877-BMS-API-Dedicated-API-integration-account-in-PSA) for generating API credentials for your organization if you have not already.
+{% hint style="warning" %}
+Rewst requires an OTP token to access the Kaseya BMS API. You will need to create a regular user account as Kaseya doesn't allow OTP Tokens to be generated on API Users
+{% endhint %}
+
+1. **Go to** _Home_ -> _Employees_ -> _New Employee_
+2. **Create** the user, ensuring the _user type_ is _employee_
+3. **Log into** BMS as your newly created user
+4. **Go to** _My Profile_
+5. **Click** Configure MFA
+6. **Select** _Show Secret Key for Manual Configuration_
+7. **Note** this key, as we will need to enter it into Rewst
+8. **Configure** MFA with your preferred authentication app
+9. **Save**
 
 ### Configuring the Integration
 
-Once you have created an API account, you will need to configure the integration within the Rewst platform.
+Once you have created a user account, you will need to configure the integration within the Rewst platform.
 
 Follow the below steps to configure a new integration:
 
