@@ -23,8 +23,7 @@ Other applications/your technicians might need additional roles added to the rel
 {% embed url="https://www.youtube.com/embed/EtnO8VAHnGo?si=lsQ1a7fwVwMxxF2W" %}
 
 {% hint style="danger" %}
-IMPORTANT:
-As of January 2024 it was discovered that there is an issue on Microsoft's end that can cause issues with RBAC settings for certain APIs.
+IMPORTANT: As of January 2024 it was discovered that there is an issue on Microsoft's end that can cause issues with RBAC settings for certain APIs.
 
 Because of this it is recommended to break each individual role out into seperate groups within the GDAP relationship, failure to do so can result in intermittent GET, PATCH, and POST failures on API calls.
 
@@ -32,10 +31,7 @@ In the video and text guide for this document the instructions state to create o
 
 When setting up the group(s) in Entra you should do the following:
 
-Create a corresponding group for each role that will be assigned per [#recommended-roles-for-gdap](../authorization-best-practices.md#recommended-roles-for-gdap "mention"), an example of this would be:
-GDAP - Application Administrator
-GDAP - Exchange Administrator
-etc.
+Create a corresponding group for each role that will be assigned per [#recommended-roles-for-gdap](../authorization-best-practices.md#recommended-roles-for-gdap "mention"), an example of this would be: GDAP - Application Administrator GDAP - Exchange Administrator etc.
 
 In the admin relationship within the Partner Center you will need to add each group to the relationship and assign the corresponding role to the corresponding group in the relationship.
 
@@ -49,7 +45,7 @@ Below are the manual steps for completing this task
 ## Azure Active Directory (In Partner Tenant)
 
 1. **Login** to [Microsoft Entra ID](https://portal.azure.com/#view/Microsoft\_AAD\_IAM/ActiveDirectoryMenuBlade/\~/Overview).
-2. &#x20;**Navigate** to _Users_.
+2. **Navigate** to _Users_.
 
 <figure><img src="../../../../.gitbook/assets/entra-id-users.png" alt=""><figcaption></figcaption></figure>
 
@@ -89,14 +85,14 @@ Note: This role is required for installing the Enterprise Applications used when
 
 <figure><img src="../../../../.gitbook/assets/entra-id-create-new-group.png" alt=""><figcaption></figcaption></figure>
 
-18. **Click** on _New Group_ on the _Groups_ page.&#x20;
+18. **Click** on _New Group_ on the _Groups_ page.
 
 <figure><img src="../../../../.gitbook/assets/add-security-group.png" alt=""><figcaption></figcaption></figure>
 
 19. **Select** _Security_ for Group type.
 20. **Enter** _Rewst – GDAP_ for the group name.
 21. **Enter** _Rewst GDAP Permissions Group_ for the group description.
-22. **Set** _Microsoft Entra roles can be assigned to the group_ to _Yes._&#x20;
+22. **Set** _Microsoft Entra roles can be assigned to the group_ to _Yes._
 23. **Click** on _No members selected_.
 24. **Select** the Rewst account created in the previous steps in the new pane type in _Rewst_.
 25. **Click** _Select._
@@ -172,13 +168,15 @@ This will bring you to the page that shows all the available roles in the relati
 
 <figure><img src="../../../../.gitbook/assets/add-security-groups-partner.png" alt=""><figcaption></figcaption></figure>
 
-16. **Select** the group created earlier.
+16. **Select** _AdminAgents_ and _Rewst - GDAP_
 
-<figure><img src="../../../../.gitbook/assets/security-group-rewst-gdap.png" alt="" width="258"><figcaption></figcaption></figure>
 
-17. Click _Next._
-18. **Select** the roles required for Rewst in the relationship as per [#recommended-roles-for-gdap](../authorization-best-practices.md#recommended-roles-for-gdap "mention").\
 
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-03-11 at 11.02.37 AM.png" alt="" width="257"><figcaption></figcaption></figure>
+
+**Click** _Next._
+
+17. **Select** the roles required for Rewst in the relationship as per [#recommended-roles-for-gdap](../authorization-best-practices.md#recommended-roles-for-gdap "mention").\\
 
 <figure><img src="../../../../.gitbook/assets/select-all-gdap-roles.png" alt="" width="230"><figcaption></figcaption></figure>
 
