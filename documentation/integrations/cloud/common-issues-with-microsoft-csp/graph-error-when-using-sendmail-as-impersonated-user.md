@@ -42,4 +42,4 @@ If the test is unsuccessful then follow these next steps:
 
 ## Contact Us for More Help
 
-If you're continuing to have issues, check out our [roc-support](../../../../support/roc-support/ "mention")page to get help!
+If you're continuing to have issues, check out our [roc-support](../../../../support/roc-support/ "mention") page to get help!
