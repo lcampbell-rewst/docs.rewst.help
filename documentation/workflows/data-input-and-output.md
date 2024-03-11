@@ -2,7 +2,11 @@
 
 ### Overview
 
-In this guide, we will discuss workflow actions, how inputs are passed into a workflow and workflow actions, and the outputs from workflows and individual actions.
+In this guide we will discuss:&#x20;
+
+* Workflow actions
+* How inputs are passed into a workflow
+* Outputs from workflows or individual actions
 
 ### Workflow Actions
 
@@ -28,19 +32,31 @@ Workflow transitions refer to the means by which a Rewst workflow moves from one
 
 ### Workflow Input
 
-Workflow inputs allow you to pass parameters to workflows either directly or through the use of forms.
+Workflow inputs are commonly known as input variables. The role of input variables is to provide data that can be used by tasks within the workflow, or into a sub-workflow.&#x20;
 
-At the top of each workflow, you have an icon on the top bar to view or modify workflow input.
+Input variables cam be broken down into two parts, a placeholder key and the specific data or values that vary, (hence the name _variables)_.&#x20;
 
-When pressed, you get a number of options - here we will concentrate on "Input Configuration"
+This would be an example of a variable where Name is the key and Ashley is the value
 
-When pressing the "+", you will get a number of new fields.
+\[NAME] : "Ashley"
+
+In the workflow settings, you can modify the input variables key by adding a new input configuration.&#x20;
+
+Go to "Configure Workflow Settings"  >  "Input Configuration"
+
+Press the plus (+) next to Input Configuration to see a number of new fields.
 
 1. **Name (Required):** This can be a unique entry relevant to what the aim of the input is going to be. This should not contain spaces (examples below)
 2. **Label:** This is a text field that can be used to give a better name for the field (examples below)
 3. **Type:** This defines what format the field will be in. The most common is Text (general string) and Integer (number)
 4. **Default Value:** You can specify a value that, if not specified elsewhere, will always be used.
 5. **Description:** You can give a better description of what the field is used for.
+
+The input variables get their values in a Rewst workflow through the workflows initial trigger event.&#x20;
+
+> Any data type that is valid in JSON can be used as an input variable.
+
+#### Example
 
 An example of an input variable, using static data, can be seen below:
 
@@ -52,11 +68,9 @@ An example of an input variable, using static data, can be seen below:
 
 ### Workflow Action Inputs
 
-We now have variables created within our workflow, but how do we actually use them in the [actions](../../cluck-university/getting-started/rewst-terminology.md#actions)?
+We now have variables created within our workflow, they become [Context Variables](../../cluck-university/getting-started/rewst-terminology.md#context-variables) and can be used directly in action inputs.
 
-When you create the variables on the workflow, they become [Context Variables](../../cluck-university/getting-started/rewst-terminology.md#context-variables) and can be used directly in action inputs.
-
-In our example below, we are creating a user in M365 using three variables:
+In our example below, we are creating a user in Microsoft 365 using three variables:
 
 1. First Name
 2. Last Name
@@ -116,7 +130,7 @@ This is where [Transitions](../../cluck-university/getting-started/rewst-termino
 
 If you click the "On Success" transition on the action, you have the option to create a Data Alias.
 
-A data alias allows you to create a variable, similar to an input variable, but with data direct from an action API request. In our example below, we are creating a variable called "user\_details" and populating it with the details of the user using Jinja.
+A data alias allows you to create a variable, similar to an input variable, but with data direct from an action API request. In our example below, we are creating a variable with the key called "user\_details" and populating it with the data of the user using Jinja.
 
 <figure><img src="../../.gitbook/assets/data-aliases-example.png" alt=""><figcaption></figcaption></figure>
 
