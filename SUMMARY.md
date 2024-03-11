@@ -190,6 +190,7 @@
       * [Graph Actions](documentation/integrations/cloud/microsoft-graph/graph-actions.md)
       * [Graph Subscriptions](documentation/integrations/cloud/microsoft-graph/microsoft-graph-subscriptions.md)
     * [Common Issues with Microsoft Integrations](documentation/integrations/cloud/common-issues-with-microsoft-csp/README.md)
+      * [Graph Error When Using Sendmail as Impersonated User](documentation/integrations/cloud/common-issues-with-microsoft-csp/graph-error-when-using-sendmail-as-impersonated-user.md)
       * [Navigating The Microsoft-Led Transition to GDAP](documentation/integrations/cloud/common-issues-with-microsoft-csp/navigating-the-microsoft-led-transition-to-gdap.md)
       * [Embracing The Microsoft Minute](documentation/integrations/cloud/common-issues-with-microsoft-csp/embracing-the-microsoft-minute.md)
   * [CRM](documentation/integrations/crm/README.md)
