@@ -36,7 +36,7 @@ Workflow inputs are commonly known as input variables. The role of input variabl
 
 Input variables cam be broken down into two parts, a placeholder key and the specific data or values that vary, (hence the name _variables)_.&#x20;
 
-This would be an example of a variable where Name is the key and Ashley is the value
+This would be an example of a variable where Name is the key and Ashley is the value:
 
 \[NAME] : "Ashley"
 
