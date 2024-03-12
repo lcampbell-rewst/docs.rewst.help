@@ -2,7 +2,7 @@
 
 ### Overview
 
-In this guide we will discuss:&#x20;
+In this guide we will discuss:
 
 * Workflow actions
 * How inputs are passed into a workflow
@@ -32,27 +32,25 @@ Workflow transitions refer to the means by which a Rewst workflow moves from one
 
 ### Workflow Input
 
-Workflow inputs are commonly known as input variables. The role of input variables is to provide data that can be used by tasks within the workflow, or into a sub-workflow.&#x20;
+Workflow inputs are commonly known as input variables. The role of input variables is to provide data that can be used by tasks within the workflow, or into a sub-workflow.
 
-Input variables cam be broken down into two parts, a placeholder key and the specific data or values that vary, (hence the name _variables)_.&#x20;
+Input variables can be broken down into two parts, a key and the specific data or values that vary, (hence the name _variables)_.
 
-This would be an example of a variable where Name is the key and Ashley is the value:
+This would be an example of a variable where \[first\_name] is the key and Ashley is the value:
 
-\[NAME] : "Ashley"
+&#x20;               \[first\_name] : "Ashley"
 
-In the workflow settings, you can modify the input variables key by adding a new input configuration.&#x20;
-
-Go to "Configure Workflow Settings"  >  "Input Configuration"
+You can add new variables, or modify existing ones, by going to "Configure Workflow Settings"  >> "Input Configuration".
 
 Press the plus (+) next to Input Configuration to see a number of new fields.
 
-1. **Name (Required):** This can be a unique entry relevant to what the aim of the input is going to be. This should not contain spaces (examples below)
-2. **Label:** This is a text field that can be used to give a better name for the field (examples below)
-3. **Type:** This defines what format the field will be in. The most common is Text (general string) and Integer (number)
-4. **Default Value:** You can specify a value that, if not specified elsewhere, will always be used.
+1. **Name (Required):** This can be a unique entry relevant to what the aim of the input is going to be. This should not contain spaces.&#x20;
+2. **Label:** This text field is used to set a friendly name. It's the field name visible at the time of input.&#x20;
+3. **Type:** Short for data type, this field defines what format the data will be in. The most common types are Text (general string), Integer (whole number), and String (a combo of characters).&#x20;
+4. **Default Value:** You can specify a value that will be used if no other input is specified manually.
 5. **Description:** You can give a better description of what the field is used for.
 
-The input variables get their values in a Rewst workflow through the workflows initial trigger event.&#x20;
+The input variables get their values in a Rewst workflow through the workflows initial trigger event.
 
 > Any data type that is valid in JSON can be used as an input variable.
 
