@@ -1,6 +1,6 @@
-# ROC Open Mics
+# March 8th, 2024 - Live from Right of Boom, it's the ROC Open Mic
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
@@ -27,8 +27,6 @@ Join us live every Friday at 3 pm EST!
 🚀 Brandon shows a workflow that improves the Onboarding process&#x20;
 
 ❓ Q\&A discussing specific questions and best practices around automation
-
-
 
 <details>
 
