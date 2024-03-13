@@ -22,7 +22,7 @@ To get credit for completing this session offline, please [submit this form](htt
 
 ## Follow Along
 
-Review this article for more about [Managing Groups: Microsoft Graph vs. Exchange Online](../../documentation/integrations/general/105-improve-group-management-to-support-exchange.md).
+Review this article for more about [Managing Groups: Microsoft Graph vs. Exchange Online](../../documentation/integrations/general/microsoft-graph-vs-exchange-online.md).
 
 ### Part 1: Get Group Object
 
@@ -270,7 +270,7 @@ Rewst 105 equips you with the knowledge and skills to manage groups effectively 
 {% hint style="info" %}
 For more information on Microsoft Exchange PowerShell Commandlets, check out their documentation:
 
-* [Managing Groups: Microsoft Graph vs. Exchange Online](../../documentation/integrations/general/105-improve-group-management-to-support-exchange.md)
+* [Managing Groups: Microsoft Graph vs. Exchange Online](../../documentation/integrations/general/microsoft-graph-vs-exchange-online.md)
 * [Exchange PowerShell Commandlets](https://learn.microsoft.com/en-us/powershell/module/exchange/?view=exchange-ps)
 {% endhint %}
 

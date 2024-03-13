@@ -20,7 +20,7 @@ To get credit for completing this session offline, please [submit this form](htt
 
 ### Part 1: Live Editor
 
-The [Jinja Essentials](../../documentation/jinja/103-jinja-essentials-for-workflow-automation.md) doc is a great resource to reference if you get stuck along the way.&#x20;
+The [Jinja Essentials](../../documentation/jinja/jinja-essentials.md) doc is a great resource to reference if you get stuck along the way.&#x20;
 
 <details>
 
@@ -429,7 +429,7 @@ Understanding Jinja and its diverse functionalities empowers trainers to create 
 For more information on using Jinja, check out our documentation:
 
 * [Introduction to Jinja](../../documentation/jinja/intro-to-jinja.md)
-* [Jinja Essentials](../../documentation/jinja/)[ ](../../documentation/jinja/103-jinja-essentials-for-workflow-automation.md)
+* [Jinja Essentials](../../documentation/jinja/)[ ](../../documentation/jinja/jinja-essentials.md)
 * [Data Types](../../documentation/jinja/data-types.md)
 * [List of Jinja Filters](../../documentation/jinja/list-of-jinja-filters.md)
 * [Filter Examples](../../documentation/jinja/filter-examples.md)
