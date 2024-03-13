@@ -10,34 +10,21 @@ When you've completed this training, [don't forget to get credit!](https://app.r
 These steps below require [Rewst 102](102-building-a-basic-workflow.md) and [Rewst 104](104-options-generators-and-generic-api-requests.md) to be completed prior to starting the exercise.
 {% endhint %}
 
-***
-
-## Watch the video or follow along with the steps below
+## Watch the video and follow along with the steps below
 
 {% embed url="https://youtu.be/yG6h679xnfk" %}
 
 ## Get Credit
 
-{% hint style="warning" %}
+{% hint style="success" %}
 To get credit for completing this session offline, please [submit this form](https://app.rewst.io/form/4f233131-a105-496f-8904-3153af0a95ba).
 {% endhint %}
 
-## Managing Groups: Microsoft Graph vs. Exchange Online
+## Follow Along
 
-Let's talk about how to manage groups efficiently using Microsoft Graph and Microsoft Exchange Online. Understanding the type of group is crucial, as it dictates the API we should use. Here's a breakdown of the group types and their corresponding management methods:
+Review this article for more about [Managing Groups: Microsoft Graph vs. Exchange Online](../../documentation/integrations/general/105-improve-group-management-to-support-exchange.md).
 
-1. #### Dynamic Membership Groups:
-   * Dynamic membership groups are identified by the presence of "Dynamic membership" in the group type property. These groups cannot be directly modified through APIs.
-2. #### Unified Groups:
-   * Unified groups are managed using Microsoft Graph API. They are groups where "unified" is present in the group types property or when mail-enabled is set to false.
-3. #### Security Groups:
-   * Security groups can be managed using Exchange Online if mail-enabled is set to true. If mail-enabled is false, they are managed by Microsoft Graph API.
-4. #### Distribution Groups:
-   * Distribution groups are also managed using Exchange Online.
-
-***
-
-### Get Group Object
+### Part 1: Get Group Object
 
 We'll start by retrieving the group object using the group ID. This action is performed using the Microsoft Graph API.
 
@@ -61,9 +48,7 @@ We'll start by retrieving the group object using the group ID. This action is pe
 
 </details>
 
-***
-
-### Determine Group Type
+### Part 2: Determine Group Type
 
 Next, we'll use conditional logic to determine the group type based on the group object properties. Depending on the type, the workflow branches out to the corresponding actions.
 
@@ -104,7 +89,7 @@ Next, we'll use conditional logic to determine the group type based on the group
 
 ***
 
-### Add or Remove Users
+### Part 3: Add or Remove Users
 
 For Unified and Security Groups managed by Microsoft Graph or Distribution Groups managed by Exchange Online, we'll implement actions to add or remove users based on the group type.
 
@@ -148,7 +133,7 @@ For Unified and Security Groups managed by Microsoft Graph or Distribution Group
 
 ***
 
-### Handle Errors and Provide Feedback
+### Part 4: Handle Errors and Provide Feedback
 
 Next, we'll incorporate error-handling mechanisms by providing feedback messages for successful or failed actions. This ensures a seamless user experience and clear communication in case of issues.
 
@@ -227,7 +212,7 @@ Next, we'll incorporate error-handling mechanisms by providing feedback messages
 
 ***
 
-### Workflow Completion and Success
+### Part 5: Workflow Completion and Success
 
 Finally, we'll set up the workflow completion criteria, ensuring that the workflow is considered successful if at least one parent task succeeds.
 
@@ -274,9 +259,7 @@ Finally, we'll set up the workflow completion criteria, ensuring that the workfl
 
 </details>
 
-***
-
-### Conclusion
+## Conclusion
 
 Rewst 105 equips you with the knowledge and skills to manage groups effectively in Rewst. By understanding the nuances of different group types and employing the appropriate APIs, you can efficiently handle group operations within your applications.&#x20;
 
@@ -287,6 +270,7 @@ Rewst 105 equips you with the knowledge and skills to manage groups effectively 
 {% hint style="info" %}
 For more information on Microsoft Exchange PowerShell Commandlets, check out their documentation:
 
+* [Managing Groups: Microsoft Graph vs. Exchange Online](../../documentation/integrations/general/105-improve-group-management-to-support-exchange.md)
 * [Exchange PowerShell Commandlets](https://learn.microsoft.com/en-us/powershell/module/exchange/?view=exchange-ps)
 {% endhint %}
 

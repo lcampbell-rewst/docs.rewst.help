@@ -121,6 +121,7 @@
     * [Multi-instance Integration](documentation/integrations/general/multi-instance-integration/README.md)
       * [Multi-instance Integration Setup](documentation/integrations/general/multi-instance-integration/multi-instance-integration-setup.md)
       * [Integrating with Two CSPs](documentation/integrations/general/multi-instance-integration/integrating-with-two-csps.md)
+    * [Managing Groups: Microsoft Graph vs. Exchange Online](documentation/integrations/general/105-improve-group-management-to-support-exchange.md)
   * [PSA](documentation/integrations/psa/README.md)
     * [Kaseya BMS](documentation/integrations/psa/kaseya-bms/README.md)
       * [Kaseya BMS Integration Setup](documentation/integrations/psa/kaseya-bms/kaseya-bms-integration-setup.md)

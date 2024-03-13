@@ -10,7 +10,7 @@ This isn't just our foundational course. It's your shortcut to becoming the Stew
 
 When you've completed this training, [don't forget to get credit!](https://app.rewst.io/form/8ac04607-a1c4-45ea-b203-448b2f1b64e0)
 
-## Watch the video
+## Watch the video and follow along with the steps below
 
 {% embed url="https://youtu.be/6uyTSRGb8d0" %}
 
@@ -49,6 +49,6 @@ Sign up below for the live webinar, or check out our other lessons on demand:
 * [Identifying What to Automate](../getting-started/identifying-what-to-automate.md)
 {% endhint %}
 
-## More Guidance&#x20;
+## Need more guidance?
 
 <table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 101</strong></mark></td><td align="center">Laying the foundations of Automation</td><td><a href="https://calendly.com/cluck-u/rewst-101">https://calendly.com/cluck-u/rewst-101</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>

@@ -20,19 +20,19 @@ Hello and welcome! In this tutorial, we'll guide you through the process of crea
 
 When you've completed this training, [don't forget to get credit!](https://app.rewst.io/form/38c7d9ca-1606-4a61-872e-884466850287)
 
-***
-
-## Watch the video or follow along with the steps below
+## Watch the video and follow along with the steps below
 
 {% embed url="https://youtu.be/MuOTYGS56l4" %}
 
 ## Get Credit
 
-{% hint style="warning" %}
+{% hint style="success" %}
 To get credit for completing this session offline, please [submit this form](https://app.rewst.io/form/38c7d9ca-1606-4a61-872e-884466850287).
 {% endhint %}
 
-## Part 1: Build a Form to Add or Remove Users in AD
+## Follow Along
+
+### Part 1: Build a Form to Add or Remove Users in AD
 
 We'll start by creating a form to collect the necessary information to pass to the workflow. First, we'll go to the Forms section in Rewst. Next, we'll design the form with fields, and configure the fields to dynamically show us a list of users and groups. And finally, we'll define which variables can be accessed from the workflow for each field. Follow these steps:
 
@@ -93,7 +93,7 @@ We'll start by creating a form to collect the necessary information to pass to t
 
 ***
 
-## Part 2: Build a Workflow to Add or Remove Users in AD
+### Part 2: Build a Workflow to Add or Remove Users in AD
 
 Next, let's design a workflow that responds to the form submissions. We'll start by going to the Workflow section in Rewst and adding a new workflow. Then, we'll add the actions, including MS Graph actions, to the workflow. Finally, we'll implement transitions based on whether a user is added or removed from a group.
 
@@ -158,7 +158,7 @@ Next, let's design a workflow that responds to the form submissions. We'll start
 
 ***
 
-## Part 3: Triggering the Workflow with the Form
+### Part 3: Triggering the Workflow with the Form
 
 Next, we'll add a Form trigger to the workflow to ensure that the information that comes through the form can kick off the workflow process.&#x20;
 
@@ -181,7 +181,7 @@ Next, we'll add a Form trigger to the workflow to ensure that the information th
 
 ***
 
-## Part 4: Configuring the Add and Remove Graph Actions
+### Part 4: Configuring the Add and Remove Graph Actions
 
 We jumped ahead to show how to trigger a workflow with a form. We now are going back to set the parameters needed for the actions to add or remove a user from a group.
 
@@ -259,7 +259,7 @@ We jumped ahead to show how to trigger a workflow with a form. We now are going 
 
 </details>
 
-## Part 5: Check the Results
+### Part 5: Check the Results
 
 Finally, let's test out the workflow by filling out the form and checking the workflow results!
 

@@ -2,23 +2,23 @@
 
 ## Introduction
 
-Hello and welcome! In Rewst 106, we'll complete our workflow and explore how to use sub-workflows and With items in Rewst. Sub-workflows enable us to utilize workflows within other workflows, creating a parent-child relationship. With items is a feature in Rewst that allows actions or workflows to run on all items in a list simultaneously. We'll demonstrate how to leverage these functionalities to manage group memberships efficiently. Let's dive in and get started!
+Hello and welcome! In Rewst 106, we'll complete our workflow and explore how to use sub-workflows and With items in Rewst. Sub-workflows enable us to utilize workflows within other workflows, creating a parent-child relationship. With items is a feature in Rewst that allows actions or workflows to run on all items in a list simultaneously. We'll demonstrate how to leverage these functionalities to manage group memberships efficiently.&#x20;
 
 When you've completed this training,[ don't forget to get credit!](https://app.rewst.io/form/1339a9d0-a298-4e2e-8d40-2fa1626509a8)
 
-***
-
-## Watch the video or follow along with the steps below
+## Watch the video and follow along with the steps below
 
 {% embed url="https://youtu.be/r2LMDkzp3ac" %}
 
 ## Get Credit
 
-{% hint style="warning" %}
+{% hint style="success" %}
 To get credit for completing this session offline, please [submit this form](https://app.rewst.io/form/1339a9d0-a298-4e2e-8d40-2fa1626509a8).
 {% endhint %}
 
-## Creating a Parent Workflow in Rewst
+## Follow Along
+
+### Part 1: Creating a Parent Workflow in Rewst
 
 First, we're going to build a new parent workflow that starts by getting the User from the form.&#x20;
 
@@ -48,9 +48,7 @@ First, we're going to build a new parent workflow that starts by getting the Use
 
 </details>
 
-***
-
-## Adding a Sub Workflow and Utilizing With Items
+### Part 2: Adding a Sub Workflow and Utilizing With Items
 
 Next, we're going to add our original workflow as the sub-workflow and modify the form and Form Trigger to take advantage of With items.
 
@@ -105,9 +103,7 @@ Next, we're going to add our original workflow as the sub-workflow and modify th
 
 </details>
 
-***
-
-## Collect the Modification Results and Send Email Notifications
+### Part 3: Collect the Modification Results and Send Email Notifications
 
 Next, we're going to capture the results and store them in a list in order to send the information via email.
 
@@ -156,9 +152,7 @@ The group memberships for {{ CTX.target_user.displayName|d }} have been modified
 
 </details>
 
-***
-
-## Testing the Workflow
+### Part 4: Testing the Workflow
 
 Finally, we'll test it all out to see how it works!
 

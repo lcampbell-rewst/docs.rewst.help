@@ -18,6 +18,8 @@ To get credit for completing this session offline, please [submit this form](htt
 
 ## Follow Along
 
+### Part 1: Live Editor
+
 The [Jinja Essentials](../../documentation/jinja/103-jinja-essentials-for-workflow-automation.md) doc is a great resource to reference if you get stuck along the way.&#x20;
 
 <details>
@@ -70,7 +72,7 @@ Here are some important keyboard shortcuts you can use throughout
 
 ***
 
-## Loops, Lists, and List Comprehension
+### Part 2: Loops, Lists, and List Comprehension
 
 <details>
 
@@ -337,7 +339,7 @@ On {{ weekday.day }} you should bring a frosty RewstyCola for lunch at {{ weekda
 
 ***
 
-## **Eggstra-Credit!**
+### **Eggstra-Credit!**
 
 <details>
 
@@ -420,8 +422,6 @@ On {{ weekday.day }} you should bring a frosty RewstyCola for lunch at {{ weekda
 ## **Conclusion**
 
 Understanding Jinja and its diverse functionalities empowers trainers to create dynamic and responsive workflows within the Rewst environment. By mastering Jinja’s syntax, you can efficiently manipulate data, enabling the seamless execution of complex tasks.
-
-***
 
 ## Additional Resources
 

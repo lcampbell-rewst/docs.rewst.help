@@ -10,21 +10,23 @@ When you've completed this training, [don't forget to get credit](104-options-ge
 These steps assume you have completed the full steps from Rewst 102 You can find the instructions to make this form on the [<mark style="color:blue;">Rewst 102 Page</mark>](102-building-a-basic-workflow.md)<mark style="color:blue;">.</mark>
 {% endhint %}
 
-## Watch the video or follow along with the steps below
+## Watch the video and follow along with the steps below
 
 {% embed url="https://youtu.be/pkKRidcAHWA" %}
 
 ## Get Credit
 
-{% hint style="warning" %}
+{% hint style="success" %}
 To get credit for completing this session offline, please [submit this form](https://app.rewst.io/form/cdeabeb5-7fcb-4695-8534-94af2bcb10f0).
 {% endhint %}
 
-## Understanding Option Generators
+## Follow Along
+
+### Understanding Option Generators
 
 In this course, we will filter groups based on user membership status. When adding a user to a group, only groups the user is a member of will be displayed. Conversely, when removing a user from a group, only groups the user is a member of will be shown. To achieve this, we will utilize option generators, specialized workflows that curate form field options dynamically.
 
-### Modifying the Form
+### Part 1: Modifying the Form
 
 We'll start by modifying our existing form from Rewst 102. The group field and add/remove field positions will be switched. When users select a user and the add/remove radio button, these values will be passed to our option generator workflow.
 
@@ -48,7 +50,7 @@ We'll start by modifying our existing form from Rewst 102. The group field and a
 
 ***
 
-## Creating the Option Generator
+### Part 2: Creating the Option Generator
 
 In our next steps, we'll go to the Workflow section. Here, we'll craft a new workflow called "Demo Option Generator for Groups Based on User Membership." This workflow will be configured as an option generator, with specified inputs including user ID and action (add or remove). Moreover, we'll set the output configuration variable as "options" for our subsequent tasks.
 
@@ -219,7 +221,7 @@ In our next steps, we'll go to the Workflow section. Here, we'll craft a new wor
 
 ***
 
-## Trigger and Integration
+### Part 3: Trigger and Integration
 
 Next, we'll first add a trigger, configured to always pass, guaranteeing the workflow's execution when necessary inputs are supplied. Following that, we'll integrate the option generator into the group field within the form. To ensure clarity, we'll specify the display name attribute for the label field, ensuring that the options appear as group names for user selection.
 
@@ -306,8 +308,6 @@ Next, we'll first add a trigger, configured to always pass, guaranteeing the wor
 ## Conclusion
 
 Congratulations! You've successfully configured an option generator and implemented logic using generic API requests and list comprehension techniques. With this knowledge, you can enhance your forms and streamline group management.
-
-***
 
 ## Additional Resources
 
