@@ -41,7 +41,7 @@ With this, you can pass a number of objects into a certain action and collect th
 
 In our example below, we're going to list every user that is enabled in our tenant and then create or update a contact for each one.
 
-We will make certain assumptions with you reading this that you understand the basics of Rewst, however if you need a refresher then please read all about workflow inputs and outputs here
+We will make certain assumptions with you reading this that you understand the basics of Rewst. However, if you need a refresher, then read all about workflow inputs and outputs [here](https://docs.rewst.help/documentation/workflows/data-input-and-output).
 
 Below, we have the workflow itself. We are listing all enabled users and then outputting this to a data alias called
 
@@ -61,7 +61,7 @@ We then have a subworkflow that creates or updates a contact. As per the best pr
 
 In the Advanced tab, we then set the "With Items" field with this data alias.
 
-As you can see in the below image, the action now has the additional icon indicating that it has a "With Items" set on it.
+The action now has the additional icon indicating that it has a "With Items" set on it.
 
 During testing or for example if creating tickets from an alert, you may sometimes want to limit the amount of noise you get during this phase.
 
