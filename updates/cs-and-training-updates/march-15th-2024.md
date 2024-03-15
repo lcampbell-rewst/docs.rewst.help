@@ -6,9 +6,9 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **Game Tip for the Week:** &#x20;
+* **Game Tip for the Week:**  If you're not already an RPG fan, just become one. If you do, this will be the best gaming year of all time for you and we're only in March. Also, if you have a full-time job and know how long a top 10 video takes to make, don't decide to make a video ranking all the Final Fantasy games... Just don't do it.&#x20;
 * **SHOUT OUT** to Hayden, Jordan, Eugene, Chris, Brett, Dan, and Tahla for successfully taking our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention")Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
-* Eddie-the-legend-Chow is back from Right of Boom! So Training time will continue as expected next week!
+* We have unified the docs format for our 100 series, making it more searchable, and beefed up our resources section for each page.
 * Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
 
 </details>
