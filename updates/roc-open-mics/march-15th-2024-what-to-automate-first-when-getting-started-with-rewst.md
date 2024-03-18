@@ -1,6 +1,6 @@
-# ROC Open Mics
+# March 15th, 2024 - What to Automate First When Getting Started with Rewst?
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
@@ -27,8 +27,6 @@ Join us live every Friday at 3 pm EST!
 ❓ Jim-Barry inquires about Trigger ID and its impact on PSA triggers breaking&#x20;
 
 💡 Jamie, Stuart, Austin, Jared, Linda, and Jim-Barry discuss strategies for picking which tasks to automate when starting out.
-
-
 
 <details>
 
