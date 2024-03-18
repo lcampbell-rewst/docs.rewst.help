@@ -4,6 +4,10 @@
 
 Let's talk about how to manage groups efficiently using Microsoft Graph and Microsoft Exchange Online. Understanding the type of group is crucial, as it dictates the API we should use.&#x20;
 
+{% hint style="info" %}
+Our documentation comes directly from Microsoft. If you need more info, we recommend visiting [this Microsoft reference page](https://learn.microsoft.com/en-us/graph/api/resources/groups-overview).
+{% endhint %}
+
 ## Group Types
 
 Here's a breakdown of the group types and their corresponding management methods:
