@@ -126,6 +126,10 @@ If `list_of_numbers = [1, 2, 3, 4]`, then the `squared_numbers` list after apply
 
 This concise approach efficiently applies the squaring function to each item in the original list and collects the results in a new list.
 
+{% hint style="info" %}
+Interested in seeing Jinja Examples in the platform? Search the crate marketplace for _**Rewst Examples: Jinja Comprehension**_. Once it's unpacked you'll find common Jinja examples provided by our ROC.
+{% endhint %}
+
 ***
 
 ## **Creating Variables in Jinja**
