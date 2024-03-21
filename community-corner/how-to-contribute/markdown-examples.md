@@ -92,11 +92,7 @@ You can add images, code block, and lists
 
 Adding an API Method:
 
-{% swagger method="get" path="" baseUrl="" summary="" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-{% endswagger %}
+<mark style="color:blue;">`GET`</mark>&#x20;
 
 Linking to another page:
 

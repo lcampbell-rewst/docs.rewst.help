@@ -53,974 +53,974 @@ Each feature is designed with MSPs in mind, ensuring you have the tools necessar
 
 ### Account Provisioning
 
-{% swagger baseUrl="<example-domain>.com" path="/accountprovisioning/linkTenant" method="post" summary="Link Tenant 1" %}
-{% swagger-description %}
+## Link Tenant 1
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accountprovisioning/linkTenant`
+
 Step 1. Execute LinkTenant provision step, sync job
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accountprovisioning/linkNetwork" method="post" summary="Link Tenant 2" %}
-{% swagger-description %}
+## Link Tenant 2
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accountprovisioning/linkNetwork`
+
 Step 2. Start Azure configuration step
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accountprovisioning/connectToExistingAd" method="post" summary="Link Tenant 3" %}
-{% swagger-description %}
+## Link Tenant 3
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accountprovisioning/connectToExistingAd`
+
 Step 3. Start Connect to existing AD step (add job).
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accountprovisioning/createNewAzureAdds" method="post" summary="Link Tenant 4" %}
-{% swagger-description %}
+## Link Tenant 4
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accountprovisioning/createNewAzureAdds`
+
 Step 4. Start Create new Azure DS step (add job)
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accountprovisioning/configureFileStorage" method="post" summary="Link Tenant 5" %}
-{% swagger-description %}
+## Link Tenant 5
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accountprovisioning/configureFileStorage`
+
 Step 5. Start Configure file storage step (add job)
-{% endswagger-description %}
-{% endswagger %}
 
 ### Accounts
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts" method="get" summary="List Accounts" %}
-{% swagger-description %}
+## List Accounts
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts`
+
 Get list of accounts.
-{% endswagger-description %}
-{% endswagger %}
 
 ### App Role Assignments
 
-{% swagger baseUrl="<example-domain>.com" path="/app-role-assignments" method="delete" summary="Unassign App Role" %}
-{% swagger-description %}
+## Unassign App Role
+
+<mark style="color:red;">`DELETE`</mark> `<example-domain>.com/app-role-assignments`
+
 Unassign App Role from Principals
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/app-role-assignments" method="get" summary="List Assigned Principals" %}
-{% swagger-description %}
+## List Assigned Principals
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/app-role-assignments`
+
 List all Assigned Principals
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/app-role-assignments" method="post" summary="Assign App Role" %}
-{% swagger-description %}
+## Assign App Role
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/app-role-assignments`
+
 Assign App Role to Principals
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/app-role-assignments" method="put" summary="Update App Role" %}
-{% swagger-description %}
+## Update App Role
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/app-role-assignments`
+
 Update App Role for Principal
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/app-role-assignments/roles" method="get" summary="List App Roles" %}
-{% swagger-description %}
+## List App Roles
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/app-role-assignments/roles`
+
 List all app roles
-{% endswagger-description %}
-{% endswagger %}
 
 ### Backup
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/backup/protectedItems" method="get" summary="List all protected items" %}
-{% swagger-description %}
+## List all protected items
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/backup/protectedItems`
+
 Get all protected Items
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/backup/recoveryPoints" method="get" summary="Get Recovery points of protected item" %}
-{% swagger-description %}
+## Get Recovery points of protected item
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/backup/recoveryPoints`
+
 Get the recovery points of protected items
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/backup/enable" method="post" summary="Enable Backup" %}
-{% swagger-description %}
+## Enable Backup
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/backup/enable`
+
 Enable Backup
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/backup/restore" method="post" summary="Restore Resource" %}
-{% swagger-description %}
+## Restore Resource
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/backup/restore`
+
 Restore Resource to chosen recovery point
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/backup/disable" method="post" summary="Disable Resource" %}
-{% swagger-description %}
+## Disable Resource
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/backup/disable`
+
 Disable Resource. The resource will be removed from the backup policy and will no longer be backed up. You will be able to restore from any recovery points available so far.
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/backup/deleteBackupData" method="post" summary="Disable Backup Date" %}
-{% swagger-description %}
+## Disable Backup Date
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/backup/deleteBackupData`
+
 Delete Backup Date. The resource will be removed from the backup vault. You will not be able to restore this resource.
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/backup" method="post" summary="Backup Resource" %}
-{% swagger-description %}
+## Backup Resource
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/backup`
+
 Backup Resource. Execute backup of current resource
-{% endswagger-description %}
-{% endswagger %}
 
 ### Cost Estimator
 
-{% swagger baseUrl="<example-domain>.com" path="/costestimator/{id}" method="get" summary="Get Estimate by Id" %}
-{% swagger-description %}
-Get the saved estimate by ID
-{% endswagger-description %}
-{% endswagger %}
+## Get Estimate by Id
 
-{% swagger baseUrl="<example-domain>.com" path="/costestimator/list" method="get" summary="List Saved Estimates" %}
-{% swagger-description %}
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/costestimator/{id}`
+
+Get the saved estimate by ID
+
+## List Saved Estimates
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/costestimator/list`
+
 List all Saved Estimates
-{% endswagger-description %}
-{% endswagger %}
 
 ### Desktop Image
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/desktop-image/{subscriptionId}/{resourceGroup}/{name}" method="delete" summary="Delete Desktop Image" %}
-{% swagger-description %}
+## Delete Desktop Image
+
+<mark style="color:red;">`DELETE`</mark> `<example-domain>.com/accounts/{accountId}/desktop-image/{subscriptionId}/{resourceGroup}/{name}`
+
 Delete desktop image
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/desktop-image/{subscriptionId}/{resourceGroup}/{name}" method="get" summary="Get Desktop Image" %}
-{% swagger-description %}
+## Get Desktop Image
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/desktop-image/{subscriptionId}/{resourceGroup}/{name}`
+
 Get desktop image in detail
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/desktop-image/{subscriptionId}/{resourceGroup}/{name}/power-off-and-set-as-image-configuration" method="delete" summary="Remove " %}
-{% swagger-description %}
+## Remove&#x20;
+
+<mark style="color:red;">`DELETE`</mark> `<example-domain>.com/accounts/{accountId}/desktop-image/{subscriptionId}/{resourceGroup}/{name}/power-off-and-set-as-image-configuration`
+
 Remove 'set as image schedule configuration
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/desktop-image" method="get" summary="List Desktop Images" %}
-{% swagger-description %}
+## List Desktop Images
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/desktop-image`
+
 List all desktop images in detail
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/desktop-image/{subscriptionId}/{resourceGroup}/{name}/change-log" method="get" summary="List Changes to Image" %}
-{% swagger-description %}
+## List Changes to Image
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/desktop-image/{subscriptionId}/{resourceGroup}/{name}/change-log`
+
 List all changed made to the desktop image
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/desktop-image/{subscriptionId}/{resourceGroup}/{name}/open-rdp" method="post" summary="Open RDP Access" %}
-{% swagger-description %}
+## Open RDP Access
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/desktop-image/{subscriptionId}/{resourceGroup}/{name}/open-rdp`
+
 Open RDP Access
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/desktop-image/create-from-library" method="post" summary="Create Desktop Image From Azure Library" %}
-{% swagger-description %}
+## Create Desktop Image From Azure Library
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/desktop-image/create-from-library`
+
 Create desktop image from azure library
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/desktop-image/create-from-vm" method="post" summary="Create Desktop Image From Azure VM" %}
-{% swagger-description %}
+## Create Desktop Image From Azure VM
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/desktop-image/create-from-vm`
+
 Create desktop image from azure VM
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/desktop-image/{subscriptionId}/{resourceGroup}/{name}/clone" method="post" summary="Clone Desktop Image" %}
-{% swagger-description %}
+## Clone Desktop Image
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/desktop-image/{subscriptionId}/{resourceGroup}/{name}/clone`
+
 Clone desktop image
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/desktop-image/{subscriptionId}/{resourceGroup}/{name}/run-script" method="put" summary="Run Scripted Actions on Desktop Image" %}
-{% swagger-description %}
+## Run Scripted Actions on Desktop Image
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/desktop-image/{subscriptionId}/{resourceGroup}/{name}/run-script`
+
 Run scripted actions on desktop image
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/desktop-image/{subscriptionId}/{resourceGroup}/{name}/stop" method="put" summary="Power Off Desktop Image" %}
-{% swagger-description %}
+## Power Off Desktop Image
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/desktop-image/{subscriptionId}/{resourceGroup}/{name}/stop`
+
 Power off current desktop image
-{% endswagger-description %}
-{% endswagger %}
 
 ### Directories
 
-{% swagger baseUrl="<example-domain>.com" path="/directories" method="get" summary="List all directories" %}
-{% swagger-description %}
-List all directories
-{% endswagger-description %}
-{% endswagger %}
+## List all directories
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/directories" method="get" summary="List directories by Account" %}
-{% swagger-description %}
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/directories`
+
+List all directories
+
+## List directories by Account
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/directories`
+
 List directories by Account
-{% endswagger-description %}
-{% endswagger %}
 
 ### Fs Logix Configs
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/fslogix" method="get" summary="List FSLogix configs" %}
-{% swagger-description %}
+## List FSLogix configs
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/fslogix`
+
 List all existing FSLogix configs
-{% endswagger-description %}
-{% endswagger %}
 
 ### Generic Request
 
-{% swagger baseUrl="<example-domain>.com" path="/<url_path>" method="get" summary="Nerdio API Request" %}
-{% swagger-description %}
+## Nerdio API Request
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/<url_path>`
+
 Generic action for making authenticated requests against the Nerdio API
-{% endswagger-description %}
-{% endswagger %}
 
 ### Host
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}" method="delete" summary="Remove Host" %}
-{% swagger-description %}
+## Remove Host
+
+<mark style="color:red;">`DELETE`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}`
+
 Remove chosen host
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts" method="get" summary="List All Hosts" %}
-{% swagger-description %}
+## List All Hosts
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts`
+
 List all hosts of the host pool
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts" method="post" summary="Create Host" %}
-{% swagger-description %}
+## Create Host
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts`
+
 Create host
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/start" method="post" summary="Start Host" %}
-{% swagger-description %}
+## Start Host
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/start`
+
 Power on chosen host
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/start" method="post" summary="Stop Host" %}
-{% swagger-description %}
+## Stop Host
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/start`
+
 Power off chosen host
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/restart" method="post" summary="Restart Host" %}
-{% swagger-description %}
+## Restart Host
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/restart`
+
 Restart chosen host
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/allowsessions" method="post" summary="Allow Host" %}
-{% swagger-description %}
+## Allow Host
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/allowsessions`
+
 Activate / Deactivate chosen host
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/reimage" method="post" summary="Reimage Host" %}
-{% swagger-description %}
+## Reimage Host
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/reimage`
+
 Reimage chosen host
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/assignUser" method="post" summary="Assign User to Host" %}
-{% swagger-description %}
+## Assign User to Host
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/assignUser`
+
 Assign, Unassign, or Reassign user chosen host
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/run-script" method="put" summary="Run Scripted Action on Host" %}
-{% swagger-description %}
+## Run Scripted Action on Host
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/run-script`
+
 Run Scripted Action on Host
-{% endswagger-description %}
-{% endswagger %}
 
 ### Host Pool
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}" method="delete" summary="Remove Host Pool" %}
-{% swagger-description %}
+## Remove Host Pool
+
+<mark style="color:red;">`DELETE`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}`
+
 Remove chosen host pool
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/auto-scale-pause" method="delete" summary="Remove Autoscale Pause" %}
-{% swagger-description %}
+## Remove Autoscale Pause
+
+<mark style="color:red;">`DELETE`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/auto-scale-pause`
+
 Remove autoscale pause for host pool
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/auto-scale-pause" method="put" summary="Pause Autoscale" %}
-{% swagger-description %}
+## Pause Autoscale
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/auto-scale-pause`
+
 Pause autoscale for host pool
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/delete-bulk" method="delete" summary="Delete All Hosts" %}
-{% swagger-description %}
+## Delete All Hosts
+
+<mark style="color:red;">`DELETE`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/delete-bulk`
+
 Delete all hosts in the pool
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/schedule-configuration/{jobType}" method="delete" summary="Remove Job Schedule Configuration" %}
-{% swagger-description %}
+## Remove Job Schedule Configuration
+
+<mark style="color:red;">`DELETE`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/schedule-configuration/{jobType}`
+
 Remove Job Schedule Configuration
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool" method="get" summary="List Host Pools" %}
-{% swagger-description %}
+## List Host Pools
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/host-pool`
+
 List all host pools in the account
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool" method="post" summary="Create Host Pool" %}
-{% swagger-description %}
+## Create Host Pool
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool`
+
 Create Host Pool
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/autoscale-configuration" method="get" summary="Get Host Pool Autoscale Config" %}
-{% swagger-description %}
+## Get Host Pool Autoscale Config
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/autoscale-configuration`
+
 Get the host pool current autoscale configuration
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/autoscale-configuration" method="put" summary="Update Host Pool Autoscale Config" %}
-{% swagger-description %}
+## Update Host Pool Autoscale Config
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/autoscale-configuration`
+
 Update the host pool current autoscale configuration
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/autoscale-settings" method="get" summary="Get Host Pool Autoscale Settings" %}
-{% swagger-description %}
+## Get Host Pool Autoscale Settings
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/autoscale-settings`
+
 Get the host pool current autoscale settings
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/autoscale-settings" method="put" summary="Update Host Pool Autoscale Settings" %}
-{% swagger-description %}
+## Update Host Pool Autoscale Settings
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/autoscale-settings`
+
 Update the host pool current autoscale settings
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/active-directory" method="get" summary="Get Host Pool AD" %}
-{% swagger-description %}
+## Get Host Pool AD
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/active-directory`
+
 Get the host pool current AD
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/active-directory" method="put" summary="Update Host Pool AD" %}
-{% swagger-description %}
+## Update Host Pool AD
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/active-directory`
+
 Update the host pool current AD
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/avd" method="get" summary="Get Host Pool Properties" %}
-{% swagger-description %}
+## Get Host Pool Properties
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/avd`
+
 Get the host pool current properties
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/avd" method="put" summary="Update Host Pool Properties" %}
-{% swagger-description %}
+## Update Host Pool Properties
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/avd`
+
 Update the host pool current properties
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/vm-deployment" method="get" summary="Get Host Pool VM Deployment Settings" %}
-{% swagger-description %}
+## Get Host Pool VM Deployment Settings
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/vm-deployment`
+
 Get the host pool current VM deployment settings
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/vm-deployment" method="put" summary="Update Host Pool VM Deployment Settings" %}
-{% swagger-description %}
+## Update Host Pool VM Deployment Settings
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/vm-deployment`
+
 Update the host pool current VM deployment Settings
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/fslogix" method="get" summary="Get Host Pool FSLogix Config" %}
-{% swagger-description %}
+## Get Host Pool FSLogix Config
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/fslogix`
+
 Get the host pool current FSLogix Config
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/fslogix" method="put" summary="Update Host Pool FXLogix Config" %}
-{% swagger-description %}
+## Update Host Pool FXLogix Config
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/fslogix`
+
 Update the host pool current FXLogix Config
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/session-timeouts" method="get" summary="Get Host Pool Session Timeouts" %}
-{% swagger-description %}
+## Get Host Pool Session Timeouts
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/session-timeouts`
+
 Get the host pool current Session Timeouts
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/session-timeouts" method="put" summary="Update Host Pool Session Timeouts" %}
-{% swagger-description %}
+## Update Host Pool Session Timeouts
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/session-timeouts`
+
 Update the host pool current Session Timeouts
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/tags" method="get" summary="List Host Pool Tags" %}
-{% swagger-description %}
+## List Host Pool Tags
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/tags`
+
 List the host pool current tags
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/tags" method="put" summary="Update Host Pool Tags" %}
-{% swagger-description %}
+## Update Host Pool Tags
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/tags`
+
 Update the host pool current tags
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/assigned-users" method="get" summary="List Users Assigned to Host Pool" %}
-{% swagger-description %}
+## List Users Assigned to Host Pool
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/assigned-users`
+
 List the users assigned to the current host pool
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/assign" method="post" summary="Assign User to Host Pool" %}
-{% swagger-description %}
+## Assign User to Host Pool
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/assign`
+
 Assign user to host pool
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/unassign" method="post" summary="Unassign User to Host Pool" %}
-{% swagger-description %}
+## Unassign User to Host Pool
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/unassign`
+
 Unassign user to host pool
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/clone" method="post" summary="Clone Host Pool" %}
-{% swagger-description %}
+## Clone Host Pool
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/clone`
+
 Clone the chosen host pool
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/stop-bulk" method="post" summary="Power Off Host Pools" %}
-{% swagger-description %}
+## Power Off Host Pools
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/stop-bulk`
+
 Power off all hosts in the pool
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/start-bulk" method="post" summary="Power On Host Pools" %}
-{% swagger-description %}
+## Power On Host Pools
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/start-bulk`
+
 Power on all hosts in the pool
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/restart-bulk" method="post" summary="Restart Host Pools" %}
-{% swagger-description %}
+## Restart Host Pools
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/restart-bulk`
+
 Restart all hosts in the pool
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/reimage" method="post" summary="Reimage Host Pools" %}
-{% swagger-description %}
+## Reimage Host Pools
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/reimage`
+
 Resize or reimage all hosts in the pool
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/allowsessions" method="post" summary="Toggle Host Pools" %}
-{% swagger-description %}
+## Toggle Host Pools
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/allowsessions`
+
 Activeate / Deactivate all hosts in the pool
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/run-script-bulk" method="post" summary="Run Script on Host Pools" %}
-{% swagger-description %}
+## Run Script on Host Pools
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/run-script-bulk`
+
 Run script on all hosts in the pool
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/auto-scale-enable" method="put" summary="Toggle Autoscale for Host Pool" %}
-{% swagger-description %}
+## Toggle Autoscale for Host Pool
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/auto-scale-enable`
+
 Toggle Autoscale for host pool with current configuratoins
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/capacity-extender-properties" method="put" summary="Set Host Pool Capacity Extender Properties" %}
-{% swagger-description %}
+## Set Host Pool Capacity Extender Properties
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/capacity-extender-properties`
+
 Set host pool capacity extender properties
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/logoff" method="put" summary="Log Off All Users" %}
-{% swagger-description %}
+## Log Off All Users
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/logoff`
+
 Log off all users from host pool
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/disconnect" method="put" summary="Disconnect All Users" %}
-{% swagger-description %}
+## Disconnect All Users
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/disconnect`
+
 Disonnect all users from host pool
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/send-message" method="put" summary="Send Message" %}
-{% swagger-description %}
+## Send Message
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/send-message`
+
 Send message to all sessions for host pool
-{% endswagger-description %}
-{% endswagger %}
 
 ### Invoices
 
-{% swagger baseUrl="<example-domain>.com" path="/invoices" method="get" summary="List Invoices" %}
-{% swagger-description %}
-List all invoices
-{% endswagger-description %}
-{% endswagger %}
+## List Invoices
 
-{% swagger baseUrl="<example-domain>.com" path="/invoices/{id}" method="get" summary="Get Invoice" %}
-{% swagger-description %}
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/invoices`
+
+List all invoices
+
+## Get Invoice
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/invoices/{id}`
+
 Get invoice details
-{% endswagger-description %}
-{% endswagger %}
 
 ### Job
 
-{% swagger baseUrl="<example-domain>.com" path="/job/{jobId}" method="get" summary="Get Job" %}
-{% swagger-description %}
+## Get Job
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/job/{jobId}`
+
 Get job information by Id
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/job/{jobId}/tasks" method="get" summary="List Tasks" %}
-{% swagger-description %}
+## List Tasks
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/job/{jobId}/tasks`
+
 List all tasks of job by job id
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/job/restart/{jobId}" method="post" summary="Restart Job" %}
-{% swagger-description %}
+## Restart Job
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/job/restart/{jobId}`
+
 Restart job
-{% endswagger-description %}
-{% endswagger %}
 
 ### Networks
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/networks" method="get" summary="List Managed Networks" %}
-{% swagger-description %}
+## List Managed Networks
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/networks`
+
 List managed networks by account
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/networks/all" method="get" summary="List All Available Networks" %}
-{% swagger-description %}
+## List All Available Networks
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/networks/all`
+
 List all available networks by account
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/networks/link" method="get" summary="Link Existing Network" %}
-{% swagger-description %}
+## Link Existing Network
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/networks/link`
+
 Link existing network
-{% endswagger-description %}
-{% endswagger %}
 
 ### Recovery Vault
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/recovery-vault/policy" method="delete" summary="Delete Policy from Vault" %}
-{% swagger-description %}
+## Delete Policy from Vault
+
+<mark style="color:red;">`DELETE`</mark> `<example-domain>.com/accounts/{accountId}/recovery-vault/policy`
+
 Delete policy from vault
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/recovery-vault/policy" method="get" summary="Get Policy Data" %}
-{% swagger-description %}
+## Get Policy Data
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/recovery-vault/policy`
+
 Get policy data
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/recovery-vault" method="get" summary="List Managed Vaults" %}
-{% swagger-description %}
+## List Managed Vaults
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/recovery-vault`
+
 List all managed Vaults
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/recovery-vault" method="post" summary="Create New Vaults" %}
-{% swagger-description %}
+## Create New Vaults
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/recovery-vault`
+
 Create new vault
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/recovery-vault/allvaults" method="get" summary="List All Vaults" %}
-{% swagger-description %}
+## List All Vaults
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/recovery-vault/allvaults`
+
 Get all managed Vaults
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/recovery-vault/policies" method="get" summary="List All Policies in Vault" %}
-{% swagger-description %}
+## List All Policies in Vault
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/recovery-vault/policies`
+
 Get all policies in the Vault
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/recovery-vault/regionpolicyinfo/{subscriptionId}/{region}" method="get" summary="Get Region Information" %}
-{% swagger-description %}
+## Get Region Information
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/recovery-vault/regionpolicyinfo/{subscriptionId}/{region}`
+
 Get information about region protection by policies
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/recovery-vault/link/vault" method="post" summary="Link to Vault" %}
-{% swagger-description %}
+## Link to Vault
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/recovery-vault/link/vault`
+
 Link to existing vault
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/recovery-vault/unlink/vault" method="post" summary="Unlink Vault" %}
-{% swagger-description %}
+## Unlink Vault
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/recovery-vault/unlink/vault`
+
 Unink vault
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/recovery-vault/createorupdate/policy" method="post" summary="Create Policy" %}
-{% swagger-description %}
+## Create Policy
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/recovery-vault/createorupdate/policy`
+
 Create New Policy
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/recovery-vault/assignpoliciestoresources" method="post" summary="Assign Policy to Resource" %}
-{% swagger-description %}
+## Assign Policy to Resource
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/recovery-vault/assignpoliciestoresources`
+
 Assign policy o resources
-{% endswagger-description %}
-{% endswagger %}
 
 ### Reservations
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/reservations/{reservationId}" method="delete" summary="Delete Reservation" %}
-{% swagger-description %}
+## Delete Reservation
+
+<mark style="color:red;">`DELETE`</mark> `<example-domain>.com/accounts/{accountId}/reservations/{reservationId}`
+
 Delete reservation by Id
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/reservations/{reservationId}" method="get" summary="Get Reservation" %}
-{% swagger-description %}
+## Get Reservation
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/reservations/{reservationId}`
+
 Get reservation by Id
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/reservations/{reservationId}" method="put" summary="Update Reservation" %}
-{% swagger-description %}
+## Update Reservation
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/reservations/{reservationId}`
+
 Update existing reservation by Id
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/reservations" method="get" summary="List Reservations" %}
-{% swagger-description %}
+## List Reservations
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/reservations`
+
 List all reservation
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/reservations" method="post" summary="Add Reservations" %}
-{% swagger-description %}
+## Add Reservations
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/reservations`
+
 Add new reservation
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/reservations/{reservationId}/resources" method="get" summary="List Resource Names" %}
-{% swagger-description %}
+## List Resource Names
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/reservations/{reservationId}/resources`
+
 List all resource names associated to reservation
-{% endswagger-description %}
-{% endswagger %}
 
 ### Resource Group
 
-{% swagger baseUrl="<example-domain>.com" path="/resource-group/linked" method="delete" summary="Unlink Resource Group" %}
-{% swagger-description %}
-Unlink Azure resource group
-{% endswagger-description %}
-{% endswagger %}
+## Unlink Resource Group
 
-{% swagger baseUrl="<example-domain>.com" path="/resource-group/linked" method="post" summary="Link Resource Group" %}
-{% swagger-description %}
+<mark style="color:red;">`DELETE`</mark> `<example-domain>.com/resource-group/linked`
+
+Unlink Azure resource group
+
+## Link Resource Group
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/resource-group/linked`
+
 Link Azure resource group
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/resource-group/linked" method="delete" summary="Unlink Resource Group by Account" %}
-{% swagger-description %}
+## Unlink Resource Group by Account
+
+<mark style="color:red;">`DELETE`</mark> `<example-domain>.com/accounts/{accountId}/resource-group/linked`
+
 Unlink Azure resource group
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/resource-group/linked" method="post" summary="Link Resource Group by Id" %}
-{% swagger-description %}
+## Link Resource Group by Id
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/resource-group/linked`
+
 Link Azure resource group by id
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/resource-group" method="get" summary="List Managed Resource Groups" %}
-{% swagger-description %}
+## List Managed Resource Groups
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/resource-group`
+
 List all managed resource groups
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/resource-group" method="get" summary="List Managed Resource Groups by Account" %}
-{% swagger-description %}
+## List Managed Resource Groups by Account
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/resource-group`
+
 List all managed resource groups by account
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/resource-group/setDefault" method="put" summary="Set Resource Group as Default" %}
-{% swagger-description %}
+## Set Resource Group as Default
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/resource-group/setDefault`
+
 Set Azure resource group as default
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/resource-group/setDefault" method="put" summary="Set Resource Group as Default by Account" %}
-{% swagger-description %}
+## Set Resource Group as Default by Account
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/resource-group/setDefault`
+
 Set Azure resource group as default by account
-{% endswagger-description %}
-{% endswagger %}
 
 ### Scripted Actions
 
-{% swagger baseUrl="<example-domain>.com" path="/scripted-actions/{id}" method="delete" summary="Delete MSP Scripted Action" %}
-{% swagger-description %}
+## Delete MSP Scripted Action
+
+<mark style="color:red;">`DELETE`</mark> `<example-domain>.com/scripted-actions/{id}`
+
 Delete MSP scripted Action
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/scripted-actions/{id}" method="put" summary="Update MSP Scripted Action" %}
-{% swagger-description %}
+## Update MSP Scripted Action
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/scripted-actions/{id}`
+
 Update MSP scripted Action
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/scripted-actions/{id}/schedule" method="delete" summary="Delete Azure MSP Scripted Action Schedule Configuration" %}
-{% swagger-description %}
+## Delete Azure MSP Scripted Action Schedule Configuration
+
+<mark style="color:red;">`DELETE`</mark> `<example-domain>.com/scripted-actions/{id}/schedule`
+
 Delete Azure MSP Scripted Action Schedule Configuration
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/scripted-actions/{id}/schedule" method="get" summary="Get Azure MSP Scripted Action Schedule Configuration" %}
-{% swagger-description %}
+## Get Azure MSP Scripted Action Schedule Configuration
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/scripted-actions/{id}/schedule`
+
 Get azure runbook msp scripted action schedule configuration
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/scripted-actions/{id}/schedule" method="put" summary="Schedule Azure MSP Scripted Action" %}
-{% swagger-description %}
+## Schedule Azure MSP Scripted Action
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/scripted-actions/{id}/schedule`
+
 Schedule Azure runbook msp scripted action execution in Automation account
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/scripted-actions/{id}" method="delete" summary="Delete Account Scripted Action" %}
-{% swagger-description %}
+## Delete Account Scripted Action
+
+<mark style="color:red;">`DELETE`</mark> `<example-domain>.com/accounts/{accountId}/scripted-actions/{id}`
+
 Delete Account Scripted Action
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/scripted-actions/{id}" method="put" summary="Update Account scripted Action" %}
-{% swagger-description %}
+## Update Account scripted Action
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/scripted-actions/{id}`
+
 Update account scripted action
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/scripted-actions/{id}/schedule" method="delete" summary="Delete Azure runbook Account Scripted Action Schedule Configuration" %}
-{% swagger-description %}
+## Delete Azure runbook Account Scripted Action Schedule Configuration
+
+<mark style="color:red;">`DELETE`</mark> `<example-domain>.com/accounts/{accountId}/scripted-actions/{id}/schedule`
+
 Delete Azure runbook account scripted action schedule confirmation
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/scripted-actions/{id}/schedule" method="get" summary="Get Azure runbook Account Scripted Action Schedule Configuration" %}
-{% swagger-description %}
+## Get Azure runbook Account Scripted Action Schedule Configuration
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/scripted-actions/{id}/schedule`
+
 Get Azure runbook Account Scripted Action Schedule Configuration
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/scripted-actions/{id}/schedule" method="post" summary="Schedule Azure runbook Account Scripted Action Execution in Automation Account" %}
-{% swagger-description %}
+## Schedule Azure runbook Account Scripted Action Execution in Automation Account
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/scripted-actions/{id}/schedule`
+
 Schedule Azure runbook Account Scripted Action in Automation Account
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/scripted-actions" method="get" summary="List MSP Scripted Actions" %}
-{% swagger-description %}
+## List MSP Scripted Actions
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/scripted-actions`
+
 List all msp scripted actions
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/scripted-actions" method="post" summary="Create MSP Scripted Action" %}
-{% swagger-description %}
+## Create MSP Scripted Action
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/scripted-actions`
+
 Create MSP Scripted Action
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/scripted-actions" method="get" summary="List MSP Scripted Actions by Account" %}
-{% swagger-description %}
+## List MSP Scripted Actions by Account
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/scripted-actions`
+
 List all msp scripted actions by account
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/scripted-actions" method="post" summary="Create Account Scripted Action" %}
-{% swagger-description %}
+## Create Account Scripted Action
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/scripted-actions`
+
 Create account Scripted Action
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/scripted-actions/{id}/execution" method="post" summary="Run Azure runbook MSP Scripted Action in Automation Account" %}
-{% swagger-description %}
+## Run Azure runbook MSP Scripted Action in Automation Account
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/scripted-actions/{id}/execution`
+
 Run Azure runbook MSP Scripted Action in Automation Account
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/scripted-actions/{id}/execution" method="post" summary="Run Azure runbook MSP Scripted Action in Automation Account by Account" %}
-{% swagger-description %}
+## Run Azure runbook MSP Scripted Action in Automation Account by Account
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/scripted-actions/{id}/execution`
+
 Run Azure runbook MSP Scripted Action in Automation Account by account
-{% endswagger-description %}
-{% endswagger %}
 
 ### Secure Variables
 
-{% swagger baseUrl="<example-domain>.com" path="/secure-variables" method="delete" summary="Delete MSP Secure Variable" %}
-{% swagger-description %}
+## Delete MSP Secure Variable
+
+<mark style="color:red;">`DELETE`</mark> `<example-domain>.com/secure-variables`
+
 Delete msp secure variable
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/secure-variables" method="get" summary="List MSP Secure Variables" %}
-{% swagger-description %}
+## List MSP Secure Variables
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/secure-variables`
+
 List all MSP secure variables
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/secure-variables" method="post" summary="Create MSP Secure Variable" %}
-{% swagger-description %}
+## Create MSP Secure Variable
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/secure-variables`
+
 Create MSP secure variable
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/secure-variables" method="put" summary="Update MSP Secure Variable" %}
-{% swagger-description %}
+## Update MSP Secure Variable
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/secure-variables`
+
 Update MSP secure variable
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/secure-variables" method="delete" summary="Delete Account Secure Variable" %}
-{% swagger-description %}
+## Delete Account Secure Variable
+
+<mark style="color:red;">`DELETE`</mark> `<example-domain>.com/accounts/{accountId}/secure-variables`
+
 Delete account secure variable
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/secure-variables" method="get" summary="List Account Secure Variables" %}
-{% swagger-description %}
+## List Account Secure Variables
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/secure-variables`
+
 List all account secure variables
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/secure-variables" method="post" summary="Create Account Secure Variable" %}
-{% swagger-description %}
+## Create Account Secure Variable
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/secure-variables`
+
 Create Account secure variable
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/secure-variables" method="put" summary="Update Account Secure Variable" %}
-{% swagger-description %}
+## Update Account Secure Variable
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/secure-variables`
+
 Update account secure variable
-{% endswagger-description %}
-{% endswagger %}
 
 ### Storage Azure Files
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/storage/azure-files/{subscriptionId}/{resourceGroup}/{storageAccountName}/{shareName}/auto-scale" method="get" summary="Get Azure Files Autoscale" %}
-{% swagger-description %}
+## Get Azure Files Autoscale
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/storage/azure-files/{subscriptionId}/{resourceGroup}/{storageAccountName}/{shareName}/auto-scale`
+
 Get Azure Files Autoscale
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/storage/azure-files/{subscriptionId}/{resourceGroup}/{storageAccountName}/{shareName}/auto-scale" method="put" summary="Update Azure Files Autoscale" %}
-{% swagger-description %}
+## Update Azure Files Autoscale
+
+<mark style="color:orange;">`PUT`</mark> `<example-domain>.com/accounts/{accountId}/storage/azure-files/{subscriptionId}/{resourceGroup}/{storageAccountName}/{shareName}/auto-scale`
+
 Update Azure Files Autoscale
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/storage/azure-files/{subscriptionId}/{resourceGroup}/{storageAccountName}/{shareName}/auto-scale/enabled/{isEnabled}" method="post" summary="Toggle Azure Files Autoscale" %}
-{% swagger-description %}
+## Toggle Azure Files Autoscale
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/storage/azure-files/{subscriptionId}/{resourceGroup}/{storageAccountName}/{shareName}/auto-scale/enabled/{isEnabled}`
+
 Enable/Disable Azure Files Autoscale
-{% endswagger-description %}
-{% endswagger %}
 
 ### Test
 
-{% swagger baseUrl="<example-domain>.com" path="/test" method="get" summary="Test" %}
-{% swagger-description %}
+## Test
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/test`
+
 Test
-{% endswagger-description %}
-{% endswagger %}
 
 ### Timezones
 
-{% swagger baseUrl="<example-domain>.com" path="/timezones" method="get" summary="List Timezones ids" %}
-{% swagger-description %}
+## List Timezones ids
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/timezones`
+
 List out the timezones
-{% endswagger-description %}
-{% endswagger %}
 
 ### Usages
 
-{% swagger baseUrl="<example-domain>.com" path="/usages" method="get" summary="List Usages" %}
-{% swagger-description %}
-List Usages
-{% endswagger-description %}
-{% endswagger %}
+## List Usages
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/usages" method="get" summary="List Usages by Account" %}
-{% swagger-description %}
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/usages`
+
+List Usages
+
+## List Usages by Account
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/usages`
+
 List Usages by Account
-{% endswagger-description %}
-{% endswagger %}
 
 ### User Sessions
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/sessions" method="get" summary="List Host Pool User Sessions" %}
-{% swagger-description %}
-List all host pool user sessions
-{% endswagger-description %}
-{% endswagger %}
+## List Host Pool User Sessions
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/workspace/{subscriptionId}/{resourceGroup}/{workspaceName}/sessions" method="get" summary="List workspace user sessions" %}
-{% swagger-description %}
-List all host pool user sessions
-{% endswagger-description %}
-{% endswagger %}
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/sessions`
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/session/{sessionId}/action/logoff" method="post" summary="Perform Logoff Action for Host Pool User Session" %}
-{% swagger-description %}
+List all host pool user sessions
+
+## List workspace user sessions
+
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/workspace/{subscriptionId}/{resourceGroup}/{workspaceName}/sessions`
+
+List all host pool user sessions
+
+## Perform Logoff Action for Host Pool User Session
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/session/{sessionId}/action/logoff`
+
 Perform logoff actoin for host pool user session
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/session/{sessionId}/action/disconnect" method="post" summary="Perform Disconnect Action for Host Pool User Session" %}
-{% swagger-description %}
+## Perform Disconnect Action for Host Pool User Session
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/session/{sessionId}/action/disconnect`
+
 Perform disconnect action for host pool user session
-{% endswagger-description %}
-{% endswagger %}
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/session/{sessionId}/action/send-message" method="post" summary="Send Message for Host Pool User Session" %}
-{% swagger-description %}
+## Send Message for Host Pool User Session
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/host-pool/{subscriptionId}/{resourceGroup}/{poolName}/hosts/{hostName}/session/{sessionId}/action/send-message`
+
 Send Message action for host pool user session
-{% endswagger-description %}
-{% endswagger %}
 
 ### Workspace
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/workspace" method="get" summary="List Workspaces" %}
-{% swagger-description %}
-List available workspaces
-{% endswagger-description %}
-{% endswagger %}
+## List Workspaces
 
-{% swagger baseUrl="<example-domain>.com" path="/accounts/{accountId}/workspace" method="post" summary="Create Workspace" %}
-{% swagger-description %}
+<mark style="color:blue;">`GET`</mark> `<example-domain>.com/accounts/{accountId}/workspace`
+
+List available workspaces
+
+## Create Workspace
+
+<mark style="color:green;">`POST`</mark> `<example-domain>.com/accounts/{accountId}/workspace`
+
 Create workspace for provided account
-{% endswagger-description %}
-{% endswagger %}
