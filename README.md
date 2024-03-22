@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/dark-header-B (1).jpg
+cover: .gitbook/assets/rewst-banner.png
 coverY: 0
 layout:
   cover:
