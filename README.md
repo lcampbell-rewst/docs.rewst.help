@@ -1,6 +1,7 @@
 ---
-cover: .gitbook/assets/Untitled design (3).png
-coverY: -61.06024096385542
+cover: >-
+  .gitbook/assets/spaces_AQQ1EHVcEsGKBPVHmiav_uploads_git-blob-9c08e8e315c61e3cf16cf11cc83f8a9b3468c7bd_rewst-header-new-size-test-1.webp
+coverY: -44.11125827814569
 layout:
   cover:
     visible: true
