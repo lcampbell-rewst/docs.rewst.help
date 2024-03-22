@@ -1,8 +1,6 @@
 ---
-cover: >-
-  .gitbook/assets/spaces_AQQ1EHVcEsGKBPVHmiav_uploads_git-blob-9c08e8e315c61e3cf16cf11cc83f8a9b3468c7bd_rewst-header-new-size-test-1
-  (1).webp
-coverY: 2.5949820788530467
+cover: .gitbook/assets/dark-header-B (1).jpg
+coverY: 0
 layout:
   cover:
     visible: true
