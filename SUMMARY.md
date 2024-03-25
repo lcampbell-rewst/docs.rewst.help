@@ -456,6 +456,7 @@
   * [November 4th 2022](updates/cs-and-training-updates/november-4th-2022.md)
   * [October 28th 2022](updates/cs-and-training-updates/october-28th-2022-1.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
+  * [March 22nd, 2024 - App Platform Maddness](updates/roc-open-mics/march-22nd-2024-app-platform-maddness.md)
   * [March 15th, 2024 - What to Automate First When Getting Started with Rewst?](updates/roc-open-mics/march-15th-2024-what-to-automate-first-when-getting-started-with-rewst.md)
   * [March 8th, 2024 - Live from Right of Boom, it's the ROC Open Mic](updates/roc-open-mics/march-8th-2024-live-from-right-of-boom-its-the-roc-open-mic.md)
   * [March 1, 2024 - Early Bird Specials for Flow in the Kewp](updates/roc-open-mics/march-1-2024-early-bird-specials-for-flow-in-the-kewp.md)
