@@ -108,7 +108,7 @@ It is also necessary to add the user to the ‘AdminAgents’ group on the group
 
 ## Partner Center
 
-1. **Navigate** to the [Microsoft Partner Center](https://partner.microsoft.com).
+1. **Navigate** to the [Microsoft Partner Center](https://partner.microsoft.com/en-us/dashboard/home).
 2. **Click** on _Customers_ once on the Partner Center home page.
 
 <figure><img src="../../../../.gitbook/assets/partner-home-customers.png" alt=""><figcaption></figcaption></figure>
