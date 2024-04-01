@@ -233,6 +233,7 @@
   * [Mail](documentation/integrations/mail/README.md)
     * [Microsoft Exchange Online](documentation/integrations/mail/microsoft-exchange-online/README.md)
       * [Microsoft Exchange Online](documentation/integrations/mail/microsoft-exchange-online/microsoft-exchange-online.md)
+      * [Exchange Online and Multi-Property Values](documentation/integrations/mail/microsoft-exchange-online/exchange-online-and-multi-property-values.md)
     * [MailGun](documentation/integrations/mail/mailgun/README.md)
       * [Mailgun Integration Setup](documentation/integrations/mail/mailgun/mailgun-integration-setup.md)
   * [MFA](documentation/integrations/mfa/README.md)
