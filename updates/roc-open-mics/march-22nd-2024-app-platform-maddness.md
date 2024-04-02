@@ -1,6 +1,6 @@
-# ROC Open Mics
+# March 22nd, 2024 - App Platform Maddness
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
@@ -29,8 +29,6 @@ Join us live every Friday at 3 pm EST!
 🏔️ Sam @ Peake shows listing Contacts, listing Groups M365, and a role form in App Platform.&#x20;
 
 ❓ Time at the end with Question and Answers.
-
-
 
 <details>
 

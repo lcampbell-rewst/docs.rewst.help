@@ -328,6 +328,10 @@ Here are some important keyboard shortcuts you can use throughout
     ]
 -%}
 
+{% raw %}
+{%- for weekday in milky_days -%}
+{% endraw %}
+
 On {{ weekday.day }} you should bring a frosty RewstyCola for lunch at {{ weekday.lunch.time }} because they are serving {{ weekday.lunch.drink | lower }}.
 ```
 {% endcode %}
