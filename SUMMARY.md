@@ -178,6 +178,7 @@
       * [Webhooks & Actions](documentation/integrations/chat/discord/webhooks-and-actions.md)
   * [Cloud](documentation/integrations/cloud/README.md)
     * [Best Practices for Microsoft Integrations](documentation/integrations/cloud/authorization-best-practices.md)
+    * [Microsoft Cloud Permissions](documentation/integrations/cloud/microsoft-cloud-permissions.md)
     * [Nerdio](documentation/integrations/cloud/nerdio/README.md)
       * [Nerdio Integration Setup](documentation/integrations/cloud/nerdio/nerdio-integration-setup.md)
       * [Actions & Endpoints](documentation/integrations/cloud/nerdio/actions-and-endpoints.md)
