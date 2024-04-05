@@ -28,6 +28,7 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * [march-22nd-2024-app-platform-maddness.md](../roc-open-mics/march-22nd-2024-app-platform-maddness.md "mention") Open Mic page added
+* [microsoft-cloud-integration-bundle-documentation](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle-documentation/ "mention") page added
 * [rewst-user-setup-and-gdap-relationship-guidance.md](../../documentation/integrations/cloud/microsoft-csp/rewst-user-setup-and-gdap-relationship-guidance.md "mention") updated with Microsoft Partner Center link
 * [duo-integration-setup.md](../../documentation/integrations/mfa/duo-security/duo-integration-setup.md "mention") page updated with new steps
 * [103-jinja-essentials-for-workflow-automation.md](../../cluck-university/rewst-foundations-10x/103-jinja-essentials-for-workflow-automation.md "mention") step 6 corrected
