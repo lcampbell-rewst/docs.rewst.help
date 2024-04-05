@@ -82,7 +82,7 @@
   * [Form Organizational Variables](documentation/forms/form-organizational-variables.md)
 * [User Management](documentation/user-management/README.md)
   * [How to Add and Remove Users](documentation/user-management/how-to-add-and-remove-users.md)
-  * [Roles](documentation/user-management/roles.md)
+  * [Roles & Permissions](documentation/user-management/roles.md)
   * [Adding a new Client Via Microsoft CSP](documentation/user-management/adding-a-new-client-to-rewst.md)
   * [Organization Variables](documentation/user-management/organization-variables.md)
 * [Triggers](documentation/triggers/README.md)

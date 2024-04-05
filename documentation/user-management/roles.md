@@ -1,4 +1,4 @@
-# Roles
+# Roles & Permissions
 
 There are some different roles available when adding a user:
 
@@ -15,7 +15,7 @@ _Disclaimer: This article will be updated as Role functionality will be added ov
 
 ### Admin
 
-The Admin role is for the super user who will have access to everything in their organization. They can do things like:
+The Admin role is for the super user who will have access permissions to everything in their organization. They can do things like:
 
 * Add and remove Users
 * Add user Roles
@@ -29,7 +29,7 @@ At the top level organization, an Admin will be able to see all of the customer 
 
 ### Member
 
-The only way the Member role differs from the Admin role at this time is in that a Member cannot change user roles while an Admin can. Further changes will be made soon so that the Member Role will not be able to do things such as adding or editing users and organizations.
+The only way the Member role differs from the Admin role at this time is in that a Member does not have the permissions to change user roles like an Admin can. Further changes will be made soon so that the Member Role will not be able to do things such as adding or editing users and organizations.
 
 ### Forms
 
