@@ -33,8 +33,8 @@ Explore what new changes the Training team has made in the last week.
 * [103-jinja-essentials-for-workflow-automation.md](../../cluck-university/rewst-foundations-10x/103-jinja-essentials-for-workflow-automation.md "mention") step 6 corrected
 * [exchange-online-and-multi-property-values.md](../../documentation/integrations/mail/microsoft-exchange-online/exchange-online-and-multi-property-values.md "mention") page added
 * [internal-rewst-jinja-examples.md](../../documentation/jinja/internal-rewst-jinja-examples.md "mention") page updated with examples
-* [organization-variables.md](../../documentation/user-management/organization-variables.md "mention") pax8\_unmapped\_alert\_ignore\_list and halo\_site\_name\_search\_override Org variables added
-* [microsoft-cloud-permissions.md](../../documentation/integrations/cloud/microsoft-cloud-permissions.md "mention")page added
+* [organization-variables.md](../../documentation/user-management/organization-variables.md "mention") `pax8_unmapped_alert_ignore_list` and `halo_site_name_search_override` Org variables added
+* [microsoft-cloud-permissions.md](../../documentation/integrations/cloud/microsoft-cloud-permissions.md "mention") page added
 
 </details>
 
