@@ -7,6 +7,10 @@ description: >-
 
 # Microsoft CSP Integration Setup
 
+{% hint style="warning" %}
+**New: Microsoft Cloud Integration Bundle!** 🌟 We've combined our Microsoft integrations into a single, streamlined package for easier management and enhanced security. While individual integration guides are still here, we recommend checking out the new bundle for a simplified setup. Learn more on the [Microsoft Cloud Integration Bundle](../microsoft-cloud-integration-bundle-documentation/) page.
+{% endhint %}
+
 ## **Best Practices for Microsoft Integrations**
 
 For best practice information please refer to: [Best Practices for Microsoft Integrations](https://docs.rewst.help/documentation/integrations/cloud/authorization-best-practices).

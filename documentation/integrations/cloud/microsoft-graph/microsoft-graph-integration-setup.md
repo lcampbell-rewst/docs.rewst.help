@@ -1,5 +1,11 @@
 # Microsoft Graph Integration Setup
 
+{% hint style="warning" %}
+**New: Microsoft Cloud Integration Bundle!** 🌟 We've combined our Microsoft integrations into a single, streamlined package for easier management and enhanced security. While individual integration guides are still here, we recommend checking out the new bundle for a simplified setup. Learn more on the [Microsoft Cloud Integration Bundle](../microsoft-cloud-integration-bundle-documentation/) page.
+{% endhint %}
+
+## **Best Practices for Microsoft Integrations**
+
 ## Overview
 
 The Microsoft Graph integration allows MSPs to interact with Microsoft Graph API through Rewst. Microsoft Graph serves as a unified endpoint for interacting with various Microsoft products, such as Office 365, Azure Active Directory, SharePoint, OneDrive, Outlook, Teams, and more.

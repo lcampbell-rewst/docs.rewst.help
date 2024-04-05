@@ -6,6 +6,10 @@ description: >-
 
 # Microsoft Exchange Online
 
+{% hint style="warning" %}
+**New: Microsoft Cloud Integration Bundle!** 🌟 We've combined our Microsoft integrations into a single, streamlined package for easier management and enhanced security. While individual integration guides are still here, we recommend checking out the new bundle for a simplified setup. Learn more on the [Microsoft Cloud Integration Bundle](../../cloud/microsoft-cloud-integration-bundle-documentation/) page.
+{% endhint %}
+
 ## Setup
 
 Rewst recommends installing Microsoft integrations in the following order:
@@ -30,9 +34,5 @@ Invoke a command in Microsoft Exchange Online (EXO).
 
 **Parameters**[**​**](http://localhost:3000/docs/integrations/Mail/ms-exchange-online#parameters)
 
-| Name           | Type                             | Description                                                                                                                                      |
-| -------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Cmdlet Name    | `String`                         | **Required**. The name of the cmdlet to run.                                                                                                     |
-| Parameters     | `Array[[Parameter](#parameter)]` | **Required**. The parameters to pass to the cmdlet.                                                                                              |
-| Remove Empty   | `boolean`                        | If `true`, any null value will be stripped before sending the request. Default: `true`.                                                          |
-| Anchor Mailbox | `string`                         | Optional. Some cmdlets require an anchor mailbox header to be specified. This can be overridden here if desired or for troubleshooting purposes. |
+<table><thead><tr><th>Name</th><th width="780.3333333333333">Type</th><th>Description</th></tr></thead><tbody><tr><td>Cmdlet Name</td><td><code>String</code></td><td><strong>Required</strong>. The name of the cmdlet to run.</td></tr><tr><td>Parameters</td><td><code>Array[[Parameter](#parameter)]</code></td><td><strong>Required</strong>. The parameters to pass to the cmdlet.</td></tr><tr><td>Remove Empty</td><td><code>boolean</code></td><td>If <code>true</code>, any null value will be stripped before sending the request. Default: <code>true</code>.</td></tr><tr><td>Anchor Mailbox</td><td><code>string</code></td><td>Optional. Some cmdlets require an anchor mailbox header to be specified. This can be overridden here if desired or for troubleshooting purposes.</td></tr></tbody></table>
+
