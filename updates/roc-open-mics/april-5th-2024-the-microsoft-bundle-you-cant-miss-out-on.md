@@ -1,6 +1,6 @@
-# ROC Open Mics
+# April 5th, 2024 - The Microsoft Bundle You Can't Miss Out On
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
@@ -9,6 +9,8 @@ Join us live every Friday at 3 pm EST!
 ## Latest Open Mic Video Recording
 
 {% embed url="https://www.youtube.com/watch?v=lEEnhLiKXBo" %}
+
+### Contents of the Recording:
 
 ### Contents of the Recording:
 
@@ -27,8 +29,6 @@ Join us live every Friday at 3 pm EST!
 👨‍💻 Brian demos a workflow where QA or trainers can escalate bug reports from clients to developers in Teams&#x20;
 
 🐟 Alden demos a workflow that adds users to the Microsoft's Anti-Phishing Policy.
-
-
 
 <details>
 
