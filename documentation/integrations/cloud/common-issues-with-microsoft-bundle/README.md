@@ -1,4 +1,4 @@
-# Common Issues with Microsoft Integrations
+# Common Issues with Microsoft Bundle
 
 ## Overview
 
@@ -17,6 +17,22 @@ Microsoft integrations, such as those with Microsoft CSP, Microsoft Graph, or Mi
 {% hint style="info" %}
 **Duo / Third Party MFA Notice:** Duo MFA was removed from Microsoft's supported list in 2022. Users must switch to Microsoft MFA to comply with requirements. See [Microsoft Partner Account - MFA Requirements](https://docs.microsoft.com/en-us/powershell/partnercenter/test-partner-security-requirements?view=partnercenterps-3.0)
 {% endhint %}
+
+## Entra UI Pagination and Permissions Display Issues
+
+We've identified a recurring issue within the Entra UI concerning the inconsistent permissions display on the Enterprise App Permissions page. Users may encounter situations where the permissions are either fully paginated and visible or not all permissions are displayed as expected.&#x20;
+
+### **Incomplete Display of Permissions**&#x20;
+
+If what you see resembles the screenshot below, it indicates that not all permissions are being displayed. In such cases, the seemingly absent permissions are assigned but not visible due to a limitation within the UI. This known issue stems from a bug on Microsoft's end, which unfortunately is beyond our ability to directly resolve. For visibility into the complete set of permissions under these circumstances, using the API is the recommended approach.
+
+<figure><img src="../../../../.gitbook/assets/entra-ui-not-all-permissions-shown.png" alt=""><figcaption></figcaption></figure>
+
+### **Complete Display of Permissions**&#x20;
+
+If your Entra UI matches the below screenshot, this suggests that all permissions are being properly shown. So if any are missing, they are actually missing. Should there be any unexpected permissions missing in this scenario, it likely points to an bug or failure in the permissions assignment process on the Rewst side.
+
+<figure><img src="../../../../.gitbook/assets/entra-ui-not-all-permissions-shown.png" alt=""><figcaption></figcaption></figure>
 
 ## Consent to Client Permissions
 
@@ -127,7 +143,7 @@ If the refresh token couldn't be retrieved or stored, reauthorization must occur
 
 As per Microsoft documentation the following needs to be true for resetting a user's password/modifying their password profile.
 
-See [Microsoft Documentation](https://learn.microsoft.com/en-us/graph/api/user-update?view=graph-rest-1.0&tabs=http#permissions)
+See [Microsoft Documentation](https://learn.microsoft.com/en-us/graph/api/user-update?view=graph-rest-1.0\&tabs=http#permissions)
 
 In a delegated scenario the Rewst enterprise applications need to have the 'Directory.AccessAsUser.All' permission (and corresponding GDAP roles)
 

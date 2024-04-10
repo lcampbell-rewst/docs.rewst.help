@@ -31,7 +31,7 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * [march-8th-2024-live-from-right-of-boom-its-the-roc-open-mic.md](../roc-open-mics/march-8th-2024-live-from-right-of-boom-its-the-roc-open-mic.md "mention") page added
-* [graph-error-when-using-sendmail-as-impersonated-user.md](../../documentation/integrations/cloud/common-issues-with-microsoft-csp/graph-error-when-using-sendmail-as-impersonated-user.md "mention") page added
+* [graph-error-when-using-sendmail-as-impersonated-user.md](../../documentation/integrations/cloud/common-issues-with-microsoft-bundle/graph-error-when-using-sendmail-as-impersonated-user.md "mention") page added
 * [rewst-user-setup-and-gdap-relationship-guidance.md](../../documentation/integrations/cloud/microsoft-csp/rewst-user-setup-and-gdap-relationship-guidance.md "mention") steps updated for accuracy
 * [data-input-and-output.md](../../documentation/workflows/data-input-and-output.md "mention") page updated for clarity and searchability&#x20;
 * [twilio-integration-setup.md](../../documentation/integrations/voip-and-sms/twilio/twilio-integration-setup.md "mention") page updated to include full steps

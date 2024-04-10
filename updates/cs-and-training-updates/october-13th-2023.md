@@ -37,7 +37,7 @@ Explore what new changes the Training team has made in the last week.
 * [rewst-user-setup-and-gdap-relationship-guidance.md](../../documentation/integrations/cloud/microsoft-csp/rewst-user-setup-and-gdap-relationship-guidance.md "mention")page with video added&#x20;
 * **Updates and Fixes:**&#x20;
   * [pod-configuration.md](../../documentation/integrations/psa/connectwise-manage/pod-configuration.md "mention"): Added a section on **r**e-running a pod from a ticket
-  * [common-issues-with-microsoft-csp](../../documentation/integrations/cloud/common-issues-with-microsoft-csp/ "mention"): Added Updating the password profile of a user fails with a forbidden error section&#x20;
+  * [common-issues-with-microsoft-bundle](../../documentation/integrations/cloud/common-issues-with-microsoft-bundle/ "mention"): Added Updating the password profile of a user fails with a forbidden error section&#x20;
   * [datto-rmm-integration-setup.md](../../documentation/integrations/rmm/datto-rmm/datto-rmm-integration-setup.md "mention"): Replaced the Rewst Script Run Powershell.cpt file with an updated version
 
 </details>

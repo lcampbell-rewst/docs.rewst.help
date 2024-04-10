@@ -11,7 +11,7 @@ description: >-
 ### **Auth App Registration Error**:
 
 * **Symptom**: Failure to proceed past the authentication step, not even reaching the Microsoft Auth login screen.
-* **Common Cause**: This may occur due to a [Microsoft Minute](../common-issues-with-microsoft-csp/embracing-the-microsoft-minute.md) delay where the system is still processing the app registration.
+* **Common Cause**: This may occur due to a [Microsoft Minute](../common-issues-with-microsoft-bundle/embracing-the-microsoft-minute.md) delay where the system is still processing the app registration.
 * **Solution**: Wait a minute or two before attempting to re-authenticate. This allows time for the backend processes to complete.
 
 ### **Legacy App Registration Conflicts**:

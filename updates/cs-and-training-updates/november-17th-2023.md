@@ -26,7 +26,7 @@ Explore what new changes the Training team has made in the last week.
 * Added a page for the [jira-integration-setup.md](../../documentation/integrations/documentation/jira/jira-integration-setup.md "mention")
 * Added a page for the [orbit-integration-setup.md](../../documentation/integrations/other/orbit/orbit-integration-setup.md "mention")
 * Added a page for [app-platform-coming-soon](../../documentation/app-platform-coming-soon/ "mention") and how to submit your[alpha-interest-submissions.md](../../documentation/app-platform-coming-soon/alpha-interest-submissions.md "mention") to us.
-* Added the [embracing-the-microsoft-minute.md](../../documentation/integrations/cloud/common-issues-with-microsoft-csp/embracing-the-microsoft-minute.md "mention") page with tips on how to take advantage of little breaks where you can find them.
+* Added the [embracing-the-microsoft-minute.md](../../documentation/integrations/cloud/common-issues-with-microsoft-bundle/embracing-the-microsoft-minute.md "mention") page with tips on how to take advantage of little breaks where you can find them.
 * Added a page for the [view-rewst-integration-org-variables.md](../../prebuilt-automations/existing-crate-documentation/view-rewst-integration-org-variables.md "mention")Crate documentation.
 * Added page about [documenting-with-roborewsty.md](../../documentation/workflows/workflow-building-tips-and-tricks/workflow-notes/documenting-with-roborewsty.md "mention")
 * Added a use case page about [efficiently-extracting-nested-data.md](../../documentation/jinja/use-cases-and-best-practices/efficiently-extracting-nested-data.md "mention")
