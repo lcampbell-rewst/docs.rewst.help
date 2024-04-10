@@ -1,6 +1,6 @@
 # Common Issues with Microsoft Bundle
 
-## Overview
+Overview
 
 Microsoft integrations, such as those with Microsoft CSP, Microsoft Graph, or Microsoft Exchange Online, are among the most intricate and complex due to the diversity of products and services involved, each having slightly different authentication endpoints and required permissions. This guide serves as a comprehensive resource for common problems that may arise during integration, listing common issues and their resolutions. Understanding these challenges will enable administrators and users to manage and troubleshoot integration issues more effectively.
 
@@ -32,7 +32,7 @@ If what you see resembles the screenshot below, it indicates that not all permis
 
 If your Entra UI matches the below screenshot, this suggests that all permissions are being properly shown. So if any are missing, they are actually missing. Should there be any unexpected permissions missing in this scenario, it likely points to an bug or failure in the permissions assignment process on the Rewst side.
 
-<figure><img src="../../../../.gitbook/assets/entra-ui-not-all-permissions-shown.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/entra-ui-all-permissions-shown.png" alt=""><figcaption></figcaption></figure>
 
 ## Consent to Client Permissions
 
