@@ -86,10 +86,10 @@ On tickets with the pod running, you will see Five Main Categories; clicking the
 
 Let's imagine you have a ticket that has had its associated pod workflow execution expire (or fail for one reason or another). If you attempt to view the pod in the ticket, you will see something along the lines of:
 
-![](https://docs.rewst.help/\~gitbook/image?url=https:%2F%2Fgithub.com%2FRewstApp%2Fdocs.rewst.help%2Fassets%2F121902974%2F7ce5ce24-e338-41a2-99d2-9db4effd218a\&width=768\&dpr=4\&quality=100\&sign=4485813d2fca59f87d7ebaf75fbb0eb0e66b852ed70779a0fbe9c09235bd1edd)
+<figure><img src="../../.gitbook/assets/Screenshot 2024-04-10 at 3.47.03 PM (1).png" alt=""><figcaption></figcaption></figure>
 
 To execute a new instance of the pod click on the 'Links' dropdown in the ticket and choose 'Rewst - Start Pod on this Ticket'
 
-![](https://docs.rewst.help/\~gitbook/image?url=https:%2F%2Fgithub.com%2FRewstApp%2Fdocs.rewst.help%2Fassets%2F121902974%2F058d6794-48ba-4f7d-b5ba-d15b2f295b87\&width=768\&dpr=4\&quality=100\&sign=fdbd48a9a76af19e3a927358ed585e741ad293c8c3d07638f5d8a5f7864b51dc)
+<figure><img src="../../.gitbook/assets/Screenshot 2024-04-10 at 3.47.15 PM.png" alt="" width="326"><figcaption></figcaption></figure>
 
 After using this button, a web page will open and close. This will send a request to the Live Link trigger and start a new execution for that ticket. Allow some time to pass before the ticket updates. You should see the pod populate once the execution has gone through.
