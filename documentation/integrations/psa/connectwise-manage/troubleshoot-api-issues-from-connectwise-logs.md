@@ -22,7 +22,7 @@ This guide outlines the steps for Rewst users to pull API logs from ConnectWise 
 
 Here, you'll find settings specific to API interactions and configurations.
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

@@ -4,6 +4,10 @@ Integrating Rewst with Ingram Micro Cloud Marketplace offers users a seamless an
 
 ## Setup
 
+{% hint style="info" %}
+Contact Ingram Micro Integration Support at [marketplacepsa@ingrammicro.com](mailto:marketplacepsa@ingrammicro.com) if you don’t have access to your marketplace API credentials.
+{% endhint %}
+
 1. **Create** a new [Staff Account](https://kb.cloud.im/support/solutions/articles/66000396732-01-a-how-to-add-a-staff-user-to-unified-reseller-control-panel) for the Rewst Application.
 2. **Name** this user `rewst` and ensure that you generate a safe, unique password.
 3. **Activate** the API from the [Ingram Cloud Marketplace.](https://kb.cloud.im/support/solutions/articles/66000489946-how-to-get-cloud-marketplace-api-subscription-key) You can only have a single user assigned to the Marketplace API App that you create.
