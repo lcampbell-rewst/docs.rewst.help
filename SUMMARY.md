@@ -325,6 +325,7 @@
   * [Document M365 Environment Setup](prebuilt-automations/existing-crate-documentation/document-m365-environment-setup.md)
   * [CSP/CPV Permission Checker](prebuilt-automations/existing-crate-documentation/csp-cpv-permission-checker.md)
   * [View Rewst Integration Org Variables](prebuilt-automations/existing-crate-documentation/view-rewst-integration-org-variables.md)
+  * [CWM: Technician Toolbox Via Pod](prebuilt-automations/existing-crate-documentation/cwm-technician-toolbox-via-pod.md)
 
 ## Community Corner
 
