@@ -21,18 +21,17 @@ This can be anything from new features, bug fixes, or QoL changes!
 <summary><strong>Bug fixes and chores</strong></summary>
 
 * Modified criteria for App Platform app status indicators
-* Fixed a bug with auto populate and options override causing forms to freeze
-* Fixed a bug with Pax8 not passing required parameter cancel date for the Cancel Subscription action
+* Fixed a bug with auto-populate and options override causing forms to freeze
+* Fixed a bug with Pax8 not passing the required parameter cancel date for the Cancel Subscription action
 * Added prometheus metrics to the engine
 * Fixed validation for Results retention setting
-* Updated setup instructionos for Ingram Micro
+* Updated setup instructions for Ingram Micro
 * Increased pagination limit for IT Glue
-* Implemented application permissioins permissions for CSP consent requests
+* Implemented application permissions for CSP consent requests
 * Fixed a bug where multiple Form Field conditions could cause a Form to crash when they're deleted
 * Improved responsive design style and UX for Custom Integrations V2
 * Improved performance by avoiding decompression of context layer Id's during serialization
 * Reduced the size of the Postgresql notify triggers and filter out workflow completions without listeners
-
 
 </details>
 
