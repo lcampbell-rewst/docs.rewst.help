@@ -1,6 +1,6 @@
-# ROC Open Mics
+# April 12th, 2024 - Hey Siri, Make a Ticket! Alexa, Close My Ticket
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
@@ -9,6 +9,8 @@ Join us live every Friday at 3 pm EST!
 ## Latest Open Mic Video Recording
 
 {% embed url="https://youtu.be/3A1UO8afd0k" %}
+
+### Contents of the Recording:
 
 ### Contents of the Recording:
 
@@ -25,8 +27,6 @@ Join us live every Friday at 3 pm EST!
 🔒 Brandon shows a workflow that manages password expiration settings for AD Users&#x20;
 
 📚 Ashe shows how to still use learn how to use Rewst without integrations
-
-
 
 <details>
 

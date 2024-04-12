@@ -467,6 +467,7 @@
   * [November 4th 2022](updates/cs-and-training-updates/november-4th-2022.md)
   * [October 28th 2022](updates/cs-and-training-updates/october-28th-2022-1.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
+  * [April 12th, 2024 - Hey Siri, Make a Ticket! Alexa, Close My Ticket](updates/roc-open-mics/april-12th-2024-hey-siri-make-a-ticket-alexa-close-my-ticket.md)
   * [April 5th, 2024 - The Microsoft Bundle You Can't Miss Out On](updates/roc-open-mics/april-5th-2024-the-microsoft-bundle-you-cant-miss-out-on.md)
   * [March 22nd, 2024 - App Platform Maddness](updates/roc-open-mics/march-22nd-2024-app-platform-maddness.md)
   * [March 15th, 2024 - What to Automate First When Getting Started with Rewst?](updates/roc-open-mics/march-15th-2024-what-to-automate-first-when-getting-started-with-rewst.md)
