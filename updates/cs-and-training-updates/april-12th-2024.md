@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **Game Tip for the Week:** Not game-related, but the Fallout show is getting some great reviews, so check it out if you're interested! Otherwise get back to trying to keep up with Persona, Like a Dragon, Rebirth, Hell Divers, or any other game you're trying to finish before the next wave of games coming in!
+* **Game Tip for the Week:** Not a game, but the Fallout show is getting some great reviews, so check it out if you're interested! Otherwise get back to trying to keep up with Persona, Like a Dragon, Rebirth, Hell Divers, or any other game you're trying to finish before the next wave of games coming in!
 * **SHOUT OUT** to Nick, Hubert, Morgan, Cory, Danny, and Chantal for successfully taking our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 * Shout out to the Bird Brain channel for your awesome feedback this week!
 * Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
