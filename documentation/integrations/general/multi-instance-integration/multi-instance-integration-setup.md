@@ -58,6 +58,5 @@ We do not currently support multitenancy for the following integrations:
 * Microsoft CSP
 * Microsoft EXO
 * Microsoft Graph
-* N-Able
 * SQL Database
 {% endhint %}
