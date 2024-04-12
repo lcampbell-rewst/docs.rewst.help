@@ -21,7 +21,9 @@ Workflows are the heart of Rewst's automation capabilities. They enable the sequ
 
 **Ready to Dive In?**
 
-Whether you're new to workflows in Rewst or looking to enhance your existing knowledge, this guide provides the foundation you need to start creating powerful, automated workflows. Explore the intricacies of actions, configurations, forms, listeners, and more in the sections below. Let's get started!
+Whether you're new to workflows in Rewst or looking to enhance your existing knowledge, [this guide](https://docs.rewst.help/documentation/workflows/workflow-best-practices) provides the foundation you need to start creating powerful, automated workflows. Explore the intricacies of actions, configurations, forms, listeners, and more in the sections below. Let's get started!
+
+[workflow-best-practices.md](workflow-best-practices.md "mention")
 
 **Want more practice?**
 
