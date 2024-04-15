@@ -4,6 +4,10 @@ description: Learn how to build and customize your Rewst Forms
 
 # Dynamic Options & Inputs
 
+{% hint style="success" %}
+Check out our [elective video on using Options Generators here](../../cluck-university/electives/working-with-options-generator-workflows-in-rewst.md)!
+{% endhint %}
+
 ## Introduction to the Form Builder
 
 Within the forms section of Rewst, you will find the form builder. This page provides an overview of the tools and options available for creating dynamic forms.
