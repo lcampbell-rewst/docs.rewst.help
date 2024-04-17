@@ -92,6 +92,7 @@
   * [Trigger Criteria](documentation/triggers/trigger-criteria.md)
   * [Use Cases & Examples](documentation/triggers/use-cases-and-examples/README.md)
     * [Customizing PSA Ticket Triggers](documentation/triggers/use-cases-and-examples/customizing-psa-ticket-triggers.md)
+    * [Using Webhook Triggers](documentation/triggers/use-cases-and-examples/using-webhook-triggers.md)
 * [Jinja](documentation/jinja/README.md)
   * [Intro to Jinja](documentation/jinja/intro-to-jinja.md)
   * [Jinja Essentials](documentation/jinja/jinja-essentials.md)
