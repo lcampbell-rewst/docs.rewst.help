@@ -2,7 +2,7 @@
 
 ## Overview
 
-Understanding Microsoft integrations can be complex due to the multitude of products and services involved. This section provides a comprehensive guide to the recommended setup for Rewst, detailing aspects such as **account usage**, **multi-factor authentication (MFA)**, **DAP/GDAP** **groups**, and **Conditional Access Policies**. Proper implementation as described herein ensures smooth integration with the [Microsoft CSP](microsoft-csp/), [Microsoft Graph](microsoft-graph/), or [Microsoft Exchange Online](../mail/microsoft-exchange-online/) integrations. Failure to adhere to these instructions may result in integration issues.
+Understanding Microsoft integrations can be complex due to the multitude of products and services involved. This section provides a comprehensive guide to the recommended setup for Rewst, detailing aspects such as **account usage**, **multi-factor authentication (MFA)**, **DAP/GDAP** **groups**, and **Conditional Access Policies**. Proper implementation as described herein ensures smooth integration with the [Microsoft CSP](microsoft-cloud-integration-bundle-documentation/microsoft-csp/), [Microsoft Graph](microsoft-cloud-integration-bundle-documentation/microsoft-graph/), or [Microsoft Exchange Online](microsoft-cloud-integration-bundle-documentation/microsoft-exchange-online/) integrations. Failure to adhere to these instructions may result in integration issues.
 
 ## **Setup & Authorization**
 

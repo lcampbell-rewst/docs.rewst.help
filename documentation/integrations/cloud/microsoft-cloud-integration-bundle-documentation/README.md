@@ -18,18 +18,21 @@ The Microsoft Cloud Integration Bundle is a unified package that brings together
 * **Enhanced Security**: With advanced security measures in place, rest assured that your data is in safe hands.
 * **Future-Proof**: Transition to the latest setup and stay ahead with continuous enhancements and updates.
 
-## Core Components
+## Getting Started with the Bundle
 
-* **Microsoft Graph**: Unify management of Microsoft Cloud services and data.
-* **Exchange Online**: Advanced email and calendar management at your fingertips.
-* **Azure Integration**: Leverage the power of Microsoft Azure for comprehensive cloud computing solutions.
-* **Microsoft CSP**: Effortlessly manage Cloud Solution Provider subscriptions and services.
+### **Initial Setup**
 
-## Choosing Your App Registration
+1. **Login**: Access your Rewst account by navigating to the Rewst platform and logging in with your credentials.
+2. **Navigate to Integration Setup**: Once logged in, proceed to the dashboard, and under Configuration -> Integrations, locate the Microsoft Cloud Integration Bundle.
 
-Rewst provides two pathways for app registration to ensure flexibility and control:
+### **App Registration Options**
 
-* **Rewst MS Cloud Connector**: Ideal for those seeking a streamlined integration experience with controlled permissions, this option simplifies the integration process.
-* **Owned App Registration**: For organizations with an existing setup, this option allows you to integrate Rewst's services using your own app registration, offering maximum customization.
+* **Rewst MS Cloud Connector**: Ideal for streamlined integration, this option facilitates controlled permissions and reduces setup complexity, making it perfect for those seeking an efficient integration experience.
+* **Owned App Registration**: Offers the flexibility to use your existing app registration, allowing for maximum customization and integration depth tailored to your organization's infrastructure.
 
-Select the option that best aligns with your operational requirements and security standards.
+### Setting up Integration Packs
+
+* [**Microsoft Graph**](microsoft-graph/microsoft-graph-integration-setup.md)**:** Enables comprehensive interaction with various Microsoft services via a unified API endpoint, facilitating tasks such as data retrieval, user management, and more.
+* [**Microsoft Exchange Online**](microsoft-exchange-online/microsoft-exchange-online.md)**:** Advanced management of email and calendars, enhancing communication and scheduling across your organization.
+* [**Microsoft Azure**](microsoft-azure/microsoft-azure-integration-setup.md)**:** Provides robust cloud computing solutions including infrastructure services, data storage, and analytics.
+* [**Microsoft CSP**](microsoft-csp/microsoft-csp-integration-setup.md)**:** Streamline the management of Cloud Solution Provider subscriptions and services through Rewst’s integrated approach.

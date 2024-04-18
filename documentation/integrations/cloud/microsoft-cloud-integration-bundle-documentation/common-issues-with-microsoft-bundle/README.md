@@ -26,13 +26,13 @@ We've identified a recurring issue within the Entra UI concerning the inconsiste
 
 If what you see resembles the screenshot below, it indicates that not all permissions are being displayed. In such cases, the seemingly absent permissions are assigned but not visible due to a limitation within the UI. This known issue stems from a bug on Microsoft's end, which unfortunately is beyond our ability to directly resolve. For visibility into the complete set of permissions under these circumstances, using the API is the recommended approach.
 
-<figure><img src="../../../../.gitbook/assets/entra-ui-not-all-permissions-shown.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/entra-ui-not-all-permissions-shown.png" alt=""><figcaption></figcaption></figure>
 
 ### **Complete Display of Permissions**&#x20;
 
 If your Entra UI matches the below screenshot, this suggests that all permissions are being properly shown. So if any are missing, they are actually missing. Should there be any unexpected permissions missing in this scenario, it likely points to an bug or failure in the permissions assignment process on the Rewst side.
 
-<figure><img src="../../../../.gitbook/assets/entra-ui-all-permissions-shown.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/entra-ui-all-permissions-shown.png" alt=""><figcaption></figcaption></figure>
 
 ## Consent to Client Permissions
 
@@ -44,7 +44,7 @@ If your Entra UI matches the below screenshot, this suggests that all permission
 * **Rewst's Role:** Since Rewst can interact with various endpoints, the correct permissions in both your tenant and client tenant are essential.
 * **Potential Resolution:**
   1. **Understand and Implement GDAP:** Utilize GDAP to create groups and assign permissions, ensuring compliance with your security policies.
-  2. **Refer to Best Practices:** Detailed guidance on recommended role permissions for GDAP is available on the [Best Practices for Microsoft Integrations](../authorization-best-practices.md#recommended-roles-for-gdap) page.
+  2. **Refer to Best Practices:** Detailed guidance on recommended role permissions for GDAP is available on the [Best Practices for Microsoft Integrations](../../authorization-best-practices.md#recommended-roles-for-gdap) page.
 
 ## **Task Level Permissions for Microsoft Graph & Exchange Online**
 
@@ -67,7 +67,7 @@ If you have a user in your tenant that needs permissions within a client tenant 
 * **Suspected Cause:** The error may stem from a cached token or from the integration being authorized prior to setting the checkbox for CSP delegation in CSP, Graph, or Exchange Online.
 * **Potential Resolution:**
   1. **Uninstall & Reinstall CSP Integration:** Go to CSP integration, click "Uninstall," wait, then click "Install."
-  2. **Reauthorize CSP with Admin Access:** Use the [recommended service account](../authorization-best-practices.md) with admin access for reauthorization.
+  2. **Reauthorize CSP with Admin Access:** Use the [recommended service account](../../authorization-best-practices.md) with admin access for reauthorization.
   3. **Repeat for Other Integrations:** Follow steps 1-2 for Exchange Online and Graph, checking `Use CSP Delegated Consent` before authorizing.
   4. **Re-Consent on Behalf of Managed Tenants:** Return to CSP integration and click the green shield to re-consent.
 

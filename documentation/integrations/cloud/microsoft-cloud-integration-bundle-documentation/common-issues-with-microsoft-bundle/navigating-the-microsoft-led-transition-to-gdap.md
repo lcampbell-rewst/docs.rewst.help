@@ -41,7 +41,7 @@ To confirm this is in fact the issue you are experiencing you can perform the fo
 2. Navigate to the admin relationship section.
 3. Check for an admin relationship prefixed with **MLT\_** followed by a GUID.
 
-<figure><img src="../../../../.gitbook/assets/image (10).png" alt=""><figcaption><p><strong>Indication</strong>: The "MLT_" prefix indicates a read-only state due to forced migration.</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (10).png" alt=""><figcaption><p><strong>Indication</strong>: The "MLT_" prefix indicates a read-only state due to forced migration.</p></figcaption></figure>
 
 ### How to Fix It
 
@@ -60,7 +60,7 @@ Automated GDAP migration is only available until **November 1st**. Post-deadline
 If Rewst was functioning correctly post-GDAP migration but is now experiencing errors, the likely cause is the retirement of your DAP relationships by Microsoft.
 
 {% hint style="info" %}
-**To diagnose missing roles,** run the [CSP/CPV Permission Checker ](../../../../prebuilt-automations/existing-crate-documentation/csp-cpv-permission-checker.md)crate against one of the clients experiencing issues.
+**To diagnose missing roles,** run the [CSP/CPV Permission Checker ](../../../../../prebuilt-automations/existing-crate-documentation/csp-cpv-permission-checker.md)crate against one of the clients experiencing issues.
 {% endhint %}
 
 ### Modifying GDAP Relationships: Migration Wizard vs. Manual Methods
@@ -73,7 +73,7 @@ If your GDAP migration was done automatically using something like the [CIPP Mig
 2. **Search for Groups**: If you used CIPP, type **M365** to find groups named **M365 GDAP {Role Name}**. (For manual setups, locate the relevant security group by its custom name.)
 3. **Modify Group Members**: Click on the desired group, go to **Members**, then click **Add a Member**. Select the Rewst Service Account and confirm changes.
 
-<figure><img src="../../../../.gitbook/assets/all_groups (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/all_groups (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Post-Modification Behavior
 
