@@ -21,7 +21,7 @@ The Microsoft Azure integration, as part of the Rewst Microsoft Cloud Integratio
 
 * Log into the Rewst dashboard.
 * Navigate to `Integrations`.
-* Select 'Microsoft Cloud Integration Bundle'.
+* Select `Microsoft Cloud Integration Bundle`.
 
 ### **Step 2: Select Azure Integration**
 
@@ -34,7 +34,6 @@ The Microsoft Azure integration, as part of the Rewst Microsoft Cloud Integratio
   * **Rewst Microsoft Cloud Connector**: Recommended for most users.
   * **Owned App Registration**: For users with an existing setup who wish to utilize their own app registrations.
   * **Legacy Rewst App (Deprecated)**: Not recommended and is being phased out.
-* After selecting the 'Rewst Microsoft Cloud Connector', proceed to set up tenant permissions.
 
 ### **Step 4: Setup Tenant Permissions**
 
@@ -43,7 +42,11 @@ The Microsoft Azure integration, as part of the Rewst Microsoft Cloud Integratio
   * **Service Management User Impersonation**
   * **Storage User Impersonation**
 * Recommended options are pre-selected, but you can customize based on your needs.
-* Click 'Next' to proceed to the authorization step.
+* Click `Next` to proceed to the authorization step.
+
+{% hint style="info" %}
+For more information on Azure Permissions, see the [#microsoft-azure-permissions](../microsoft-cloud-permissions.md#microsoft-azure-permissions "mention") section of the [microsoft-cloud-permissions.md](../microsoft-cloud-permissions.md "mention") page
+{% endhint %}
 
 ### **Step 5: Authorize Integration**
 
@@ -52,4 +55,13 @@ The Microsoft Azure integration, as part of the Rewst Microsoft Cloud Integratio
 
 {% hint style="info" %}
 Note that a key vault is required in your Azure subscription. If you receive an "Invalid Client" error message when authorizing it is likely due to a missing key vault. [Creating an empty key vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal) should resolve the issue.&#x20;
+{% endhint %}
+
+## **Troubleshooting Tips**
+
+* **Authorization Issues**: Ensure that you are using the correct account and that all permissions are properly configured before authorization.
+* **Permission Errors**: If you encounter errors related to permissions, verify that all selected permissions are essential and correctly set up in the Rewst Microsoft Cloud Connector.
+
+{% hint style="info" %}
+For more Troubleshooting tips, check out the [troubleshooting-installation-issues.md](../troubleshooting-installation-issues.md "mention") and [common-issues-with-microsoft-bundle](../common-issues-with-microsoft-bundle/ "mention") pages.
 {% endhint %}

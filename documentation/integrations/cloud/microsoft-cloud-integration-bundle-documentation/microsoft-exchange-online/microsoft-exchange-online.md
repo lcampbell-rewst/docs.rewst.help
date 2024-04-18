@@ -25,12 +25,13 @@ The Microsoft Exchange Online integration in the Rewst Microsoft Cloud Integrati
 ### **Step 1: Access the Integration Bundle**
 
 * Log into the Rewst dashboard.
-* Navigate to 'Integrations' and select the 'Microsoft Cloud Integration Bundle'.
+* Navigate to `Integrations`.
+* Select `Microsoft Cloud Integration Bundle`.
 
 ### **Step 2: Select Exchange Online Integration**
 
 * Choose 'Microsoft Exchange Online' from the 'Select Integrations' list, along with any other services you wish to configure such as Microsoft CSP or Microsoft Graph.
-* Click 'Next' to proceed.
+* Click `Next` to proceed.
 
 ### **Step 3: Configure Authentication and Permissions**
 
