@@ -21,7 +21,7 @@
   * [103 - Jinja Essentials for Workflow Automation](cluck-university/rewst-foundations-10x/103-jinja-essentials-for-workflow-automation.md)
   * [104 - Options Generators & Generic API Requests](cluck-university/rewst-foundations-10x/104-options-generators-and-generic-api-requests.md)
   * [105 - Improve Group Management to Support Exchange](cluck-university/rewst-foundations-10x/105-improve-group-management-to-support-exchange.md)
-  * [106 - Subworkflows and With Items](cluck-university/rewst-foundations-10x/106-subworkflows-and-with-items.md)
+  * [106 - Sub-Workflows and With Items](cluck-university/rewst-foundations-10x/106-subworkflows-and-with-items.md)
   * [Foundations Certification](cluck-university/rewst-foundations-10x/foundations-certification.md)
 * [Clean Automation (200 Series)](cluck-university/clean-automation-200-series/README.md)
   * [201: Advanced Automation Concepts](cluck-university/clean-automation-200-series/201-advanced-automation-concepts.md)

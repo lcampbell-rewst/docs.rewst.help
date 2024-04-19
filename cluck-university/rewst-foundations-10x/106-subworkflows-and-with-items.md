@@ -1,4 +1,4 @@
-# 106 - Subworkflows and With Items
+# 106 - Sub-Workflows and With Items
 
 ## Introduction
 
@@ -48,18 +48,18 @@ First, we're going to build a new parent workflow that starts by getting the Use
 
 </details>
 
-### Part 2: Adding a Sub Workflow and Utilizing With Items
+### Part 2: Adding a Sub-Workflow and Utilizing With Items
 
 Next, we're going to add our original workflow as the sub-workflow and modify the form and Form Trigger to take advantage of With items.
 
 <details>
 
-<summary>Step 2: Adding a Subworkflow into the Parent Workflow</summary>
+<summary>Step 2: Adding a Sub-Workflow into the Parent Workflow</summary>
 
 **Add the **_**Add or Remove Group Membership**_** workflow**
 
-1. **Add** the _Add or Remove Group Membership_ workflow from the _Workflows_ category.
-   1. . This is the workflow built in Rewst 105.
+1. **Add** the _Add or Remove from AzureAD Group_ workflow from the _Workflows_ category.
+   1. This is the workflow built in Rewst 105.
 2. **Connect** _On Success_ transition of _get\_user_ to _workflow\_add\_or\_remove\_group\_membership_.
 3. **Rename** the sub-workflow to "modify\_group\_member".
 4. **Set** _With Items_ in the Advanced tab to `{{ CTX.group_ids }}`.
@@ -172,7 +172,7 @@ Finally, we'll test it all out to see how it works!
 
 ## Conclusion
 
-Thank you for watching! We hope this course helps you effectively utilize sub-workflows and With items in Rewst for efficient workflow management. If you have any questions or need further assistance, please don't hesitate to reach out. Happy automating!
+Thank you for watching! We hope this course helps you effectively utilize sub-workflows and "with items" in Rewst for efficient workflow management. If you have any questions or need further assistance, don't hesitate to reach out. Happy automating!
 
 ## Additional Resources
 
@@ -189,4 +189,4 @@ For more information about With Items and Sub-Workflows, check out our documenta
 Sign up for our **LIVE** training sessions below!
 {% endhint %}
 
-<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 106</strong></mark></td><td align="center">Subworkflows and With Items</td><td><a href="https://calendly.com/cluck-u/rewst-106">https://calendly.com/cluck-u/rewst-106</a></td><td><a href="https://calendly.com/cluck-u/rewst-106">https://calendly.com/cluck-u/rewst-106</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 106</strong></mark></td><td align="center">Sub-We orkflows and With Items</td><td><a href="https://calendly.com/cluck-u/rewst-106">https://calendly.com/cluck-u/rewst-106</a></td><td><a href="https://calendly.com/cluck-u/rewst-106">https://calendly.com/cluck-u/rewst-106</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td><td><a href="https://calendly.com/cluck-u/roc-ama">https://calendly.com/cluck-u/roc-ama</a></td></tr></tbody></table>
