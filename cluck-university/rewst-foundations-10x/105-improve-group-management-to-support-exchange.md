@@ -80,10 +80,10 @@ Next, we'll use conditional logic to determine the group type based on the group
 **Add a Transition for Exchange Online Managed Groups**
 
 1. **Add** another transition labeled _Exchange Online_ for _check\_group\_type_.
-2. **Copy** _adding\_or\_removing_.
-3. **Rename** the copy to "_adding\_or\_removing\_exo_".
-4. **Move** _adding\_or\_removing\_exo_ below and to the right of _check\_group\_type_.
-5. **Connect** the _Exchange Online_ transition from _check\_group\_type_ to _adding\_or\_removing\_exo_.
+2. **Copy** _add\_or\_remove_.
+3. **Rename** the copy to "_add\_or\_remove\_exo_".
+4. **Move** _add\_or\_remove\_exo_ below and to the right of _check\_group\_type_.
+5. **Connect** the _Exchange Online_ transition from _check\_group\_type_ to _add\_or\_remove\_exo_.
 
 </details>
 
@@ -100,7 +100,7 @@ For Unified and Security Groups managed by Microsoft Graph or Distribution Group
 **Implement Add-DistributionGroupMember**
 
 1. **Add** an _InvokeCommand_ action from the _Microsoft Exchange_ category.
-2. **Move** the _InvokeCommand_ action under the _Add_ transition of _adding\_or\_removing\_exo_.
+2. **Move** the _InvokeCommand_ action under the _Add_ transition of _add\_or\_remove\_exo_.
 3. **Connect** the _Add_ transition to the _InvokeCommand_ action.
 4. **Click** the _InvokeCommand_ action.
 5. **Rename** the action "exo\_add\_group\_member"
@@ -121,7 +121,7 @@ For Unified and Security Groups managed by Microsoft Graph or Distribution Group
 1. **Copy** _exo\_add\_group\_member_.
 2. **Click** the copied _exo\_add\_group\_member_.
 3. **Rename** the action "_exo\_remove\_group\_member_"
-4. **Move** _exo\_remove\_group\_member_ under the _Remove_ transition of _adding\_or\_removing\_exo_.
+4. **Move** _exo\_remove\_group\_member_ under the _Remove_ transition of _add\_or\_remove\_exo_.
 5. **Connect** the _Remove_ transition to the _exo\_remove\_group\_member_ action.
 6. **Enter** `Remove-DistributionGroupMember` for _Cmdlet Name_
 7. **Check** the parameters are set:
@@ -139,16 +139,22 @@ Next, we'll incorporate error-handling mechanisms by providing feedback messages
 
 <details>
 
-<summary>Step 5: Implementing Feedback Messages to Microsoft Graph Actions</summary>
+<summary>Step 5: Configure Workflow Settings</summary>
 
 **Output Variable Setup**
 
-1. **Click** Configure Workflow Variable (Pencil icon)
-2. **Add** an Output Variable:
+1. **Click** Configure Workflow Settings (Pencil icon)
+2. **Add** an Output Configuration variable:
    * _Field Name_: `group_result`
    * _Value_: `{{ CTX.group_result }}`
 3. **Click** Submit.
-4. **Click** Configure Workflow Variable to exit.
+4. **Click** Configure Workflow Settings to exit.
+
+</details>
+
+<details>
+
+<summary>Step 6: Implementing Feedback Messages to Microsoft Graph Actions</summary>
 
 **Add On Success and On Failure Messages to \_microsoft\_graph\_add\_group\_member**\_
 
@@ -180,7 +186,7 @@ Next, we'll incorporate error-handling mechanisms by providing feedback messages
 
 <details>
 
-<summary>Step 6: Implementing Feedback Messages to Exchange Online Actions</summary>
+<summary>Step 7: Implementing Feedback Messages to Exchange Online Actions</summary>
 
 **Add On Success and On Failure Messages to \_exo\_add\_group\_member**\_
 
@@ -218,7 +224,7 @@ Finally, we'll set up the workflow completion criteria, ensuring that the workfl
 
 <details>
 
-<summary>Step 7: Finishing Touches</summary>
+<summary>Step 8: Finishing Touches</summary>
 
 **Add an On Failure Message for get\_group**
 
@@ -248,7 +254,7 @@ Finally, we'll set up the workflow completion criteria, ensuring that the workfl
 
 <details>
 
-<summary>Step 8: Test it</summary>
+<summary>Step 9: Test it</summary>
 
 **Try it for yourself**
 
