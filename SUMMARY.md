@@ -37,6 +37,7 @@
   * [How to Reference Data with Variables](cluck-university/electives/how-to-reference-data-with-variables.md)
   * [Automate Documentation with Robo Rewsty](cluck-university/electives/automate-documentation-with-robo-rewsty.md)
   * [Working with Options Generator Workflows in Rewst](cluck-university/electives/working-with-options-generator-workflows-in-rewst.md)
+  * [How to Build Forms](cluck-university/electives/how-to-build-forms.md)
   * [Support and Troubleshooting Dynamic Form Fields](cluck-university/electives/support-and-troubleshooting-dynamic-form-fields.md)
 * [Office Hours](cluck-university/office-hours.md)
 
