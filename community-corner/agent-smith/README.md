@@ -28,3 +28,7 @@ Share feedback, and help us buff out any rough edges by [joining the early birds
 {% endhint %}
 
 Remember, this is _your_ agent. Modify it, tweak it, make it yours. And if you're up for sharing, we'd love to include your expertise [in the repository](https://github.com/RewstApp/rewst\_remote\_agent)! Join the ⁠[#agent-smith](https://discord.com/channels/936789089703845988/1182467018084073524) channel on our Discord for more details and updates.
+
+{% hint style="success" %}
+Check out the [agent-smith-configuration-overview.md](agent-smith-configuration-overview.md "mention") page to set up and configure!
+{% endhint %}
