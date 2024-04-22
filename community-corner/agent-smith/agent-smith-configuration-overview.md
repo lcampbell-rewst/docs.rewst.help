@@ -40,10 +40,17 @@ Agent Smith operates as an Azure IoT Hub instance, integrated with Rewst workflo
 * Type some PowerShell code or use what's pre-filled.
 * Monitor workflow status to see the agent return data.
 
+
 ### 7. Using with new or existing Workflows
 * Agent Smith uses the Microsoft Azure integration, so you will need to add that as an Integration Override to any workflows which will use it.
 * This includes anything that calls the "Run PowerShell" sub-workflows, such as New Employee, etc.
 
+
+### 8. Optional - Agent Smith: Track Agent Inventory In Azure Tables Crate
+* This Marketplace Crate will Add some additional capabilities to your Agent Smith Deployments
+* It uses Azure Tables to store additional information about your agent endpoints.
+ * Automatic (via Task Scheduler) Agent Data Collection Check-Ins including Installed Applications and Services
+ * Automatic Restart of the agent (via Task Scheduler) if the Service stops
 
 
 ## Uninstalling
