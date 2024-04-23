@@ -8,23 +8,23 @@ Join us live every Friday at 3 pm EST!
 
 ## Latest Open Mic Video Recording
 
-{% embed url="https://youtu.be/3A1UO8afd0k" %}
+{% embed url="https://youtu.be/B2_3ObtmgnQ" %}
 
 ### Contents of the Recording:
 
-🚀 Nick gives updates from the Dev Team&#x20;
+👨‍💻 Nick gives updates from the Dev Team&#x20;
 
-📈 James shows streaming real-time data with App Platform charts, eliminating the need for page refreshes.&#x20;
+🔒 James shows the latest App Platform permissions framework&#x20;
 
-🎒 Brandon gives updates from the Education Team&#x20;
+📚 Eddie updates on Edu Team progress
 
-📱 Tre demos a workflow where you can create a ticket via Siri using Apple Shortcuts to demonstrate webhooks in Rewst!&#x20;
+🌐 Ashe demos making Rewst forms public
 
-💼 Kelvin shows a workflow with a form to review current employee salaries, evaluate new salary requests, and analyze the financial impact of potential replacements.&#x20;
+🎟️ Tre introduces an after-hours support ticket automation
 
-🔒 Brandon shows a workflow that manages password expiration settings for AD Users&#x20;
+🔧 Joe shows a fix for misconfigured extra data fields in CW Automate&#x20;
 
-📚 Ashe shows how to still use learn how to use Rewst without integrations
+📉 Tim showcases a crate to deactivate CW PSA (Manage) customers
 
 
 
