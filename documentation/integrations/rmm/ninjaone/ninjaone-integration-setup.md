@@ -17,14 +17,14 @@ Integrating Rewst with NinjaRMM provides users with a powerful combination of do
 First, go to Ninja and complete the following:
 
 1. **Go to** Administration -> Library -> Automation.
-3. **Click** + Add -> New Script on the right.
-4. **Add** the following script:
+2. **Click** + Add -> New Script on the right.
+3. **Add** the following script:
+   * Name: Rewst (Windows) &#x20;
+   * Language: Powershell
+   * OS: Windows
+   * Architecture: All
 
 ```powershell
-Name: Rewst (Windows) 
-
-Script: 
-
 Param(
     [Parameter(Mandatory=$true)]
     [string]$script_content_path,
@@ -48,10 +48,6 @@ $commands = ($wc.DownloadString($script_content_url))
 # Execute Script Content
 
 iex $commands
-
-Language: Powershell 
-OS: Windows 
-Architecture: All 
 ```
 
 ### Complete Setup in Rewst
