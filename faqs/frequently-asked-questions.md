@@ -69,6 +69,27 @@ There is an issue with the Brave browser where it will block the click event on 
 
 </details>
 
+<details>
+
+<summary>I use Threatlocker and it's causing issues with executions in Rewst. How do I fix it?</summary>
+
+We have heard that some of our customers encounter issues with Threatlocker blocking certain actions. To help with this, we have some information that may be useful.
+
+Threatlocker has a built-in application for Rewst IP addresses that can be added to your ringfence policy. Here are the steps to do so:
+
+1. Go to Modules
+2. Navigate to Application Control
+3. Click on Policies
+4. Select PowerShell Ringfencing Policy
+5. In the Actions section, click on Tags
+6. Add Rewst
+
+This process may not be necessary if you have already [whitelisted our outgoing IP addresses](../security/security-policy.md), but it's something to consider if you run into any issues.
+
+</details>
+
+
+
 ### Platform
 
 <details>
