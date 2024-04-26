@@ -168,11 +168,11 @@ This will bring you to the page that shows all the available roles in the relati
 
 <figure><img src="../../../../../.gitbook/assets/add-security-groups-partner.png" alt=""><figcaption></figcaption></figure>
 
-16. **Select** _AdminAgents_ and _Rewst - GDAP_
+16. **Select** _Rewst - GDAP_
 
 
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot 2024-03-11 at 11.02.37 AM.png" alt="" width="257"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/reupdatedsecuritygroups.png" alt="" width="258"><figcaption></figcaption></figure>
 
 **Click** _Next._
 
