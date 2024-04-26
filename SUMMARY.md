@@ -91,6 +91,7 @@
 * [Triggers](documentation/triggers/README.md)
   * [Intro to Triggers](documentation/triggers/intro-to-triggers.md)
   * [Trigger Criteria](documentation/triggers/trigger-criteria.md)
+  * [Core Triggers](documentation/triggers/core-triggers.md)
   * [Use Cases & Examples](documentation/triggers/use-cases-and-examples/README.md)
     * [Customizing PSA Ticket Triggers](documentation/triggers/use-cases-and-examples/customizing-psa-ticket-triggers.md)
     * [Using Webhook Triggers](documentation/triggers/use-cases-and-examples/using-webhook-triggers.md)
