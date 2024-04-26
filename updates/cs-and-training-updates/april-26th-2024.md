@@ -6,7 +6,8 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **Game Tip for the Week:** Golden Week Sales are live on all platforms! If you're looking for some info on the Final Fantasy series, I hear this guy calling himself "Retro Brandon" has a video about the series. So you might want to check it out!&#x20;
+* **Game Tip for the Week:** Golden Week Sales are live on all platforms! If you're looking for some info on the Final Fantasy series, I hear this guy calling himself "Retro Brandon" has a video about the series. So you might want to check it out! \
+  Also, Jedi Survivor is available on Game Pass this week!&#x20;
 * **SHOUT OUT** to Steve, Maddox, Aleksandar, Brenden, Keegan, Andrey, Tonia, and Matthew (with a PERFECT Score!) for successfully taking our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 * Eddie will be back next week with the 100 and current 200 series!
 
@@ -31,9 +32,11 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * [april-19th-2024-bring-back-negative-time-savings-or-implement-folders.md](../roc-open-mics/april-19th-2024-bring-back-negative-time-savings-or-implement-folders.md "mention")page added
+* [core-triggers.md](../../documentation/triggers/core-triggers.md "mention") page added
 * [agent-smith](../../community-corner/agent-smith/ "mention") page updated with link to setup
 * [agent-smith-configuration-overview.md](../../community-corner/agent-smith/agent-smith-configuration-overview.md "mention") page updated with new Track Agent Inventory In Azure Tables Crate section
 * [ninjaone-integration-setup.md](../../documentation/integrations/rmm/ninjaone/ninjaone-integration-setup.md "mention") page script updated
+* [rewst-user-setup-and-gdap-relationship-guidance.md](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle-documentation/microsoft-csp/rewst-user-setup-and-gdap-relationship-guidance.md "mention") page steps updated
 * [frequently-asked-questions.md](../../faqs/frequently-asked-questions.md "mention") page updated with I use **Threatlocker and it's causing issues with executions in Rewst. How do I fix it?** section
 
 </details>
