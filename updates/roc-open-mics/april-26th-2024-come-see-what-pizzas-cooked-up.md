@@ -1,6 +1,6 @@
-# ROC Open Mics
+# April 26th, 2024 - Come See What Pizza's Cooked Up
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
@@ -23,8 +23,6 @@ Join us live every Friday at 3 pm EST!
 💻 Chris demonstrates how Rewst aids in server buildout and configures Veeam backup using custom CW Pods with fat client support
 
 🛠️ Chris showcases a pod setup for ticketing featuring authentication, dynamic menus, and IT support links, powered extensively by Rewst.
-
-
 
 <details>
 
