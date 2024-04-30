@@ -2,9 +2,13 @@
 
 {% embed url="https://youtu.be/KsrC5xjySds" %}
 
+{% hint style="success" %}
+Check out our [existing-crate-documentation](../../prebuilt-automations/existing-crate-documentation/ "mention") for more information on Crates!
+{% endhint %}
+
 ## Prebuilt Automation with Crates
 
-At Rewst, we empower your business by automating essential processes, making your operations more efficient and streamlined. Whether you're looking to automate user management in Azure or Exchange Online, or need comprehensive solutions for common MSP scenarios, we have you covered with our extensive range of prebuilt automation available in our Crate Marketplace.
+At Rewst, we empower your business by automating essential processes, making your operations more efficient and streamlined. Whether you're looking to automate user management in Azure or Exchange Online or need comprehensive solutions for common MSP scenarios, we have you covered with our extensive range of prebuilt automation available in our Crate Marketplace.
 
 **What are Crates?**
 
@@ -33,7 +37,3 @@ To explore these automation options:
 * **Learning and Exploration**: Take the opportunity to explore and learn from the workflows included in the crates. This can provide insights into further customization and optimization of the automation processes.
 
 By leveraging Rewst's prebuilt automation, you can significantly enhance your operational efficiency and adapt quickly to various business needs. The Crate Marketplace offers a robust platform for finding and implementing the right automation solutions tailored to your needs.
-
-{% hint style="success" %}
-Check out our [existing-crate-documentation](../../prebuilt-automations/existing-crate-documentation/ "mention") for more information on Crates!
-{% endhint %}
