@@ -33,6 +33,7 @@
   * [Extending the Power of Rewst Workflows](cluck-university/electives/extending-the-power-of-rewst-workflows/README.md)
     * [Part 1: Introduction to Completion Handlers](cluck-university/electives/extending-the-power-of-rewst-workflows/part-1-introduction-to-completion-handlers.md)
     * [Part 2: How to Take Action on Workflow Results](cluck-university/electives/extending-the-power-of-rewst-workflows/part-2-how-to-take-action-on-workflow-results.md)
+  * [The Crate Marketplace](cluck-university/electives/the-crate-marketplace.md)
   * [How to Use Powershell in Rewst](cluck-university/electives/how-to-use-powershell-in-rewst.md)
   * [How to Reference Data with Variables](cluck-university/electives/how-to-reference-data-with-variables.md)
   * [Automate Documentation with Robo Rewsty](cluck-university/electives/automate-documentation-with-robo-rewsty.md)

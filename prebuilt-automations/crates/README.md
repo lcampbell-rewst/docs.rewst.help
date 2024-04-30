@@ -4,6 +4,10 @@
 
 A crate bundles workflows, forms, triggers, templates, scripts, and other essential components required for a specific function. These are usually built and curated by our ROC team or from our community to facilitate easy deployment.
 
+{% hint style="success" %}
+Check out our [the-crate-marketplace.md](../../cluck-university/electives/the-crate-marketplace.md "mention") video to learn more about the Crate Marketplace!
+{% endhint %}
+
 ## **Unpacking a Crate**
 
 1. **Access the Crate Marketplace:**
