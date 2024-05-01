@@ -12,7 +12,7 @@ description: >-
 As you dive into the vast world of automation and workflow management with Rewst, we understand that questions and challenges can arise. Whether you're navigating through the basics of automation, exploring specific techniques, or looking to apply your newfound knowledge to real-world scenarios, our Office Hours are here to assist.
 
 {% hint style="success" %}
-**Office Hours registration can be found on Calendly.** [**Sign up here**](https://calendly.com/cluck-u/roc-ama)**!**
+**Office Hours registration can be found on Calendly.** [**Sign up here**](https://calendly.com/cluck-u/office-hours)**!**
 
 To make the most of your time, please ensure you have [enrolled in Cluck University](welcome-and-enrollment.md), and have completed or working through at least one of the [100 series courses](rewst-foundations-10x/).
 {% endhint %}
