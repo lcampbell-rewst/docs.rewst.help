@@ -4,10 +4,10 @@ description: >-
   and structured planning for robust workflows
 ---
 
-# 204: Avoiding Automation Anti-Patterns
+# 205: Avoiding Automation Anti-Patterns
 
 {% hint style="info" %}
-This course is **coming soon**. Check back here for registration details in the next year.
+This course is **coming soon**. Check back here for registration details in the coming weeks.
 {% endhint %}
 
 ## **Course Overview**

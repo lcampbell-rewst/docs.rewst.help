@@ -5,12 +5,10 @@ description: >-
   workflows
 ---
 
-# 203: Better Automation Through Abstraction
-
-
+# 204: Better Automation Through Abstraction
 
 {% hint style="info" %}
-This course is **coming soon**. Check back here for registration details in the next year.
+This course is **coming soon**. Check back here for registration details in the coming weeks.
 {% endhint %}
 
 ## **Course Overview**

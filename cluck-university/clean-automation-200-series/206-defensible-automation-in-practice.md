@@ -7,7 +7,7 @@ description: >-
 # 205: Defensible Automation in Practice
 
 {% hint style="info" %}
-This course is **coming soon**. Check back here for registration details in the next year.
+This course is **coming soon**. Check back here for registration details in the coming weeks.
 {% endhint %}
 
 ## **Course Overview**

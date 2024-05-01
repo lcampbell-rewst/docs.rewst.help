@@ -28,9 +28,9 @@ Explore what new changes the Training team has made in the last week.
   * Available now:[201-advanced-automation-concepts.md](../../cluck-university/clean-automation-200-series/201-advanced-automation-concepts.md "mention")
   * **Coming soon:**
     * [202-data-types-and-jinja.md](../../cluck-university/clean-automation-200-series/202-data-types-and-jinja.md "mention")
-    * [203-better-automation-through-abstraction.md](../../cluck-university/clean-automation-200-series/203-better-automation-through-abstraction.md "mention")
-    * [204-avoiding-automation-anti-patterns.md](../../cluck-university/clean-automation-200-series/204-avoiding-automation-anti-patterns.md "mention")
-    * [205-defensible-automation-in-practice.md](../../cluck-university/clean-automation-200-series/205-defensible-automation-in-practice.md "mention")
+    * [204-better-automation-through-abstraction.md](../../cluck-university/clean-automation-200-series/204-better-automation-through-abstraction.md "mention")
+    * [205-avoiding-automation-anti-patterns.md](../../cluck-university/clean-automation-200-series/205-avoiding-automation-anti-patterns.md "mention")
+    * [206-defensible-automation-in-practice.md](../../cluck-university/clean-automation-200-series/206-defensible-automation-in-practice.md "mention")
 
 **New & Updated Pages:**
 
