@@ -14,7 +14,7 @@
   * [How to Scope an Automation](cluck-university/getting-started/how-to-scope-an-automation.md)
   * [Hello World](cluck-university/getting-started/hello-world.md)
   * [Workflow Building Tips & Tricks](cluck-university/getting-started/workflow-building-tips-and-tricks.md)
-  * [Fast Track Your Onboarding](cluck-university/getting-started/fast-track-your-onboarding.md)
+  * [Fast Track Onboarding](cluck-university/getting-started/fast-track-your-onboarding.md)
 * [Rewst Foundations (100 Series)](cluck-university/rewst-foundations-10x/README.md)
   * [101 - Laying the Foundations of Automations](cluck-university/rewst-foundations-10x/101-laying-the-foundations-of-automations.md)
   * [102 - Building a Basic Workflow](cluck-university/rewst-foundations-10x/102-building-a-basic-workflow.md)
