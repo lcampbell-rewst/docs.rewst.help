@@ -1,10 +1,25 @@
+---
+description: >-
+  How to bring your own application permissions. Ideal for organizations with
+  specific compliance or operational requirements needing more control than what
+  the native Rewst Cloud Connector provides
+---
+
 # Owned App Registration
 
 ***
 
 ## Overview
 
-For users who need customized control over their Microsoft integrations, using an Owned App Registration created within your Microsoft tenant allows for tailored configuration and security settings. This option is ideal for organizations with specific compliance or operational requirements requiring more control than what the Rewst Cloud Connector already provides.
+Using an Owned App Registration created within your Microsoft tenant allows for tailored configuration and security settings. **This is an advanced configuration option for users proficient within their Entra environment and need customized control over their Microsoft integrations.**
+
+Some example reasons for this could be:
+
+* You require API access or special permissions not available via Rewst's Cloud Connector.
+* You require control over the used application for security purposes.
+* You wish to use an existing application to minimize the deployed applications.
+
+***
 
 {% hint style="info" %}
 We've surfaced some high-level guidance below. For additional details or questions related to registering and managing your own applications, please refer to [Microsoft's QuickStart Guide: Registering an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app).
