@@ -15,7 +15,7 @@ Owned App Registration within your Microsoft tenant allows for a tailored config
 ## **Reasons to Choose Owned App Registration**
 
 * **Specialized Access:** Your requirements are not natively met via Rewst's Cloud Connector.
-* **Enhanced Security Control:** You need control over the used application for security purposes.
+* **Enhanced Security Control:** You need control over the application for security purposes.
 * **Utilization of Existing Applications:** You wish to integrate with already existing applications.
 
 ***
