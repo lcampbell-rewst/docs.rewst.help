@@ -8,10 +8,14 @@ description: >-
 # Microsoft CSP Integration Setup
 
 {% hint style="warning" %}
-**New: Microsoft Cloud Integration Bundle!** 🌟 We've combined our Microsoft integrations into a single, streamlined package for easier management and enhanced security. While individual integration guides are still here, we recommend checking out the new bundle for a simplified setup. Learn more on the [Microsoft Cloud Integration Bundle](../) page.
+**Microsoft CSP is now part of our new Microsoft Cloud Integration Bundle!** 🌟 We've combined our Microsoft integrations into a single, streamlined package for easier management and enhanced security.
+
+This individual guide for the sections specific to the Microsoft CSP setup. You can learn more about the entire bundle on the [Microsoft Cloud Integration Bundle](../) page.
 {% endhint %}
 
-## **Introduction**
+***
+
+## **Overview**
 
 The Microsoft CSP integration within the Rewst Microsoft Cloud Integration Bundle enhances the management of Cloud Solution Provider relationships and services. It simplifies the delegation and management of permissions across customer tenants, offering streamlined access to manage and administer Microsoft services.
 
@@ -21,43 +25,29 @@ The Microsoft CSP integration within the Rewst Microsoft Cloud Integration Bundl
 * **Efficient Client Mapping**: Easily map CSP clients to Rewst organizations to maintain clear and organized client management.
 * **Seamless Service Integration**: Integrates closely with other Microsoft services for a cohesive management experience.
 
+***
+
 ## **Setup Instructions**
 
-### **Step 1: Access the Integration Bundle**
+The setup process starts within the [..](../ "mention") page. Review Initial setup and first two steps there for further information. For CSP specific permissions review step 3 below:
 
-* Log into the Rewst dashboard.
-* Navigate to `Integrations` and select the `Microsoft Cloud Integration Bundle`.
+#### [#initial-setup](../#initial-setup "mention") ->[#step-1-select-integrations](../#step-1-select-integrations "mention") -> [#step-2-configuration-parameters](../#step-2-configuration-parameters "mention")
 
-### **Step 2: Select CSP Integration**
-
-* Choose `Microsoft CSP` from the `Select Integrations` list, along with any other Microsoft services you wish to configure.
-* Click `Next` to proceed.
-
-### **Step 3: Configure Authentication and Permissions**
-
-* On the configuration parameters page, select your authentication app registration method from:
-  * **Rewst Microsoft Cloud Connector**: Recommended for streamlined integration.
-  * **Owned App Registration**: For users with their own setups who wish to use their app registrations.
-  * **Legacy Rewst App (Deprecated)**: Not recommended and being phased out.
-
-### **Step 4: Setup CSP-Specific Permissions**
+### **Step 3: Tenant Permissions**
 
 * You will be presented with a list of necessary permissions for Microsoft CSP, which typically includes user impersonation permissions to manage CSP functions.
-* Click `Next` to proceed to the authorization step.
+* Click `Next` to proceed to [Step 4](../#step-4-authorize-integration)
 
 {% hint style="info" %}
 For more information on CSP Permissions See the [#microsoft-csp-permissions](../microsoft-cloud-permissions.md#microsoft-csp-permissions "mention")section of the [microsoft-cloud-permissions.md](../microsoft-cloud-permissions.md "mention") page
 {% endhint %}
 
-### **Step 5: Authorize Integration**
-
-* In the `Authorize Integrations` step, click the `Authorize` button to open a Microsoft login window for authentication.
-* Follow the on-screen prompts to complete the authorization process, using the same account as used for other Microsoft service integrations if necessary.
-
 ## **Managing Client Mappings and Delegated Access**
 
 * **Locate Desired Client**: Search for the client you intend to map within the Rewst platform. Once located, select their name from a drop-down menu.
 * **Consent to Delegated Access**: Click next to the client mapping to consent to delegated access for the selected client, facilitating the management of their CSP services under your administration.
+
+***
 
 ## **Troubleshooting Tips**
 

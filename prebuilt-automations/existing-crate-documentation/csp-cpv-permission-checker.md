@@ -12,7 +12,7 @@ description: >-
 
 **Creation Date**: August 27th, 2023
 
-**Required Integrations**: [Microsoft Graph](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle-documentation/microsoft-graph/microsoft-graph-integration-setup.md)
+**Required Integrations**: [Microsoft Graph](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/microsoft-graph/microsoft-graph-integration-setup.md)
 
 **Components**:
 

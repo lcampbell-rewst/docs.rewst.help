@@ -36,7 +36,7 @@ Explore what new changes the Training team has made in the last week.
 * [intro-to-forms.md](../../documentation/forms/intro-to-forms.md "mention") page updated with a link to the elective
 * [agent-smith-configuration-overview.md](../../community-corner/agent-smith/agent-smith-configuration-overview.md "mention") page updated
 * [list-of-jinja-filters.md](../../documentation/jinja/list-of-jinja-filters.md "mention") updated for `regex_search` filter
-* [microsoft-cloud-integration-bundle-documentation](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle-documentation/ "mention") reorganized and enhanced for clarity&#x20;
+* [microsoft-cloud-integration-bundle](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/ "mention") reorganized and enhanced for clarity&#x20;
 
 </details>
 

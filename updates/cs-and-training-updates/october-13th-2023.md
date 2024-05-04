@@ -29,15 +29,15 @@ Explore what new changes the Training team has made in the last week.
   * [104-options-generators-and-generic-api-requests.md](../../cluck-university/rewst-foundations-10x/104-options-generators-and-generic-api-requests.md "mention")
   * [105-improve-group-management-to-support-exchange.md](../../cluck-university/rewst-foundations-10x/105-improve-group-management-to-support-exchange.md "mention")
   * [106-subworkflows-and-with-items.md](../../cluck-university/rewst-foundations-10x/106-subworkflows-and-with-items.md "mention")
-* [rewst-user-setup-and-gdap-relationship-guidance.md](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle-documentation/microsoft-csp/rewst-user-setup-and-gdap-relationship-guidance.md "mention")A step-by-step guide video added!
+* [rewst-user-setup-and-gdap-relationship-guidance.md](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/microsoft-csp/rewst-user-setup-and-gdap-relationship-guidance.md "mention")A step-by-step guide video added!
 
 **Documentation**
 
 * [october-6th-2023-mfa-buffet.md](../roc-open-mics/october-6th-2023-mfa-buffet.md "mention")added
-* [rewst-user-setup-and-gdap-relationship-guidance.md](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle-documentation/microsoft-csp/rewst-user-setup-and-gdap-relationship-guidance.md "mention")page with video added&#x20;
+* [rewst-user-setup-and-gdap-relationship-guidance.md](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/microsoft-csp/rewst-user-setup-and-gdap-relationship-guidance.md "mention")page with video added&#x20;
 * **Updates and Fixes:**&#x20;
   * [pod-configuration.md](../../documentation/integrations/psa/connectwise-manage/pod-configuration.md "mention"): Added a section on **r**e-running a pod from a ticket
-  * [common-issues-with-microsoft-bundle](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle-documentation/common-issues-with-microsoft-bundle/ "mention"): Added Updating the password profile of a user fails with a forbidden error section&#x20;
+  * [common-issues-with-microsoft-bundle](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/common-issues-with-microsoft-bundle/ "mention"): Added Updating the password profile of a user fails with a forbidden error section&#x20;
   * [datto-rmm-integration-setup.md](../../documentation/integrations/rmm/datto-rmm/datto-rmm-integration-setup.md "mention"): Replaced the Rewst Script Run Powershell.cpt file with an updated version
 
 </details>

@@ -4,7 +4,11 @@ description: >-
   happening, and how to restore full functionality to your environment.
 ---
 
-# Navigating The Microsoft-Led Transition to GDAP
+# Navigating The Microsoft-Led Transition to GDAP (2023)
+
+{% hint style="info" %}
+As of November 1, 2023, all migrations to GDAP were required to be completed, and migration tools are no longer available. This is a legacy article geared towards helping customers through the Microsoft-Led Transition. This page remains to serve as a reference for anyone who may not have been aware of these happenings at the time.
+{% endhint %}
 
 ## Forced GDAP Migration
 
@@ -12,7 +16,7 @@ Transitioning to Granular Delegated Admin Privileges (GDAP) is crucial as Micros
 
 ### What's Happening
 
-As Microsoft progresses in its shift from DAP to GDAP, tenants may find themselves automatically converted to GDAP in a restricted, nearly read-only state. **As of now, 80% of Microsoft tenants have already experienced this migration.**
+As Microsoft progresses in its shift from DAP to GDAP, tenants may find themselves automatically converted to GDAP in a restricted, nearly read-only state.&#x20;
 
 ### Signs You've Been Moved
 
