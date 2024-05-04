@@ -1,28 +1,27 @@
 ---
 description: >-
-  How to bring your own application permissions. Ideal for organizations with
-  specific compliance or operational requirements needing more control than what
-  the native Rewst Cloud Connector provides
+  How to leverage your own application permissions for customized integration
+  control.
 ---
 
 # Owned App Registration
 
 ***
 
-## Overview
+## **Overview**
 
-Using an Owned App Registration created within your Microsoft tenant allows for tailored configuration and security settings. **This is an advanced configuration option for users proficient within their Entra environment and need customized control over their Microsoft integrations.**
+Owned App Registration within your Microsoft tenant allows for a tailored configuration and heightened security settings. This advanced option is **suited for users with proficiency in their Microsoft Entra environment** who require custom control over their Microsoft integrations.
 
-Some example reasons for this could be:
+## **Reasons to Choose Owned App Registration**
 
-* You require API access or special permissions not available via Rewst's Cloud Connector.
-* You require control over the used application for security purposes.
-* You wish to use an existing application to minimize the deployed applications.
+* **Specialized Access:** When requirements are not natively available via Rewst's Cloud Connector.
+* **Enhanced Security Control:** You require control over the used application for security purposes.
+* **Utilization of Existing Applications:** You wish to integrate with already existing registrations.
 
 ***
 
 {% hint style="info" %}
-We've surfaced some high-level guidance below. For additional details or questions related to registering and managing your own applications, please refer to [Microsoft's QuickStart Guide: Registering an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app).
+This is a high-level walkthrough of what you need to configure your owned app in Rewst. For detailed instructions and additional support on registering/managing your own apps, refer to Microsoft's[ Guide to registering an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app).
 {% endhint %}
 
 ***
@@ -36,6 +35,8 @@ We've surfaced some high-level guidance below. For additional details or questio
 5. **Clarify Single vs. Multi-tenant:** For the the `Auth Subject` field, choose between:
    * `common` if your app registration is set to be accessible from multiple tenants.
    * `Tenant ID` if your app registration is restricted to your own tenant.
+
+***
 
 {% hint style="info" %}
 When using an owned App Registration with the `tenant_id` Auth Subject, **make sure you include the ID in the Tenant ID field**. This will be what Rewst uses to generate the authentication URL.
