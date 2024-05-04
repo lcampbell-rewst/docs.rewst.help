@@ -21,25 +21,26 @@ Owned App Registration within your Microsoft tenant allows for a tailored config
 ***
 
 {% hint style="info" %}
-This is a high-level walkthrough of what you need to configure your owned app in Rewst. For detailed instructions and additional support on registering/managing your own apps, refer to Microsoft's[ Guide to registering an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app).
+Below is a high-level walkthrough of what you need to configure your owned app in Rewst. For detailed instructions and additional support on registering/managing your own apps, refer to Microsoft's[ Guide to registering an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app).
 {% endhint %}
 
 ***
 
 ## **Configuration Instructions**
 
-1. **Access the Azure Portal:** Log into your [Microsoft Entra Admin Center](https://entra.microsoft.com). Under `Identity` click `Applications` -> `App Registrations`
-2. **Create or Select an App Registration:** If you haven’t already, click `New registration` to create a new application or select an existing one from the `Owned applications` list.
-3. **Configure Redirect URL**: A _redirect URI_ is the location where the Microsoft identity platform redirects a user's client and sends security tokens after authentication. To ensure Rewst can communicate with your App Registration after authentication, set this to: `https://engine.rewst.io/integrations/bundles/microsoft_cloud/callback`
-4. **Gather Information:** note the `Client ID`, and generate a `Client Secret` under `Certificates & secrets` for inputting into Rewst fields.
-5. **Clarify Single vs. Multi-tenant:** For the the `Auth Subject` field, choose between:
-   * `common` if your app registration is set to be accessible from multiple tenants.
-   * `Tenant ID` if your app registration is restricted to your own tenant.
-
-***
-
-{% hint style="info" %}
-When using an owned App Registration with the `tenant_id` Auth Subject, **make sure you include the ID in the Tenant ID field**. This will be what Rewst uses to generate the authentication URL.
-{% endhint %}
+1. **Access the Azure Portal:**
+   * Log into your [Microsoft Entra Admin Center](https://entra.microsoft.com/).
+   * Navigate to **Identity** -> **Applications** -> **App Registrations**.
+2. **Create or Select an App Registration:**
+   * To create a new app, click **New registration**.
+   * To use an existing app, select one from the **Owned applications** list.
+3. **Configure Redirect URL:**
+   * To ensure Rewst can communicate with your app registration after authentication, and receive security tokens post-authentication, set the redirect URI to `https://engine.rewst.io/integrations/bundles/microsoft_cloud/callback`
+4. **Gather Essential Information:**
+   * Note the **Client ID** & Generate a **Client Secret** under **Certificates & secrets**.
+   * Enter these credentials when configuring the application in Rewst.
+5. **Decide the Auth Subject:**
+   * Select **common** if your app registration is accessible across multiple tenants.
+   * Choose **Tenant ID** if your registration is restricted to your own tenant, and ensure this ID is included in the **Tenant ID** field to generate the correct authentication URL.
 
 ***
