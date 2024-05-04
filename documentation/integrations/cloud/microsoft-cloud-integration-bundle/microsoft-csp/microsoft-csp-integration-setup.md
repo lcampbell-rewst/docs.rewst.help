@@ -56,7 +56,7 @@ For more information on CSP Permissions See the [#microsoft-csp-permissions](../
 
 {% hint style="info" %}
 * For more information on setting the GDAP user in Rewst check out the [rewst-user-setup-and-gdap-relationship-guidance.md](rewst-user-setup-and-gdap-relationship-guidance.md "mention")article.&#x20;
-* For troubleshooting tips, check out the [troubleshooting-installation-issues.md](../troubleshooting-installation-issues.md "mention") and [common-issues-with-microsoft-bundle](../common-issues-with-microsoft-bundle/ "mention") pages.
+* For troubleshooting tips, check out the [troubleshooting-installation-issues.md](../common-issues-with-microsoft-bundle/troubleshooting-installation-issues.md "mention") and [common-issues-with-microsoft-bundle](../common-issues-with-microsoft-bundle/ "mention") pages.
 {% endhint %}
 
 ## **Best Practices for Microsoft Integrations**

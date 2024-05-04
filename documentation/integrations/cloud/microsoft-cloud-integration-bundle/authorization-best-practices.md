@@ -2,7 +2,7 @@
 
 ## Overview
 
-Understanding Microsoft integrations can be complex due to the multitude of products and services involved. This section provides a comprehensive guide to the recommended setup for Rewst, detailing aspects such as **account usage**, **multi-factor authentication (MFA)**, **DAP/GDAP** **groups**, and **Conditional Access Policies**. Proper implementation as described herein ensures smooth integration with the [Microsoft CSP](microsoft-cloud-integration-bundle/microsoft-csp/), [Microsoft Graph](microsoft-cloud-integration-bundle/microsoft-graph/), or [Microsoft Exchange Online](microsoft-cloud-integration-bundle/microsoft-exchange-online/) integrations. Failure to adhere to these instructions may result in integration issues.
+Understanding Microsoft integrations can be complex due to the multitude of products and services involved. This section provides a comprehensive guide to the recommended setup for Rewst, detailing aspects such as **account usage**, **multi-factor authentication (MFA)**, **GDAP** **groups**, and **Conditional Access Policies**. Proper implementation as described herein ensures smooth integration with the [Microsoft CSP](microsoft-csp/), [Microsoft Graph](microsoft-graph/), or [Microsoft Exchange Online](microsoft-exchange-online/) integrations. Failure to adhere to these instructions may result in integration issues.
 
 ## **Setup & Authorization**
 
@@ -11,8 +11,7 @@ Understanding Microsoft integrations can be complex due to the multitude of prod
    * **Username**: `rewst@domain.tld`
    * **Role**: Assign `Global Administrator` permissions during setup (can be revoked after)
 2. **Roles and Permissions**:
-   * **DAP**: If still using `DAP`, add the Rewst user to the `AdminAgents` group.
-   * **GDAP**: If you are using GDAP, the Rewst user must be added to the groups you've assigned for GDAP as well as the `AdminAgents` group (`AdminAgents` does not give any roles in a GDAP environment, but it gives access to the partner center and related APIs).
+   * The Rewst user must be added to the groups you've assigned for GDAP as well as the `AdminAgents` group (`AdminAgents` does not give any roles in a GDAP environment, but it gives access to the partner center and related APIs).
 3. **MFA Requirements**:
    * **Enforcement**: Implement Microsoft multi-factor authentication (MFA) for each login, either via `Conditional Access` when available or via [Per User MFA](https://account.activedirectory.windowsazure.com/UserManagement/MultifactorVerification.aspx).
    * **Exclusion and Length Policies**: No excluded locations may be applied nor authentication length policies. Refer to the chapter on conditional access for proper configuration.
@@ -33,7 +32,7 @@ Ensuring secure access to your tenants with Rewst requires careful configuration
 
 ### **Setup Clients' Policies**
 
-DAP and GDAP are influenced by your clients' conditional access policies. To ensure seamless access to your clients using your Rewst integration user, follow these steps:
+Granular access is influenced by your clients' conditional access policies. To ensure seamless access to your clients using your Rewst integration user, follow these steps:
 
 1. **Browse to Client's Azure**: Navigate to your client's [Conditional Access Policies](https://portal.azure.com/#view/Microsoft\_AAD\_ConditionalAccess/ConditionalAccessBlade/\~/Policies) blade in Azure.
 2. **Modify Policies**: For each policy listed, add an exclusion to `Users and Groups` with these settings:
@@ -52,7 +51,7 @@ DAP and GDAP are influenced by your clients' conditional access policies. To ens
 
 ## Recommended Roles for GDAP
 
-Consent to client permissions involves recognizing different group structures like GDAP (Granular Delegated Admin Privileges) and DAP. GDAP allows more controlled tenant access by creating groups and assigning permissions, aligning with Rewst's requirements.
+Consent to client permissions involves recognizing different group structures like GDAP (Granular Delegated Admin Privileges), which allows more controlled tenant access by creating groups and assigning permissions, aligning with Rewst's requirements.
 
 {% hint style="info" %}
 The table below outlines the recommended roles in your Azure environment for Rewst, describing what each role enables. Click on the Role Name to navigate to Microsoft's [Azure AD built-in roles](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#cloud-app-security-administrator) page for detailed information about each specific role.

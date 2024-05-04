@@ -31,7 +31,7 @@ In the video and text guide for this document the instructions state to create o
 
 When setting up the group(s) in Entra you should do the following:
 
-Create a corresponding group for each role that will be assigned per [#recommended-roles-for-gdap](../../authorization-best-practices.md#recommended-roles-for-gdap "mention"), an example of this would be: GDAP - Application Administrator GDAP - Exchange Administrator etc.
+Create a corresponding group for each role that will be assigned per [#recommended-roles-for-gdap](../authorization-best-practices.md#recommended-roles-for-gdap "mention"), an example of this would be: GDAP - Application Administrator GDAP - Exchange Administrator etc.
 
 In the admin relationship within the Partner Center you will need to add each group to the relationship and assign the corresponding role to the corresponding group in the relationship.
 
@@ -134,7 +134,7 @@ Note: This value must be unique per relationship/customer.
 
 <figure><img src="../../../../../.gitbook/assets/admin-duration.png" alt=""><figcaption></figcaption></figure>
 
-9. **Select** the roles listed in [#recommended-roles-for-gdap](../../authorization-best-practices.md#recommended-roles-for-gdap "mention").
+9. **Select** the roles listed in [#recommended-roles-for-gdap](../authorization-best-practices.md#recommended-roles-for-gdap "mention").
 
 {% hint style="info" %}
 Note: The list is not in alphabetical order and it is recommended that you use CTRL + F to search the page to make finding the roles easier.
@@ -176,7 +176,7 @@ This will bring you to the page that shows all the available roles in the relati
 
 **Click** _Next._
 
-17. **Select** the roles required for Rewst in the relationship as per [#recommended-roles-for-gdap](../../authorization-best-practices.md#recommended-roles-for-gdap "mention").\\
+17. **Select** the roles required for Rewst in the relationship as per [#recommended-roles-for-gdap](../authorization-best-practices.md#recommended-roles-for-gdap "mention").\\
 
 <figure><img src="../../../../../.gitbook/assets/select-all-gdap-roles.png" alt="" width="230"><figcaption></figcaption></figure>
 

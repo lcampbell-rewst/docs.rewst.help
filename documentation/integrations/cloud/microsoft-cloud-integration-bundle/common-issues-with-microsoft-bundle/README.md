@@ -4,6 +4,8 @@ Overview
 
 Microsoft integrations, such as those with Microsoft CSP, Microsoft Graph, or Microsoft Exchange Online, are among the most intricate and complex due to the diversity of products and services involved, each having slightly different authentication endpoints and required permissions. This guide serves as a comprehensive resource for common problems that may arise during integration, listing common issues and their resolutions. Understanding these challenges will enable administrators and users to manage and troubleshoot integration issues more effectively.
 
+***
+
 ## **Microsoft CSP Authentication Errors**
 
 * **Error Message:** Forbidden (403), MFA Required (401)
@@ -17,6 +19,18 @@ Microsoft integrations, such as those with Microsoft CSP, Microsoft Graph, or Mi
 {% hint style="info" %}
 **Duo / Third Party MFA Notice:** Duo MFA was removed from Microsoft's supported list in 2022. Users must switch to Microsoft MFA to comply with requirements. See [Microsoft Partner Account - MFA Requirements](https://docs.microsoft.com/en-us/powershell/partnercenter/test-partner-security-requirements?view=partnercenterps-3.0)
 {% endhint %}
+
+***
+
+## **Client Error: 400 (Bad Request)**
+
+Client error `400 Bad Request` means there's an issue with the request. It's most likely that an incorrect value is being sent. Please verify the correctness of the values in the request.
+
+{% hint style="warning" %}
+We typically see the error being caused by forgetting to exclude the Rewst Service account for the Conditional Access Policy, or no Conditional Access configuration being present. To address this, **ensure that the Rewst service account is properly excluded from all Conditional Access policies in both yours and your clients' Azure environments.** Review the [#conditional-access](../authorization-best-practices.md#conditional-access "mention") section on the [authorization-best-practices.md](../authorization-best-practices.md "mention") page for more information.&#x20;
+{% endhint %}
+
+***
 
 ## Entra UI Pagination and Permissions Display Issues
 
@@ -44,7 +58,7 @@ If your Entra UI matches the below screenshot, this suggests that all permission
 * **Rewst's Role:** Since Rewst can interact with various endpoints, the correct permissions in both your tenant and client tenant are essential.
 * **Potential Resolution:**
   1. **Understand and Implement GDAP:** Utilize GDAP to create groups and assign permissions, ensuring compliance with your security policies.
-  2. **Refer to Best Practices:** Detailed guidance on recommended role permissions for GDAP is available on the [Best Practices for Microsoft Integrations](../../authorization-best-practices.md#recommended-roles-for-gdap) page.
+  2. **Refer to Best Practices:** Detailed guidance on recommended role permissions for GDAP is available on the [Best Practices for Microsoft Integrations](../authorization-best-practices.md#recommended-roles-for-gdap) page.
 
 ## **Task Level Permissions for Microsoft Graph & Exchange Online**
 
@@ -67,7 +81,7 @@ If you have a user in your tenant that needs permissions within a client tenant 
 * **Suspected Cause:** The error may stem from a cached token or from the integration being authorized prior to setting the checkbox for CSP delegation in CSP, Graph, or Exchange Online.
 * **Potential Resolution:**
   1. **Uninstall & Reinstall CSP Integration:** Go to CSP integration, click "Uninstall," wait, then click "Install."
-  2. **Reauthorize CSP with Admin Access:** Use the [recommended service account](../../authorization-best-practices.md) with admin access for reauthorization.
+  2. **Reauthorize CSP with Admin Access:** Use the [recommended service account](../authorization-best-practices.md) with admin access for reauthorization.
   3. **Repeat for Other Integrations:** Follow steps 1-2 for Exchange Online and Graph, checking `Use CSP Delegated Consent` before authorizing.
   4. **Re-Consent on Behalf of Managed Tenants:** Return to CSP integration and click the green shield to re-consent.
 
@@ -82,10 +96,6 @@ This error is mainly seen around security tasks and is likely due to a missing l
 ### **Neither tenant is B2C or tenant doesn't have a premium license**
 
 This feature requires a P1 license or higher. Check the client's tenant license information to ensure that the necessary licenses are in place.
-
-### **Response status code does not indicate success: 400 (Bad Request)**
-
-Error 400 means there's an issue with the request. It's most likely that an incorrect value is being sent. Please verify the correctness of the values in the request.
 
 ### **Microsoft.Skype.Sync.Pstn.Tnm.Common.Http.HttpResponseException**
 
