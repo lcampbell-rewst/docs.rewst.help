@@ -20,13 +20,11 @@ Owned App Registration within your Microsoft tenant allows for a tailored config
 
 ***
 
+## **Configuration Instructions**
+
 {% hint style="info" %}
 Below is a high-level walkthrough of what you need to configure your owned app in Rewst. For detailed instructions and additional support on registering/managing your own apps, refer to Microsoft's[ Guide to registering an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app).
 {% endhint %}
-
-***
-
-## **Configuration Instructions**
 
 1. **Access the Azure Portal:**
    * Log into your [Microsoft Entra Admin Center](https://entra.microsoft.com/).
