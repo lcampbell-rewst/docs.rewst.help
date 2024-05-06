@@ -8,7 +8,7 @@ Join us live every Friday at 3 pm EST!
 
 ## Latest Open Mic Video Recording
 
-{% embed url="https://youtu.be/ZB2rmWfpAok?si=8hYFyuEyQDtG1uDM" %}
+{% embed url="https://www.youtube.com/ZB2rmWfpAok" %}
 
 ### Contents of the Recording:
 

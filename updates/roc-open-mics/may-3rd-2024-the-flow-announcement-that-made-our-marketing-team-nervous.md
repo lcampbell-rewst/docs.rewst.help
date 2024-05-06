@@ -1,6 +1,6 @@
-# ROC Open Mics
+# May 3rd, 2024 - The Flow Announcement that Made Our Marketing Team Nervous
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
