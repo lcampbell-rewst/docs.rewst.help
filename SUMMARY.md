@@ -485,7 +485,6 @@
   * [October 28th 2022](updates/cs-and-training-updates/october-28th-2022-1.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
   * [May 3rd, 2024 - The Flow Announcement that Made Our Marketing Team Nervous](updates/roc-open-mics/may-3rd-2024-the-flow-announcement-that-made-our-marketing-team-nervous.md)
-  * [April 26th, 2024 - Come See What Pizza's Cooked Up](updates/roc-open-mics/may-3rd-2024-the-flow-announcement-that-made-our-marketing-team-nervous-1.md)
   * [April 26th, 2024 - Come See What Pizza's Cooked Up](updates/roc-open-mics/april-26th-2024-come-see-what-pizzas-cooked-up.md)
   * [April 19th, 2024 - Bring Back Negative Time Savings or Implement Folders?](updates/roc-open-mics/april-19th-2024-bring-back-negative-time-savings-or-implement-folders.md)
   * [April 12th, 2024 - Hey Siri, Make a Ticket! Alexa, Close My Ticket](updates/roc-open-mics/april-12th-2024-hey-siri-make-a-ticket-alexa-close-my-ticket.md)

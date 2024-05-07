@@ -8,6 +8,8 @@ Join us live every Friday at 3 pm EST!
 
 ## Latest Open Mic Video Recording
 
+{% embed url="https://www.youtube.com/embed/ZB2rmWfpAok" %}
+
 ### Contents of the Recording:
 
 📈 Danial announces status.rewst.io, a page that shows the current uptime of Rewst and if workflows are running
