@@ -4,6 +4,8 @@
 
 Congratulations on your dedication and hard work in completing all sessions of the Rewst Foundations course. You're now poised to demonstrate your expertise and proficiency in Rewst automation through our certification.
 
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>                   <a href="https://app.rewst.io/form/77bbdcb2-5039-42a6-9442-06b1d1eb8bdf">Schedule your exam here</a></td><td><a href="../../.gitbook/assets/Untitled design (14).png">Untitled design (14).png</a></td><td><a href="https://app.rewst.io/form/77bbdcb2-5039-42a6-9442-06b1d1eb8bdf">https://app.rewst.io/form/77bbdcb2-5039-42a6-9442-06b1d1eb8bdf</a></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
+
 ### Rewst Foundations Certification Overview
 
 The Rewst Foundations Certification for the 100 Series is an essential step in validating your skills in automating workflow processes, encompassing the knowledge from Rewst Foundations 101 \~ 106 Training. The questions will test your understanding of workflow mechanics, Jinja templating, API integration, task transitions, and workflow design. Below, we'll expand on each category, providing detailed focus areas to enhance your preparation.
