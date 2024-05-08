@@ -1,15 +1,30 @@
 # Button
 
-### Introduction
+## Introduction
 
-Welcome to the Button Component documentation! As part of the page builder in App Platform, the Button component lets you effortlessly add interactive buttons to your pages. Follow the instructions below to make the most of this component.
+Welcome to the Button component documentation! As part of the page builder in App Platform, the Button component allows you to integrate clickable buttons that trigger actions within your web applications. These buttons can initiate any number of functions, from submitting forms to redirecting users to other pages or executing custom scripts.
 
-### Adding a Button to Your Page
+## Why it exists
 
-1. **Access the Canvas**: Open the page you're working on in your drag-and-drop website builder.
-2. **Drag-and-Drop**: Locate the Button component in your component library, then drag and drop it onto the canvas.
+Buttons are essential interactive elements that facilitate user actions and decision-making processes within applications. They serve as a primary interface component for executing commands and are fundamental to improving user interaction, providing clear, actionable steps for users to take.
 
-### Configuring the Button
+## What it could be used for
+
+* Submitting forms and collecting user inputs.
+* Redirecting users to other sections of the application or external resources.
+* Initiating downloads or transactions.
+* Triggering various functions defined within the application, such as opening a modal window or starting a workflow.
+
+## Example\Use Case
+
+For an MSP’s internal tool that manages client device setups, a Button component labeled "Deploy Software" could be implemented. This button could initiate a rewst workflow install or update software across client systems. By simplifying complex actions into a single button click, MSPs can ensure consistent software deployments, reduce human error, and increase operational efficiency.
+
+## Adding a Button to your page
+
+1. **Access the Canvas**: Open the page you're working on in edit mode, in App Platform.
+2. **Drag-and-Drop**: Locate the 'Button' component in the component library, then drag and drop it onto the canvas.
+
+## Configuring the Button component
 
 1. **Select the Button**: Click on the added button to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
@@ -26,9 +41,7 @@ Welcome to the Button Component documentation! As part of the page builder in Ap
    * **Override Theme**: Enable to apply custom styling.
 3. **Live Preview**: The canvas provides a live preview of your button as you make changes.
 
-### Why Use the Button Component?
 
-* **Interactivity**: Buttons add interactive elements to your pages, enhancing user engagement.
-* **Customization**: Configure the button's appearance and behavior to match your design and functionality requirements.
 
-Now you're ready to create visually appealing and functional buttons for your website! If you have any questions or need assistance, feel free to reach out to our support team. Happy designing! 🎨🚀
+If you have any questions or need assistance, feel free to reach out to our support team.\
+&#x20;\- Happy designing! 🎨🚀

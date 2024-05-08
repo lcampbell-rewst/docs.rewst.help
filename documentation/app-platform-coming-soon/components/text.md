@@ -1,3 +1,33 @@
 # Text
 
-Coming soon!
+## Introduction
+
+Welcome to the Text component documentation! As part of the page builder in App Platform, the Text component allows you to incorporate customizable text blocks into your web applications. This component is essential for adding readable content that informs, guides, or communicates with users, making it a fundamental element for building any web-based interface.
+
+## **Why it exists**
+
+The Text component exists to provide a simple yet versatile way to insert and format textual content within applications. It supports various typographic options to enhance readability and aesthetic appeal.
+
+## What it could be used for
+
+* Displaying informative content like service descriptions, company information, or user guides.
+* Showing dynamic text content, such as user names, statuses, or other personalized information.
+* Creating headers, labels, or annotations that help users navigate and understand the layout and functions of the application.
+
+## **Example/Use Case**
+
+In a service management application, the Text component could be employed to provide detailed descriptions of each service offered, such as network security monitoring, data backup solutions, or technical support services. Each service page could feature headings, subheadings, and paragraphs that explain what the service includes, its benefits, and how clients can subscribe or inquire for more details.&#x20;
+
+## Adding Text to your page
+
+1. **Access the Canvas**: Open the page you're working on in edit mode, in App Platform.
+2. **Drag-and-Drop**: Locate the 'Text' component in the component library, then drag and drop it onto the canvas.
+
+## Configuring the Text component
+
+1. **TODO**
+
+
+
+If you have any questions or need assistance, feel free to reach out to our support team.\
+&#x20;\- Happy designing! 🎨🚀

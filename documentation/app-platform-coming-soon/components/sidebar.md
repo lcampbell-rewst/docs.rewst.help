@@ -1,0 +1,38 @@
+# Sidebar
+
+## Introduction
+
+Welcome to the Sidebar component documentation! As part of the page builder in App Platform, the Sidebar component allows you to create a vertical navigation menu or information panel that sits alongside the main content of your web applications. This component is essential for providing users with easy access to additional functionalities, navigation links, or supplementary information without cluttering the main view.
+
+## **Why it exists**
+
+The Sidebar component exists to enhance the structure and navigability of applications by segregating primary content from auxiliary options or tools. It enables a more organized layout, allowing users to interact with main content while having continuous access to navigation or tools in the sidebar. For MSPs, this separation is crucial for designing user interfaces that are both functional and user-friendly, especially in complex systems with multiple user actions and sections.
+
+## What it could be used for
+
+* Housing primary navigation links that remain accessible regardless of the main content being viewed.
+* Displaying user profile information, quick settings, or status indicators.
+* Providing quick access to tools like search bars, filters, or action buttons.
+* Enhancing the functionality of dashboards by including real-time data feeds or notifications.
+
+## **Example/Use Case**
+
+You could use the Sidebar component in a client management system to consistently provide users with access to various sections such as Dashboard, Reports, Settings, Support, and Account Information. For instance, when a user navigates to view detailed reports, the sidebar remains visible, offering the ability to quickly jump to other sections or perform actions like updating account settings or returning to the dashboard. This consistent access improves user experience by making navigation straightforward and reducing the number of steps needed to switch between different parts of the application.
+
+## Adding a Sidebar to your page
+
+{% hint style="info" %}
+Only ONE instance of the Sidebar component can be used, per app platform page!
+{% endhint %}
+
+1. **Access the Canvas**: Open the page you're working on in edit mode, in App Platform.
+2. **Drag-and-Drop**: Locate the 'Sidebar' component in the component library, then drag and drop it onto the canvas.
+
+## Configuring the Sidebar component
+
+1. **TODO**
+
+
+
+If you have any questions or need assistance, feel free to reach out to our support team.\
+&#x20;\- Happy designing! 🎨🚀
