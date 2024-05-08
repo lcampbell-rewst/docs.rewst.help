@@ -30,7 +30,11 @@ Only ONE instance of the Sidebar component can be used, per app platform page!
 
 ## Configuring the Sidebar component
 
-1. **TODO**
+1. **Select the component**: Click on the added 'Sidebar' component to select it.
+2. **Properties Panel**: On the properties panel, you'll find various configurable options:
+   * **Layout**
+     * **Position**: Toggle to set the position of sidebar on the canvas; 'Left' or 'Right'.
+3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
 
 

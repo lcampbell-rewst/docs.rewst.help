@@ -25,7 +25,19 @@ In a service management application, the Text component could be employed to pro
 
 ## Configuring the Text component
 
-1. **TODO**
+1. **Select the component**: Click on the added 'Text' component to select it.
+2. **Properties Panel**: On the properties panel, you'll find various configurable options:
+   * **Text**: Define the text that will be displayed in the component
+   * **Typography**
+     * **Text Variant**: Set the style of the text.
+     * **Font Size**: Adjust the size of the text.
+     * **Align**: Set the alignment of the text in the component; 'Left', 'Center' or 'Right'.
+     * **Weight**: Set the weigh of the font; 'Regular', 'Medium' or 'Bold'.
+     * **Appearance**
+       * **Text**: Set the color of the text.
+       * **Shadow**: Adjust the intensity of the text's shadow.
+     * **Margin**: Adjust the distance between the text component and its surrounding components.
+3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
 
 

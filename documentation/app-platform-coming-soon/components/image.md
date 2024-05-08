@@ -26,7 +26,13 @@ An MSP might use the Image component to enhance a tutorial page on their client 
 
 ## Configuring the Image component
 
-1. **TODO**
+1. **Select the component**: Click on the added 'Image' component to select it.
+2. **Properties Panel**: On the properties panel, you'll find various configurable options:
+   * **Source URL**: Specify the URL of the image.&#x20;
+   * **Link**: Specify the URL to which the image redirects when clicked.
+   * **Open link as new tab**: Toggle to open the Link URL in a new tab.
+   * **In-line styles**: Define custom CSS properties for the component.&#x20;
+3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
 
 

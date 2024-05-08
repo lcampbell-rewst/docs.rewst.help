@@ -36,7 +36,10 @@ Imagine a real estate website where property listings need to be displayed in an
 
 ## Configuring the Grid Container component
 
-1. **TODO**
+1. **Select the component**: Click on the added 'Grid Container' component to select it.
+2. **Properties Panel**: On the properties panel, you'll find various configurable options:
+   * **In-line styles**: Define custom CSS properties for the component.&#x20;
+3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
 
 

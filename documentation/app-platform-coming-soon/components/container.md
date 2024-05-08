@@ -31,18 +31,26 @@ Imagine setting up a user profile page within an application on the App Platform
 
 ## Configuring the Container component
 
-1. **Select the Container**: Click on the added container to select it.
+1. **Select the component**: Click on the added 'Container' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
-   * **Background Color**: Set the background color of the container.
-   * **Text Color**: Define the text color within the container.
-   * **Flex Direction**: Choose the direction of the container's flex items ('row', 'column', etc.).
-   * **Alignment (Align Items and Justify Content)**: Align the container's flex items on the cross-axis and main-axis.
-   * **Fill Space**: Toggle to make the container fill available space.
-   * **Width and Height**: Adjust the width and height of the container.
-   * **Padding and Margin**: Set the padding and margin around the container.
-   * **Shadow Depth**: Control the shadow depth of the container.
-   * **Border-Radius**: Customize the border-radius of the container.
-3. **Live Preview**: The canvas provides a live preview of your container as you make changes.
+   * **Override Theme**: Toggle to enable custom styling.
+   * **Dimension**
+     * **Width (%)**: Specify the width of the container in relation to the canvas.
+     * **Height (%)**: Specify the height of the container in relation to the canvas.
+   * **Colors**
+     * **Background**: Set the color of the component's background.
+     * **Text**: Set the color of the component's text.
+   * **Margin**: Adjust the distance between the button component and its surrounding components.&#x20;
+   * **Padding**: Adjust the size of the button, relative to its label.
+   * **Decoration**
+     * **Radius**: Adjust the degree of rounded appearance.
+     * Shadow: Adjust the amount of shadowing around the component.
+   * **Alignment**&#x20;
+     * **Flex Direction**: Choose the direction of the container's flex items; 'row' or 'column'.
+     * **Fill Space**: Toggle to make the container fill all available space.
+     * **Align Items:** Align the container's flex items on the cross-axis and main-axis
+     * **Justify Content**: Align the container's flex items on the cross-axis and main-axis
+3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
 
 

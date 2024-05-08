@@ -24,9 +24,13 @@ An MSP could use the HTML Container component to enhance the support section of 
 1. **Access the Canvas**: Open the page you're working on in edit mode, in App Platform.
 2. **Drag-and-Drop**: Locate the 'HTML Container' component in the component library, then drag and drop it onto the canvas.
 
-## Configuring the HTML Container
+## Configuring the HTML Container component
 
-1. TODO
+1. **Select the component**: Click on the added 'HTML Container' component to select it.
+2. **Properties Panel**: On the properties panel, you'll find various configurable options:
+   * **In-line styles**: Define custom CSS properties for the component.&#x20;
+   * **In-line HTML**: Define custom HTML code for the component.&#x20;
+3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
 
 

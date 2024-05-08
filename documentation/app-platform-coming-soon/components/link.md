@@ -26,7 +26,33 @@ Consider an internal company portal where employees need to access various depar
 
 ## Configuring the Link component
 
-1. **TODO**
+1. **Select the component**: Click on the added 'Link' component to select it.
+2. **Properties Panel**: On the properties panel, you'll find various configurable options:
+   * **Link Text:** Specify the text for the link.
+   * **URL Settings**
+     * **Select a page**: Select an existing page in the app to which the link redirects when clicked.
+     * **URL to Redirect on click**: Specify the URL to which the button redirects when clicked.
+     * **Open as new tab**: Toggle to open the page, or URL, in a new tab**.**
+   * **Style**
+     * **Render as list item**: Toggle to render link in list format. (Useful for when then link is nested in a sidebar component).
+   * **Icon**
+     * **Disable Link Icon**: Toggle to show\hide icon with link.
+     * **Icon**: Specify an icon from [Material UI](https://mui.com/material-ui/material-icons) to show next to link.
+     * **Icon Size**: Adjust the size of the icon.
+   * **Typography**
+     * **Override Theme**: Toggle to enable\disable custom styling.
+     * **Text Variant**: Set the font style.
+     * **Font Size**: Adjust the font size.
+     * **Font Weight**: Adjust the font weight; 'Regular', 'Medium' or 'Bold'.
+     * **Colors**
+       * **Background**: Set the color of the background.
+       * **Text**: Set the color of the text.
+   * **Spacing**
+     * **Margin**: Adjust the distance between the link component and its surrounding components.&#x20;
+     * **Padding**: Adjust the size of the link, relative to its text.
+   * **Decoration**
+     * **Radius**: Adjust the degree of rounded appearance.
+3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
 
 

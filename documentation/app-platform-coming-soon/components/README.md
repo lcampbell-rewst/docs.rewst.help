@@ -10,6 +10,8 @@ Each component can be fine-tuned with various settings to meet unique requiremen
 
 More information for each individual component can be found on the following pages.&#x20;
 
+***
+
 ### Essentials
 
 {% content-ref url="accordion.md" %}

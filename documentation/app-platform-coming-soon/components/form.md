@@ -26,7 +26,12 @@ Imagine an MSP that needs to onboard new clients and gather detailed information
 
 ## Configuring the Form component
 
-1. **TODO**
+1. **Select the component**: Click on the added 'Form' component to select it.
+2. **Properties Panel**: On the properties panel, you'll find various configurable options:
+   * Property One:
+   * Prop Two:
+   * Prop Three:
+3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
 
 

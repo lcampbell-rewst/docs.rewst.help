@@ -27,7 +27,21 @@ A support website may use an accordion to present frequently asked questions (FA
 
 ## Configuring the Accordion component
 
-1. **TODO**
+1. **Select the component**: Click on the added 'Accordion' component to select it.
+2. **Properties Panel**: On the properties panel, you'll find various configurable options:
+   * **Text Content**
+     * **Title**: Specify the title of the component.
+     * **Render details text**: Toggle to show\hide text defined in the 'Details' panel.
+     * **Details**: Text that will be displayed on the component.&#x20;
+   * **Layout**
+     * **Start Expanded**: Toggle to load component in default expanded\collapsed state.
+     * **Width:** Set the width of the component.
+     * **Override Theme**: Enable toggle to apply custom styling.
+     * **Colors**
+       * **Background**: Set the color of the component.
+       * **Text**: Set the color of the text in the component.
+     * **Margin**: Set the distance between the accordion and its surrounding components.&#x20;
+3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
 
 

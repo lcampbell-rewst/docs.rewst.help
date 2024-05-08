@@ -31,7 +31,10 @@ In a client reporting dashboard managed by an MSP, the Grid Item component could
 
 ## Configuring the Grid Item component
 
-1. **TODO**
+1. **Select the component**: Click on the added 'Grid Item' component to select it.
+2. **Properties Panel**: On the properties panel, you'll find various configurable options:
+   * **In-line styles**: Define custom CSS properties for the component.&#x20;
+3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
 
 

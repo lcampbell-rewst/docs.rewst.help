@@ -26,7 +26,10 @@ An MSP might use the Time Saved component in a client dashboard that monitors an
 
 ## Configuring the Time Saved component
 
-1. **TODO**
+1. **Select the component**: Click on the added 'Time Saved' component to select it.
+2. **Properties Panel**: On the properties panel, you'll find various configurable options:
+   * _**MK: TODO!!**_
+3. **Live Preview**: The canvas provides a live preview of your  configured component(s) once you've made changes.
 
 
 

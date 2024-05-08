@@ -30,7 +30,23 @@ Only ONE instance of the Header component can be used, per app platform page!
 
 ## Configuring the Header component
 
-1. **TODO**
+1. **Select the component**: Click on the added 'Header' component to select it.
+2. **Properties Panel**: On the properties panel, you'll find various configurable options:
+   * App Header
+     * **Render App Image**: Toggle to show\hide the App's image.
+     * **Render App Icon**: Toggle to show\hide the App Title's icon.
+     * **Icon**: Specify an icon from [Material UI](https://mui.com/material-ui/material-icons) to show next to the link.
+     * **Icon Size**: Adjust the size of the icon.
+     * **Render Link Header**: Toggle to show\hide the App's Title.
+   * Tabs
+     * **Add new tab**: Specify a new link to add to the header component
+     * **Drag\Drop**: Reorder the links in the header component.
+   * Menu
+     * **Icon URL**: Specify the URL of the Profile Menu icon.
+     * **Disable Profile Menu**: Toggle to enable\disable the Profile Menu in the header.
+     * **Add new menu item**: Specify a new link to add to the Profile Menu.
+     * **Drag\Drop**: Reorder the links in the Profile Menu.
+3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
 
 

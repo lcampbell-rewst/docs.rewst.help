@@ -25,7 +25,14 @@ Consider an MSP that manages a complex array of IT services, including cloud sto
 
 ## Configuring the Menu component
 
-1. **TODO**
+1. **Select the component**: Click on the added 'Menu' component to select it.
+2. **Properties Panel**: On the properties panel, you'll find various configurable options:
+   * &#x20;**Layout**
+     * **Minimum width**: Adjust the minimum width for the component.
+   * **Links**
+     * **Add new Link**: Specify a new link to add to the menu component
+     * **Drag\Drop**: Reorder the links in the menu component.
+3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
 
 

@@ -26,7 +26,13 @@ You could use the Row component on a service overview page to align icons or but
 
 ## Configuring the Row component
 
-1. **TODO**
+1. **Select the component**: Click on the added 'Row' component to select it.
+2. **Properties Panel**: On the properties panel, you'll find various configurable options:
+   * **Layout**
+     * **Height**: Adjust the height of the component.
+     * **Alignment**: Set the alignment of the content placed within the row component; 'Space between', 'Start', Center' or 'End'.&#x20;
+     * **Reverse order**: Toggle to reverse the order of the components within the row component.
+3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
 
 

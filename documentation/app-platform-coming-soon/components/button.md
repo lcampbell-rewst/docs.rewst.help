@@ -26,20 +26,27 @@ For an MSP’s internal tool that manages client device setups, a Button compone
 
 ## Configuring the Button component
 
-1. **Select the Button**: Click on the added button to select it.
+1. **Select the component**: Click on the added 'Button' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
-   * **Background**: Set the background color of the button.
-   * **Text Color**: Define the color of the button text.
-   * **Style**: Choose the button style - 'text', 'outlined', or 'contained'.
-   * **Margins and Padding**: Adjust the spacing around the button.
-   * **Text Content**: Change the text displayed on the button.
-   * **Redirect URL**: Set the URL to which the button redirects when clicked.
-   * **Open in New Tab**: Toggle to open the redirect URL in a new tab.
-   * **Triggered Workflows**: Assign workflows to execute when the button is clicked.
-   * **Border Radius**: Customize the border-radius for a rounded appearance.
-   * **Font Weight and Size**: Adjust the font weight and size.
-   * **Override Theme**: Enable to apply custom styling.
-3. **Live Preview**: The canvas provides a live preview of your button as you make changes.
+   * **Button Text:** Specify the label on the button.
+   * **Button Behavior**
+     * **URL to Redirect on click:** Specify the URL to which the button redirects when clicked.
+     * **As new tab**: Toggle to open the redirect URL in a new tab.
+     * **Workflow**: Assign workflows to execute when the button is clicked.
+     * **Open modal**: Select the modal that will load when the button is clicked. _(optional)_
+   * **Colors**
+     * **Background**: Set the color of the button.
+     * **Text**: Set the color of the button's label.
+   * **Margin**: Adjust the distance between the button component and its surrounding components.&#x20;
+   * **Padding**: Adjust the size of the button, relative to its label.
+   * **Decoration**
+     * **Style**: Set the style of the button; 'text', 'outlined', or 'contained'.
+     * **Radius**: Adjust the degree of rounded appearance.
+   * **Typography**
+     * **Override Theme**: Toggle to enable\disable custom styling.
+     * **Font Size**: Adjust the font size.
+     * **Font Weight**: Adjust the font weight.
+3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
 
 

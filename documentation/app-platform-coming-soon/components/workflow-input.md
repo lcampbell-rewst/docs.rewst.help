@@ -26,7 +26,14 @@ In an MSP’s client management system, the Workflow Input component might be us
 
 ## Configuring the Workflow Input component
 
-1. **TODO**
+1. **Select the component**: Click on the added 'Workflow Input' component to select it.
+2. **Properties Panel**: On the properties panel, you'll find various configurable options:
+   * Workflow Input Settings
+     * **Input Label**: Define the label for the input.
+     * **Input Type**: Define the type of the expected input; 'Text' or 'Slider'.
+     * **Input Variant**: Define the variant of expected input; 'Standard', "Outlined' or 'Filled'.
+     * **Input Variabl**e: Define the input variable.
+3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
 
 
