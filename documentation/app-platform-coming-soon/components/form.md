@@ -28,9 +28,14 @@ Imagine an MSP that needs to onboard new clients and gather detailed information
 
 1. **Select the component**: Click on the added 'Form' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
-   * Property One:
-   * Prop Two:
-   * Prop Three:
+   * **Form**: **S**pecify the workflow to load.
+   * **Trigger**: **S**pecify the trigger to load when loading the form.
+   * **Colors**
+     * **Mode**: Set the color mode of the form; 'Light' or 'Dark'.
+     * **Background**: Set the color of the component's background.
+     * **Primary**: Set the color of the component's text.
+   * **Functions**
+     * **Redirect on Submit**: Specify the URL to which the Submit redirects when a user once clicked.&#x20;
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
 
