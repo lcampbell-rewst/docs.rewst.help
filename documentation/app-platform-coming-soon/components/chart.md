@@ -15,7 +15,7 @@ The Chart component exists to enable the display of data analytics and trends vi
 * Visualizing demographic data and user engagement statistics.
 * Showcasing real-time data updates such as stock prices or performance metrics.
 
-## **Example/Use Case**
+## **Example\Use Case**
 
 An MSP might use the Chart component to visualize client network usage, system performance or support\ticket metrics over time. For instance, line charts could display changes in bandwidth usage or storage capacity across multiple client sites, helping you identify trends, anticipate needs, and allocate resources more effectively. This visualization aids in proactive management and enhances the strategic advising role of the MSP with their clients.
 
@@ -28,7 +28,25 @@ An MSP might use the Chart component to visualize client network usage, system p
 
 1. **Select the component**: Click on the added 'Chart' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
-   * _**MK: TODO!!**_
+   * **Data Source**
+     * **Workflow Input:** Specify the workflow to load.
+     * **Max Records to show:** Adjust the number of the records to show.
+   * **Chart Options**
+     * **Editor View:** Define custom properties for the component.&#x20;
+     * **Open Configuration**: An array of component specific toggle's to modify the overall look and feel of the chart component.
+   * **Dataset Options**
+     * **Editor View:** Define custom CSS properties for the component.&#x20;
+     * **Add a new dataset**
+       * **Data Source**
+         * **Data Load Method**: Specify when the chosen workflow will execute; Use Latest Workflow' or 'Run workflow on load', or 'Use workflow stream'.&#x20;
+         * **Workflow**: Specify the workflow to load.
+         * **Open in new tab**: Open the specified workflow in a new tab.
+         * **Workflow Output**: Specify the output of the workflow to populate the chart.
+       * Chart Configuration
+         * **Chart Type**: Select the desired chart type, 'line', 'bar', 'doughnut' or 'pie'.&#x20;
+         * **X axis data key**: Select the data point to associate to the X axis.
+         * **Y axis data key**: Select the data point to associate to the Y axis.
+         * **X Scale type**: Select the desired X-scale type; 'linear', 'logarithmic', 'category', 'time' or 'timeseries'.
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
 

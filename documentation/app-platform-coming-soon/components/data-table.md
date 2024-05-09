@@ -28,7 +28,39 @@ Consider a scenario where an MSP needs to monitor and manage network equipment a
 
 1. **Select the component**: Click on the added 'Data Table' component to select it.
 2. **Properties Panel**: On the properties panel, you'll find various configurable options:
-   * _**MK: TODO!!**_
+   * **Data Source**
+     * **Add\Edit Data Source**
+       * **Data Load Method**: Specify when the chosen workflow will execute; Use Latest Workflow' or 'Run workflow on load'.
+       * **Workflow**: Specify the workflow to load.
+       * **Open in new tab**: Open the specified workflow in a new tab.
+       * **Workflow Output**: Specify the output of the workflow to populate the data table.
+   * **Table Configuration**
+     * **Add a column**
+       * **Accessor**: Specify the accessor (key) to access the data for the column.
+       * **Type**: Set the data type; 'none', 'string', 'number', 'boolean', 'object', 'array' or 'action'.
+       * **Header**: Specify the Header for the column.
+       * **Button**: Select the desired icon for the button.
+       * **Button Function**: Set the behavior of the button when clicked; 'Run a Workflow', 'Open a link' or 'Run Typescript'.
+         * **Workflow**: Select the workflow to run
+         * **Link**: Specify the URL to redirect to.
+       * **Run Function on edit**: Toggle to run the button function when the component is edited.
+       * **Reload Table after function**: Toggle to allow a refresh of the data table content once the function has completed.
+     * **Edit Column**
+       * **Accessor**: Specify the accessor (key) to access the data for the column.
+       * **Type**: Set the data type; 'none', 'string', 'number', 'boolean', 'object', 'array' or 'action'.
+       * **Header**: Specify the Header for the column.
+       * **Add a condition**: Set rules to dynamically alter the styling of the cell data.
+       * **Column Specific Configuration**
+         * **Enable Editing** - Toggle to enable\disable editing of data in the column.
+         * **Enable Click To Copy** - Toggle to enable\disable copying of data in the column.
+         * **Enable Column Dragging** - Toggle to enable\disable column resizing.
+         * **Enable Column Ordering** - Toggle to enable\disable column ordering.
+         * **Enable Column Sorting** - Toggle to enable\disable column sorting.
+         * **Enable Column Actions** - Toggle to enable\disable column actions.
+       * **Column Aggregation Settings**
+         * **Aggregate Group Function** - Specify a method to group similar values.
+         * **Aggregate Footer Function** - Specify a method to count\visualize values.
+       * **Edit Table Configuration**: An array of component specific toggle's to modify the overall look and feel of the data table component.
 3. **Live Preview**: The canvas provides a live preview of your configured component(s) once you've made changes.
 
 
