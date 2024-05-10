@@ -26,6 +26,6 @@
 12. **Choose** Application Type: Select the type of application you are building (e.g., Web application, Android, iOS, etc.).
 13. **Configure** Client ID: Provide a name for your client ID and enter the following URL under "Authorized Redirect URIs":
 
-`{engine_url}/integrations/google_workspace_admin_sdk/callback`
+[`https://engine.rewst.io/integrations/google_workspace_admin_sdk/callback`](https://engine.rewst.io/integrations/google\_workspace\_admin\_sdk/callback)
 
 14. **Obtain** Client ID and Secret: After creation, you will be presented with a pop-up window containing your client ID and client secret.
