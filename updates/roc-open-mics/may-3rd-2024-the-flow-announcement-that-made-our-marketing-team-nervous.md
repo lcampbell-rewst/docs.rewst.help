@@ -1,4 +1,4 @@
-# May 10, 2024 - The Most Requested Integration has Finally Been Added to Rewst
+# May 3rd, 2024 - The Flow Announcement that Made Our Marketing Team Nervous
 
 ## Join Live!
 
@@ -8,29 +8,27 @@ Join us live every Friday at 3 pm EST!
 
 ## Latest Open Mic Video Recording
 
-{% embed url="https://youtu.be/wnKeK4JB-iI" %}
+{% embed url="https://youtu.be/VHAKsMT9yts" %}
 
 ### Contents of the Recording:
 
-🎤 Aharon kicks off the open mic with a discussion on security enhancements to the Platform.
+🌊 Aharon reveals a new speaker for FLOW.
 
-🚀 Nick gives updates from the Dev Team
+👨‍💻 Nick provides updates from the Dev Team.
 
-📚 Brandon provides updates from the EDU team.
+📚 Brandon shares the latest from the Edu Team.
 
-🧩 Jamie and Jo from the ROC decode common MS errors from the Microsoft Bundle.
+🎯 Grant and Lu demonstrate how to use Trigger Criteria.
 
-💰 Nick demonstrates workflows that manages tool costs and W2 labor costs in ConnectWise.
+🤖 Daemon showcases two automations: one that creates and manages Slack channels and user invites when projects are ready for dispatch, and another that closes Slack channels and generates a post-mortem report upon project completion.
 
-🧾 Jason shows a Halo Billing Reconciliation Automation
+📱 Sam demos an App Platform page that lets customers update phone numbers and reactivate accounts themselves, reducing the need for direct support by enabling managers or contacts to handle changes directly through an automated workflow.
 
-🛠️ Tre demonstrates a device decommission process
+🔄 Nick shows a workflow that manages ticket mirroring across different boards in ConnectWise
 
-🤖 Brandon demonstrates how he replaced ConnectWise Automate functionality with ImmyBot
+🛠️ Nick demos an App Platform Page that centralizes control over billable modifications and priority status management in ConnectWise, ensuring only authorized adjustments while keeping it hidden from non-essential staff.
 
-🍕 Pizza demonstrates triggering a workflow using a microcontroller.
-
-
+🚀 Daniel demonstrates a workflow that facilitates the migration of assets from IT Glue to Hudu
 
 <details>
 
