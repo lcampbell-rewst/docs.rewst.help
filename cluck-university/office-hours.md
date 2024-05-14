@@ -41,7 +41,7 @@ To make the most of your time, please ensure you have [enrolled in Cluck Univers
 This event is designed to complement your learning by offering open, active Q\&A time. It's an opportunity to clarify doubts, seek solutions, and discuss your projects with experts.
 
 {% hint style="info" %}
-For more details and to reserve your spot, visit our [Calendly link](https://calendly.com/cluck-u/roc-ama).
+For more details and to reserve your spot, visit our [Calendly link](https://calendly.com/cluck-u/office-hours).
 {% endhint %}
 
 
