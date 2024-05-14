@@ -38,7 +38,7 @@ The ROC team will support this crate in this state.
 
 <details>
 
-<summary>Nestling - Release Candidate Release</summary>
+<summary>Nestling - Release Candidate</summary>
 
 This is the third stage of a crate that is ready for production, and is the equivalent of a release candidate.
 
