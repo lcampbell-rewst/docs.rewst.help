@@ -9,6 +9,7 @@
   * [Rewst Platform Overview](cluck-university/getting-started/rewst-platform-overview.md)
   * [Relationships within the Platform](cluck-university/getting-started/relationships-within-the-platform.md)
   * [Rewst Terminology](cluck-university/getting-started/rewst-terminology.md)
+  * [Setting Up Your Integrations](cluck-university/getting-started/setting-up-your-integrations.md)
   * [Demystifying Process Automation](cluck-university/getting-started/dymistifying-process-automation.md)
   * [Identifying What to Automate](cluck-university/getting-started/identifying-what-to-automate.md)
   * [How to Scope an Automation](cluck-university/getting-started/how-to-scope-an-automation.md)
