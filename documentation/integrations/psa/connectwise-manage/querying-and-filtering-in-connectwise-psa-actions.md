@@ -25,9 +25,9 @@ Learn how to apply query string parameters and conditions in real-world scenario
 * **Query Condition**: `name="Test Rewst"`
 * **Explanation**: Easily locate companies by name.
 
-#### **Example 2: List Tickets**
+#### **Example 2: List Service Tickets**
 
-* **Action**: `List Tickets`
+* **Action**: `List Service Tickets`
 * **Query Condition**: `board/name="Integration"`
 * **Explanation**: Organize tickets by board names for efficient processing.
 
