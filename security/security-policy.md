@@ -25,4 +25,4 @@ For the following services, Rewst employs application load balancers, resulting 
 
 ## Wildcard Domains
 
-Rewst customers may create subdomains (`*.rew.st>`) to host their apps. These should also be considered in your allow lists based on your integration needs.
+Rewst customers may create subdomains (`*.rew.st`) to host their apps. These should also be considered in your allow lists based on your integration needs.
