@@ -4,9 +4,9 @@
 
 Welcome to the Time Saved component documentation! As part of the page builder in App Platform, the Time Saved component allows you to display the amount of time saved through automation or efficient workflows within your web applications. This component is crucial for quantifying the efficiency gains provided by MSP services and visually communicating these benefits to users.
 
-## **Why it exists**
+## Why we developed it
 
-The Time Saved component exists to provide a tangible demonstration of value from using automated workflows and optimized processes. It helps  showcase the effectiveness of your services in terms of time economy, which is a critical metric for businesses looking to improve productivity and reduce operational costs. This component not only enhances transparency but also helps in reinforcing the return on investment (ROI) clients gain by adopting MSP solutions.
+The Time Saved component provides a tangible demonstration of value from using automated workflows and optimized processes. It helps  showcase the effectiveness of your services in terms of time economy, which is a critical metric for businesses looking to improve productivity and reduce operational costs. This component not only enhances transparency but also helps in reinforcing the return on investment (ROI) clients gain by adopting MSP solutions.
 
 ## What it could be used for
 
@@ -15,7 +15,7 @@ The Time Saved component exists to provide a tangible demonstration of value fro
 * Highlighting the effectiveness of newly implemented technologies or workflows.
 * Encouraging adoption of recommended practices by visually quantifying the benefits.
 
-## **Example/Use Case**
+## **Example \ Use Case**
 
 An MSP might use the Time Saved component in a client dashboard that monitors and reports on network management services. For instance, it can display the cumulative hours saved per month through automated network monitoring and threat detection services as compared to manual monitoring. This visualization not only validates the MSP's value but also helps clients understand the scale of efficiency improvements, encouraging continued or expanded service use.
 

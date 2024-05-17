@@ -4,9 +4,9 @@
 
 Welcome to the Form component documentation! As part of the page builder in App Platform, the Form component allows you to present rewst forms for data entry, ensuring that data is collected  efficiently from users, clients, or internal staff.
 
-## **Why it exists**
+## Why we developed it
 
-The Form component exists to streamline the data collection process, making it easy to present rewst forms to end users.  This is crucial for data collection to deliver quality services and maintain comprehensive records.
+The Form component streamlines the data collection process, making it easy to present rewst forms to end users.  This is crucial for data collection to deliver quality services and maintain comprehensive records.
 
 ## What it could be used for
 
@@ -15,7 +15,7 @@ The Form component exists to streamline the data collection process, making it e
 * Conducting surveys to gauge client satisfaction.
 * Scheduling service appointments or calls.
 
-## **Example/Use Case**
+## **Example \ Use Case**
 
 Imagine an MSP that needs to onboard new clients and gather detailed information about their IT infrastructure. The Form component can be used to present an existing rewst form that clients fill out online. This form might include fields for company details, types of services required, existing hardware and software inventory, and preferred contact methods. Once submitted, the form data is automatically integrated into a rewst workflow that consumes that data, facilitating a smooth and organized onboarding process that enhances client experience and administrative efficiency.
 

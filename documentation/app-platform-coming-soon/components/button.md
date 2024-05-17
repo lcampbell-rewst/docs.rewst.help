@@ -4,7 +4,7 @@
 
 Welcome to the Button component documentation! As part of the page builder in App Platform, the Button component allows you to integrate clickable buttons that trigger actions within your web applications. These buttons can initiate any number of functions, from submitting forms to redirecting users to other pages or executing custom scripts.
 
-## Why it exists
+## Why we developed it
 
 Buttons are essential interactive elements that facilitate user actions and decision-making processes within applications. They serve as a primary interface component for executing commands and are fundamental to improving user interaction, providing clear, actionable steps for users to take.
 
@@ -15,7 +15,7 @@ Buttons are essential interactive elements that facilitate user actions and deci
 * Initiating downloads or transactions.
 * Triggering various functions defined within the application, such as opening a modal window or starting a workflow.
 
-## Example\Use Case
+## **Example \ Use Case**
 
 For an MSP’s internal tool that manages client device setups, a Button component labeled "Deploy Software" could be implemented. This button could initiate a rewst workflow install or update software across client systems. By simplifying complex actions into a single button click, MSPs can ensure consistent software deployments, reduce human error, and increase operational efficiency.
 

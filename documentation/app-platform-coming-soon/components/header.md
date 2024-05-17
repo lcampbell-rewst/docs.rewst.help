@@ -4,9 +4,9 @@
 
 Welcome to the Header component documentation! As part of the page builder in App Platform, the Header component allows you to design and implement top-level navigation and branding elements for your web applications. This component is crucial for creating a consistent and professional look across your platform, providing users with accessible navigation and clear identification of your brand.
 
-## **Why it exists**
+## Why we developed it
 
-The Header component exists to provide a structured way to display essential information and navigation options at the top of every page. It helps establish a sense of place within the application, improving usability by making navigation intuitive and ensuring brand consistency. This is especially important for maintaining a strong brand presence and make it easy for users to navigate complex services.
+The Header component provides a structured way to display essential information and navigation options at the top of every page. It helps establish a sense of place within the application, improving usability by making navigation intuitive and ensuring brand consistency. This is especially important for maintaining a strong brand presence and make it easy for users to navigate complex services.
 
 ## What it could be used for
 
@@ -15,7 +15,7 @@ The Header component exists to provide a structured way to display essential inf
 * Integrating quick access tools like search bars, notification icons, or user account settings.
 * Highlighting important contact information or support links.
 
-## **Example/Use Case**
+## **Example \ Use Case**
 
 Consider an MSP that provides a variety of IT services and uses the App Platform to manage client interactions. The Header component can be utilized to prominently display your logo for brand recognition and include navigation links to services, support, account management, and contact pages. This setup ensures that clients can easily navigate the platform, find the information they need quickly, and have constant access to assistance, enhancing overall user satisfaction and engagement with the platform.
 

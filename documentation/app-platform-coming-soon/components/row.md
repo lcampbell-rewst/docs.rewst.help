@@ -4,9 +4,9 @@
 
 Welcome to the Row component documentation! As part of the page builder in App Platform, the Row component allows you to organize and align content horizontally within a container. This structural component is essential for creating clean, orderly layouts that enhance both the aesthetics and the functionality of your web applications.
 
-## **Why it exists**
+## Why we developed it
 
-The Row component exists to provide a flexible framework for aligning UI elements horizontally across the screen. It is fundamental to creating responsive, grid-based layouts that adapt to different screen sizes while maintaining the integrity of the design.&#x20;
+The Row component provides a flexible framework for aligning UI elements horizontally across the screen. It is fundamental to creating responsive, grid-based layouts that adapt to different screen sizes while maintaining the integrity of the design.&#x20;
 
 ## What it could be used for
 
@@ -15,7 +15,7 @@ The Row component exists to provide a flexible framework for aligning UI element
 * Creating a base for grid systems that require precise control over the placement and alignment of components.
 * Supporting responsive design principles by organizing content in rows that adjust to screen width changes.
 
-## **Example/Use Case**
+## **Example \ Use Case**
 
 You could use the Row component on a service overview page to align icons or buttons that link to different IT services you offer, such as cybersecurity, cloud infrastructure, and network management. Each service could be represented by an icon and a short description in a separate row element, ensuring that the page is easy to scan and that users can quickly find the service they need. This usage not only makes the page visually attractive but also enhances user navigation and improves overall site organization.
 

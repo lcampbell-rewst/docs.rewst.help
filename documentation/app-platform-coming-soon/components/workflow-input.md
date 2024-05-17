@@ -4,9 +4,9 @@
 
 Welcome to the Workflow Input component documentation! As part of the page builder in App Platform, the Workflow Input component allows you to integrate interactive forms or fields that capture user inputs essential for triggering and controlling workflows within your web applications.
 
-## **Why it exists**
+## Why we developed it
 
-The Workflow Input component exists to facilitate the collection of user inputs that directly influence the behavior of automated processes or workflows. This component ensures that data-driven workflows are both responsive and adaptable to user interactions, thereby increasing the efficiency and relevance of automated services.
+The Workflow Input component facilitates the collection of user inputs that directly influence the behavior of automated processes or workflows. This component ensures that data-driven workflows are both responsive and adaptable to user interactions, thereby increasing the efficiency and relevance of automated services.
 
 ## What it could be used for
 
@@ -15,7 +15,7 @@ The Workflow Input component exists to facilitate the collection of user inputs 
 * Enabling configuration changes that affect how services are delivered, such as scheduling backups or setting notification preferences.
 * Facilitating user interactions that trigger complex sequences of tasks, enhancing dynamic response capabilities.
 
-## **Example/Use Case**
+## **Example \ Use Case**
 
 In an MSP’s client management system, the Workflow Input component might be used on a service configuration page where clients can enter their preferences for data backup services—choices like backup frequency, data cap, and specific folders to include. These inputs could then directly trigger a personalized backup workflow, ensuring that the service aligns perfectly with the client's specified needs. This approach not only automates the process based on real-time inputs but also enhances user satisfaction by providing customized service delivery.
 

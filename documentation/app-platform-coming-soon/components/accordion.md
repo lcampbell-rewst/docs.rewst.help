@@ -4,9 +4,9 @@
 
 Welcome to the Accordion component documentation! As part of the page builder in App Platform, the Accordion component allows you to present collapsible content panels, allowing users to expand or collapse sections to view relevant information one at a time.
 
-## **Why it exists**
+## Why we developed it
 
-The accordion exists to help manage and organize information efficiently, particularly when users need to navigate through large sets of data or content. By showing one section at a time, it reduces visual clutter and enables a focused user experience.
+The accordion is there to help manage and organize information efficiently, particularly when users need to navigate through large sets of data or content. By showing one section at a time, it reduces visual clutter and enables a focused user experience.
 
 ## What it could be used for...&#x20;
 
@@ -16,9 +16,11 @@ The accordion exists to help manage and organize information efficiently, partic
 * Collapsing or expanding informational sections on dashboards or reports
 * Providing step-by-step instructions, with each step expandable to reveal more details
 
-## **Example\Use Case**
+## **Example \ Use Case**
 
 A support website may use an accordion to present frequently asked questions (FAQs). Each question appears as a header, and when clicked, expands to reveal the answer. This lets users focus on a specific question without being distracted by other content.
+
+Another great example of how accordions can be utilized are in the sidebar. By adding accordion components to your sidebar, you can nest the 'Menu' component inside it. This allows you to break your sidebar out into sections (ie: sub-menus), to enhance your app's navigation for your users.&#x20;
 
 ## Adding an Accordion to your page
 

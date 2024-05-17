@@ -4,9 +4,9 @@
 
 Welcome to the Menu component documentation! As part of the page builder in App Platform, the Menu component enables you to create dynamic navigation menus within your web applications. This component is crucial for structuring the navigation of your site, allowing users to easily access various sections and functionalities offered by your application.
 
-## **Why it exists**
+## Why we developed it
 
-The Menu component exists to facilitate organized and intuitive navigation throughout your application. It supports the creation of both horizontal and vertical menus that can be customized to fit the design and user experience needs of any application.&#x20;
+The Menu component facilitates organized and intuitive navigation throughout your application. It supports the creation of both horizontal and vertical menus that can be customized to fit the design and user experience needs of any application.&#x20;
 
 ## What it could be used for
 
@@ -14,7 +14,7 @@ The Menu component exists to facilitate organized and intuitive navigation throu
 * Providing quick access to important information like contact details, support sections, and user account areas.
 * Supporting responsive designs that adapt to different devices, ensuring seamless navigation on desktops, tablets, and smartphones.
 
-## **Example/Use Case**
+## **Example \ Use Case**
 
 Consider an MSP that manages a complex array of IT services, including cloud storage solutions, network security, and technical support. The Menu component can be used to structure these services into a well-organized menu in the sidebar of the application. For instance, each major service category could be a menu item, with drop-downs for subcategories like FAQs, pricing, setup guides, and case studies. This organization allows clients to quickly navigate through the services, find the information they need without hassle, and understand the full range of what the MSP offers, thereby improving the user experience and engagement with the platform.
 

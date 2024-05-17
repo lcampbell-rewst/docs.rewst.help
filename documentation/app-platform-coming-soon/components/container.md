@@ -4,9 +4,9 @@
 
 Welcome to the Container component documentation! As part of the page builder in App Platform, the Container component allows you to group and organize various UI elements within a structured and styled section. This component is essential for creating visually coherent and logically organized layouts in your web applications.
 
-## **Why it exists**
+## Why we developed it
 
-The Container component exists to provide a flexible and straightforward way to manage layout and design consistency across the application. It helps in encapsulating other components, such as buttons, text, links, and images, ensuring that they align correctly and behave responsively within the designated area. This encapsulation is crucial for maintaining a clean and orderly user interface, which enhances user experience.
+The Container component provides a flexible and straightforward way to manage layout and design consistency across the application. It helps in encapsulating other components, such as buttons, text, links, and images, ensuring that they align correctly and behave responsively within the designated area. This encapsulation is crucial for maintaining a clean and orderly user interface, which enhances user experience.
 
 ## What it could be used for
 
@@ -15,7 +15,7 @@ The Container component exists to provide a flexible and straightforward way to 
 * Isolating widget-like components that function independently within a page.
 * Serving as a design or thematic boundary for different areas within a single page.
 
-## **Example/Use Case**
+## **Example \ Use Case**
 
 Imagine setting up a user profile page within an application on the App Platform. The Container component can be strategically utilized to separate information into distinct blocks, such as personal details, contact information, and account settings. Each container ensures that the elements within it, like text fields, images, and buttons, are well-organized and visually distinct from other sections. This not only improves the aesthetics but also enhances the usability of the profile page, making it easier for users to navigate and update their information efficiently.
 
