@@ -48,6 +48,6 @@ Explore what new changes the Training team has made in the last week.
   * [community-driven-content](../../community-corner/community-driven-content/ "mention")updated with new information
   * Liongard [actions-and-endpoints.md](../../documentation/integrations/security/liongard/actions-and-endpoints.md "mention")page updated
   * [sonicwall-integration-setup.md](../../documentation/integrations/security/sonicwall-nsm/sonicwall-integration-setup.md "mention")updated with new steps
-  * [byod-for-dattormm.md](../../documentation/integrations/rmm/datto-rmm/byod-for-dattormm.md "mention")instructions added
+  * [byod-for-dattormm.md](../../documentation/integrations/database/byod-for-dattormm.md "mention")instructions added
 
 </details>

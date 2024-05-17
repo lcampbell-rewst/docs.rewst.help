@@ -35,7 +35,7 @@ Explore what new changes the Training team has made in the last week.
 
 * [Open Mic - August 25th Video and Page Added](../roc-open-mics/august-25th-2023-looks-like-brandwichs-back-on-the-menu.md)
 * Added a [CSP/CPV Permission Checker Page](../../prebuilt-automations/existing-crate-documentation/csp-cpv-permission-checker.md)
-* Added a [DattoRMM Bring Your Own Database Page](../../documentation/integrations/rmm/datto-rmm/byod-for-dattormm.md)
+* Added a [DattoRMM Bring Your Own Database Page](../../documentation/integrations/database/byod-for-dattormm.md)
 * Added a [Integrating with Two CSPs Page](../../documentation/integrations/general/multi-instance-integration/integrating-with-two-csps.md)
 * Updates and Fixes
   * Updated [Intro to Triggers page](../../documentation/triggers/intro-to-triggers.md)
