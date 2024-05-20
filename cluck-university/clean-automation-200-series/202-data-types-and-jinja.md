@@ -7,7 +7,7 @@ description: >-
 # 202: Data Types and Jinja
 
 {% hint style="info" %}
-Sign up for our **LIVE** sessions **Tuesday's @ 3p.m.** **Eastern** on [Calendly](https://calendly.com/cluck-u/rewst-202).
+Sign up for our **LIVE** sessions **Tuesday's @ 3pm** **Eastern** on [Calendly](https://calendly.com/cluck-u/rewst-202).
 {% endhint %}
 
 ## **Course Overview**

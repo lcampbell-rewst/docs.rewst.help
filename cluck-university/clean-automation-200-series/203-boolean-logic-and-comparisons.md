@@ -8,7 +8,7 @@ description: >-
 # 203: Boolean Logic & Comparisons
 
 {% hint style="info" %}
-Sign up for our **LIVE** sessions **Wednesdays @ 3p.m.** **Eastern** on [Calendly](https://calendly.com/cluck-u/rewst-203).
+Sign up for our **LIVE** sessions **Wednesdays @ 3pm** **Eastern** on [Calendly](https://calendly.com/cluck-u/rewst-203).
 {% endhint %}
 
 ## **Course Overview**

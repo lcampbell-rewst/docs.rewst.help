@@ -5,15 +5,15 @@ description: >-
   workflows
 ---
 
-# 204: Better Automation Through Abstraction
+# 204: Modular Automation Through Abstraction
 
 {% hint style="info" %}
-This course is **coming soon**. Check back here for registration details in the coming weeks.
+Sign up for our **LIVE** sessions **Wednesdays @ 3pm** **Eastern** on [Calendly](https://calendly.com/cluck-u/rewst-204)
 {% endhint %}
 
 ## **Course Overview**
 
-Rewst 203 focuses on enhancing automation through the principles of abstraction and modularity. This course aims to instill a developer-like mindset, facilitating the creation of more streamlined and efficient automated workflows. It covers key concepts in breaking down complex tasks into manageable components.
+Rewst 204 focuses on enhancing automation through the principles of abstraction and modularity. This course aims to instill a developer-like mindset, facilitating the creation of more streamlined and efficient automated workflows. It covers key concepts in breaking down complex tasks into manageable components.
 
 ## **Learning Objectives**
 
