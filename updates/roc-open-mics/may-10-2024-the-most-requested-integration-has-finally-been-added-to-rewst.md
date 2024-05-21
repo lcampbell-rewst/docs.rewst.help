@@ -1,4 +1,4 @@
-# May 17, 2024 - Solve All Your Meal Prep Problems With This Automation
+# May 10, 2024 - The Most Requested Integration has Finally Been Added to Rewst
 
 ## Join Live!
 
@@ -8,23 +8,27 @@ Join us live every Friday at 3 pm EST!
 
 ## Latest Open Mic Video Recording
 
-{% embed url="https://youtu.be/2aMOHXE5gPo" %}
+{% embed url="https://youtu.be/wnKeK4JB-iI" %}
 
 ### Contents of the Recording:
 
-🎤 Aharon kicks off the Open Mic with a few announcements.&#x20;
+🎤 Aharon kicks off the open mic with a discussion on security enhancements to the Platform.
 
-👨‍💻 Nick provides updates from the Dev Team.&#x20;
+🚀 Nick gives updates from the Dev Team
 
-📚 Brandon shares updates from the Edu Team.&#x20;
+📚 Brandon provides updates from the EDU team.
 
-🍲 Trish demonstrates a meal prep automation.&#x20;
+🧩 Jamie and Jo from the ROC decode common MS errors from the Microsoft Bundle.
 
-⚡ Ryan shows a workflow that tracks lightning strikes in his backyard.&#x20;
+💰 Nick demonstrates workflows that manages tool costs and W2 labor costs in ConnectWise.
 
-💼 Jared explains how he manages prepaid service agreements to mitigate liability.&#x20;
+🧾 Jason shows a Halo Billing Reconciliation Automation
 
-🔄 Dan demonstrates an automation for setting up new Duo tenants.
+🛠️ Tre demonstrates a device decommission process
+
+🤖 Brandon demonstrates how he replaced ConnectWise Automate functionality with ImmyBot
+
+🍕 Pizza demonstrates triggering a workflow using a microcontroller.
 
 
 
