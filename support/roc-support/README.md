@@ -7,6 +7,7 @@ description: >-
 # ROC Support
 
 ## ROC Support Operating Hours:
+
 ROC Support - Operating Hours Monday thru Friday 7AM to 8PM Eastern
 
 ## New Support Process at Rewst
@@ -19,7 +20,7 @@ If you have a pressing issue that needs immediate attention, please log a ticket
 
 ### How to Log a Ticket
 
-To log a ticket, use the command to create a ticket from a message. This will alert our support team and they will respond as quickly as possible.
+To log a ticket, [use the command to create a ticket from a message](create-a-ticket-via-discord.md). This will alert our support team and they will respond as quickly as possible.&#x20;
 
 ### Our Commitment
 
