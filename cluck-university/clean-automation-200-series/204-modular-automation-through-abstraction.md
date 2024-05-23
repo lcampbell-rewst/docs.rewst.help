@@ -8,7 +8,7 @@ description: >-
 # 204: Modular Automation Through Abstraction
 
 {% hint style="info" %}
-Sign up for our **LIVE** sessions **Wednesdays @ 3pm** **Eastern** on [Calendly](https://calendly.com/cluck-u/rewst-204)
+Sign up for our **LIVE** sessions **Thursday @ 12:30pm** **Eastern** on [Calendly](https://calendly.com/cluck-u/rewst-204)
 {% endhint %}
 
 ## **Course Overview**
