@@ -2,6 +2,10 @@
 
 {% embed url="https://youtu.be/wbyCLXFPCDI" %}
 
+{% hint style="danger" %}
+There is a known issue with the initial Crate Trigger Enabled slider not working as expected. To ensure the trigger is disabled, make sure the trigger is disabled during the unpacking configuration.&#x20;
+{% endhint %}
+
 Leveraging crates in Rewst will help you set up your first out-of-the-box automation. Unpacking a crate means you get all the forms, triggers, and workflows that your automation needs to run smoothly.
 
 Our team has built over 120 crates and is still building more.&#x20;
