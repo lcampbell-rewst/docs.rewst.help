@@ -501,6 +501,7 @@
   * [November 4th 2022](updates/cs-and-training-updates/november-4th-2022.md)
   * [October 28th 2022](updates/cs-and-training-updates/october-28th-2022-1.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
+  * [May 24, 2024 - ImmyBot + Rewst = Better Together](updates/roc-open-mics/may-24-2024-immybot-+-rewst-better-together.md)
   * [May 17, 2024 - Solve All Your Meal Prep Problems With This Automation](updates/roc-open-mics/may-17-2024-solve-all-your-meal-prep-problems-with-this-automation.md)
   * [May 10, 2024 - The Most Requested Integration has Finally Been Added to Rewst](updates/roc-open-mics/may-10-2024-the-most-requested-integration-has-finally-been-added-to-rewst.md)
   * [May 3rd, 2024 - The Flow Announcement that Made Our Marketing Team Nervous](updates/roc-open-mics/may-3rd-2024-the-flow-announcement-that-made-our-marketing-team-nervous.md)

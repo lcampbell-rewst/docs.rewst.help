@@ -1,6 +1,6 @@
-# ROC Open Mics
+# May 24, 2024 - ImmyBot + Rewst = Better Together
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
