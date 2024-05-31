@@ -14,6 +14,10 @@ Sign up for our **LIVE** sessions **Tuesday's @ 3pm** **Eastern** on [Calendly](
 
 Rewst 202 delves into the complexities of data types and the use of Jinja in Rewst. This course builds upon the foundational knowledge from the 103 course, focusing on the efficient handling and manipulation of various data forms. It's designed to enhance your skillset in managing and utilizing data within Rewst's automated workflows.
 
+## Watch the video and follow along
+
+{% embed url="https://youtu.be/PIdC0S4iz44" %}
+
 ## **Learning Objectives**
 
 * **Understanding Data Types in Rewst**: Gain a comprehensive understanding of basic and advanced data structures, essential for effective data storage and manipulation.

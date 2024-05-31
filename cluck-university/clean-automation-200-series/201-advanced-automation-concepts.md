@@ -14,6 +14,10 @@ Sign up for our **LIVE** sessions **Monday's @ 3pm Eastern** on [Calendly](https
 
 Rewst 201 offers a deep dive into the nuanced aspects of advanced automation. The course is designed to provide insights into critical concepts that are essential for creating sophisticated and efficient automated workflows in Rewst.
 
+## Watch the video and follow along
+
+{% embed url="https://youtu.be/7IuMQRLNkYM" %}
+
 ## **Learning Objectives**
 
 1. **Understanding the Balance between Human Creativity and Computer Precision**: This session emphasizes the unique strengths of humans and computers, encouraging the creation of automations that leverage the creative problem-solving skills of humans while capitalizing on the precision and consistency of computers.
