@@ -1,6 +1,6 @@
-# ROC Open Mics
+# May 31, 2024 - These Features in Rewst Have Been Flagged
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
