@@ -1,6 +1,14 @@
 # Google Workspace Admin SDK Integration Setup
 
+{% hint style="info" %}
+Note: Rewst supports multi-instance for Google Workspace Admin, but generally one instance of Google Workspace Admin is not multi-tenant. You may need a 1:1 relationship between an instance of this integration and a sub-tenant or a Rewst sub-org.
+{% endhint %}
+
 ## **Creating a New Project**
+
+{% hint style="info" %}
+To complete these steps in Google Cloud Console, project Editor or Owner permissions are required.
+{% endhint %}
 
 1. **Navigate** to the Google Cloud Console: Open your web browser and go to [https://console.cloud.google.com/](https://console.cloud.google.com/)
 2. **Open** the Manage Resources Page: Locate the navigation menu (hamburger icon) in the top left corner and click on it. Then, select "IAM & Admin" and choose "Manage Resources."
@@ -11,6 +19,10 @@
 7. **Create** the Project: Click the "CREATE" button to finalize the project creation process.
 
 ## **Obtaining Client ID and Secret**
+
+{% hint style="info" %}
+The user who is authorizing this integration in Rewst must have Super Admin access in Google Workspace Admin.
+{% endhint %}
 
 1. **Select** Your Project: From the project drop-down menu at the top of the page, choose the GCP project you just created.
 2. **Access** the API Library: In the left-hand navigation menu, locate and click on "APIs & Services," then select "Library."
@@ -29,3 +41,4 @@
 [`https://engine.rewst.io/integrations/google_workspace_admin_sdk/callback`](https://engine.rewst.io/integrations/google\_workspace\_admin\_sdk/callback)
 
 14. **Obtain** Client ID and Secret: After creation, you will be presented with a pop-up window containing your client ID and client secret.
+
