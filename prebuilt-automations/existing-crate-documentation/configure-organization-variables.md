@@ -71,10 +71,10 @@ To customize variables for client organizations:
 | Default RMM                  | Select your RMM                                                                                                                                                      |
 | Primary Identity Provider    | <p>Select what your organization uses for IDP.<br>Note if you use a hybrid setup with or with out ADsync you will want to select On-Prem</p>                         |
 | Preferred Domain Controller  | <p>The host name for the domain controller you would like Rewst to run Powershell on<br>Note: This does not need to be the fully qualified name and can be DC-01</p> |
-| Preferred ADConnect Server   | The name of the Server runing ADConnect                                                                                                                              |
+| Preferred ADConnect Server   | The name of the Server running ADConnect                                                                                                                             |
 | On-Prem Exchange Server      | Name of the On-Prem Exchange Server (if you are not running On-Prem Exchange, leave blank)                                                                           |
 
-#### Licencing & Purchases
+#### Licensing & Purchases
 
 | Field Label                      | Description                  |
 | -------------------------------- | ---------------------------- |
@@ -104,6 +104,6 @@ To customize variables for client organizations:
 | User Name Format                        | Select the username format for new users for your organization. Note you can specify a different username for each of your organizations with the "\[ROC] Rewst: Simple Organizational Variable Form for Child Accounts form"                                                              |
 | No AD Sync                              | Check if you have an OnPrem AD with no Ad Sync                                                                                                                                                                                                                                             |
 | Miscellaneous Settings                  |                                                                                                                                                                                                                                                                                            |
-| Preferred Phone Number Format           | Select a Prefered Phone number format                                                                                                                                                                                                                                                      |
+| Preferred Phone Number Format           | Select a Preferred Phone number format                                                                                                                                                                                                                                                     |
 | M365 Usage Location                     | Select a default M365 Usage Location                                                                                                                                                                                                                                                       |
 | New User Approval Email                 | If set, Rewst will send an email to this address requesting approval before it continues the user onboarding workflow.                                                                                                                                                                     |
