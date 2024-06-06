@@ -1,6 +1,6 @@
 ---
-cover: .gitbook/assets/rewst-banner.png
-coverY: 0
+cover: .gitbook/assets/docs-hero-header.svg
+coverY: 57.355271176112126
 layout:
   cover:
     visible: true
@@ -14,9 +14,18 @@ layout:
   outline:
     visible: false
   pagination:
-    visible: false
+    visible: true
 ---
 
 # Welcome to Rewst
 
-<table data-view="cards" data-full-width="true"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td align="center"><strong>Dive into Documentation</strong></td><td align="center">Check out documentation on integrations, prebuilt automations, building forms, workflows, and more!</td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/Untitled design (1).png">Untitled design (1).png</a></td></tr><tr><td align="center"><strong>Spread your Wings with Training</strong></td><td align="center">Check out our Cluck University training videos or sign-up for live training!</td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/2 (1).png">2 (1).png</a></td></tr><tr><td align="center"><strong>Flock Together with the ROC Open Mic Recordings</strong></td><td align="center">You can join the Open Mic every Friday.</td><td><a href="updates/roc-open-mics/">roc-open-mics</a></td><td><a href=".gitbook/assets/3 (1).png">3 (1).png</a></td></tr><tr><td align="center"><strong>Join the Kewp Community and Get Support</strong></td><td align="center">Check out Discord to get live support and engage with the kewp!</td><td><a href="https://discord.gg/Rewst">https://discord.gg/Rewst</a></td><td><a href=".gitbook/assets/4 (1).png">4 (1).png</a></td></tr><tr><td align="center"><strong>Keep Up-to-Date on Releases</strong></td><td align="center">Updates are posted every week!</td><td><a href="updates/development-updates/">development-updates</a></td><td><a href=".gitbook/assets/5 (1).png">5 (1).png</a></td></tr><tr><td align="center"><strong>Check out our FAQs</strong></td><td align="center">If you need any help or have questions, you can review the FAQs.</td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/6 (1).png">6 (1).png</a></td></tr></tbody></table>
+<table data-view="cards" data-full-width="true"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td align="center"><strong>Documentation</strong></td><td align="center">Help articles &#x26; FAQ</td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/1 (1).png">1 (1).png</a></td></tr><tr><td align="center"><strong>Cluck University</strong></td><td align="center">Guided learning &#x26; Certifications</td><td><a href="broken-reference">Broken link</a></td><td><a href=".gitbook/assets/3 (1).png">3 (1).png</a></td></tr><tr><td align="center"><strong>Weekly Open Mic</strong></td><td align="center">New releases &#x26; Product updates</td><td><a href="updates/roc-open-mics/">roc-open-mics</a></td><td><a href=".gitbook/assets/2 (1).png">2 (1).png</a></td></tr></tbody></table>
+
+
+
+**👾 Join our Discord Community:** [Check out Discord to get live support & engage with the kewp!](https://discord.com/invite/Rewst)&#x20;
+
+
+
+<table data-view="cards"><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center">✨ <a href="cluck-university/getting-started/rewst-platform-overview.md">Platform overview</a></td></tr><tr><td align="center">🔌 <a href="cluck-university/getting-started/setting-up-your-integrations.md">Setting up your integrations</a></td></tr><tr><td align="center">🎓 <a href="cluck-university/electives/">Additional learning</a></td></tr></tbody></table>
+
