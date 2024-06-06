@@ -1,6 +1,6 @@
 ---
 cover: .gitbook/assets/docs-hero-header.svg
-coverY: 57.355271176112126
+coverY: 85.59171237050579
 layout:
   cover:
     visible: true
