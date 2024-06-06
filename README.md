@@ -1,6 +1,6 @@
 ---
-cover: .gitbook/assets/docs-hero-header.svg
-coverY: 85.59171237050579
+cover: .gitbook/assets/Rewst Documentation (5).png
+coverY: 0
 layout:
   cover:
     visible: true
