@@ -10,7 +10,7 @@ This can be anything from new crates, enhancements, or bug fixes!
 
 * Alert When Users Mailboxes are Reaching Quota
   * Added an action to the crate that checks for an existing ticket and if one exists it updates that ticket or at least does not create a new ticket.
-  * Added ability to exclude mailboxes from alerting.
+  * Added ability to exclude mailboxes from alerting with a comma delimited list in the org variable `excluded_quota_monitoring_emails`
 
 </details>
 
