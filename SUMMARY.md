@@ -508,6 +508,7 @@
   * [October 28th 2022](updates/cs-and-training-updates/october-28th-2022-1.md)
 * [Marketplace Updates](updates/marketplace-updates/README.md)
   * [May 31st 2024](updates/marketplace-updates/may-31st-2024.md)
+  * [June 7th, 2024](updates/marketplace-updates/june-7th-2024.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
   * [May 31, 2024 - Simplify Organization Variables by 10X With This 1 Trick](updates/roc-open-mics/may-31-2024-simplify-organization-variables-by-10x-with-this-1-trick.md)
   * [May 24, 2024 - ImmyBot + Rewst = Better Together](updates/roc-open-mics/may-24-2024-immybot-+-rewst-better-together.md)
