@@ -1,6 +1,6 @@
-# ROC Open Mics
+# June 7, 2024 - Discover the Lessons Your Workflows are Trying to Teach You
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
@@ -25,8 +25,6 @@ Join us live every Friday at 3 pm EST!
 🔄 Max presents a workflow that removes himself as a resource from ConnectWise Manage tickets.&#x20;
 
 🛠️ Brian shows the process of refactoring and improving an existing workflow.
-
-
 
 
 

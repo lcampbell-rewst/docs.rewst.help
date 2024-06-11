@@ -511,6 +511,7 @@
   * [June 7th, 2024](updates/marketplace-updates/june-7th-2024.md)
   * [May 31st 2024](updates/marketplace-updates/may-31st-2024.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
+  * [June 7, 2024 - Discover the Lessons Your Workflows are Trying to Teach You](updates/roc-open-mics/june-7-2024-discover-the-lessons-your-workflows-are-trying-to-teach-you.md)
   * [May 31, 2024 - Simplify Organization Variables by 10X With This 1 Trick](updates/roc-open-mics/may-31-2024-simplify-organization-variables-by-10x-with-this-1-trick.md)
   * [May 24, 2024 - ImmyBot + Rewst = Better Together](updates/roc-open-mics/may-24-2024-immybot-+-rewst-better-together.md)
   * [May 17, 2024 - Solve All Your Meal Prep Problems With This Automation](updates/roc-open-mics/may-17-2024-solve-all-your-meal-prep-problems-with-this-automation.md)
