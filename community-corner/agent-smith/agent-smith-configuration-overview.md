@@ -6,7 +6,7 @@ Agent Smith operates as an Azure IoT Hub instance, integrated with Rewst workflo
 
 ### 1. Microsoft Azure Integration
 * Install and Authorize: (If not already set up)
-* Refer to the [Azure Integration Setup Instructions](/documentation/integrations/cloud/microsoft-cloud-integration-bundle/microsoft-azure/microsoft-azure-integration-setup) to ensure that the integration is fully set up and tested before proceeding.
+* Refer to the [Azure Integration Setup Instructions](https://docs.rewst.help/documentation/integrations/cloud/microsoft-cloud-integration-bundle/microsoft-azure/microsoft-azure-integration-setup) to ensure that the integration is fully set up and tested before proceeding.
 
 
 ### 2. Agent Smith Crates Installation
