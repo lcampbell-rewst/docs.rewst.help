@@ -68,3 +68,26 @@
 * Is Enabled (Optional): Updated enabled status for the organization. It is a boolean value.
 
 **Output:** Outputs the updated details of the organization, which includes the Organization ID, Domain, Name, Managing Organization ID, and Enabled Status.
+
+***
+
+## **List Integrations For Organization**
+
+**Description:** This action retrieves a comprehensive list of integrations installed for a specific organization in Rewst, providing a detailed overview of each integration's attributes.
+
+**Parameters:**
+
+* **Organization ID:** The unique identifier for an organization in Rewst. This parameter is required to fetch the specific integration details pertinent to the organization.
+
+**Output:**
+
+The action generates a detailed list of integrations, including:
+
+* **Integration ID, Name, and Reference:** Basic identifiers providing clarity on each integration.
+* **Pack Configurations:** In-depth details of configurations applied to each integration, offering insights into their setup and customization.
+* **Applied Triggers:** Information on workflow triggers linked to each integration, useful for understanding operational dynamics.
+* **Foreign Object References:** Crucial data points that link integrations to external references, enhancing cross-platform data synchronization and management.
+
+{% hint style="info" %}
+Check out the documentation for the[view-rewst-integration-org-variables.md](../../../../prebuilt-automations/existing-crate-documentation/view-rewst-integration-org-variables.md "mention") crate, to see a practical example of how to leverage this action within your Rewst workflows.
+{% endhint %}

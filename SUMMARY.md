@@ -54,7 +54,7 @@
       * [Organization Actions](documentation/workflows/actions-in-rewst/rewst-actions/organization-actions.md)
       * [Organization Variable Actions](documentation/workflows/actions-in-rewst/rewst-actions/organization-variable-actions.md)
       * [Users & Invitation Actions](documentation/workflows/actions-in-rewst/rewst-actions/users-and-invitation-actions.md)
-      * [Integrations & External Association Actions](documentation/workflows/actions-in-rewst/rewst-actions/integrations-and-external-association-actions.md)
+      * [Foreign Object References](documentation/workflows/actions-in-rewst/rewst-actions/integrations-and-external-association-actions.md)
       * [Template Actions](documentation/workflows/actions-in-rewst/rewst-actions/template-actions.md)
       * [Form & Trigger Actions](documentation/workflows/actions-in-rewst/rewst-actions/form-and-trigger-actions.md)
     * [Transform Actions](documentation/workflows/actions-in-rewst/transform-actions/README.md)

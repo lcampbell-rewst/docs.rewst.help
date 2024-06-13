@@ -1,56 +1,71 @@
-# Integrations & External Association Actions
+---
+description: >-
+  Link an external reference to a workflow execution with an identifier and
+  reference ID. Retrieve details later by specifying parameters. Choose user and
+  set failure conditions for pre-existing links.
+---
 
-## **List Integrations For Organization**
+# Foreign Object References
 
-**Description:** This action retrieves a comprehensive list of integrations installed for a specific organization in Rewst, providing a detailed overview of each integration's attributes.
+## Overview
 
-**Parameters:**
+Effectively managing and keeping track of external resources for use within workflows can significantly improve automation efficiency. This page covers how to link external references to your workflow's executions using Rewst's `Associate External Object` and `Get External Reference` actions, and how to use them to simplify your processes, and ensure better visibility of your workflow executions.
 
-* **Organization ID:** The unique identifier for an organization in Rewst. This parameter is required to fetch the specific integration details pertinent to the organization.
+### Why This Is Useful:
 
-**Output:**
+* **Improves Accessibility:** Makes it easy to find and use relevant information when needed.
+* **Streamlines Processes:** Reduces complexity in linking external data to workflows.
+* **Saves Time:** Eliminates the need to gather the same data repeatedly.
+* **Tracks Progress:** Can provide a clear reference point for ongoing tasks and projects.
 
-The action generates a detailed list of integrations, including:
+***
 
-* **Integration ID, Name, and Reference:** Basic identifiers providing clarity on each integration.
-* **Pack Configurations:** In-depth details of configurations applied to each integration, offering insights into their setup and customization.
-* **Applied Triggers:** Information on workflow triggers linked to each integration, useful for understanding operational dynamics.
-* **Foreign Object References:** Crucial data points that link integrations to external references, enhancing cross-platform data synchronization and management.
+## Associate External Object
 
-{% hint style="info" %}
-Check out the documentation for the[view-rewst-integration-org-variables.md](../../../../prebuilt-automations/existing-crate-documentation/view-rewst-integration-org-variables.md "mention") crate, to see a practical example of how to leverage this action within your Rewst workflows.
-{% endhint %}
+Linking external resources, like tickets from a PSA system, to your workflow executions can streamline management and enhance traceability. This section walks through the steps to associate an external object within your workflow executions.
+
+### **Key Points:**
+
+* **Association:** Connects an external system's resource to your workflow.
+* **Conflict Handling:** Optionally fails if a pre-existing link is detected.
+* **User Execution:** Runs under specified user or default user.
+
+### **Parameters:**
+
+* **identifier:** Unique identifier of the external resource you'd like to associate.
+* **reference\_id:** Reference for the external resource that you will be able to call back on.
+* **run\_as\_user (optional):** Defined user's ID or default user's ID (if blank) for running the task.
+* **fail\_on\_conflict (optional):** Set this option to true if you don't want to overwrite any existing `reference_id`/`identifier` pair already exists.
+
+### **Output**
+
+The resulting task's output returns the verified information about the associated external object.
 
 ***
 
 ## Get External Reference
 
-**Description**: Facilitates the retrieval of details about the above external integration references. You can use it to fetch all external integration references associated with a specific organization in Rewst or to find the organization associated with a specific external reference ID.
+Facilitates the retrieval of details about the any external integration or manually set references. You can use it to fetch all external integration references associated with a specific organization in Rewst or to find the organization and workflow execution associated with a specific external reference ID.
 
-#### **Parameters**:
+### **Key Points:**
 
-* **Org ID**: (Optional) The ID of the organization in Rewst. If provided, the action returns all external references linked to this organization.
-* **Identifier**: (Optional) A specific variable name for the external resource. (eg: `ms_tenant_id`)
-* **Reference ID**: (Optional) The unique identifier of the external resource. If provided, the action returns the organization in Rewst associated with this reference.
+* **Retrieval:** Fetches external resource information.
+* **User Execution:** Runs under specified user credentials or default user.
+* **Organization Specific:** Requires organization ID for context.
 
-#### **Output**:
+### **Parameters**
 
-* Returns detailed information about the external reference(s), such as the `org_id` in Rewst linked to it, the type of `identifier`, and the external `reference_id`. This information is helpful for cross-system data synchronization and management.
+* **org\_id:** ID of the organization in Rewst.
+* **identifier:** Unique identifier of the external resource.
+* **reference\_id:** Reference ID of the external resource.
+* **run\_as\_user (optional):** Specify user credentials.
+
+### **Output**
+
+Returns detailed information about the external reference(s), such as the `org_id` in Rewst linked to it, the type of `identifier`, and the external `reference_id`. This information is helpful for cross-system data synchronization and management.
+
+***
 
 {% hint style="info" %}
 Check out the documentation for the[view-rewst-integration-org-variables.md](../../../../prebuilt-automations/existing-crate-documentation/view-rewst-integration-org-variables.md "mention") crate, to see a practical example of how to leverage this action within your Rewst workflows.
 {% endhint %}
-
-***
-
-## **Associate External Object**
-
-**Description:** Lets you associate a resource in some other system, i.e., a PSA ticket, with a particular workflow execution.
-
-**Parameters:**
-
-* **Reference ID:** The ID of the external resource.
-* **Identifier:** An identifier for the external resource, i.e. "cwm\_ticket".
-* **Fail On Conflict:** Set to true to fail the task if a `reference_id`/`identifier` pair already exists for the supplied values. It is a boolean parameter.
-
-**Output:** The action returns information about the associated external object.
