@@ -12,9 +12,9 @@ To make the most of your time, please complete the [Rewst Foundations Certificat
 
 ## How It Works:
 
-1. **Sign-Up**: Use the Calendly link to schedule a session during our available times.\
-   **Prepare**: Gather any questions or topics you'd like to discuss.&#x20;
-2. **Join the Call**: At the scheduled time, join the call via the link provided in your Calendly confirmation. Our ROC team will be ready to assist.
+1. **Sign-Up**: Use the Calendly link to schedule a session during our available times.
+2. **Prepare**: Gather any questions or topics you'd like to discuss.&#x20;
+3. **Join the Call**: At the scheduled time, join the call via the link provided in your Calendly confirmation. Our ROC team will be ready to assist.
 
 ## What to Expect:
 
