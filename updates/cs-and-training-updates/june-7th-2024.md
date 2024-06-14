@@ -6,7 +6,7 @@ Explore what new changes the Training team has made in the last week.
 
 <summary><strong>General News and Reminders</strong></summary>
 
-* **Game Tip of the Week:**&#x20;
+* **Game Tip of the Week:** If you are into Retro handheld gaming, you should check out the Anbernic SP! It is such a great piece of hardware and is surprisingly cheap. It plays games from NES, SNES, GBC, GBA, the Sega Systems and can even run some games from Dreamcast, PSP, and PS1. But all in a GBA SP form factor.&#x20;
 * **SHOUT OUT** to Josh, Christian, Jamie, Dean, Adam, and our very own Ben (Ben WITH PERFECT SCORES!)  for successfully taking our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord. &#x20;
 * **REMINDER**: [Sign up for the Office Hours](https://calendly.com/cluck-u/office-hours?) and the[ ROC AMA](https://calendly.com/cluck-u/roc-ama) to work through any questions you have during and after training!
 * **FLOW REMINDER**: The Week of June 17th, the 200s Live Trainings, Fast Track Onboardings, Office Hours, and the ROC AMA will be paused. However, Clea's got your back with some 100 series Training!&#x20;
