@@ -10,6 +10,8 @@ Join us live every Friday at 3 pm EST!
 
 {% embed url="https://youtu.be/cmplrl2I3_Y" %}
 
+{% embed url="https://youtu.be/otGe4GawgwU?si=42KY5ykcxN7Y7lgu" %}
+
 ### Contents of the Recording:
 
 🛠️ Nick provides Dev updates.&#x20;
