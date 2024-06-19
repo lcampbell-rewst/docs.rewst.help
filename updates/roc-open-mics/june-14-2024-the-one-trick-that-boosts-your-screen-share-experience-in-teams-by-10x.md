@@ -1,6 +1,6 @@
-# ROC Open Mics
+# June 14, 2024 - The One Trick That Boosts Your Screen Share Experience in Teams by 10X
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
@@ -8,13 +8,13 @@ Join us live every Friday at 3 pm EST!
 
 ## Latest Open Mic Video Recording
 
-{% embed url="https://youtu.be/cmplrl2I3_Y" %}
+{% embed url="https://www.youtube.com/watch?v=cmplrl2I3_Y" %}
 
 ### Contents of the Recording:
 
 🛠️ Nick provides Dev updates.&#x20;
 
-🛒 Daniel goes over updates in the Crate Marketplace.
+🛒 Daniel goes over updates in the Crate Marketplace.&#x20;
 
 📚 Brandon provides updates from the Edu Team.&#x20;
 
@@ -27,8 +27,6 @@ Join us live every Friday at 3 pm EST!
 🏢 Nick demos an automation for tenant creation using a form and workflow system.&#x20;
 
 &#x20;🤖 Brandon developed a workflow that uses AI to summarize ticket notes.
-
-
 
 
 
