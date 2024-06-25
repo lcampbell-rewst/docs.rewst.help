@@ -1,6 +1,6 @@
-# ROC Open Mics
+# June 21, 2024 - Post FLOW Glow
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
@@ -23,8 +23,6 @@ Join us live every Friday at 3 pm EST!
 🖥️ Daemon demos a Slack Canvas API Workflow for Projects&#x20;
 
 💡 FLOW attendees share insights from the conference
-
-
 
 
 
