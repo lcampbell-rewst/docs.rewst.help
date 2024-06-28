@@ -1,9 +1,9 @@
-# Integration Setup
+# Custom Integrations (v1)
 
 {% hint style="success" %}
 **This Integration supports multiple instances**
 
-[Check out the instructions to set up multiple instances here](../../general/multi-instance-integration/multi-instance-integration-setup.md).
+[Check out the instructions to set up multiple instances here](../general/multi-instance-integration/multi-instance-integration-setup.md).
 {% endhint %}
 
 {% hint style="danger" %}
@@ -29,7 +29,7 @@ After these steps, the `Custom` integration will be available for installation.
 
 Start by installing the `Custom` integration. This integration leverages the features of Integration Multi-tenancy to support configuring many different integrations.
 
-<figure><img src="../../../../.gitbook/assets/custom-integrations-install.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/custom-integrations-install.png" alt=""><figcaption></figcaption></figure>
 
 ### Configuration Steps
 
@@ -37,13 +37,13 @@ Start by installing the `Custom` integration. This integration leverages the fea
 
 Choose a name for your integration. Note that you cannot use the name `Default` for this purpose. We recommend naming configurations after the product you're integrating with.
 
-<figure><img src="../../../../.gitbook/assets/custom-integrations-step-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/custom-integrations-step-1.png" alt=""><figcaption></figcaption></figure>
 
 #### Step 2: API Hostname and Authentication Method
 
 Enter the hostname to be used as the base URL for API requests and select the authentication method from a drop-down of supported options.
 
-<figure><img src="../../../../.gitbook/assets/custom-integrations-step-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/custom-integrations-step-2.png" alt=""><figcaption></figcaption></figure>
 
 #### Step 3: Authentication Details
 
@@ -51,11 +51,11 @@ Enter the authentication details relevant to the selected authentication method.
 
 **API Key**
 
-<figure><img src="../../../../.gitbook/assets/custom-integrations-step-3-api-key.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/custom-integrations-step-3-api-key.png" alt=""><figcaption></figcaption></figure>
 
 **Basic Authentication**
 
-<figure><img src="../../../../.gitbook/assets/custom-integrations-step-3-basic-auth.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/custom-integrations-step-3-basic-auth.png" alt=""><figcaption></figcaption></figure>
 
 **OAuth 2.0**
 
@@ -63,9 +63,9 @@ This authentication method requires setting up an OAuth client within your accou
 
 Ensure that when prompted for a Redirect URI you use the following value: `https://engine.rewst.io/integrations/custom/callback`.
 
-<figure><img src="../../../../.gitbook/assets/custom-integrations-step-3-oauth-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/custom-integrations-step-3-oauth-1.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/custom-integrations-step-3-oauth-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/custom-integrations-step-3-oauth-2.png" alt=""><figcaption></figcaption></figure>
 
 #### Step 4: OAuth Authorization Code
 
@@ -73,11 +73,11 @@ This step is only used when the selected authentication method is `OAuth 2.0` an
 
 In this case, the page will look like this:
 
-<figure><img src="../../../../.gitbook/assets/custom-integrations-step-4-oauth.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/custom-integrations-step-4-oauth.png" alt=""><figcaption></figcaption></figure>
 
 Otherwise, you will see this page, and no action is needed for this step:
 
-<figure><img src="../../../../.gitbook/assets/custom-integrations-step-4-no-reqs.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/custom-integrations-step-4-no-reqs.png" alt=""><figcaption></figcaption></figure>
 
 #### Step 5: Configuration Test
 
@@ -85,16 +85,16 @@ This is an optional step to ensure that the integration configuration was succes
 
 To test the configuration, enter the URL path for an endpoint that we can send a GET request to in order to validate that a 200 response code is returned.
 
-<figure><img src="../../../../.gitbook/assets/custom-integrations-step-5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/custom-integrations-step-5.png" alt=""><figcaption></figcaption></figure>
 
 If the connection attempt was successful you will see the following:
 
-<figure><img src="../../../../.gitbook/assets/custom-integrations-step-5-success.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/custom-integrations-step-5-success.png" alt=""><figcaption></figcaption></figure>
 
 ### Usage in Workflow Builder
 
 Once your custom integration is set up, you can use it in your workflows and tasks using the `Custom API Request` action. You select which custom integration configuration to use for a workflow using `Integration Overrides`, which is covered in more detail in the Integration Multitenancy page at the top.
 
-<figure><img src="../../../../.gitbook/assets/custom-integrations-action.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/custom-integrations-action.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/custom-integrations-integration-overrides.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/custom-integrations-integration-overrides.png" alt=""><figcaption></figcaption></figure>
