@@ -18,7 +18,11 @@ Before using this automation, ensure you have an existing Microsoft 365 account 
 
 ## What Does the Automation Do?
 
-The automation fetches user details from the Microsoft 365 API and documents this information on your ITGlue platform. The automation also links the users with access to the shared mailbox to the Contact Record in ITG for easier tagging and access.
+The automation fetches user details from the Microsoft 365 API and documents this information on your ITGlue or Hudu platform. The automation also links the users with access to the shared mailbox to the Contact Record in ITG for easier tagging and access.
+
+{% hint style="warning" %}
+Note: This crate does not remove or archive assets when they are no longer present in the parent tenant.
+{% endhint %}
 
 The benefits include:
 
@@ -27,8 +31,6 @@ The benefits include:
 * Easy troubleshooting due to readily available user data.
 
 ## Compatibility
-
-This automation is compatible with ITGlue at the moment, and we are actively working on integrating it with Hudu.
 
 If your system or platform is not on this list, please let us know. We'll explore whether it can integrate with our crate.
 
@@ -41,7 +43,7 @@ If your system or platform is not on this list, please let us know. We'll explor
 
 ## Getting Started
 
-**Step 1:** Ensure that you have the Microsoft Graph, Exchange Online and ITG integrations set up and configured, which you can get to via the below links
+**Step 1:** Ensure that you have the Microsoft Graph, Exchange Online and ITG or Hudu integrations set up and configured, which you can get to via the below links
 
 [Microsoft Graph](https://app.rewst.io/integrations/microsoft\_graph)
 
