@@ -42,7 +42,7 @@ Explore what new changes the Training team has made in the last week.
   * Add instructions for unpacking a Crate on the [What is a Crate page](../../prebuilt-automations/crates/)
   * Added IT Glue Access Information on the[ IT Glue Integration Setup Page](../../documentation/integrations/documentation/itglue/it-glue-integration-setup.md)
   * Updated the wording on the [Database Setup Page](../../documentation/integrations/database/database-integration-setup.md)
-  * Updated Support note in [Custom Integrations Page](../../documentation/integrations/custom-integrations/)
+  * Updated Support note in [Custom Integrations Page](../../documentation/integrations/other/custom-integrations/)
   * Fixed incorrect information on [Least Privilege Access Requirements for the ConnectWise Manage Integration Page](../../documentation/integrations/psa/connectwise-manage/least-privilege-access-requirements-for-connectwise-manage-integration.md)
   * Added missing images to [Form Best Practices](../../documentation/forms/form-best-practices.md) Page
   * Fixed Rewst Script Run Powershell file name for download on [Datto RMM Integration Setup Page](../../documentation/integrations/rmm/datto-rmm/datto-rmm-integration-setup.md)
