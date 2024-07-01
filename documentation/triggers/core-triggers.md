@@ -6,9 +6,9 @@ Core triggers in Rewst are predefined mechanisms that initiate workflows without
 
 &#x20;This trigger is primarily used to apply integration overrides. It does not initiate any actions but is crucial for setting up Options Generators that require integration overrides.
 
-### Cron Job
+### Cron
 
-Cron jobs are used to schedule tasks that need to run automatically at specific times or intervals. This flexibility allows for a wide range of scheduling options such as daily, monthly, or yearly tasks.
+Cron Triggers are used to schedule tasks that need to run automatically at specific times or intervals. This flexibility allows for a wide range of scheduling options such as daily, monthly, or yearly tasks.
 
 * **Examples**:
   * Daily at 6:00 AM
