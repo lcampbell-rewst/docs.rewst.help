@@ -1,4 +1,4 @@
-# June 21, 2024 - Post FLOW Glow
+# June 28, 2024 - Still Wondering About the Token from FLOW?
 
 ## Join Live!
 
@@ -8,21 +8,25 @@ Join us live every Friday at 3 pm EST!
 
 ## Latest Open Mic Video Recording
 
-{% embed url="https://youtu.be/LtPmu4H9cbw?si=BYFz8ojERH66ovMd" %}
+{% embed url="https://youtu.be/-nNJ7mBA_3o" %}
 
 ### Contents of the Recording:
 
-🎮 Devon presents the Game Tip of the Week&#x20;
+📚 Brandon gives updates from the Edu team&#x20;
 
-📦 Danial shares updates on the Crate Marketplace&#x20;
+💻 Danial goes over updates from the Dev Team&#x20;
 
-📧 Will demonstrates customizing approval emails using Webhooks&#x20;
+📊 Jareth goes over the billing report crate&#x20;
 
-🧠 Clea discusses behavior change and learning theory&#x20;
+📑 Kyle from the ROC digs into pagination&#x20;
 
-🖥️ Daemon demos a Slack Canvas API Workflow for Projects&#x20;
+🔄 Jared shows a back office process dealing with new client onboarding&#x20;
 
-💡 FLOW attendees share insights from the conference
+🏆 Tim goes over the CTF event during flow&#x20;
+
+🔍 Brandon and Devon show how they solved the CTF&#x20;
+
+🛡️ Brandon talks briefly about how he's removing a compromised software from his clients.
 
 
 
