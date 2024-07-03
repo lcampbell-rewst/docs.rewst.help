@@ -7,13 +7,11 @@ description: >-
 
 # Microsoft CSP Integration Setup
 
-{% hint style="warning" %}
+{% hint style="success" %}
 **Microsoft CSP is now part of our new Microsoft Cloud Integration Bundle!** 🌟 We've combined our Microsoft integrations into a single, streamlined package for easier management and enhanced security.
 
 This individual guide for the sections specific to the Microsoft CSP setup. You can learn more about the entire bundle on the [Microsoft Cloud Integration Bundle](../) page.
 {% endhint %}
-
-***
 
 ## **Overview**
 
@@ -50,6 +48,10 @@ For more information on CSP Permissions See the [#microsoft-csp-permissions](../
 ***
 
 ## **Troubleshooting Tips**
+
+{% hint style="danger" %}
+Please refer to the [issue-alerts.md](../../../../../updates/issue-alerts.md "mention") page if you see an error saying, "One or more organizations are linked to multiple customers. This will cause errors when attempting to run Microsoft actions on these organizations"
+{% endhint %}
 
 * **Authorization Issues**: Ensure that you are using the correct account and that all permissions are properly configured before authorization.
 * **Client Mapping Errors**: If issues arise during client mapping, ensure that client details are correct and that they are properly registered in the CSP portal.
