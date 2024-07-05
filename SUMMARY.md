@@ -366,6 +366,7 @@
 ## 📢 Updates
 
 * [Development Updates](updates/development-updates/README.md)
+  * [July 5th 2024](updates/development-updates/july-5th-2024.md)
   * [June 28th 2024](updates/development-updates/june-28th-2024.md)
   * [June 14th 2024](updates/development-updates/june-14th-2024.md)
   * [June 7th 2024](updates/development-updates/june-7th-2024.md)
