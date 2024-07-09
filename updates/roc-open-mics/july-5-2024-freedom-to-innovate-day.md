@@ -1,6 +1,6 @@
-# ROC Open Mics
+# July 5, 2024 - Freedom to Innovate Day!
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
@@ -21,8 +21,6 @@ Join us live every Friday at 3 pm EST!
 🔨 Dan shows new app platform feature for passing variables into ConnectWise workflows.&#x20;
 
 📧 Brandon explains Mailgun integration for automating onboarding emails with Rewst.
-
-
 
 
 
