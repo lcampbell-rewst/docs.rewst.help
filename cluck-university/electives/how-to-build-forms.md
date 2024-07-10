@@ -58,7 +58,7 @@ Forms can be embedded within other web pages or platforms using an iframe. This 
 
 ## **Detailed Field Use Cases and Usage Examples**
 
-Here's a breakdown of each field type, their purpose, and how they're referenced within workflows.
+Here's a breakdown of each field type, their purpose, and how they're referenced within form conditions via Jinja expressions.
 
 ### **Text/Markdown Field**
 
