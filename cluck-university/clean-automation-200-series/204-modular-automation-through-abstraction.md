@@ -15,6 +15,10 @@ Sign up for our **LIVE** sessions **Thursday @ 12:30pm** **Eastern** on [Calendl
 
 Rewst 204 focuses on enhancing automation through the principles of abstraction and modularity. This course aims to instill a developer-like mindset, facilitating the creation of more streamlined and efficient automated workflows. It covers key concepts in breaking down complex tasks into manageable components.
 
+## Watch the video and follow along
+
+{% embed url="https://youtu.be/WJilDLZZrH8" %}
+
 ## **Learning Objectives**
 
 * **Adopting a Developer’s Mindset**: Cultivate thinking patterns that prioritize efficiency and effectiveness in automation.
