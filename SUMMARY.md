@@ -443,6 +443,7 @@
   * [November 4th 2022](updates/development-updates/november-4th-2022.md)
   * [October 28th 2022](updates/development-updates/october-28th-2022.md)
 * [Training Updates](updates/cs-and-training-updates/README.md)
+  * [July 12th, 2024](updates/cs-and-training-updates/july-12th-2024.md)
   * [June 28th, 2024](updates/cs-and-training-updates/june-28th-2024.md)
   * [June 14th, 2024](updates/cs-and-training-updates/june-14th-2024.md)
   * [June 7th, 2024](updates/cs-and-training-updates/june-7th-2024.md)
