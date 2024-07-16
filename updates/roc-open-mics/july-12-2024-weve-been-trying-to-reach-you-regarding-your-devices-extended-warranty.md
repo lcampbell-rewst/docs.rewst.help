@@ -1,12 +1,12 @@
-# ROC Open Mics
+# July 12, 2024 - We've Been Trying to Reach You Regarding Your Device's Extended Warranty
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
 &#x20;[Download the Calendar Invite here](https://engine.rewst.io/webhooks/custom/trigger/02eb02e2-1177-43d9-9e13-8547414979fc/c47fdd7f-4075-47a8-ba92-94e790e67c06?request\_type=open\_mic\_link&)!
 
-## Latest Open Mic Video Recording
+## Open Mic Video Recording
 
 {% embed url="https://youtu.be/23Nd4V99-Ws" %}
 
@@ -27,8 +27,6 @@ Join us live every Friday at 3 pm EST!
 🔗 Brandon demos a workflow that syncs between Immybot assets and ConnectWise PSA&#x20;
 
 🔧 Aaron demos a workflow that syncs warranty info from Ninja RMM
-
-
 
 
 

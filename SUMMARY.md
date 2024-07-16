@@ -522,6 +522,7 @@
   * [June 7th, 2024](updates/marketplace-updates/june-7th-2024.md)
   * [May 31st 2024](updates/marketplace-updates/may-31st-2024.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
+  * [July 12, 2024 - We've Been Trying to Reach You Regarding Your Device's Extended Warranty](updates/roc-open-mics/july-12-2024-weve-been-trying-to-reach-you-regarding-your-devices-extended-warranty.md)
   * [July 5, 2024 - Freedom to Innovate Day!](updates/roc-open-mics/july-5-2024-freedom-to-innovate-day.md)
   * [June 28, 2024 - Still Wondering About the Token from FLOW?](updates/roc-open-mics/june-28-2024-still-wondering-about-the-token-from-flow.md)
   * [June 21, 2024 - Post FLOW Glow](updates/roc-open-mics/june-21-2024-post-flow-glow.md)
