@@ -6,26 +6,26 @@
 
 ### Technical Update for Rewst Users
 
-**Issue**: Intermittent Delays or Timeouts During LoginWe have received reports from users assigned the "Forms" role experiencing intermittent delays or timeouts when logging into Rewst.&#x20;
+**Issue**: Intermittent Delays or Timeouts During Login. We have received reports from users assigned the "Forms" role experiencing intermittent delays or timeouts when logging into Rewst.&#x20;
 
 ### Current Status:&#x20;
 
 * **Affected Users**: Users with the "Forms" role
 * **Symptom**: Intermittent delays or timeouts during login
-* **Suspected Cause**: GraphQL API interactions
 * **Investigation**: Ongoing to determine the root cause and implement a solution
 
-We understand the inconvenience this may cause and are prioritizing this issue. Our team is actively working to identify and resolve the underlying problem. We appreciate your patience and will provide updates once we have more information.
+Our team is actively working to identify and resolve the underlying problem. We appreciate your patience and will provide updates once we have more information.
 
 ### Next Steps:
 
-* **Monitoring**: We are closely monitoring the system to gather more data.
-* **Troubleshooting**: Continued investigation to pinpoint the exact cause.
-* **Resolution**: Development of a fix once the root cause is identified.
-
-An optional workaround is temporarily assigning affected users the Read Only Role in addition to the Forms Role in Rewst.
+* We are closely monitoring the system.
+* We are working to identify the root cause.&#x20;
+* **Optional Workaround:** MSPs may temporarily add the Read Only Role to affected users.&#x20;
 
 Thank you for your understanding and cooperation. Please contact our support team if you have any questions or need further assistance.
+
+* **Discord** - The ROC is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
+* **Create a Ticket** - [E-mail the team](mailto:roc@rewst.io) and someone will be in touch ASAP!
 
 </details>
 
