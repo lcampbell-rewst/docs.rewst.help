@@ -2,7 +2,36 @@
 
 <details>
 
-<summary> ⚠️The new UI enhancement highlights any Rewst Organization linked to multiple CSP Customers</summary>
+<summary> ⚠️ Forms Users Experiencing Login Delays and Timeouts (July 16th, 2024)</summary>
+
+### Technical Update for Rewst Users
+
+**Issue**: Intermittent Delays or Timeouts During LoginWe have received reports from users assigned the "Forms" role experiencing intermittent delays or timeouts when logging into Rewst.&#x20;
+
+### Current Status:&#x20;
+
+* **Affected Users**: Users with the "Forms" role
+* **Symptom**: Intermittent delays or timeouts during login
+* **Suspected Cause**: GraphQL API interactions
+* **Investigation**: Ongoing to determine the root cause and implement a solution
+
+We understand the inconvenience this may cause and are prioritizing this issue. Our team is actively working to identify and resolve the underlying problem. We appreciate your patience and will provide updates once we have more information.
+
+### Next Steps:
+
+* **Monitoring**: We are closely monitoring the system to gather more data.
+* **Troubleshooting**: Continued investigation to pinpoint the exact cause.
+* **Resolution**: Development of a fix once the root cause is identified.
+
+An optional workaround is temporarily assigning affected users the Read Only Role in addition to the Forms Role in Rewst.
+
+Thank you for your understanding and cooperation. Please contact our support team if you have any questions or need further assistance.
+
+</details>
+
+<details>
+
+<summary> ⚠️ The new UI enhancement highlights any Rewst Organization linked to multiple CSP Customers (July 3rd, 2024)</summary>
 
 ### **Error Indication**&#x20;
 
