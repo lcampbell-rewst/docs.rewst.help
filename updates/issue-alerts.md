@@ -22,7 +22,13 @@ Our team is actively working to identify and resolve the underlying problem. We 
 * We are working to identify the root cause.&#x20;
 * **Optional Workaround:** MSPs may temporarily add the Read Only Role to affected users.&#x20;
 
-Thank you for your understanding and cooperation. Please contact our support team if you have any questions or need further assistance.
+### Updates:&#x20;
+
+Thank you for your understanding and cooperation.&#x20;
+
+For the latest information, please refer to [https://status.rewst.io/](https://status.rewst.io/)
+
+Please contact our support team if you have any questions or need further assistance.
 
 * **Discord** - The ROC is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
 * **Create a Ticket** - [E-mail the team](mailto:roc@rewst.io) and someone will be in touch ASAP!
