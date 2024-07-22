@@ -1,12 +1,12 @@
-# ROC Open Mics
+# July 19, 2024 - What Everyday Life Can Teach Us About Automation
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
 &#x20;[Download the Calendar Invite here](https://engine.rewst.io/webhooks/custom/trigger/02eb02e2-1177-43d9-9e13-8547414979fc/c47fdd7f-4075-47a8-ba92-94e790e67c06?request\_type=open\_mic\_link&)!
 
-## Latest Open Mic Video Recording
+## Open Mic Video Recording
 
 {% embed url="https://youtu.be/Gvx-5y5b6vE" %}
 
@@ -23,8 +23,6 @@ Join us live every Friday at 3 pm EST!
 📚 Eddie provides updates from the Edu Team and talks about Rewst 205&#x20;
 
 ❓ Q\&A session troubleshooting workflows
-
-
 
 
 
