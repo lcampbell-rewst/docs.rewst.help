@@ -1,9 +1,23 @@
 # Kaseya VSA Integration Setup
 
+
+
 {% hint style="success" %}
 **This Integration supports multiple instances**
 
 [Check out the instructions to set up multiple instances here](../../general/multi-instance-integration/multi-instance-integration-setup.md).
+{% endhint %}
+
+{% hint style="warning" %}
+If you are planning to upgrade from Kaseya VSA to Kaseya VSA X, for Rewst functionality purposes we recommend waiting until Kaseya VSA X is available in the following crates:
+
+* Rewst: User Onboarding
+* Rewst: User Offboarding v2
+* Configure Organizational Variables
+* Organizational Setup Report
+* Add Client to Rewst (form)
+
+This functionality should be available in August 2024.
 {% endhint %}
 
 ## OAuth Account Setup

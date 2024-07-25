@@ -4,6 +4,8 @@
 
 <summary> ⚠️ Forms Users Experiencing Login Delays and Timeouts (July 16th, 2024)</summary>
 
+**⚠️ This issue has been successfully resolved and we are closing this alert. An RCA report will be available upon request. ⚠️**
+
 ### Technical Update for Rewst Users
 
 **Issue**: Intermittent Delays or Timeouts During Login. We have received reports from users assigned the "Forms" role experiencing intermittent delays or timeouts when logging into Rewst.&#x20;
