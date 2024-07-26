@@ -340,6 +340,7 @@
 * [Crate Documentation](prebuilt-automations/existing-crate-documentation/README.md)
   * [Configure Organization Variables](prebuilt-automations/existing-crate-documentation/configure-organization-variables.md)
   * [Add Client to Rewst](prebuilt-automations/existing-crate-documentation/add-client-to-rewst-setup.md)
+  * [User Offboarding v2](prebuilt-automations/existing-crate-documentation/user-offboarding-v2.md)
   * [New User Onboarding](prebuilt-automations/existing-crate-documentation/new-user-onboarding/README.md)
     * [Identity Provider Setup - New User Add](prebuilt-automations/existing-crate-documentation/new-user-onboarding/identity-provider-setup-new-user-add.md)
     * [Step 1: Setting up Organization Variables](prebuilt-automations/existing-crate-documentation/new-user-onboarding/step-1-setting-up-organization-variables.md)
