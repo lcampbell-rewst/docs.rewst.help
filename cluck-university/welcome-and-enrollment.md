@@ -10,7 +10,13 @@ Next, let’s dive right in. We’ve created a six-part training plan, ideally t
 
 To maximize your learning experience, it's recommended to complete the six courses in order. On-demand recordings of the sessions are available for our global audience, or rewatching at your own pace.
 
-{% hint style="success" %}
+{% hint style="warning" %}
+MAJOR UPDATE: The last live training sessions for Rewst 101-106 are happening August 12-14 (for Rewst 101 - 103) and August 19-21 (for Rewst 105 - 106).&#x20;
+
+Stay tuned for exciting new self-paced content and special live sessions for beginners coming in September 2024!
+{% endhint %}
+
+{% hint style="info" %}
 [Enroll here to get the schedule with all the links you need!](https://app.rewst.io/form/40c82e64-9976-4253-baf4-55421a2a2c3f)
 {% endhint %}
 
