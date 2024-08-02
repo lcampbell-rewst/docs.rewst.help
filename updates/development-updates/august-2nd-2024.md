@@ -19,7 +19,7 @@ This can be anything from new features, bug fixes, or QoL changes!
 
 * Fixed a bug with ITGlue filtering where using False in the filters was being ignored
 * Added filters to Kaseya VSA X list actions
-* Fixed a but with the crate building system to prevent crashing due to stale cache data
+* Fixed a bug with the crate building system to prevent crashing due to stale cache data
 * Removed feature flags for version control
 
 </details>
