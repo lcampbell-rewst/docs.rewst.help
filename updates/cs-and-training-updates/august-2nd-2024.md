@@ -13,7 +13,7 @@ Explore what new changes the Training team has made in the last week.
   * Alex (With a PERFECT score), Lexi, Mike, and Shane
   * Take the [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.  As well as access to a super secret Discord channel.
 * Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
-* Join us during Office Hours, and if there is something you want us to cover, Let us know!
+* Join us during [Office Hours](https://calendly.com/cluck-u/office-hours), and if there is something you want us to cover, Let us know!
   * List Comprehension?
   * Debugging?
   * With Items?
