@@ -1,4 +1,4 @@
-# July 26th 2024
+# August 2nd 2024
 
 Explore what new changes the Dev team has deployed in the last week!
 
@@ -8,9 +8,8 @@ This can be anything from new features, bug fixes, or QoL changes!
 
 <summary><strong>New features and items</strong></summary>
 
-* Kaseya X Integration
-* Added a new casefold jinja filter for better string comparisons
-* Allow users to select between using a static IP address or randomized IP address for IT Glue
+* DNS Filter Integration
+* Added an action to Run Report for Halo PSA
 
 </details>
 
@@ -18,9 +17,10 @@ This can be anything from new features, bug fixes, or QoL changes!
 
 <summary><strong>Bug fixes and chores</strong></summary>
 
-* Close the trigger drawer when you click the submit button on a trigger
-* Fixed bugs found during review of upcoming ServiceNow integration
-* Fixed bugs found during review of upcoming Custom Integrations v2 feature
+* Fixed a bug with ITGlue filtering where using False in the filters was being ignored
+* Added filters to Kaseya VSA X list actions
+* Fixed a bug with the crate building system to prevent crashing due to stale cache data
+* Removed feature flags for version control
 
 </details>
 
@@ -28,9 +28,10 @@ This can be anything from new features, bug fixes, or QoL changes!
 
 <summary><strong>Deployed behind feature flags awaiting release</strong></summary>
 
-
+* Webroot integration (Awaiting review)
+* ServiceNow integration (Awaiting review)
 * New dashboard (Awaiting live data)
-* New Org Picker (Awaiting product review)
+* New Org Picker (Awaiting enhancements)
 
 </details>
 
@@ -39,10 +40,8 @@ This can be anything from new features, bug fixes, or QoL changes!
 <summary><strong>In code review, QA testing, and development</strong></summary>
 
 * Addigy Integration (In QA)
-* ServiceNow integration (In QA)
 * IT Portal integration (In QA)
-* Webroot integration (Awaiting actions)
-* DNS Filter Integration (In code review)
+* Synnex Australia integration (Needs actions and QA)
 * Granular forms permissions (In code review)
 * Building out new Rewst environments in Europe, Australia, and US-West (In development)
 * Syncing of Crate Marketplace items across environments (In development)
