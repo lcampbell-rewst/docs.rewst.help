@@ -548,6 +548,7 @@
   * [June 7th, 2024](updates/marketplace-updates/june-7th-2024.md)
   * [May 31st 2024](updates/marketplace-updates/may-31st-2024.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
+  * [August 2, 2024: Provision the Entire Microsoft Teams Bot Framework with a Single Form](updates/roc-open-mics/august-2-2024-provision-the-entire-microsoft-teams-bot-framework-with-a-single-form.md)
   * [July 26, 2024 - Transform Your ConnectWise Experience with App Platform](updates/roc-open-mics/july-26-2024-transform-your-connectwise-experience-with-app-platform.md)
   * [July 19, 2024 - What Everyday Life Can Teach Us About Automation](updates/roc-open-mics/july-19-2024-what-everyday-life-can-teach-us-about-automation.md)
   * [July 12, 2024 - We've Been Trying to Reach You Regarding Your Device's Extended Warranty](updates/roc-open-mics/july-12-2024-weve-been-trying-to-reach-you-regarding-your-devices-extended-warranty.md)
