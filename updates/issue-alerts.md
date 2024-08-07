@@ -6,15 +6,19 @@
 
 ### Technical Update for Rewst Users
 
-**Issue**: We have detected an issue affecting workflows that update PSA tickets. We are actively looking into the problem and will provide a solution and updates as soon as possible. We apologize for any inconvenience.
+**Issue**: We have detected an issue affecting workflows that update PSA tickets.&#x20;
 
-### Current Status:&#x20;
+**The action affected is**: Connectwise Update Service Ticket (v1) Workflows that contain this action are failing.
 
-Workflows that contain the Update Service Ticket action are failing. Our team is actively working on restoring the system from backup, and we expect to resume normal functionality within the next hour. Once the recovery process is complete, we will re-run all failed New User Workflows.
+This also affects crates that use this action, such as User Onboarding and User Offboarding V1 and V2. Once the recovery process is complete, we will re-run all failed New User Workflows.
+
+### Current Status
+
+Our team is actively working on restoring the system from backup, and we expect to resume normal functionality within the next hour.&#x20;
 
 We appreciate your patience and will provide updates once we have more information.&#x20;
 
-### Updates:&#x20;
+### Updates&#x20;
 
 Thank you for your understanding and cooperation.&#x20;
 
