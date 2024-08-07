@@ -2,6 +2,33 @@
 
 <details>
 
+<summary> ⚠️ ConnectWise Update Service Ticket (v1) Action Failure (August 7th, 2024)</summary>
+
+### Technical Update for Rewst Users
+
+**Issue**: We have detected an issue affecting workflows that update PSA tickets. We are actively looking into the problem and will provide a solution and updates as soon as possible. We apologize for any inconvenience.
+
+### Current Status:&#x20;
+
+Workflows that contain the Update Service Ticket (v1) action are failing. Our team is actively working on restoring the system from backup, and we expect to resume normal functionality within the next hour. Once the recovery process is complete, we will re-run all failed New User Workflows.
+
+We appreciate your patience and will provide updates once we have more information.&#x20;
+
+### Updates:&#x20;
+
+Thank you for your understanding and cooperation.&#x20;
+
+For the latest information, please refer to [https://status.rewst.io/](https://status.rewst.io/)
+
+Please contact our support team if you have any questions or need further assistance.
+
+* **Discord** - The ROC is always available here: [https://discord.gg/rewst](https://discord.gg/rewst)
+* **Create a Ticket** - [E-mail the team](mailto:roc@rewst.io) and someone will be in touch ASAP!
+
+</details>
+
+<details>
+
 <summary> ⚠️ Forms Users Experiencing Login Delays and Timeouts (July 16th, 2024)</summary>
 
 **⚠️ This issue has been successfully resolved and we are closing this alert. An RCA report will be available upon request. ⚠️**
