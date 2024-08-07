@@ -4,9 +4,7 @@
 
 <summary> ⚠️ Update Service Ticket Action Failure (August 7th, 2024)</summary>
 
-**⚠️ We are pleased to inform you that the issue affecting workflows containing the ConnectWise Update Service Ticket (v1) action has been successfully resolved. Normal functionality has resumed. All services should now be operating as expected.**&#x20;
-
-**We will now begin re-running the New User Workflows that failed today. ⚠️**
+**⚠️ We are pleased to inform you that the issue affecting workflows containing the ConnectWise Update Service Ticket (v1) action has been successfully resolved. Normal functionality has resumed. All services should now be operating as expected. ⚠️**
 
 ### Technical Update for Rewst Users
 
