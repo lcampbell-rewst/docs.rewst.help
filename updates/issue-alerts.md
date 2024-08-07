@@ -8,7 +8,7 @@
 
 **Issue**: We have detected an issue affecting workflows that update PSA tickets.&#x20;
 
-**The action affected is**: Connectwise Update Service Ticket (v1) Workflows that contain this action are failing.
+**The action affected is**: ConnectWise Update Service Ticket (v1). Workflows that contain this action are failing.
 
 This also affects crates that use this action, such as User Onboarding and User Offboarding V1 and V2. Once the recovery process is complete, we will re-run all failed New User Workflows.
 
@@ -21,8 +21,6 @@ We appreciate your patience and will provide updates once we have more informati
 ### Updates&#x20;
 
 Thank you for your understanding and cooperation.&#x20;
-
-For the latest information, please refer to [https://status.rewst.io/](https://status.rewst.io/)
 
 Please contact our support team if you have any questions or need further assistance.
 
