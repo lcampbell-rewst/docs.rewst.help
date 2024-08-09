@@ -47,11 +47,7 @@ Sign up on the [Cluck University Landing Page](https://go.rew.st/cluck-universit
 
 **New & Updated Pages:**
 
-* [july-29th-2022-how-do-you-know-that-the-person-on-the-phone-is-who-they-say.md](../roc-open-mics/july-29th-2022-how-do-you-know-that-the-person-on-the-phone-is-who-they-say.md "mention") page has been added
-* [it-portal-coming-soon](../../documentation/integrations/documentation/it-portal-coming-soon/ "mention") section added
-* [dns-filter](../../documentation/integrations/dns/dns-filter/ "mention") page added
-* [servicenow-coming-soon](../../documentation/integrations/psa/servicenow-coming-soon/ "mention") section added
-* [webroot-coming-soon](../../documentation/integrations/security/webroot-coming-soon/ "mention") section added
+* [august-2-2024-provision-the-entire-microsoft-teams-bot-framework-with-a-single-form.md](../roc-open-mics/august-2-2024-provision-the-entire-microsoft-teams-bot-framework-with-a-single-form.md "mention")
 
 </details>
 
