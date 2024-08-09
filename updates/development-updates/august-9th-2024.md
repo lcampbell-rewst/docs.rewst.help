@@ -28,8 +28,8 @@ This can be anything from new features, bug fixes, or QoL changes!
 <summary><strong>Deployed behind feature flags awaiting release</strong></summary>
 
 * IT Portal integration (Under review)
-* Webroot integration (Under review)
-* ServiceNow integration (Under review)
+* Webroot integration (Awaiting enhancements)
+* ServiceNow integration (Awaiting enhancements)
 * New dashboard (Awaiting live data)
 * New Org Picker (Awaiting enhancements)
 
