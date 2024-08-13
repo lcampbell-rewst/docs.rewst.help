@@ -16,7 +16,7 @@ layout:
 
 ## Introduction
 
-Hello and welcome! In this tutorial, we'll guide you through the process of creating automated workflows using Rewst. Our focus will be on creating a form, building an MVP workflow, and connecting the two with a trigger. Follow these steps to build the Add or Remove Users from AD workflow!&#x20;
+Hello and welcome! In this tutorial, we'll guide you through the process of creating automated workflows using Rewst. Our focus will be on creating a form, building an MVP workflow, and connecting the two with a trigger. Follow these steps to build the Add or Remove Users from AD workflow!
 
 When you've completed this training, [don't forget to get credit!](https://app.rewst.io/form/38c7d9ca-1606-4a61-872e-884466850287)
 
@@ -160,7 +160,7 @@ Next, let's design a workflow that responds to the form submissions. We'll start
 
 ### Part 3: Triggering the Workflow with the Form
 
-Next, we'll add a Form trigger to the workflow to ensure that the information that comes through the form can kick off the workflow process.&#x20;
+Next, we'll add a Form trigger to the workflow to ensure that the information that comes through the form can kick off the workflow process.
 
 <details>
 
@@ -237,7 +237,8 @@ We jumped ahead to show how to trigger a workflow with a form. We now are going 
 
 10. **Close** the editor.
 11. **Click and Drag** the transition from the _noop_ action to the _Remove Group Member_ action.
-   * To do this, you will need to hover over the gray circle under the new _Remove_ section you added.
+
+* To do this, you will need to hover over the gray circle under the new _Remove_ section you added.
 
 **Configure Add Group Member Action**
 
@@ -297,8 +298,6 @@ Finally, let's test out the workflow by filling out the form and checking the wo
 
 Congratulations! You have successfully created a form, designed a workflow, and connected the two with a trigger to automate Azure AD group management. In Rewst 103, we'll take a step back and look at using Jinja in our workflows. If you have any questions, don't hesitate to reach out. Happy automating!
 
-
-
 ## Additional Resources
 
 {% hint style="info" %}
@@ -309,10 +308,14 @@ For more information on using Forms, Workflows, and Triggers, check out our docu
 * [Introduction to Triggers](../../documentation/triggers/intro-to-triggers.md)
 {% endhint %}
 
-## Need more guidance?&#x20;
+## Need more guidance?
 
-{% hint style="success" %}
-Sign up for our **LIVE** training sessions below!
+{% hint style="warning" %}
+MAJOR UPDATE: The last live training sessions for Rewst 101-106 are happening August 12-14 (for Rewst 101 - 103) and August 19-21 (for Rewst 105 - 106).
+
+Office Hours remain open, so sign up for live support on Thursdays at the link below.
+
+Stay tuned for exciting new self-paced content and special live sessions for beginners coming in September 2024!
 {% endhint %}
 
 <table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 102</strong></mark></td><td align="center">Building A Basic Workflow</td><td><a href="https://calendly.com/cluck-u/rewst-102">https://calendly.com/cluck-u/rewst-102</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/office-hours">https://calendly.com/cluck-u/office-hours</a></td></tr></tbody></table>

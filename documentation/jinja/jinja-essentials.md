@@ -40,7 +40,7 @@ Jinja is a versatile templating language for creating dynamic content. It suppor
 
 ### Conditional Statements:
 
-Jinja supports conditional statements like `if,` `else` and `elif`. These statements allow you to create dynamic workflows based on specific conditions, ensuring the workflow adapts to varying scenarios.&#x20;
+Jinja supports conditional statements like `if,` `else` and `elif`. These statements allow you to create dynamic workflows based on specific conditions, ensuring the workflow adapts to varying scenarios.
 
 **Example:**
 
@@ -52,6 +52,7 @@ Jinja supports conditional statements like `if,` `else` and `elif`. These statem
     <p>Please log in to continue.</p>
 {% endif %}
 {% endraw %}
+
 ```
 
 ```django
@@ -64,11 +65,12 @@ Jinja supports conditional statements like `if,` `else` and `elif`. These statem
     <p>The rooster is trying out new sounds. Perhaps it's starting a band!</p>
 {% endif %}
 {% endraw %}
+
 ```
 
 ### For Loops:
 
-For loops in Jinja enable you to iterate through JSON lists, executing actions for each item. The pointer, such as `thing`, points to items within the list, facilitating dynamic data processing.&#x20;
+For loops in Jinja enable you to iterate through JSON lists, executing actions for each item. The pointer, such as `thing`, points to items within the list, facilitating dynamic data processing.
 
 **Example:**
 
@@ -78,6 +80,8 @@ For loops in Jinja enable you to iterate through JSON lists, executing actions f
     <li>{{ thing }}</li>
 {% endfor %}
 {% endraw %}
+
+
 ```
 
 ### Jinja Filters:
@@ -155,4 +159,3 @@ Interested in seeing Jinja Examples in the platform? Search the crate marketplac
 
 * **Creation and Modification:** Use context (`CTX`) variables in Data Aliases on your Task's Transitions to capture specific elements from the JSON data produced by your workflow's tasks. This is pivotal for storing and manipulating workflow data.
 * **Scope and Accessibility:** These types of variables can be created and modified by workflow tasks but are not global; their scope is confined to the workflow.
-
