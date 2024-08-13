@@ -7,7 +7,9 @@ In Rewst 104, we will delve into the intricacies of option generators and generi
 When you've completed this training, [don't forget to get credit](104-options-generators-and-generic-api-requests.md#get-credit)[!](https://app.rewst.io/form/cdeabeb5-7fcb-4695-8534-94af2bcb10f0)
 
 {% hint style="danger" %}
-These steps assume you have completed the full steps from Rewst 102 You can find the instructions to make this form on the [<mark style="color:blue;">Rewst 102 Page</mark>](102-building-a-basic-workflow.md)<mark style="color:blue;">.</mark>
+These steps assume you have completed the full steps from Rewst 102.&#x20;
+
+You can find the instructions to make this form on the [<mark style="color:blue;">Rewst 102 Page</mark>](102-building-a-basic-workflow.md)<mark style="color:blue;">.</mark>
 {% endhint %}
 
 ## Watch the video and follow along with the steps below
@@ -321,10 +323,14 @@ For more information on using Options Generators, Generic API Requests, List Com
 * [Microsoft Graph API](https://learn.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0)
 {% endhint %}
 
-## Need more guidance?&#x20;
+## Need more guidance?
 
-{% hint style="success" %}
-Sign up for our **LIVE** training sessions below!
+{% hint style="warning" %}
+MAJOR UPDATE: The last live training sessions for Rewst 101-106 are happening August 12-14 (for Rewst 101 - 103) and August 19-21 (for Rewst 105 - 106).
+
+Office Hours remain open, so sign up for live support on Thursdays at the link below.
+
+Stay tuned for exciting new self-paced content and special live sessions for beginners coming in September 2024!
 {% endhint %}
 
 <table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 104</strong></mark></td><td align="center">Options Generators &#x26; Generic API Requests</td><td><a href="https://calendly.com/cluck-u/rewst-104">https://calendly.com/cluck-u/rewst-104</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/office-hours">https://calendly.com/cluck-u/office-hours</a></td></tr></tbody></table>
