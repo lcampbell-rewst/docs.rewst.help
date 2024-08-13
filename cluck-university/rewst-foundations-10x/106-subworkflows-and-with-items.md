@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Hello and welcome! In Rewst 106, we'll complete our workflow and explore how to use sub-workflows and With items in Rewst. Sub-workflows enable us to utilize workflows within other workflows, creating a parent-child relationship. With items is a feature in Rewst that allows actions or workflows to run on all items in a list simultaneously. We'll demonstrate how to leverage these functionalities to manage group memberships efficiently.&#x20;
+Hello and welcome! In Rewst 106, we'll complete our workflow and explore how to use Sub-Workflows and With Items in Rewst. Sub-Workflows enable us to utilize workflows within other workflows, creating a parent-child relationship. With Items is a feature in Rewst that allows actions or workflows to run on all items in a list simultaneously. We'll demonstrate how to leverage these functionalities to manage group memberships efficiently.&#x20;
 
 When you've completed this training,[ don't forget to get credit!](https://app.rewst.io/form/1339a9d0-a298-4e2e-8d40-2fa1626509a8)
 
@@ -50,7 +50,7 @@ First, we're going to build a new parent workflow that starts by getting the Use
 
 ### Part 2: Adding a Sub-Workflow and Utilizing With Items
 
-Next, we're going to add our original workflow as the sub-workflow and modify the form and Form Trigger to take advantage of With items.
+Next, we're going to add our original workflow as the Sub-Workflow and modify the form and Form Trigger to take advantage of With Items.
 
 <details>
 
@@ -59,9 +59,9 @@ Next, we're going to add our original workflow as the sub-workflow and modify th
 **Add the **_**Add or Remove Group Membership**_** workflow**
 
 1. **Add** the _Add or Remove from AzureAD Group_ workflow from the _Workflows_ category.
-   1. This is the workflow that was updated in Rewst 105; adding this action makes it a sub-workflow.
+   1. This is the workflow that was updated in Rewst 105; adding this action makes it a Sub-Workflow.
 2. **Connect** _On Success_ transition of _get\_user_ to the sub-workflow.
-3. **Rename** the sub-workflow to "modify\_group\_member".
+3. **Rename** the Sub-Workflow to "modify\_group\_member".
 4. **Set** _With Items_ in the Advanced tab to `{{ CTX.group_ids }}`.
 5. **Configure** the _Parameters_ of the sub-workflow.
    * _action_: `{{ CTX.action }}`
@@ -173,7 +173,7 @@ Finally, we'll test it all out to see how it works!
 
 ## Conclusion
 
-Thank you for watching! We hope this course helps you effectively utilize sub-workflows and "with items" in Rewst for efficient workflow management. If you have any questions or need further assistance, don't hesitate to reach out. Happy automating!
+Thank you for watching! We hope this course helps you effectively utilize Sub-Workflows and With Items in Rewst for efficient workflow management. If you have any questions or need further assistance, don't hesitate to reach out. Happy automating!
 
 ## Additional Resources
 
@@ -186,8 +186,12 @@ For more information about With Items and Sub-Workflows, check out our documenta
 
 ## Need more guidance?&#x20;
 
-{% hint style="success" %}
-Sign up for our **LIVE** training sessions below!
+{% hint style="warning" %}
+MAJOR UPDATE: The last live training sessions for Rewst 101-106 are happening August 12-14 (for Rewst 101 - 103) and August 19-21 (for Rewst 105 - 106).
+
+Office Hours remain open, so sign up for live support on Thursdays at the link below.
+
+Stay tuned for exciting new self-paced content and special live sessions for beginners coming in September 2024!
 {% endhint %}
 
 <table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 106</strong></mark></td><td align="center">Sub-Workflows and With Items</td><td><a href="https://calendly.com/cluck-u/rewst-106">https://calendly.com/cluck-u/rewst-106</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/office-hours">https://calendly.com/cluck-u/office-hours</a></td></tr></tbody></table>
