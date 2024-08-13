@@ -15,6 +15,8 @@ Sign up for our **LIVE** sessions **Thursday @ 12:30pm** **Eastern** on [Calendl
 
 Rewst 204 focuses on enhancing automation through the principles of abstraction and modularity. This course aims to instill a developer-like mindset, facilitating the creation of more streamlined and efficient automated workflows. It covers key concepts in breaking down complex tasks into manageable components.
 
+When you've completed this training, [don't forget to get credit!](https://app.rewst.io/form/01914838-dbdb-7d72-ba21-1070334b2811)
+
 ## Watch the video and follow along
 
 {% embed url="https://youtu.be/WJilDLZZrH8" %}

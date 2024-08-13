@@ -15,6 +15,8 @@ Sign up for our **LIVE** sessions **Wednesdays @ 3pm** **Eastern** on [Calendly]
 
 Rewst 203 dives into the fundamentals and applications of Boolean Logic within the context of Jinja and workflow automation in Rewst. This course provides a deep understanding of how Boolean expressions dictate the logical flow in code execution and task management, emphasizing their role in decision-making processes in automated workflows.
 
+When you've completed this training, [don't forget to get credit!](https://app.rewst.io/form/01914838-f969-7018-9072-9f1ab3e5ece6)
+
 ## Watch the video and follow along
 
 {% embed url="https://youtu.be/7i8do71IUYQ" %}

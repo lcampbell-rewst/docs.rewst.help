@@ -14,6 +14,8 @@ Sign up for our **LIVE** sessions **Monday's @ 3pm Eastern** on [Calendly](https
 
 Rewst 201 offers a deep dive into the nuanced aspects of advanced automation. The course is designed to provide insights into critical concepts that are essential for creating sophisticated and efficient automated workflows in Rewst.
 
+When you've completed this training, [don't forget to get credit!](https://app.rewst.io/form/0191479a-7e3a-7552-b639-02245aab8ef5)
+
 ## Watch the video and follow along
 
 {% embed url="https://youtu.be/7IuMQRLNkYM" %}
