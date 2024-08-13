@@ -42,11 +42,17 @@ Who is this 100 series geared for?
 ## Additional Resources
 
 {% hint style="info" %}
-Sign up below for the live webinar, or check out our other lessons on demand:
+Check out these other introductory lessons on demand:
 
 * [Rewst Platform Overview](../getting-started/rewst-platform-overview.md)
 * [Demystifying Process Automation](../getting-started/dymistifying-process-automation.md)
 * [Identifying What to Automate](../getting-started/identifying-what-to-automate.md)
+{% endhint %}
+
+{% hint style="warning" %}
+MAJOR UPDATE: The last live training sessions for Rewst 101-106 are happening August 12-14 (for Rewst 101 - 103) and August 19-21 (for Rewst 105 - 106).&#x20;
+
+Stay tuned for exciting new self-paced content and special live sessions for beginners coming in September 2024!
 {% endhint %}
 
 ## Need more guidance?
