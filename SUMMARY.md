@@ -679,4 +679,5 @@
   * [Support Priorities](support/roc-support/support-priorities.md)
   * [Create a ticket via Discord](support/roc-support/create-a-ticket-via-discord.md)
   * [Collecting Diagnostics with Browser Developer Tools](support/roc-support/collecting-diagnostics-with-browser-developer-tools.md)
+  * [Discord Join & Verification](support/roc-support/discord-join-and-verification.md)
 * [Contact Resources](support/contact-resources.md)
