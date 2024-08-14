@@ -441,13 +441,4 @@ For more information on using Jinja, check out our documentation:
 
 ## Need more guidance?&#x20;
 
-{% hint style="warning" %}
-MAJOR UPDATE: The last live training sessions for Rewst 101-106 are happening August 12-14 (for Rewst 101 - 103) and August 19-21 (for Rewst 105 - 106).
-
-Office Hours remain open, so sign up for live support on Thursdays at the link below.
-
-Stay tuned for exciting new self-paced content and special live sessions for beginners coming in September 2024!
-{% endhint %}
-
-<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 103</strong></mark></td><td align="center">Jinja Essentials for Workflow Automation</td><td><a href="https://calendly.com/cluck-u/rewst-103">https://calendly.com/cluck-u/rewst-103</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/office-hours">https://calendly.com/cluck-u/office-hours</a></td></tr></tbody></table>
-
+<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/office-hours">https://calendly.com/cluck-u/office-hours</a></td></tr></tbody></table>
