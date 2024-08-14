@@ -2,6 +2,31 @@
 
 <details>
 
+<summary> ⚠️ Planned Service Maintenance Notification (August 14th, 2024)</summary>
+
+**Date**: Friday, August 16th, 2024\
+**Time**: 6:00 PM - 7:00 PM EST
+
+We will be performing a scheduled update to our platform to prepare for some awesome new features that should be released soon! While most users won't notice any disruption, the following features will be temporarily unavailable for approximately 10 to 20 minutes during this period:
+
+* Loading Action Options
+* Cloning, Syncing, Exporting, and Importing
+* RoboRewsty functionality
+* Jinja Rendering and Live Editor
+* App Platform page rendering
+* Unpacking Crates
+* Processing of workflow completion handlers (pending tasks will resume after the update)
+
+**⚠️ Please note that all other workflows and webhooks will operate normally during this time. ⚠️**
+
+If you have any questions or concerns, please contact the ROC support team via Discord or contact your Customer Success Manager.
+
+Thank you for your understanding and patience as we work to improve our platform!
+
+</details>
+
+<details>
+
 <summary> ⚠️ Update Service Ticket Action Failure (August 7th, 2024)</summary>
 
 **⚠️ We are pleased to inform you that the issue affecting workflows containing the ConnectWise Update Service Ticket (v1) action has been successfully resolved. Normal functionality has resumed. All services should now be operating as expected. ⚠️**
