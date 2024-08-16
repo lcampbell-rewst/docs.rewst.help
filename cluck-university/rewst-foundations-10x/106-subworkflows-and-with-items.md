@@ -1,3 +1,7 @@
+---
+description: Welcome to the sixth course in the Rewst Foundations series!
+---
+
 # 106 - Sub-Workflows and With Items
 
 ## Introduction
@@ -175,6 +179,14 @@ Finally, we'll test it all out to see how it works!
 
 Thank you for watching! We hope this course helps you effectively utilize Sub-Workflows and With Items in Rewst for efficient workflow management. If you have any questions or need further assistance, don't hesitate to reach out. Happy automating!
 
+## What Did You Learn?
+
+Take a quick quiz and get instant feedback!
+
+{% embed url="https://www.surveymonkey.com/r/KC106" %}
+Knowledge Check
+{% endembed %}
+
 ## Additional Resources
 
 {% hint style="info" %}
@@ -194,4 +206,4 @@ Office Hours remain open, so sign up for live support on Thursdays at the link b
 Stay tuned for exciting new self-paced content and special live sessions for beginners coming in September 2024!
 {% endhint %}
 
-<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 106</strong></mark></td><td align="center">Sub-Workflows and With Items</td><td><a href="https://calendly.com/cluck-u/rewst-106">https://calendly.com/cluck-u/rewst-106</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/office-hours">https://calendly.com/cluck-u/office-hours</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 106</strong></mark></td><td align="center">Sub-Workflows and With Items</td><td><a href="https://calendly.com/cluck-u/rewst-106">https://calendly.com/cluck-u/rewst-106</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/office-hours">https://calendly.com/cluck-u/office-hours</a></td></tr><tr><td align="center"><a data-mention href="foundations-certification.md">foundations-certification.md</a></td><td align="center">Get certified!</td><td></td></tr></tbody></table>
