@@ -1,4 +1,5 @@
 ---
+description: Welcome to the second course in the Rewst Foundations series!
 layout:
   title:
     visible: true
@@ -13,6 +14,14 @@ layout:
 ---
 
 # 102 - Building a Basic Workflow
+
+## Platform Overview
+
+If you haven't already, make sure to complete all Getting Started resources for more context before you dive into workflow-building.
+
+{% content-ref url="../getting-started/" %}
+[getting-started](../getting-started/)
+{% endcontent-ref %}
 
 ## Introduction
 
@@ -298,6 +307,14 @@ Finally, let's test out the workflow by filling out the form and checking the wo
 
 Congratulations! You have successfully created a form, designed a workflow, and connected the two with a trigger to automate Azure AD group management. In Rewst 103, we'll take a step back and look at using Jinja in our workflows. If you have any questions, don't hesitate to reach out. Happy automating!
 
+## What Did You Learn?
+
+Take a quick quiz and get instant feedback!
+
+{% embed url="https://www.surveymonkey.com/r/KC102" %}
+Knowledge Check
+{% endembed %}
+
 ## Additional Resources
 
 {% hint style="info" %}
@@ -308,14 +325,6 @@ For more information on using Forms, Workflows, and Triggers, check out our docu
 * [Introduction to Triggers](../../documentation/triggers/intro-to-triggers.md)
 {% endhint %}
 
-## Need more guidance?
+## Keep On Cluckin'
 
-{% hint style="warning" %}
-MAJOR UPDATE: The last live training sessions for Rewst 101-106 are happening August 12-14 (for Rewst 101 - 103) and August 19-21 (for Rewst 105 - 106).
-
-Office Hours remain open, so sign up for live support on Thursdays at the link below.
-
-Stay tuned for exciting new self-paced content and special live sessions for beginners coming in September 2024!
-{% endhint %}
-
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/office-hours">https://calendly.com/cluck-u/office-hours</a></td></tr></tbody></table>
+<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and get help!</td><td><a href="https://calendly.com/cluck-u/office-hours">https://calendly.com/cluck-u/office-hours</a></td></tr><tr><td align="center"><a data-mention href="103-jinja-essentials-for-workflow-automation.md">103-jinja-essentials-for-workflow-automation.md</a></td><td align="center">Take the next course!</td><td></td></tr></tbody></table>
