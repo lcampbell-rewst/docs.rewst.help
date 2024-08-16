@@ -1,3 +1,7 @@
+---
+description: Welcome to the third course in the Rewst Foundations series!
+---
+
 # 103 - Jinja Essentials for Workflow Automation
 
 ## Introduction
@@ -427,6 +431,14 @@ On {{ weekday.day }} you should bring a frosty RewstyCola for lunch at {{ weekda
 
 Understanding Jinja and its diverse functionalities empowers trainers to create dynamic and responsive workflows within the Rewst environment. By mastering Jinja’s syntax, you can efficiently manipulate data, enabling the seamless execution of complex tasks.
 
+## What Did You Learn?
+
+Take a quick quiz and get instant feedback!
+
+{% embed url="https://www.surveymonkey.com/r/KC103" %}
+Knowledge Check
+{% endembed %}
+
 ## Additional Resources
 
 {% hint style="info" %}
@@ -439,6 +451,6 @@ For more information on using Jinja, check out our documentation:
 * [Filter Examples](../../documentation/jinja/filter-examples.md)
 {% endhint %}
 
-## Need more guidance?&#x20;
+## Keep On Cluckin'
 
-<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/office-hours">https://calendly.com/cluck-u/office-hours</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and  get help!</td><td><a href="https://calendly.com/cluck-u/office-hours">https://calendly.com/cluck-u/office-hours</a></td></tr><tr><td align="center"><a data-mention href="104-options-generators-and-generic-api-requests.md">104-options-generators-and-generic-api-requests.md</a></td><td align="center">Take the next course!</td><td></td></tr></tbody></table>
