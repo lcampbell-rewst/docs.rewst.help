@@ -1,3 +1,7 @@
+---
+description: Welcome to the fifth course in the Rewst Foundations series!
+---
+
 # 105 - Improve Group Management to Support Exchange
 
 ## Introduction
@@ -271,6 +275,14 @@ Rewst 105 equips you with the knowledge and skills to manage groups effectively 
 
 ***
 
+## What Did You Learn?
+
+Take a quick quiz and get instant feedback!
+
+{% embed url="https://www.surveymonkey.com/r/KC105" %}
+Knowledge Check
+{% endembed %}
+
 ## Additional Resources
 
 {% hint style="info" %}
@@ -290,4 +302,4 @@ Office Hours remain open, so sign up for live support on Thursdays at the link b
 Stay tuned for exciting new self-paced content and special live sessions for beginners coming in September 2024!
 {% endhint %}
 
-<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 105</strong></mark></td><td align="center">Improve Group Management to Support Exchange</td><td><a href="https://calendly.com/cluck-u/rewst-105">https://calendly.com/cluck-u/rewst-105</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/office-hours">https://calendly.com/cluck-u/office-hours</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 105</strong></mark></td><td align="center">Improve Group Management to Support Exchange</td><td><a href="https://calendly.com/cluck-u/rewst-105">https://calendly.com/cluck-u/rewst-105</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and get help!</td><td><a href="https://calendly.com/cluck-u/office-hours">https://calendly.com/cluck-u/office-hours</a></td></tr><tr><td align="center"><a data-mention href="106-subworkflows-and-with-items.md">106-subworkflows-and-with-items.md</a></td><td align="center">Take the next course!</td><td></td></tr></tbody></table>
