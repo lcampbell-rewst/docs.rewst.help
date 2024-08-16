@@ -1,3 +1,7 @@
+---
+description: Welcome to the fourth course in the Rewst Foundations series!
+---
+
 # 104 - Options Generators & Generic API Requests
 
 ## Introduction
@@ -311,6 +315,14 @@ Next, we'll first add a trigger, configured to always pass, guaranteeing the wor
 
 Congratulations! You've successfully configured an option generator and implemented logic using generic API requests and list comprehension techniques. With this knowledge, you can enhance your forms and streamline group management.
 
+## What Did You Learn?
+
+Take a quick quiz and get instant feedback!
+
+{% embed url="https://www.surveymonkey.com/r/KC104" %}
+Knowledge Check
+{% endembed %}
+
 ## Additional Resources
 
 {% hint style="info" %}
@@ -333,4 +345,4 @@ Office Hours remain open, so sign up for live support on Thursdays at the link b
 Stay tuned for exciting new self-paced content and special live sessions for beginners coming in September 2024!
 {% endhint %}
 
-<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 104</strong></mark></td><td align="center">Options Generators &#x26; Generic API Requests</td><td><a href="https://calendly.com/cluck-u/rewst-104">https://calendly.com/cluck-u/rewst-104</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and Get Help!</td><td><a href="https://calendly.com/cluck-u/office-hours">https://calendly.com/cluck-u/office-hours</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Rewst 104</strong></mark></td><td align="center">Options Generators &#x26; Generic API Requests</td><td><a href="https://calendly.com/cluck-u/rewst-104">https://calendly.com/cluck-u/rewst-104</a></td></tr><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and get help!</td><td><a href="https://calendly.com/cluck-u/office-hours">https://calendly.com/cluck-u/office-hours</a></td></tr><tr><td align="center"><a data-mention href="105-improve-group-management-to-support-exchange.md">105-improve-group-management-to-support-exchange.md</a></td><td align="center">Take the next course!</td><td></td></tr></tbody></table>
