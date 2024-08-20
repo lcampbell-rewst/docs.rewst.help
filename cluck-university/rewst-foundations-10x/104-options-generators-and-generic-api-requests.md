@@ -335,6 +335,6 @@ For more information on using Options Generators, Generic API Requests, List Com
 * [Microsoft Graph API](https://learn.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0)
 {% endhint %}
 
-## Need more guidance?
+## Keep On Cluckin'
 
 <table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and get help!</td><td><a href="https://calendly.com/cluck-u/office-hours">https://calendly.com/cluck-u/office-hours</a></td></tr><tr><td align="center"><a data-mention href="105-improve-group-management-to-support-exchange.md">105-improve-group-management-to-support-exchange.md</a></td><td align="center">Take the next course!</td><td></td></tr></tbody></table>
