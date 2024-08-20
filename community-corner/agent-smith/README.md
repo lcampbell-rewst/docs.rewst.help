@@ -23,6 +23,19 @@ Share feedback, and help us buff out any rough edges by [joining the early birds
 * **Secure CI/CD:** Ensures security and validity with automated builds, cryptographic signing, and SHA256 hashing.
 * **Seamless Integration:** Waits for JSON messages, fitting effortlessly into existing automations.
 
+### Architecture:
+* Agent Smith relies on the Microsoft [Azure IoT Hub](https://learn.microsoft.com/en-us/azure/iot-hub/iot-concepts-and-iot-hub) for the majority of the heavy lifting.
+  * The setup process will create an IoT hub instance in **your** top-level Azure environment.
+  * All Agents will become registered devices in your top-level IoT Hub, and their connection properties remain within that instance.
+  * Agent installation sets the organization id for the Agent to be registered with so that workflows can identify agents according to their Rewst organization.
+* Agents will establish a connection to your IoT Hub instance for receiving messages triggered by Rewst workflows. These messages will contain IDs that refer to specific workflow executions that expect shell code to be executed.
+* The results of shell code will be sent directly back to Rewst via webhook (HTTP POST) to the workflow executions for processing.
+* This combination of discrete one-way communication channels separates the message data, removing the requirement for the IoT Hub to have visibility to resulting data. The data is sent only direct to the workflow that requires it via a direct `POST` to an ephemeral URL.
+ 
+### Requirements:
+* You will need to obtain your own Microsoft Azure subscription, and integrate it to Rewst at your top-level organization. You can refer to our documentation [here](https://docs.rewst.help/documentation/integrations/cloud/microsoft-cloud-integration-bundle).
+* Follow the setup instructions [here](https://docs.rewst.help/community-corner/agent-smith/agent-smith-configuration-overview)
+
 {% hint style="info" %}
 **Zero Cost, Zero Guarantees.** While we're confident Agent Smith won't cause any tech havoc, please ensure you'll be able to test in a lab environment first.
 {% endhint %}
