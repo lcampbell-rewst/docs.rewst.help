@@ -24,6 +24,7 @@ In addition to the above that’s required for authentication, there are several
 * Service Desk → Service Tickets: Add, Edit, Inquire
 * Service Desk → Service Ticket – Dependencies: Add, Edit, Inquire
 * Service Desk → Close Service Tickets: Edit, Inquire
+* Service Desk -> Merge Tickets: Add, Edit, Inquire
 * System → My Account: Add (My), Edit (My), Delete (My), Inquire (My)
 * System → Table Setup: Add, Inquire (Additional customization can be done to allow or disallow tables)
 * Time & Expense → Time Entry: Add, Edit, Delete (My), Inquire
