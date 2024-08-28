@@ -1,36 +1,32 @@
-# ROC Open Mics
+# August 9, 2024: The App Platform Workaround to the Most Requested Feature in Rewst
 
-## **Join Live!**
+## Join Live!
 
 Join us live every Friday at 3 pm EST!
 
 &#x20;[Download the Calendar Invite here](https://engine.rewst.io/webhooks/custom/trigger/02eb02e2-1177-43d9-9e13-8547414979fc/c47fdd7f-4075-47a8-ba92-94e790e67c06?request\_type=open\_mic\_link&)!
 
-## Latest Open Mic Video Recording
+## Open Mic Video Recording
 
-{% embed url="https://youtu.be/bKMmGV5B06A" %}
+{% embed url="https://youtu.be/dY-mMw8OvC8" %}
 
 ### Contents of the Recording:
 
-🎤 Aharon opens the call.&#x20;
+📢 Aharon makes a huge announcement about the state of the company&#x20;
 
-🔄 Nick gives updates from the Dev Team.&#x20;
+🔄 Nick provides updates from the Dev Team&#x20;
 
-🎮 Jordan Pizza demos the "Multi-Player" Rewst feature.&#x20;
+🔐 Matt demos a crate that manages compromised Users&#x20;
 
-📦 Danial provides updates from the Crate Marketplace.&#x20;
+🛠️ Brett shows a workflow related to compromised Users&#x20;
 
-🔧 JP shows refactors in the Document M365 Groups Crate.&#x20;
+📚 Brandon provides updates from the Edu Team&#x20;
 
-👥 Sam demos a workflow for creating new users.&#x20;
+🐴 3G (aka Greg/Greggory) discusses the horseshoe theory between non-technical and highly technical Users when first getting started with Rewst&#x20;
 
-💾 Dustin shows a workflow automating Axcient Backups using their new API.&#x20;
+📁 Alden shows how he organizes workflows in a folder-like system in App Platform&#x20;
 
-📊 Derrick shows a workflow for collecting M365 logs.&#x20;
-
-🔐 David demos an automation enforcing higher MFA security in Entra.&#x20;
-
-🧹 Jen shows a workflow that runs disk cleanup and updates the ticket.
+🔗 Aaron shows how he optimized the Document User Detail Crate to link M365 Users
 
 
 

@@ -1,4 +1,4 @@
-# August 9, 2024: The App Platform Workaround to the Most Requested Feature in Rewst
+# August 16, 2024: The Behind the Scenes of CyberDrain's CTF
 
 ## Join Live!
 
@@ -8,25 +8,29 @@ Join us live every Friday at 3 pm EST!
 
 ## Open Mic Video Recording
 
-{% embed url="https://youtu.be/dY-mMw8OvC8" %}
+{% embed url="https://youtu.be/md9gd8-zAw4" %}
 
 ### Contents of the Recording:
 
-📢 Aharon makes a huge announcement about the state of the company&#x20;
-
 🔄 Nick provides updates from the Dev Team&#x20;
 
-🔐 Matt demos a crate that manages compromised Users&#x20;
+🔔 Jordan Pizza demos the workflow overwrite notification feature&#x20;
 
-🛠️ Brett shows a workflow related to compromised Users&#x20;
+📦 Danial gives updates from the Crate Marketplace Team&#x20;
 
-📚 Brandon provides updates from the Edu Team&#x20;
+📚 Brandon provides updates from the Edu Team
 
-🐴 3G (aka Greg/Greggory) discusses the horseshoe theory between non-technical and highly technical Users when first getting started with Rewst&#x20;
+&#x20;📈 Clea gives updates on the latest in the 100 Series&#x20;
 
-📁 Alden shows how he organizes workflows in a folder-like system in App Platform&#x20;
+🛠️ Aharon provides updates on scheduled maintenance and announcements&#x20;
 
-🔗 Aaron shows how he optimized the Document User Detail Crate to link M365 Users
+♻️ Emmitt shows a workflow that decommissions old machines for recycling&#x20;
+
+📝 Aaron demos dynamic form handling with role-based controls&#x20;
+
+🚩 John shows the workflow that powered CyberDrain's CTF&#x20;
+
+❓ Tim does Q\&A
 
 
 

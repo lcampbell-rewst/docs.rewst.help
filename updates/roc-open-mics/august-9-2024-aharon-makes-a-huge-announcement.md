@@ -1,4 +1,4 @@
-# August 16, 2024: The Behind the Scenes of CyberDrain's CTF
+# August 23, 2024: The Behind the Scenes of CyberDrain's CTF
 
 ## Join Live!
 
@@ -8,29 +8,29 @@ Join us live every Friday at 3 pm EST!
 
 ## Open Mic Video Recording
 
-{% embed url="https://youtu.be/md9gd8-zAw4" %}
+{% embed url="https://youtu.be/bKMmGV5B06A" %}
 
 ### Contents of the Recording:
 
-🔄 Nick provides updates from the Dev Team&#x20;
+🎤 Aharon opens the call.&#x20;
 
-🔔 Jordan Pizza demos the workflow overwrite notification feature&#x20;
+🔄 Nick gives updates from the Dev Team.&#x20;
 
-📦 Danial gives updates from the Crate Marketplace Team&#x20;
+🎮 Jordan Pizza demos the "Multi-Player" Rewst feature.&#x20;
 
-📚 Brandon provides updates from the Edu Team
+📦 Danial provides updates from the Crate Marketplace.&#x20;
 
-&#x20;📈 Clea gives updates on the latest in the 100 Series&#x20;
+🔧 JP shows refactors in the Document M365 Groups Crate.&#x20;
 
-🛠️ Aharon provides updates on scheduled maintenance and announcements&#x20;
+👥 Sam demos a workflow for creating new users.&#x20;
 
-♻️ Emmitt shows a workflow that decommissions old machines for recycling&#x20;
+💾 Dustin shows a workflow automating Axcient Backups using their new API.&#x20;
 
-📝 Aaron demos dynamic form handling with role-based controls&#x20;
+📊 Derrick shows a workflow for collecting M365 logs.&#x20;
 
-🚩 John shows the workflow that powered CyberDrain's CTF&#x20;
+🔐 David demos an automation enforcing higher MFA security in Entra.&#x20;
 
-❓ Tim does Q\&A
+🧹 Jen shows a workflow that runs disk cleanup and updates the ticket.
 
 
 
