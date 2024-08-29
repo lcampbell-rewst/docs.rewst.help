@@ -24,4 +24,4 @@ Otherwise, feel to reach out on the following channels:
   * Private msp channel
   * \#the-kewp
   * Birds of a Feather channels
-* **Create a Ticket** - [E-mail the team](mailto:roc@rewst.io) and someone will be in touch ASAP!
+* **Create a Ticket** - [E-mail the team](mailto:the_roc@rewst.io) and someone will be in touch ASAP!
