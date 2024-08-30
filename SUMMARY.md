@@ -384,6 +384,7 @@
 ## 📢 Updates
 
 * [Development Updates](updates/development-updates/README.md)
+  * [August 30th 2024](updates/development-updates/august-30th-2024.md)
   * [August 23rd 2024](updates/development-updates/august-23rd-2024.md)
   * [August 16th 2024](updates/development-updates/august-16th-2024.md)
   * [August 9th 2024](updates/development-updates/august-9th-2024.md)
