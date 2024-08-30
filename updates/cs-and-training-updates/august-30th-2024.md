@@ -15,7 +15,7 @@ Check them (and our other courses) out on the [Cluck University Landing Page](ht
 * **Game Tip of the Week:**&#x20;
   * The latest Nintendo Direct happened this week and there were some AMAZING remasters, remakes, and ports announced like Suikoden I & II, Legend of Heroes Trials in the Sky, Yakuza Kiwami, the CASTLEVANIA DS GAMES, and Tales of Graces F. I could go on, but what are YOUR favorite announcements?&#x20;
 * **SHOUT OUTS** **TO:**
-  * Dominic, Mike, Dave, Lara, Nick, Brad, Jonathan C., Skylar, Chad, and Jonathan R for passing the Certification Exam
+  * Dominic, Mike, Dave, Lara, Nick, Brad, Jonathan C., Skylar, Chad, Josh, and Jonathan R for passing the Certification Exam
     * AND Patrick and Hamza for PERFECT SCORES!!! :confetti\_ball:
   * Take the [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord.  As well as access to a super secret Discord channel.
 * Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
