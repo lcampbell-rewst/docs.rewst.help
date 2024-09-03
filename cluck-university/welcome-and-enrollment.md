@@ -4,26 +4,24 @@
 
 To kick off your automation journey, we have an entire [getting-started](getting-started/ "mention") section dedicated to introducing you to both automation practices as well as the Rewst Platform itself. Dive in and get your talons wet with the basics, including some exercises!
 
-## Live Training Enrollment
-
-Next, let’s dive right in. We’ve created a six-part training plan, ideally taken over two weeks. You’ll start with building a simple form and workflow, then improve it through iteration as you move forward. The last two weeks shift to hands-on practice at your own pace. If you stick to it, you’ll have your [certification](rewst-foundations-10x/foundations-certification.md) in only a month!&#x20;
-
-To maximize your learning experience, it's recommended to complete the six courses in order. On-demand recordings of the sessions are available for our global audience, or rewatching at your own pace.
-
-{% hint style="info" %}
-[Enroll here to get the schedule with all the links you need!](https://app.rewst.io/form/40c82e64-9976-4253-baf4-55421a2a2c3f)
-{% endhint %}
-
 ## On-Demand Training
 
-Suggested schedule aside, don’t let it overwhelm you: this content is also self-paced! We offer courses sequentially, but you can use the self-serve resources or attend the next watch party on your schedule. &#x20;
-
-Use the hyperlinks below to get started with each session, and let us know if you hit a roadblock along the way, or have questions in our [Cluck University Discord Channel](https://discord.gg/WKwsZngc).&#x20;
+We offer courses sequentially, but you can use the self-serve resources. Use the hyperlinks below to get started with each session, and let us know if you hit a roadblock along the way, or have questions in our [Cluck University Discord Channel](https://discord.gg/WKwsZngc). If you stick to it, you’ll have your [certification](rewst-foundations-10x/foundations-certification.md) in no time!&#x20;
 
 {% hint style="success" %}
 * [rewst-foundations-10x](rewst-foundations-10x/ "mention")
 * [clean-automation-200-series](clean-automation-200-series/ "mention")
 * [electives](electives/ "mention")
+{% endhint %}
+
+## Live Training Enrollment
+
+If you're interested in taking the 200 series live, you can sign up and join the legendary Eddie Chow for 6 sessions that will be delivered over 2 weeks.&#x20;
+
+To maximize your learning experience, it's recommended to complete the six courses in order. On-demand recordings of the sessions are available for our global audience, or rewatching at your own pace.
+
+{% hint style="info" %}
+[Enroll here to get the schedule with all the links you need!](https://calendly.com/cluck-u)
 {% endhint %}
 
 ## Learning Resources
