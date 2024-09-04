@@ -560,6 +560,7 @@
   * [June 7th, 2024](updates/marketplace-updates/june-7th-2024.md)
   * [May 31st 2024](updates/marketplace-updates/may-31st-2024.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
+  * [August 30, 2024: The Automation Rewst Uses to Introduce New Employees](updates/roc-open-mics/august-30-2024-the-automation-rewst-uses-to-introduce-new-employees.md)
   * [August 23, 2024: Build Workflows With Your Friends With This Upcoming Feature](updates/roc-open-mics/august-23-2024-build-workflows-with-your-friends-with-this-upcoming-feature.md)
   * [August 16, 2024: The Behind the Scenes of CyberDrain's CTF](updates/roc-open-mics/august-16-2024-the-behind-the-scenes-of-cyberdrains-ctf.md)
   * [August 9, 2024: Aharon Makes a Huge Announcement](updates/roc-open-mics/august-9-2024-aharon-makes-a-huge-announcement-1-1.md)
