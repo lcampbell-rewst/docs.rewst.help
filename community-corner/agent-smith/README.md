@@ -29,7 +29,11 @@ Share feedback, and help us buff out any rough edges by [joining the early birds
   * All Agents will become registered devices in your top-level IoT Hub, and their connection properties remain within that instance.
   * Agent installation sets the organization id for the Agent to be registered with so that workflows can identify agents according to their Rewst organization.
 * Agents will establish a connection to your IoT Hub instance for receiving messages triggered by Rewst workflows. These messages will contain IDs that refer to specific workflow executions that expect shell code to be executed.
+  * Your IoT Hub will be established with its own hostname, such as `myiothub.azure-devices.net`
+  * The Agents will communicate with the IoT Hub using the MQTT protocol (`tcp/8883`).
 * The results of shell code will be sent directly back to Rewst via webhook (HTTP POST) to the workflow executions for processing.
+  * The URLs that the agents will be sending data to are ephemeral, single-use paths.
+  * They will correspond to the "back-end application handling" hostnames listed in the [Security Page](/security/security-policy) in the Rewst docs.
 * This combination of discrete one-way communication channels separates the message data, removing the requirement for the IoT Hub to have visibility to resulting data. The data is sent only direct to the workflow that requires it via a direct `POST` to an ephemeral URL.
  
 ### Requirements:
