@@ -8,7 +8,7 @@ This can be anything from new crates, enhancements, or bug fixes!
 
 <summary><strong>New crates and enhancements</strong></summary>
 
-* Report & Action Disabled M365 Users with Licence
+* [Report & Action Disabled M365 Users with Licence](https://app.rewst.io/marketplace/crates/01917503-bea7-711f-8ba3-4e7a2968563e)
   * Report on users that are disabled, but still have active licences and create a ticket in the PSA with the ability to remove them, or ignore that user in future reports.
 
 </details>
