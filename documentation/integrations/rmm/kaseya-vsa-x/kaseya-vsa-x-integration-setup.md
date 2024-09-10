@@ -33,9 +33,24 @@ Here are the steps on how to setup the Kaseya VSA X API integration:
 ### Migrating from Kaseya VSA integration to Kaseya VSA X
 
 1. Configure the new Kaseya VSA X integration from the instructions above
-2. Make sure you've completed organizational mapping
-3. Update the `default_rmm` organization variable to be `kaseya_vsa_x`&#x20;
+2. Update the `default_rmm` organization variable to be `kaseya_vsa_x`&#x20;
 
 &#x20;       OR&#x20;
 
 &#x20;       Re-run the config orgs form to choose Kaseya VSA X as their default RMM.
+
+3. Create a script called `Run Powershell (Rewst)` with the inputs `post_url` and `script_url`:
+
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-09-09 at 2.44.05 PM.png" alt=""><figcaption></figcaption></figure>
+
+and the contents:
+
+```powershell
+Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+$wc = New-Object System.Net.WebClient
+$wc.Encoding = [System.Text.Encoding]::UTF8
+$commands = ($wc.DownloadString("$script_url"))
+iex $commands
+```
+
+Optionally, you can reduce API calls to Kaseya by setting an org var called `kaseya_vsa_10_scriptid` with the GUID value of the above script
