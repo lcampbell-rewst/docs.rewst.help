@@ -30,6 +30,6 @@ Explore what new changes the Training team has made in the last week.
 **New & Updated Pages:**
 
 * The [jan-12th-2024-alpha-app-platform-demos.md](../roc-open-mics/jan-12th-2024-alpha-app-platform-demos.md "mention")page is available
-* Added a [known-issues.md](../../documentation/app-platform-coming-soon/known-issues.md "mention")page to the App Platform Section
+* Added a [Broken link](broken-reference "mention")page to the App Platform Section
 
 </details>

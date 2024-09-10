@@ -27,7 +27,7 @@ Explore what new changes the Training team has made in the last week.
 * [feb-9th-2024-becoming-a-jinja-ninja-with-the-new-live-editor.md](../roc-open-mics/feb-9th-2024-becoming-a-jinja-ninja-with-the-new-live-editor.md "mention")Open Mic page added!
 * [deploying-agent-smith-with-immybot.md](../../community-corner/community-driven-content/deploying-agent-smith-with-immybot.md "mention") page submitted by Logan and added!
 * [psa](../../documentation/integrations/psa/ "mention")Action and Endpoint pages added!
-* [known-issues.md](../../documentation/app-platform-coming-soon/known-issues.md "mention")page in the App Platform Section has been updated with the latest!
+* [Broken link](broken-reference "mention")page in the App Platform Section has been updated with the latest!
 
 </details>
 

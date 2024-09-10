@@ -8,7 +8,7 @@ Explore what new changes the Training team has made in the last week.
 
 * **Game Tip for the Week:** Did you know The Elder Scrolls IV: Oblivion is included with Game Pass? With the faster load times in this cloud version, it's easier to reload over and over again until you get the Sigil Stone you like, whenever you close those pesky Oblivion gates!
 * **SHOUT OUT** to all those who've successfully taken our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord. (Hint to others: It's more than just pretty flare. There's exclusive access it grants, too!)
-* Express your interest in the App Platform Alpha Program by filling out the form on the [alpha-interest-submissions.md](../../documentation/app-platform-coming-soon/alpha-interest-submissions.md "mention") page.
+* Express your interest in the App Platform Alpha Program by filling out the form on the [Broken link](broken-reference "mention") page.
 * **Reminder about Cluck U Holiday Hours:**
   * Live Training will be unavailable from December 18th \~ January 8th for the Holidays and New Year
   * Feel free to sit by the fire, with a glass of bourbon, or a tasty eggnog and watch our videos while you wait with anticipation for our return
@@ -25,7 +25,7 @@ Explore what new changes the Training team has made in the last week.
 * Added a page for the [discord-integration-setup.md](../../documentation/integrations/chat/discord/discord-integration-setup.md "mention")
 * Added a page for the [jira-integration-setup.md](../../documentation/integrations/documentation/jira/jira-integration-setup.md "mention")
 * Added a page for the [Broken link](broken-reference "mention")
-* Added a page for [app-platform-coming-soon](../../documentation/app-platform-coming-soon/ "mention") and how to submit your[alpha-interest-submissions.md](../../documentation/app-platform-coming-soon/alpha-interest-submissions.md "mention") to us.
+* Added a page for [app-platform-coming-soon](../../documentation/app-platform-coming-soon/ "mention") and how to submit your[Broken link](broken-reference "mention") to us.
 * Added the [embracing-the-microsoft-minute.md](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/common-issues-with-microsoft-bundle/embracing-the-microsoft-minute.md "mention") page with tips on how to take advantage of little breaks where you can find them.
 * Added a page for the [view-rewst-integration-org-variables.md](../../prebuilt-automations/existing-crate-documentation/view-rewst-integration-org-variables.md "mention")Crate documentation.
 * Added page about [documenting-with-roborewsty.md](../../documentation/workflows/workflow-building-tips-and-tricks/workflow-notes/documenting-with-roborewsty.md "mention")

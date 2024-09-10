@@ -9,7 +9,7 @@ Explore what new changes the Training team has made in the last week.
 * **Game Tip for the Week:** As we approach the holidays, remember that whatever games you play, it's not about the ending, it's about the journey along the way... Also, don't skip Dragon Quest Monsters: The Dark Prince. It's lowkey the best Pokemon game.&#x20;
 * **SHOUT OUT** to all those who've successfully taken our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord.&#x20;
   * Stay tuned for more information on how to get your official certification issued for sharing on LinkedIn, and hanging on your wall with pride.
-* Reminder to express your interest in the App Platform Alpha Program by filling out the form on the[alpha-interest-submissions.md](../../documentation/app-platform-coming-soon/alpha-interest-submissions.md "mention") page.&#x20;
+* Reminder to express your interest in the App Platform Alpha Program by filling out the form on the[Broken link](broken-reference "mention") page.&#x20;
   * More info to come on the early January launch details next week.
 * **Reminder about Cluck U Holiday Hours:**
   * Live Training will be unavailable from December 18th \~ January 8th for the Holidays and New Year

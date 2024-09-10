@@ -23,7 +23,7 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* [known-issues.md](../../documentation/app-platform-coming-soon/known-issues.md "mention")page in the App Platform Section has been updated with the latest
+* [Broken link](broken-reference "mention")page in the App Platform Section has been updated with the latest
 * [jan-12th-2024-alpha-app-platform-demos.md](../roc-open-mics/jan-12th-2024-alpha-app-platform-demos.md "mention")Added
 * [nerdio-integration-setup.md](../../documentation/integrations/cloud/nerdio/nerdio-integration-setup.md "mention")page added
 * Nerdio[actions-and-endpoints.md](../../documentation/integrations/cloud/nerdio/actions-and-endpoints.md "mention")page added
