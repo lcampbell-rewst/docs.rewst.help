@@ -1,18 +1,18 @@
----
-description: >-
-  Identify and avoid common automation pitfalls. Learn proactive error handling
-  and structured planning for robust workflows
----
-
 # 205: Avoiding Automation Anti-Patterns
 
 {% hint style="info" %}
-This course is **coming soon**. Check back here for registration details in the coming weeks.
+Sign up for our **LIVE** sessions **Thursday @ 2:00pm** **Eastern** on [Calendly](https://calendly.com/cluck-u/rewst-205)
 {% endhint %}
 
 ## **Course Overview**
 
-Rewst 205 addresses the critical need to identify and avoid automation anti-patterns. This course is tailored to provide insights into proactive error handling and clear, structured planning in automation, reducing inefficiencies and enhancing the robustness of automated workflows.
+Rewst 205 addresses the critical need to identify and avoid automation anti-patterns. This course is tailored to provide insights on common pitfalls and anti-patterns that reduce workflow effiency. This course also highlights the design patterns and practices used to maximize workflow value.
+
+When you've completed this training [don't forget to get credit!](https://youtu.be/aRV3HDJHF8g)
+
+## Watch the video and follow along
+
+{% embed url="https://youtu.be/aRV3HDJHF8g" %}
 
 ## **Learning Objectives**
 
