@@ -2,6 +2,10 @@
 
 ## GoDaddy Integration Setup
 
+{% hint style="warning" %}
+_Disclaimer: As of May 1st, 2024, access to GoDaddy API has been limited to accounts with 50 or more domains._
+{% endhint %}
+
 To set up the GoDaddy API Integration, please follow these steps:
 
 1. **Log in** to your GoDaddy account.
