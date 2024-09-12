@@ -50,4 +50,4 @@ Removing a user won’t remove any workflows they’ve built or delete any activ
 
 ### How can I add a large batch of users?
 
-If you have a lot of users to add from your organization or one of your customers, we’ve got a workflow for that. Reach out to the ROC Team via [roc@rewst.io](mailto:roc@rewst.io) and ask them to set up the “Invite Group Members to Rewst” Crate for your environment.
+If you have a lot of users to add from your organization or one of your customers, we’ve got a workflow for that. Reach out to the ROC Team via [roc@rewst.io](mailto:roc@rewst.io) and ask them to set up the “Add Users To Rewst Via Group” Crate for your environment.

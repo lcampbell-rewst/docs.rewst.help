@@ -16,12 +16,11 @@ Integrating Rewst with IT Glue brings powerful documentation capabilities to you
 
 ## Setup
 
-1. **Generate** an API user in IT Glue.
-2. **Generate** an API key in IT Glue by referring to the [IT Glue documentation](https://helpdesk.kaseya.com/hc/en-gb/articles/4407484149265-Getting-started-with-the-IT-Glue-API).
-3. **Navigate** to the integrations page in Rewst.
-4. **Click** on the IT Glue integration.
-5. **Fill out** the configuration form.
-6. **Click** on the Save Configuration button.
+1. **Generate** an API key in IT Glue by referring to the [IT Glue documentation](https://helpdesk.kaseya.com/hc/en-gb/articles/4407484149265-Getting-started-with-the-IT-Glue-API).
+2. **Navigate** to the integrations page in Rewst.
+3. **Click** on the IT Glue integration.
+4. **Fill out** the configuration form.
+5. **Click** on the Save Configuration button.
 
 ## Generating an API key
 
