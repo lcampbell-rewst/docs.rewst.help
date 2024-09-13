@@ -74,7 +74,7 @@ Once your form is complete you can submit your form.
 {% hint style="info" %}
 **Make sure you map the CSP tenant for your customer**
 
-You will then want to find the CSP tenant for your new customer and map it to the Rewst organization that you have created. You can do this by navigating to _Configuration_ → _Integrations_ → _Microsoft CSP_ to find the relevant CSP tenant.
+You will then want to find the CSP tenant for your new customer and map it to the Rewst organization that you have created. You can do this by navigating to _Configuration_ → _Integrations_ → _Microsoft Cloud_ to find the relevant CSP tenant.
 {% endhint %}
 
 You are now set up and ready to run workflows for your customer!
