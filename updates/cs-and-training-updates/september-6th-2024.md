@@ -2,18 +2,29 @@
 
 Explore what new changes the Training team has made in the last week.
 
+{% hint style="info" %}
+**MAJOR UPDATE:** The 100 Series are now ONLY AVAILABLE as self-serve (for now):Check them (and our other courses) out on the [Cluck University Landing Page](https://go.rew.st/cluck-university)
+{% endhint %}
+
 <details>
 
 <summary><strong>General News and Reminders</strong></summary>
 
 * **Game Tip of the Week:**
-  * Have you ever heard of the Hyperkin Supaboy? Handheld Super Nintendo Cartridges? Let's goooooo! Is this necessary? Absolutely not. Is this amazing? 100000%
+  * Forget all these new games coming out, I just started Final Fantasy Tactics on my Vita again and I'm reminded that it's still absolutely amazing! Spoilers for a future Retro Brandon Video...
+  * Except Zelda. Don't miss that one!
+
+<!---->
+
 * **SHOUT OUTS** **TO:**
-  * Cyril, Shannyn, Chase, Chris H. , Evan, Anthony, Matthew, Brendan, Leanda, Hugh, David, Michael
-    * AND Ray J with a perfect score :confetti\_ball:
-  * Take the [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention") Exam, and collect your prestigious **Certified Rewster** badge in Discord. As well as access to a super secret Discord channel.
+  * Chris, Cameron, Andres, David, Darlene, Carl, Rudi, and Jose for passing the Certification Exam
+    * AND Alexandre, Ben, and Sean for PERFECT SCORES!!!🎊​
+  * Take the [Foundations Certification](https://app.gitbook.com/o/mdGoyUomPKsvu1TSazxc/s/AQQ1EHVcEsGKBPVHmiav/\~/diff/\~/changes/919/\~/revisions/VsBsFjTNLSmbNaVOq8Uy/cluck-university/rewst-foundations-10x/foundations-certification) Exam, and collect your prestigious **Certified Rewster** badge in Discord. As well as access to a super secret Discord channel.
+
+<!---->
+
 * Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
-* [Sign up for the Office Hours](https://calendly.com/cluck-u/office-hours?) and the[ ROC AMA](https://calendly.com/cluck-u/roc-ama) to work through any questions you have during and after training! If there is something you want us to cover, Let us know!
+* ​[Sign up for the Office Hours](https://calendly.com/cluck-u/office-hours?) and the[ ROC AMA](https://calendly.com/cluck-u/roc-ama) to work through any questions you have during and after training! If there is something you want us to cover, Let us know!
 
 </details>
 
@@ -23,8 +34,6 @@ Explore what new changes the Training team has made in the last week.
 
 **What's New at Cluck University?**
 
-* The video for Rewst [205-avoiding-automation-anti-patterns.md](../../cluck-university/clean-automation-200-series/205-avoiding-automation-anti-patterns.md "mention")is UP!
-  * Make sure to get credit for this and other Cluck University videos you've gone through.
 * Stay tuned for exciting new self-paced content and special live sessions for beginners coming in September 2024!
 * Check out the Cluck University Landing Page @ [go.rew.st/cluck-university](https://go.rew.st/cluck-university) for all the latest courses self-serve and live.
 
@@ -35,9 +44,8 @@ Explore what new changes the Training team has made in the last week.
 
 **New & Updated Pages:**
 
-* Page Clean Ups and Minor Edits
-* [godaddy-integration-setup.md](../../documentation/integrations/dns/godaddy/godaddy-integration-setup.md "mention") API access limit disclaimer added.
-* Open Mic:[sept-6-2024-see-this-custom-cloud-backup-integration-implemented-in-rewst.md](../roc-open-mics/sept-6-2024-see-this-custom-cloud-backup-integration-implemented-in-rewst.md "mention")
-* Changed Final Steps in [kaseya-vsa-x-integration-setup.md](../../documentation/integrations/rmm/kaseya-vsa-x/kaseya-vsa-x-integration-setup.md "mention")
+* Last week's Open Mic video [august-30-2024-the-automation-rewst-uses-to-introduce-new-employees.md](../roc-open-mics/august-30-2024-the-automation-rewst-uses-to-introduce-new-employees.md "mention")has been added.
+* [least-privilege-access-requirements-for-connectwise-manage-integration.md](../../documentation/integrations/psa/connectwise-manage/least-privilege-access-requirements-for-connectwise-manage-integration.md "mention") has been updated.
 
 </details>
+
