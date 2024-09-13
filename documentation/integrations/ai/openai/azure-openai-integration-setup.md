@@ -90,10 +90,6 @@ The Base URL is what directs Rewst to communicate with the correct Azure OpenAI 
 You must complete the Azure API Version field, otherwise, the integration will fail.
 {% endhint %}
 
-{% hint style="danger" %}
-**The validation popup may show a failure. This can be ignored. OpenAI validation URLs are currently used and will be updated in a future release.**
-{% endhint %}
-
 ### Configuring Workflow Triggers to Use Azure OpenAI
 
 If this is your second instance of OpenAI (you configured the direct OpenAI integration before) then you may adjust your workflow triggers to choose which version of the integration you want to use in your workflows.
