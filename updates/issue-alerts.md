@@ -2,6 +2,30 @@
 
 <details>
 
+<summary> ⚠️ Lost Form Access (September 12th, 2024)</summary>
+
+### **Issue Identified**
+
+**Date**: Thursday, September 12, 2024\
+**Time**: 11:17 PM EDT
+
+An update aimed at improving load times for custom forms was implemented at 3 PM EDT. This update unintentionally caused some users to lose access to forms.
+
+### Issue Resolved
+
+**Date**: Thursday, September 12, 2024\
+**Time**: 11:55 PM EDT
+
+Following standard procedures, the update was rolled back, and the issue was resolved.
+
+If you have any questions or concerns, please contact the ROC support team via Discord or contact your Customer Success Manager.
+
+Thank you for your understanding and patience as we work to improve our platform!
+
+</details>
+
+<details>
+
 <summary> ⚠️ Planned Service Maintenance Notification (August 14th, 2024)</summary>
 
 **Date**: Friday, August 16th, 2024\
