@@ -8,7 +8,7 @@ Sign up for our **LIVE** sessions **Thursday @ 2:00pm** **Eastern** on [Calendly
 
 Rewst 205 addresses the critical need to identify and avoid automation anti-patterns. This course is tailored to provide insights on common pitfalls and anti-patterns that reduce workflow effiency. This course also highlights the design patterns and practices used to maximize workflow value.
 
-When you've completed this training [don't forget to get credit!](https://youtu.be/aRV3HDJHF8g)
+When you've completed this training [don't forget to get credit!](https://app.rewst.io/form/0191484b-e07a-7c2d-b0e0-c7069adfc72e)
 
 ## Watch the video and follow along
 
