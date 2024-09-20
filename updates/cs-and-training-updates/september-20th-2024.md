@@ -8,6 +8,7 @@ Explore what new changes the Training team has made in the last week.
 
 * **Game Tip of the Week:**
   * If you saw the PS5 Pro announcement and are tempted to get that limited edition that's probably going to be over $1000, don't. You can get a Switch or Steamdeck with a ton of games for that or a whole 2 retro RPGs. Spend your money the right way 😉&#x20;
+  * Also there's a Sega sale on Steam right now where you get can a bunch of Yakuza games for $6 and get the Shenmue 1 - 3 bundle + DLC for $5.
 * **SHOUT OUTS** **TO:**
   * Victoria, Allen, Michael H., Michael R., Aaron, Linden, Austin, Ethan, and Adam
     * AND Ray and Tim with perfect scores :confetti\_ball:
