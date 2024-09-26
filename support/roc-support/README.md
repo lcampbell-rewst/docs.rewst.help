@@ -29,11 +29,3 @@ We're setting internal objectives to reply to ticket queries faster than standar
 ### Questions?
 
 If you have any questions about this new process, feel free to tag a member of the ROC or via our [Contact Us page](../contact-resources.md). We're here to help!
-
-### Office Hours and ROC AMA
-
-For those going through our [Rewst Foundations Training](../../cluck-university/rewst-foundations-10x/), you can join our weekly [Office Hours](../../cluck-university/office-hours.md) to get help with questions from training or implementing what you're learning.
-
-If you have completed your [Rewst Foundations Certification](../../cluck-university/rewst-foundations-10x/foundations-certification.md), you can join our weekly [ROC AMA](../../cluck-university/roc-ama.md) to work through questions directly with a ROC member!&#x20;
-
-Thanks for being a part of our community.

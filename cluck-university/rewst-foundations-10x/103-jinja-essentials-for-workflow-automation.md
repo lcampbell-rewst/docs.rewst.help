@@ -24,7 +24,7 @@ To get credit for completing this session offline, please [submit this form](htt
 
 ### Part 1: Live Editor
 
-The [Jinja Essentials](../../documentation/jinja/jinja-essentials.md) doc is a great resource to reference if you get stuck along the way.&#x20;
+The [Jinja Essentials](../../documentation/jinja/jinja-essentials.md) doc is a great resource to reference if you get stuck along the way.
 
 <details>
 
@@ -49,7 +49,7 @@ Here are some important keyboard shortcuts you can use throughout
 
 <summary>Step 2: Start by viewing the basic CTX Attributes</summary>
 
-#### **Expressing all the CTX Attributes**
+**Expressing all the CTX Attributes**
 
 1. **View JSON Context:**
    * Open the Context editor to view the JSON context.
@@ -58,14 +58,14 @@ Here are some important keyboard shortcuts you can use throughout
    * **To view**: Remove comments as shown in Step 1. Render `{{ CTX }}`.
    * **Revert**: Re-add the comments to return to `{# {{ CTX }} #}`.
 
-#### Show the Value of the Week
+**Show the Value of the Week**
 
 1. **Display Week Value:**
    * **Initially**: `{# {{- CTX.week -}} #}`
    * **To view:** Uncomment, render `{{- CTX.week -}}`, and follow Step 1 for removing comments.
    * **Revert:** Re-add comments to return to `{# {{- CTX.week -}} #}`.
 
-#### Show Days in the Schedule
+**Show Days in the Schedule**
 
 1. **Display Schedule Days:**
    * **Initially**: `{# {{ CTX.days | length }} #}`
@@ -89,11 +89,13 @@ Here are some important keyboard shortcuts you can use throughout
     ```django
 
 
+
     {% raw %}
     {% for weekday in CTX.days %}
         The dessert on {{ weekday.day }} is {{ weekday.lunch.dessert }}
     {% endfor %}
     {% endraw %}
+
 
 
     ```
@@ -303,9 +305,12 @@ Here are some important keyboard shortcuts you can use throughout
 1.  **Uncomment & Render** the following:
 
     ```django
+
     {% raw %}
     {% set old_list = [1,2,3] %}
     {% endraw %}
+
+
     {{
         [
             num * num for num in old_list
@@ -324,21 +329,19 @@ Here are some important keyboard shortcuts you can use throughout
 1. **Uncomment** and **Render** the following:
 
 {% code overflow="wrap" %}
-```django
-{%- set milky_days = [
-        weekday
-        for weekday in CTX.days
-        if "milk" in weekday.lunch.drink | lower
-    ]
--%}
-
-{% raw %}
-{%- for weekday in milky_days -%}
-{% endraw %}
-
-On {{ weekday.day }} you should bring a frosty RewstyCola for lunch at {{ weekday.lunch.time }} because they are serving {{ weekday.lunch.drink | lower }}.
+```
 ```
 {% endcode %}
+
+\`\`\`django \{%- set milky\_days = \[ weekday for weekday in CTX.days if "milk" in weekday.lunch.drink | lower ] -%\}
+
+\{%- for weekday in milky\_days -%\}
+
+On \{{ weekday.day \}} you should bring a frosty RewstyCola for lunch at \{{ weekday.lunch.time \}} because they are serving \{{ weekday.lunch.drink | lower \}}.
+
+````
+
+</div>
 
 2. **Review** the output.
 3. **Re-add** the comments.
@@ -435,13 +438,16 @@ Understanding Jinja and its diverse functionalities empowers trainers to create 
 
 Take a quick quiz and get instant feedback!
 
-{% embed url="https://www.surveymonkey.com/r/KC103" %}
+<div data-gb-custom-block data-tag="embed" data-url='https://www.surveymonkey.com/r/KC103'>
+
 Knowledge Check
-{% endembed %}
+
+</div>
 
 ## Additional Resources
 
-{% hint style="info" %}
+<div data-gb-custom-block data-tag="hint" data-style='info'>
+
 For more information on using Jinja, check out our documentation:
 
 * [Introduction to Jinja](../../documentation/jinja/intro-to-jinja.md)
@@ -449,8 +455,12 @@ For more information on using Jinja, check out our documentation:
 * [Data Types](../../documentation/jinja/data-types.md)
 * [List of Jinja Filters](../../documentation/jinja/list-of-jinja-filters.md)
 * [Filter Examples](../../documentation/jinja/filter-examples.md)
-{% endhint %}
+
+</div>
 
 ## Keep On Cluckin'
 
 <table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:blue;"><strong>Cluck U Office Hours</strong></mark></td><td align="center">Come and  get help!</td><td><a href="https://calendly.com/cluck-u/office-hours">https://calendly.com/cluck-u/office-hours</a></td></tr><tr><td align="center"><a data-mention href="104-options-generators-and-generic-api-requests.md">104-options-generators-and-generic-api-requests.md</a></td><td align="center">Take the next course!</td><td></td></tr></tbody></table>
+````
+
+</details>

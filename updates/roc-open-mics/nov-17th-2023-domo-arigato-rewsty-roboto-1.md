@@ -1,4 +1,4 @@
-# Nov 17rd, 2023 - Domo Arigato, Rewsty Roboto
+# Nov 17th, 2023 - Domo Arigato, Rewsty Roboto
 
 ## Join Live!
 
@@ -27,10 +27,6 @@ Join us live every Friday at 3 pm EST! [Download the Calendar Invite here](https
 * 👨‍🏫 Live Instructor-Led Training: [https://calendly.com/cluck-u/](https://calendly.com/cluck-u/)
 * 🏁 Rewst Foundations Training: [https://docs.rewst.help/cluck-university/rewst-foundations-10x](https://docs.rewst.help/cluck-university/rewst-foundations-10x)
 * ▶️ On-demand Videos: [https://docs.rewst.help/cluck-university/rewst-foundations-10x](https://docs.rewst.help/cluck-university/rewst-foundations-10x)
-
-**ASK THE ROC:**&#x20;
-
-* 🙋 ROC AMA Calls: [https://calendly.com/cluck-u/roc-ama](https://calendly.com/cluck-u/roc-ama)
 
 **DOCS:**&#x20;
 

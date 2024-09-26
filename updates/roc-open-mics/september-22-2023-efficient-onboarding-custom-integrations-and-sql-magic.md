@@ -1,4 +1,4 @@
-# September 22, 2023 -  Efficient Onboarding, Custom Integrations, and SQL Magic
+# September 22, 2023 - Efficient Onboarding, Custom Integrations, and SQL Magic
 
 {% embed url="https://youtu.be/p2S0dHo9cvQ" %}
 
@@ -31,10 +31,6 @@ Join us live every Friday at 3 pm EST! [Download the Calendar Invite here](https
 * 👨‍🏫 Live Instructor-Led Training: [https://calendly.com/cluck-u/](https://calendly.com/cluck-u/)
 * 🏁 Rewst Foundations Training: [https://docs.rewst.help/cluck-university/rewst-foundations-10x](https://docs.rewst.help/cluck-university/rewst-foundations-10x)
 * ▶️ On-demand Videos: [https://docs.rewst.help/cluck-university/rewst-foundations-10x](https://docs.rewst.help/cluck-university/rewst-foundations-10x)
-
-**ASK THE ROC:**&#x20;
-
-* 🙋 ROC AMA Calls: [https://calendly.com/cluck-u/roc-ama](https://calendly.com/cluck-u/roc-ama)
 
 **DOCS:**&#x20;
 

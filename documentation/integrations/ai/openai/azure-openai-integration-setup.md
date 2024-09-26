@@ -70,7 +70,7 @@ If you already have an OpenAI integration configured, you can add an instance fo
 4. **Add** the _Azure API Version_.
 
 {% hint style="warning" %}
-## Crafting the Base URL
+### Crafting the Base URL
 
 The Base URL is what directs Rewst to communicate with the correct Azure OpenAI instance. Here’s how to construct it:
 

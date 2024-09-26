@@ -1,4 +1,4 @@
-# August 9, 2024: The App Platform Workaround to the Most Requested Feature in Rewst
+# August 9, 2024: Aharon Makes a Huge Announcement
 
 ## Join Live!
 
@@ -45,10 +45,6 @@ Join us live every Friday at 3 pm EST!
 * 👨‍🏫 Live Instructor-Led Training: [https://calendly.com/cluck-u/](https://calendly.com/cluck-u/)
 * 🏁 Rewst Foundations Training: [https://docs.rewst.help/cluck-university/rewst-foundations-10x](https://docs.rewst.help/cluck-university/rewst-foundations-10x)
 * ▶️ On-demand Videos: [https://docs.rewst.help/cluck-university/rewst-foundations-10x](https://docs.rewst.help/cluck-university/rewst-foundations-10x)
-
-**ASK THE ROC:**&#x20;
-
-* 🙋 ROC AMA Calls: [https://calendly.com/cluck-u/roc-ama](https://calendly.com/cluck-u/roc-ama)
 
 **DOCS:**&#x20;
 

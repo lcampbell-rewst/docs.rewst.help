@@ -40,10 +40,6 @@ Join us live every Friday at 3 pm EST!
 * 🏁 Rewst Foundations Training: [https://docs.rewst.help/cluck-university/rewst-foundations-10x](https://docs.rewst.help/cluck-university/rewst-foundations-10x)
 * ▶️ On-demand Videos: [https://docs.rewst.help/cluck-university/rewst-foundations-10x](https://docs.rewst.help/cluck-university/rewst-foundations-10x)
 
-**ASK THE ROC:**
-
-* 🙋 ROC AMA Calls: [https://calendly.com/cluck-u/roc-ama](https://calendly.com/cluck-u/roc-ama)
-
 **DOCS:**
 
 * 🥚 Rewst Docs: [https://docs.rewst.help](https://docs.rewst.help)

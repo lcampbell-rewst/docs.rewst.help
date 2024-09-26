@@ -46,7 +46,6 @@ Resources:
 Cluck U Sign-ups:
 
 * All 100 Series Courses are now available: [https://calendly.com/cluck-u/](https://calendly.com/cluck-u/)
-* ROC AMA Calls: [https://calendly.com/cluck-u/roc-ama](https://calendly.com/cluck-u/roc-ama)
 
 Feature + Integration Requests: [https://rewst.canny.io](https://rewst.canny.io)
 
