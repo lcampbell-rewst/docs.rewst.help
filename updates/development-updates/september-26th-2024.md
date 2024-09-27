@@ -37,12 +37,14 @@ This can be anything from new features, bug fixes, or QoL changes!
 
 <summary><strong>Deployed behind feature flags awaiting QA review and feedback</strong></summary>
 
+* New Org Picker (Launching soon)
+* Bitdefender integration (QA review)
 * Granular forms permissions (QA review)
 * IT Portal integration (QA review)
 * Synnex Australia integration (QA review)
 * Cove integration (QA review)
 * Github integration (QA Review)
-* New Org Picker (Awaiting enhancements)
+* Multi-player workflows V1 (QA review)
 
 </details>
 
@@ -50,7 +52,11 @@ This can be anything from new features, bug fixes, or QoL changes!
 
 <summary><strong>In code review and development</strong></summary>
 
-* Multi-player workflows V1 (In code review)
-* Bitdefender integration (In development)
+* Crushbank integration (Code review)
+* Nodeware integration (Code review)
+* SQL Database integration refactor (Code review)
+* JSON RPC Base Client (In development)
+* Webroot Triggers (In development)
+
 
 </details>
