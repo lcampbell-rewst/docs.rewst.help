@@ -23,7 +23,7 @@ layout:
 
 
 
-**👾 Join our Discord Community:** [Check out Discord to get live support & engage with the kewp!](https://discord.com/invite/Rewst)&#x20;
+**👾 Join our Discord Community :** [Check out Discord to get live support & engage with the kewp!](https://discord.com/invite/Rewst)&#x20;
 
 
 
