@@ -567,6 +567,7 @@
   * [June 7th, 2024](updates/marketplace-updates/june-7th-2024.md)
   * [May 31st 2024](updates/marketplace-updates/may-31st-2024.md)
 * [ROC Open Mics](updates/roc-open-mics/README.md)
+  * [Sept 27, 2024: 3 Examples of Automations that Help with Ticket Management](updates/roc-open-mics/sept-27-2024-3-examples-of-automations-that-help-with-ticket-management.md)
   * [Sept 20, 2024: How to Help The ROC Help You](updates/roc-open-mics/sept-20-2024-how-to-help-the-roc-help-you.md)
   * [Sept 13, 2024: See How to Seamless Sync Calendly Events and Tickets with Rewst](updates/roc-open-mics/sept-13-2024-see-how-to-seamless-sync-calendly-events-and-tickets-with-rewst.md)
   * [Sept 6, 2024: See This Custom Cloud Backup Integration Implemented in Rewst](updates/roc-open-mics/sept-6-2024-see-this-custom-cloud-backup-integration-implemented-in-rewst.md)
