@@ -2,6 +2,20 @@
 
 <details>
 
+<summary> ⚠️  Update To Disable Forms (September 30th, 2024)</summary>
+
+### **Issue Identified**
+
+**Date**: Monday, September 30th, 2024
+
+We released an update that corrected an issue where some forms marked as "disabled" were still functioning. If you had disabled form triggers within a workflow, they may now be correctly inactive. We’ve noticed a few customers were using these forms in production, and the update has properly disabled them.&#x20;
+
+If you’re impacted by this change, simply re-enable the form in your trigger settings.
+
+</details>
+
+<details>
+
 <summary> ⚠️ Lost Form Access (September 12th, 2024)</summary>
 
 ### **Issue Identified**
