@@ -6,6 +6,18 @@
 [Check out the instructions to set up multiple instances here](../../general/multi-instance-integration/multi-instance-integration-setup.md).
 {% endhint %}
 
+{% hint style="warning" %}
+If you are planning to upgrade from Kaseya VSA to Kaseya VSA X, for Rewst functionality purposes we recommend waiting until Kaseya VSA X is available in the following crates:
+
+* Rewst: User Onboarding
+* Rewst: User Offboarding v2
+* Configure Organizational Variables
+* Organizational Setup Report
+* Add Client to Rewst (form)
+
+This functionality should be available in August 2024.
+{% endhint %}
+
 Here are the steps on how to setup the Kaseya VSA X API integration:
 
 1. **Log in to the Kaseya VSA X Admin Console.** You will need to have administrator privileges to create API tokens.
