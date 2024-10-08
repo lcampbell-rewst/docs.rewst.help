@@ -2,6 +2,18 @@
 
 <details>
 
+<summary> ⚠️  Slow User Interface (UI) Load Times (October 3rd, 2024)</summary>
+
+**Date:** Thursday, October 3rd, 2024
+
+**Time:** 22:00 UTC / 6:00 PM EDT
+
+October 3, 2024 at 22:00 UTC Rewst was notified of slow user interface (UI) load times and reduced accessibility of the platform. This was escalated internally for review per standard process. Rewst traced the issue to a slow-running common request. This resulted in Rewst Forms and UI elements not loading for some users and reduced functionality for other users from 22:00 to 23:15 UTC. Rewst is currently operating as normal while we continue to investigate the root cause of this issue. More information will be provided as it becomes available.
+
+</details>
+
+<details>
+
 <summary> ⚠️  Update To Disable Forms (September 30th, 2024)</summary>
 
 ### **Issue Identified**
