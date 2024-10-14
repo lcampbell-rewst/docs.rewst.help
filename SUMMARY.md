@@ -32,6 +32,7 @@
   * [203: Boolean Logic & Comparisons](cluck-university/clean-automation-200-series/203-boolean-logic-and-comparisons.md)
   * [204: Modular Automation Through Abstraction](cluck-university/clean-automation-200-series/204-modular-automation-through-abstraction.md)
   * [205: Avoiding Automation Anti-Patterns](cluck-university/clean-automation-200-series/205-avoiding-automation-anti-patterns.md)
+  * [Clean Automation Certification](cluck-university/clean-automation-200-series/foundations-certification.md)
 * [Electives](cluck-university/electives/README.md)
   * [Extending the Power of Rewst Workflows](cluck-university/electives/extending-the-power-of-rewst-workflows/README.md)
     * [Part 1: Introduction to Completion Handlers](cluck-university/electives/extending-the-power-of-rewst-workflows/part-1-introduction-to-completion-handlers.md)
