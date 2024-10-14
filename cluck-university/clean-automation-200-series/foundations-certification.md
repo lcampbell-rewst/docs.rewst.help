@@ -4,7 +4,7 @@
 
 Congratulations on your dedication and hard work in completing all sessions of the Rewst Clean Automation course. You're now poised to demonstrate your expertise and proficiency in these concepts through our certification.
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>                    <a href="https://app.rewst.io/form/600f6cd3-c9a4-4544-97f6-b4a3a8d2eb68">Take Your Exam Here</a></td><td><a href="../../.gitbook/assets/Untitled design (14).png">Untitled design (14).png</a></td><td><a href="https://app.rewst.io/form/600f6cd3-c9a4-4544-97f6-b4a3a8d2eb68">https://app.rewst.io/form/600f6cd3-c9a4-4544-97f6-b4a3a8d2eb68</a></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>                      <a href="https://app.rewst.io/form/600f6cd3-c9a4-4544-97f6-b4a3a8d2eb68"><strong>Take Your Exam Here</strong></a></td><td><a href="../../.gitbook/assets/Untitled design (14).png">Untitled design (14).png</a></td><td><a href="https://app.rewst.io/form/600f6cd3-c9a4-4544-97f6-b4a3a8d2eb68">https://app.rewst.io/form/600f6cd3-c9a4-4544-97f6-b4a3a8d2eb68</a></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
 ### Rewst Clean Automation Certification Overview
 
