@@ -312,7 +312,7 @@
     * [Custom Integrations (v2)](documentation/integrations/custom-integrations/custom-integrations-v2.md)
     * [Custom Integrations (v1)](documentation/integrations/other/custom-integrations/integration-setup.md)
 * [App Platform (Coming Soon!)](documentation/app-platform-coming-soon/README.md)
-  * [Getting Started](documentation/app-platform-coming-soon/getting-started/README.md)
+  * [General](documentation/app-platform-coming-soon/getting-started/README.md)
     * [Glossary](documentation/app-platform-coming-soon/getting-started/glossary.md)
     * [Manage your apps](documentation/app-platform-coming-soon/getting-started/manage-your-apps.md)
     * [Manage your pages](documentation/app-platform-coming-soon/getting-started/manage-your-pages.md)
