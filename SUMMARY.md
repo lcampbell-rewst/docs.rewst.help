@@ -312,7 +312,7 @@
   * [Custom Integrations](documentation/integrations/other/custom-integrations/README.md)
     * [Custom Integrations (v2)](documentation/integrations/custom-integrations/custom-integrations-v2.md)
     * [Custom Integrations (v1)](documentation/integrations/other/custom-integrations/integration-setup.md)
-* [App Platform (Coming Soon!)](documentation/app-platform-coming-soon/README.md)
+* [App Builder](documentation/app-platform-coming-soon/README.md)
   * [General](documentation/app-platform-coming-soon/getting-started/README.md)
     * [Glossary](documentation/app-platform-coming-soon/getting-started/glossary.md)
     * [Manage your apps](documentation/app-platform-coming-soon/getting-started/manage-your-apps.md)
@@ -341,6 +341,11 @@
     * [Text](documentation/app-platform-coming-soon/components/text.md)
     * [Time Saved](documentation/app-platform-coming-soon/components/time-saved.md)
     * [Workflow Input](documentation/app-platform-coming-soon/components/workflow-input.md)
+  * [Getting Started](documentation/app-platform-coming-soon/getting-started-1/README.md)
+    * [Create your first App](documentation/app-platform-coming-soon/getting-started-1/create-your-first-app.md)
+    * [Add your first page](documentation/app-platform-coming-soon/getting-started-1/add-your-first-page.md)
+    * [Create a Workflow to utilise in your App](documentation/app-platform-coming-soon/getting-started-1/create-a-workflow-to-utilise-in-your-app.md)
+    * [Use in-built App components](documentation/app-platform-coming-soon/getting-started-1/use-in-built-app-components.md)
 
 ## 📦 Prebuilt Automations
 
