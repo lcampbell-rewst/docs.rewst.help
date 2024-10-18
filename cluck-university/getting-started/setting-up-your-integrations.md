@@ -31,7 +31,7 @@ Follow these steps to set up your integrations:&#x20;
    * You’ll be prompted to log in, and once authorized, you'll see a summary of your integrations, including the user who authorized them and the associated tenant ID.
 
 {% hint style="success" %}
-Check out our [microsoft-cloud-integration-bundle](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/ "mention")and [integrations](../../documentation/integrations/ "mention") pages for more information on each integration.&#x20;
+Check out our [microsoft-cloud-integration-bundle](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/ "mention") and [integrations](../../documentation/integrations/ "mention") pages for more information on each integration.&#x20;
 {% endhint %}
 
 ## Custom Integrations
