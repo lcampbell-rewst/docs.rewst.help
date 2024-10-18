@@ -16,7 +16,7 @@ description: >-
 
 ### Action Item
 
-* Open up the workflow we started building earlier in[building-a-basic-form-and-workflow](../building-a-basic-form-and-workflow/ "mention")
+* Open up the workflow we started building earlier in [building-a-basic-form-and-workflow](../building-a-basic-form-and-workflow/ "mention")
 * Grab a beverage and get ready to dive into building out the rest of the workflow!
 
 ## Navigation
