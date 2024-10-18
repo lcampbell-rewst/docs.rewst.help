@@ -8,7 +8,7 @@ Explore what new changes the Training team has made in the last week.
 
 * **Game Tip for the Week:** Golden Week Sales are live on all platforms! If you're looking for some info on the Final Fantasy series, I hear this guy calling himself "Retro Brandon" has a video about the series. So you might want to check it out! \
   Also, Jedi Survivor is available on Game Pass this week!&#x20;
-* **SHOUT OUT** to Steve, Maddox, Aleksandar, Brenden, Keegan, Andrey, Tonia, and Matthew (with a PERFECT Score!) for successfully taking our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to Steve, Maddox, Aleksandar, Brenden, Keegan, Andrey, Tonia, and Matthew (with a PERFECT Score!) for successfully taking our [foundations-certification.md](../../cluck-university/rewst-foundations/foundations-certification.md "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 * Eddie will be back next week with the 100 and current 200 series!
 
 ![](<../../.gitbook/assets/Copy of Clea.png>)

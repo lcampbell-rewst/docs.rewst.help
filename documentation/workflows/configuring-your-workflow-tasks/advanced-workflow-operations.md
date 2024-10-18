@@ -100,5 +100,5 @@ This allows you to adjust the number of seconds to wait for a task to complete. 
 **Want more practice?**
 
 {% hint style="success" %}
-[Check out our Rewst Foundations Courses](../../../cluck-university/rewst-foundations-10x/).
+[Check out our Rewst Foundations Courses](../../../cluck-university/rewst-foundations/).
 {% endhint %}

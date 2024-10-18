@@ -29,4 +29,4 @@ By understanding the nuances of different group types and mapping them appropria
 
 ## Additional Resources
 
-<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><strong>Lesson 5: Managing Workflow Paths</strong></td><td align="center">Recording + Documentation</td><td></td><td><a href="../../../cluck-university/rewst-foundations-10x/lesson-5-managing-workflow-paths/">lesson-5-managing-workflow-paths</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><strong>Lesson 5: Managing Workflow Paths</strong></td><td align="center">Recording + Documentation</td><td></td><td><a href="../../../cluck-university/rewst-foundations/managing-workflow-paths/">managing-workflow-paths</a></td></tr></tbody></table>

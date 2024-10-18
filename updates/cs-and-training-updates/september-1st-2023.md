@@ -22,7 +22,7 @@ Explore what new changes the Training team has made in the last week.
 
 **Cluck University**
 
-* Added a [feedback and credit form](../../cluck-university/rewst-foundations-10x/) to the Rewst Foundation Pages
+* Added a [feedback and credit form](../../cluck-university/rewst-foundations/) to the Rewst Foundation Pages
 * Added text summaries for all the [Getting Started pages](../../cluck-university/getting-started/) for our partners who prefer reading over video
 * Chow Time: Added Updated [Rewst 102](broken-reference) and [Rewst 103](broken-reference) videos made by our very own Legend - Eddie Chow
 * Added [How to Scope an Automation](../../cluck-university/getting-started/how-to-scope-an-automation.md) video in the Getting Started Section

@@ -7,7 +7,7 @@ Explore what new changes the Training team has made in the last week.
 <summary><strong>General News and Reminders</strong></summary>
 
 * **Game Suggestion for the Week:** Sea of Stars has a physical copy you can pre-order from Iam8bit. If you missed this bad boy in 2023, and you're like me and prefer to have physical copies that you own, check it out!
-* **SHOUT OUT** to Grant for successfully taking our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention")Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to Grant for successfully taking our [foundations-certification.md](../../cluck-university/rewst-foundations/foundations-certification.md "mention")Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 
 <!---->
 

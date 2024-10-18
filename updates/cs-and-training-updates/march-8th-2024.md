@@ -7,7 +7,7 @@ Explore what new changes the Training team has made in the last week.
 <summary><strong>General News and Reminders</strong></summary>
 
 * **Game Tip for the Week:**  If you're looking for a fantastic Tactical RPG, check out Unicorn Overlord! It will probably be one of those hidden gems for the year, sitting at an 88 on Metacritic!
-* **SHOUT OUT** to James, Jeffrey, Tom, and Andy for successfully taking our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention")Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to James, Jeffrey, Tom, and Andy for successfully taking our [foundations-certification.md](../../cluck-university/rewst-foundations/foundations-certification.md "mention")Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 * Eddie-the-legend-Chow is back from Right of Boom! So Training time will continue as expected next week!
 * Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
 

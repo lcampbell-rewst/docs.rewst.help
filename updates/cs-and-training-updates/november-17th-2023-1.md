@@ -7,7 +7,7 @@ Explore what new changes the Training team has made in the last week.
 <summary><strong>General News and Reminders</strong></summary>
 
 * **Game Tip for the Week:** BRACE YOURSELVES THE GAME SALES ARE COMING! In particular, I want to point out to all my Xbox owners here that Lost Odyssey, one of the most criminally overlooked RPGs of all time, is on sale digitally for $6.24 at the Xbox store. I would always recommend getting the original physical version, but this will be the best $6.24 you've ever spent in your life.&#x20;
-* **SHOUT OUT to all of our Certified Rewsters!** To join our motley crew of eggcellent peeps, you can take the exam here: [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention")
+* **SHOUT OUT to all of our Certified Rewsters!** To join our motley crew of eggcellent peeps, you can take the exam here: [foundations-certification.md](../../cluck-university/rewst-foundations/foundations-certification.md "mention")
 * **Cluck U Holiday Hours:**
   * **US Thanksgiving**
     * Training will be available Mon \~ Wed

@@ -7,7 +7,7 @@ Explore what new changes the Training team has made in the last week.
 <summary><strong>General News and Reminders</strong></summary>
 
 * **Game Suggestion for the Week:** I'm looking to make a video on my Retro Brandon YouTube channel that covers automation in a game for kicks. I think Stardew Valley should be the game, but let me know if you have any RPG or game that has concepts of automation that I could take a look at!
-* **SHOUT OUT** to all those who've successfully taken our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to all those who've successfully taken our [foundations-certification.md](../../cluck-university/rewst-foundations/foundations-certification.md "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord.&#x20;
   * Stay tuned for more information on how to get your official certification issued for sharing on LinkedIn, and hanging on your wall with pride.
 
 <!---->

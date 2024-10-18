@@ -7,7 +7,7 @@ Explore what new changes the Training team has made in the last week.
 <summary><strong>General News and Reminders</strong></summary>
 
 * **Game Suggestion for the Week:** If you didn't see it yesterday, Golden Sun 1 AND 2 are coming to the Nintendo Switch Online service on January 17th! So if you're not catch up on literally 1000 games from 2023, check it out!&#x20;
-* **SHOUT OUT** to our new bird brains; Greg, Elliot, Craig, and David for successfully taking our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention")Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to our new bird brains; Greg, Elliot, Craig, and David for successfully taking our [foundations-certification.md](../../cluck-university/rewst-foundations/foundations-certification.md "mention")Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 
 <!---->
 

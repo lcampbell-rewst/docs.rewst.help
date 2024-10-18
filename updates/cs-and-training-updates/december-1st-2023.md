@@ -7,7 +7,7 @@ Explore what new changes the Training team has made in the last week.
 <summary><strong>General News and Reminders</strong></summary>
 
 * **Game Tip for the Week:** We've now hit the season where all eyes are on 2024. So if you haven't seen all the trailers that came out of The Game Awards, check them out! Especially that Final Fantasy VII Rebirth trailer! 2024 is gon be gud.
-* **SHOUT OUT** to all those who've successfully taken our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to all those who've successfully taken our [foundations-certification.md](../../cluck-university/rewst-foundations/foundations-certification.md "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord.&#x20;
   * Stay tuned for more information on how to get your official certification issued for sharing on LinkedIn, and hanging on your wall with pride.
 * Reminder to express your interest in the App Platform Alpha Program by filling out the form on the [Broken link](broken-reference "mention") page.&#x20;
   * More info to come on the early January launch details next week.
@@ -24,12 +24,12 @@ Explore what new changes the Training team has made in the last week.
 
 **What's New in Cluck University?**
 
-* &#x20;[clean-automation-200-series](../../cluck-university/clean-automation-200-series/ "mention") landing page and course descriptions have been added!
-  * Available now:[201-advanced-automation-concepts.md](../../cluck-university/clean-automation-200-series/201-advanced-automation-concepts.md "mention")
+* &#x20;[clean-automation](../../cluck-university/clean-automation/ "mention") landing page and course descriptions have been added!
+  * Available now:[advanced-automation-concepts.md](../../cluck-university/clean-automation/advanced-automation-concepts.md "mention")
   * **Coming soon:**
-    * [202-data-types-and-jinja.md](../../cluck-university/clean-automation-200-series/202-data-types-and-jinja.md "mention")
-    * [204-modular-automation-through-abstraction.md](../../cluck-university/clean-automation-200-series/204-modular-automation-through-abstraction.md "mention")
-    * [205-avoiding-automation-anti-patterns.md](../../cluck-university/clean-automation-200-series/205-avoiding-automation-anti-patterns.md "mention")
+    * [data-types-and-jinja.md](../../cluck-university/clean-automation/data-types-and-jinja.md "mention")
+    * [modular-automation-through-abstraction.md](../../cluck-university/clean-automation/modular-automation-through-abstraction.md "mention")
+    * [avoiding-automation-anti-patterns.md](../../cluck-university/clean-automation/avoiding-automation-anti-patterns.md "mention")
     * [Broken link](broken-reference "mention")
 
 **New & Updated Pages:**

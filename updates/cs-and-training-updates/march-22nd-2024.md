@@ -7,7 +7,7 @@ Explore what new changes the Training team has made in the last week.
 <summary><strong>General News and Reminders</strong></summary>
 
 * **Game Tip for the Week:** If you have an Xbox and you're willing to dive in, Final Fantasy XIV is out! Otherwise, Rise of the Ronin and Dragon's Dogma II will make great additions to your obviously insurmountable backlog from 2024 already... This year needs to slow down.
-* **SHOUT OUT** to Ian, Denis, Kyle, Joel, Ethan, and Beth for successfully taking our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to Ian, Denis, Kyle, Joel, Ethan, and Beth for successfully taking our [foundations-certification.md](../../cluck-university/rewst-foundations/foundations-certification.md "mention") Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 * We will be canceling the Open Mic next week due to Good Friday
 * Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
 

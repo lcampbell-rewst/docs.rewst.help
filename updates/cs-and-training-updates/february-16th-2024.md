@@ -7,7 +7,7 @@ Explore what new changes the Training team has made in the last week.
 <summary><strong>General News and Reminders</strong></summary>
 
 * **Game Tip for the Week:** Finish up Persona 3 Reload, Granblue Fantasy Relink, Like a Dragon, and Helldivers, because MARIO VS. DONKEY KONG is here! Just kidding... But Final Fantasy VII Remake IS coming soon, so get that demo and win.
-* **SHOUT OUT** to Thomas, Jack, David, Faith, and Haylee for successfully taking our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention")Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
+* **SHOUT OUT** to Thomas, Jack, David, Faith, and Haylee for successfully taking our [foundations-certification.md](../../cluck-university/rewst-foundations/foundations-certification.md "mention")Exam, and collecting your prestigious **Certified Rewster** badge in Discord.&#x20;
 * For those joining us at **Right of Boom** who couldn't get into the pre-day, we've opened up more seats! You can modify your registration to add our pre-day now!
 * Join us in our [Cluck-U Discord channel](https://discord.com/channels/936789089703845988/1121465945295167588) if you have any questions, comments, or concerns!
 

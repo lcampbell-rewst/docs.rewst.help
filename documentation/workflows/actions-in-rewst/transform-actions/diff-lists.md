@@ -154,5 +154,5 @@ With a grasp on the `Diff Lists` transform, you're ready to analyze and compare 
 **Want more practice?**
 
 {% hint style="success" %}
-[Check out our Rewst Foundations Courses](../../../../cluck-university/rewst-foundations-10x/).
+[Check out our Rewst Foundations Courses](../../../../cluck-university/rewst-foundations/).
 {% endhint %}

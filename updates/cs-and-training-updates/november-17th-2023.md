@@ -7,7 +7,7 @@ Explore what new changes the Training team has made in the last week.
 <summary><strong>General News and Reminders</strong></summary>
 
 * **Game Tip for the Week:** Did you know The Elder Scrolls IV: Oblivion is included with Game Pass? With the faster load times in this cloud version, it's easier to reload over and over again until you get the Sigil Stone you like, whenever you close those pesky Oblivion gates!
-* **SHOUT OUT** to all those who've successfully taken our [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord. (Hint to others: It's more than just pretty flare. There's exclusive access it grants, too!)
+* **SHOUT OUT** to all those who've successfully taken our [foundations-certification.md](../../cluck-university/rewst-foundations/foundations-certification.md "mention")Exam, and collected your prestigious **Certified Rewster** badge in Discord. (Hint to others: It's more than just pretty flare. There's exclusive access it grants, too!)
 * Express your interest in the App Platform Alpha Program by filling out the form on the [Broken link](broken-reference "mention") page.
 * **Reminder about Cluck U Holiday Hours:**
   * Live Training will be unavailable from December 18th \~ January 8th for the Holidays and New Year
@@ -34,7 +34,7 @@ Explore what new changes the Training team has made in the last week.
 
 **Updated & Enhanced Pages**
 
-* Updated the [foundations-certification.md](../../cluck-university/rewst-foundations-10x/foundations-certification.md "mention") page to include more context on what types of questions the Exam will be asking to incorporate into a study guide
+* Updated the [foundations-certification.md](../../cluck-university/rewst-foundations/foundations-certification.md "mention") page to include more context on what types of questions the Exam will be asking to incorporate into a study guide
 * Updated the [azure-openai-integration-setup.md](../../documentation/integrations/ai/openai/azure-openai-integration-setup.md "mention") page for more explicit instructions on how to craft your Base URL.
 * Updated the [cybercns](../../documentation/integrations/security/cybercns/ "mention") page to include reference to ConnectSecure branding.
 * Updated the [organization-variables.md](../../documentation/user-management/organization-variables.md "mention") page to explain how Use as Default works

@@ -26,5 +26,5 @@ Create a workflow:
 **Want more practice?**
 
 {% hint style="success" %}
-[Check out our Rewst Foundations Courses](../../cluck-university/rewst-foundations-10x/).
+[Check out our Rewst Foundations Courses](../../cluck-university/rewst-foundations/).
 {% endhint %}

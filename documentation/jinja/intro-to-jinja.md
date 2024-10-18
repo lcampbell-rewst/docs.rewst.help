@@ -62,5 +62,5 @@ Note that whilst right now Jinja is required, the plan is to create actions to m
 **Want more practice?**
 
 {% hint style="success" %}
-Check out our [lesson-3-jinja-essentials-for-workflow-automation](../../cluck-university/rewst-foundations-10x/lesson-3-jinja-essentials-for-workflow-automation/ "mention")
+Check out our [jinja-essentials-for-workflow-automation](../../cluck-university/rewst-foundations/jinja-essentials-for-workflow-automation/ "mention")
 {% endhint %}

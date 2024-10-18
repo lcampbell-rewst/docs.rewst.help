@@ -6,11 +6,11 @@ To kick off your automation journey, we have an entire [getting-started](getting
 
 ## On-Demand Training
 
-We offer courses sequentially, but you can use the self-serve resources. Use the hyperlinks below to get started with each session, and let us know if you hit a roadblock along the way, or have questions in our [Cluck University Discord Channel](https://discord.gg/WKwsZngc). If you stick to it, you’ll have your [certification](rewst-foundations-10x/foundations-certification.md) in no time!&#x20;
+We offer courses sequentially, but you can use the self-serve resources. Use the hyperlinks below to get started with each session, and let us know if you hit a roadblock along the way, or have questions in our [Cluck University Discord Channel](https://discord.gg/WKwsZngc). If you stick to it, you’ll have your [certification](rewst-foundations/foundations-certification.md) in no time!&#x20;
 
 {% hint style="success" %}
-* [rewst-foundations-10x](rewst-foundations-10x/ "mention")
-* [clean-automation-200-series](clean-automation-200-series/ "mention")
+* [rewst-foundations](rewst-foundations/ "mention")
+* [clean-automation](clean-automation/ "mention")
 * [electives](electives/ "mention")
 {% endhint %}
 
