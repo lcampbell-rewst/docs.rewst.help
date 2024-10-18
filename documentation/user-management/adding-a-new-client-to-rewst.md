@@ -1,7 +1,7 @@
 # Adding a new Client Via Microsoft CSP
 
 {% hint style="success" %}
-For a more streamlined process for adding new clients, check our [add-client-to-rewst-setup.md](../../prebuilt-automations/existing-crate-documentation/add-client-to-rewst-setup.md "mention")Crate installation page.
+For a more streamlined process for adding new clients, check our [add-client-to-rewst-setup.md](../../prebuilt-automations/existing-crate-documentation/add-client-to-rewst-setup.md "mention") Crate installation page.
 {% endhint %}
 
 ## Step One
