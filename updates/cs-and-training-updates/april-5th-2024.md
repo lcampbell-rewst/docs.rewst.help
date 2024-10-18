@@ -31,7 +31,7 @@ Explore what new changes the Training team has made in the last week.
 * [microsoft-cloud-integration-bundle](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/ "mention") page added
 * [rewst-user-setup-and-gdap-relationship-guidance.md](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/microsoft-csp/rewst-user-setup-and-gdap-relationship-guidance.md "mention") updated with Microsoft Partner Center link
 * [duo-integration-setup.md](../../documentation/integrations/mfa/duo-security/duo-integration-setup.md "mention") page updated with new steps
-* [103-jinja-essentials-for-workflow-automation.md](../../cluck-university/rewst-foundations-10x/103-jinja-essentials-for-workflow-automation.md "mention") step 6 corrected
+* [Broken link](broken-reference "mention") step 6 corrected
 * [exchange-online-and-multi-property-values.md](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/microsoft-exchange-online/exchange-online-and-multi-property-values.md "mention") page added
 * [internal-rewst-jinja-examples.md](../../documentation/jinja/internal-rewst-jinja-examples.md "mention") page updated with examples
 * [organization-variables.md](../../documentation/user-management/organization-variables.md "mention") `pax8_unmapped_alert_ignore_list` and `halo_site_name_search_override` Org variables added

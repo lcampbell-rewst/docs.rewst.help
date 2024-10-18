@@ -5,7 +5,7 @@ description: >-
   projects.
 ---
 
-# 203: Boolean Logic & Comparisons
+# Boolean Logic & Comparisons
 
 {% hint style="info" %}
 Sign up for our **LIVE** sessions **Wednesdays @ 3pm** **Eastern** on [Calendly](https://calendly.com/cluck-u/rewst-203).
@@ -13,7 +13,7 @@ Sign up for our **LIVE** sessions **Wednesdays @ 3pm** **Eastern** on [Calendly]
 
 ## **Course Overview**
 
-Rewst 203 dives into the fundamentals and applications of Boolean Logic within the context of Jinja and workflow automation in Rewst. This course provides a deep understanding of how Boolean expressions dictate the logical flow in code execution and task management, emphasizing their role in decision-making processes in automated workflows.
+Boolean Logic & Comparisons dives into the fundamentals and applications of Boolean Logic within the context of Jinja and workflow automation in Rewst. This course provides a deep understanding of how Boolean expressions dictate the logical flow in code execution and task management, emphasizing their role in decision-making processes in automated workflows.
 
 When you've completed this training, [don't forget to get credit!](https://app.rewst.io/form/01914838-f969-7018-9072-9f1ab3e5ece6)
 
@@ -56,4 +56,6 @@ Here are some important keyboard shortcuts you can use throughout
 1. Comment/Uncomment Code and see the behavior between the WET and DRY examples.
 
 </details>
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td>Go back a step: <a data-mention href="202-data-types-and-jinja.md">202-data-types-and-jinja.md</a></td><td></td><td><a href="202-data-types-and-jinja.md">202-data-types-and-jinja.md</a></td></tr><tr><td></td><td>Get help with this lesson in office hours! <a data-mention href="../office-hours.md">office-hours.md</a></td><td></td><td><a href="../office-hours.md">office-hours.md</a></td></tr><tr><td></td><td>Go to the next lesson: <a data-mention href="204-modular-automation-through-abstraction.md">204-modular-automation-through-abstraction.md</a></td><td></td><td><a href="204-modular-automation-through-abstraction.md">204-modular-automation-through-abstraction.md</a></td></tr></tbody></table>
 

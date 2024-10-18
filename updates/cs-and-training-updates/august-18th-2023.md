@@ -24,9 +24,9 @@ Explore what new changes the Training team has made in the last week.
 
 **Cluck University**
 
-* Added the [Rewst 106 video](../../cluck-university/rewst-foundations-10x/106-subworkflows-and-with-items.md).
+* Added the [Rewst 106 video](broken-reference).
 * Added Resource and Documentation links to [Rewst 102 \~ 106 pages](../../cluck-university/rewst-foundations-10x/).
-* Updated steps on [Rewst 104 page](../../cluck-university/rewst-foundations-10x/104-options-generators-and-generic-api-requests.md) based on feedback.
+* Updated steps on [Rewst 104 page](broken-reference) based on feedback.
 
 **Documentation**
 

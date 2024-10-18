@@ -37,8 +37,8 @@ Explore what new changes the Training team has made in the last week.
 
 **Cluck University**
 
-* Added sign-up link and a new page for [Rewst 101](../../cluck-university/rewst-foundations-10x/101-laying-the-foundations-of-automations.md)
-* Added the [Rewst 105 video](../../cluck-university/rewst-foundations-10x/105-improve-group-management-to-support-exchange.md)
+* Added sign-up link and a new page for [Rewst 101](broken-reference)
+* Added the [Rewst 105 video](broken-reference)
 
 </details>
 

@@ -107,5 +107,5 @@ Select the method that best suits your task's complexity and your familiarity wi
 ***
 
 {% hint style="info" %}
-**Don't forget to check out** [103-jinja-essentials-for-workflow-automation.md](../../../cluck-university/rewst-foundations-10x/103-jinja-essentials-for-workflow-automation.md "mention")&#x20;
+**Don't forget to check out** [lesson-3-jinja-essentials-for-workflow-automation](../../../cluck-university/rewst-foundations-10x/lesson-3-jinja-essentials-for-workflow-automation/ "mention")
 {% endhint %}

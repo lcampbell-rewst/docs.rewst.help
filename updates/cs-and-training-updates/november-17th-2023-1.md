@@ -34,8 +34,8 @@ Explore what new changes the Training team has made in the last week.
   * [how-to-use-powershell-in-rewst.md](../../cluck-university/electives/how-to-use-powershell-in-rewst.md "mention") released
   * [how-to-reference-data-with-variables.md](../../cluck-university/electives/how-to-reference-data-with-variables.md "mention")released
 * **Updates and Fixes:**
-  * [101-laying-the-foundations-of-automations.md](../../cluck-university/rewst-foundations-10x/101-laying-the-foundations-of-automations.md "mention")page information added
-  * [103-jinja-essentials-for-workflow-automation.md](../../cluck-university/rewst-foundations-10x/103-jinja-essentials-for-workflow-automation.md "mention")page information updated
+  * [Broken link](broken-reference "mention")page information added
+  * [Broken link](broken-reference "mention")page information updated
 
 **Documentation**
 

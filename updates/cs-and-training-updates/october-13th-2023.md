@@ -24,11 +24,11 @@ Explore what new changes the Training team has made in the last week.
 
 * We have completed the first pilot of Rewst 201 and will be rolling it out in the coming weeks!
 * Additional contextual text has been added to the following course pages:
-  * [102-building-a-basic-workflow.md](../../cluck-university/rewst-foundations-10x/102-building-a-basic-workflow.md "mention")
-  * [103-jinja-essentials-for-workflow-automation.md](../../cluck-university/rewst-foundations-10x/103-jinja-essentials-for-workflow-automation.md "mention")
-  * [104-options-generators-and-generic-api-requests.md](../../cluck-university/rewst-foundations-10x/104-options-generators-and-generic-api-requests.md "mention")
-  * [105-improve-group-management-to-support-exchange.md](../../cluck-university/rewst-foundations-10x/105-improve-group-management-to-support-exchange.md "mention")
-  * [106-subworkflows-and-with-items.md](../../cluck-university/rewst-foundations-10x/106-subworkflows-and-with-items.md "mention")
+  * [Broken link](broken-reference "mention")
+  * [Broken link](broken-reference "mention")
+  * [Broken link](broken-reference "mention")
+  * [Broken link](broken-reference "mention")
+  * [Broken link](broken-reference "mention")
 * [rewst-user-setup-and-gdap-relationship-guidance.md](../../documentation/integrations/cloud/microsoft-cloud-integration-bundle/microsoft-csp/rewst-user-setup-and-gdap-relationship-guidance.md "mention")A step-by-step guide video added!
 
 **Documentation**

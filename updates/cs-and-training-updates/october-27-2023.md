@@ -34,7 +34,7 @@ Explore what new changes the Training team has made in the last week.
   * Launch your Cluck U Experience!&#x20;
   * Take the Role Alignment Exam to help us identify how we can best support you!
 * **Updates and Fixes:**
-  * [103-jinja-essentials-for-workflow-automation.md](../../cluck-university/rewst-foundations-10x/103-jinja-essentials-for-workflow-automation.md "mention")Updates to page and steps
+  * [Broken link](broken-reference "mention")Updates to page and steps
 
 **Documentation**
 

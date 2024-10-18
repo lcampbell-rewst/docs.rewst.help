@@ -22,7 +22,7 @@ Explore what new changes the Training team has made in the last week.
 * We'd love to get your feedback on our Training and Documentation! [Please fill out this form to let us know how we can improve](https://app.sli.do/event/m8C3AjPUnuDgpkVDmPsQL3)!
 * We'd also love to get your [feedback on the Open Mic here](https://app.sli.do/event/9DL7k68NvYk8u1ZWUnWrjY)!
 * As a reminder, you can make training and documentation requests at [https://rewst.canny.io/](https://rewst.canny.io/)
-* [103-jinja-essentials-for-workflow-automation.md](../../cluck-university/rewst-foundations-10x/103-jinja-essentials-for-workflow-automation.md "mention")updated with examples from the exam
+* [Broken link](broken-reference "mention")updated with examples from the exam
 
 **New & Updated Pages:**
 

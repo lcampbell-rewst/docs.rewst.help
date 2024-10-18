@@ -22,7 +22,7 @@ Explore what new changes the Training team has made in the last week.
 
 **Cluck University**
 
-* Added links to relevant videos on the [Rewst 101 page](../../cluck-university/rewst-foundations-10x/101-laying-the-foundations-of-automations.md).
+* Added links to relevant videos on the [Rewst 101 page](broken-reference).
 
 **Documentation**
 

@@ -26,7 +26,7 @@ Explore what new changes the Training team has made in the last week.
 
 **What's New at Cluck University?**
 
-* Added [101-laying-the-foundations-of-automations.md](../../cluck-university/rewst-foundations-10x/101-laying-the-foundations-of-automations.md "mention")video
+* Added [Broken link](broken-reference "mention")video
 
 **New & Updated Pages:**
 
